@@ -1,0 +1,1409 @@
+---
+title: "ProcRoySocB initial submission analysis"
+author: "Kenny Smith & Olga Feher"
+date: "07/07/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+library(lme4)
+
+my.colours <- c("#006DE9","#808080","#EA7D00")
+
+#set seed for mc stuff
+set.seed(7874)
+
+#this is for generating p-values on entropy/mutual information measures
+#100 is low, but we are not actually using these (much)beyond a quick look) and it speeds up the code
+mc.trials=1000
+```
+
+
+
+# Loading data
+
+This function is used to load all files in subdirectories of directory.name with a certain prefix (D for dyads, P for pseudo-dyads, S for singles) into a single data file.
+```{r}
+load.data.by.prefix <- function(prefix, directory.name) {
+  # get list of data folders, each folder will have a single csv file in it
+  dirs <- list.files(directory.name,pattern=paste("^",prefix,"[0123456789]",sep=""),full.names=TRUE)
+  data <- list();
+  # loop through and read in all the data files in each dir
+  for (i in 1:length(dirs)) {
+    #print(paste(directory.name,"/",dirs[i],"/",sep=""))
+    files.in.dir.i <- list.files(dirs[i],pattern=".csv", full.names = TRUE)
+    for (j in 1:length(files.in.dir.i)) {
+      print(files.in.dir.i[j])
+      this.data <- read.csv(files.in.dir.i[j], header=TRUE, stringsAsFactors=FALSE);
+      data[[i]] <- this.data;
+    }
+  }
+  
+  # bind list into dataframe
+  data <- do.call("rbind",data);
+  
+  # make participantID a factor for later looping
+  data$ParticipantID <- factor(data$ParticipantID);
+  data$Chain <- factor(data$Chain);
+  data$Stage <- factor(data$Stage)
+  data}
+
+```
+
+```{r}
+dyad.data <- load.data.by.prefix("D", "../../Data/NoBottleneckData/Dyads")
+```
+```{r}
+pseudodyad.data <- load.data.by.prefix("P",  "../../Data/NoBottleneckData/PseudoDyads")
+```
+
+```{r}
+single.data <- load.data.by.prefix("S",  "../../Data/NoBottleneckData/Singles")
+```
+
+Combine into a single data frame.
+```{r}
+dyad.data$Condition <- "Dyad"
+pseudodyad.data$Condition <- "PseudoDyad"
+single.data$Condition <- "Single"
+
+all.data <- rbind(dyad.data, pseudodyad.data,single.data)
+```
+
+# Processing of labels
+
+Remove leading/trailing whitespace using trim.
+
+```{r}
+#code for removing leading/trailing whitespaces
+#from http://stackoverflow.com/questions/2261079/how-to-trim-leading-and-trailing-whitespace-in-r
+trim <- function (x) gsub("^\\s+|\\s+$", "", x)
+
+all.data$CheckedLabel <- trim(all.data$CheckedLabel)
+
+```
+
+
+Identify grammaticality and particle used, and classify nouns.
+
+```{r}
+animals <- c("cow","dog","elephant","fox","giraffe","hamster","hedgehog","hippo","kangaroo","panda","pig","rabbit","sheep","squirrel","tiger","zebra")
+vehicles <- c("ambulance","bike","boat","bus","car","digger","submarine","helicopter","plane","rocket","scooter","tank","tractor","train","truck","van")
+particles <- c("bup", "dak", "jeb", "kem", "pag", "tid", "wib", "yav")
+verbs <- c("glim", "norg", "frab", "gund", "shen")
+```
+
+This function identifies if there is a particle present and identifies that particle, on the assumption that the 3rd label in a 3-word sequence is the particle (this is run on checked data).
+
+```{r}
+identify.particle <- function(checkedLabel) {
+  particle <- "0"
+  if (is.na(checkedLabel)) {
+    particle <- NA}  
+  else 
+  {words <- strsplit(checkedLabel, ' ')[[1]] #split the label around spaces
+   if (length(words) == 2) {
+     particle <- "0"}
+     else if (length(words) == 3) {
+       particle <- words[3]
+     }
+   }
+   particle
+}
+```
+   
+This function identifies the noun category using the Meaning - this is e.g. "straight_cow_1", "straight_tiger_2".
+```{r}
+identify.category <- function(meaning) {
+  category <- "None"
+  if (is.na(meaning)) {
+    category <- NA}  
+  else 
+  {
+    words <- strsplit(meaning, '_')[[1]] #split the meaning around underscores
+   noun <- words[2]
+   if (is.element(noun,animals)){
+     category <- "A"}
+    else if (is.element(noun,vehicles)){
+      category <- "V"} 
+  }
+  category
+}
+```
+
+This function identifies the noun - this will be the only element in a 1-element meaning (which occurs during noun training), otherwise the second element of meaning.
+```{r}
+identify.noun <- function(meaning) {
+  noun <- "None"
+  if (is.na(meaning)) {
+    noun <- NA}
+  else 
+  {words <- strsplit(meaning, '_')[[1]] #split the meaning around underscores
+   if (length(words) == 1){
+     noun <- words}
+   else if (length(words)>1){
+     noun <- words[2]}
+  }
+  noun
+}
+```
+
+This function identifies the number.
+```{r}
+identify.number <- function(meaning) {
+  number <- "None"
+  if (is.na(meaning)) {
+    number <- NA}
+  else 
+  {words <- strsplit(meaning, '_')[[1]] #split around underscores
+   if (length(words) == 1){
+     number <- NA}
+   else if (length(words)>1){
+     number <- words[3]}
+  }
+  number
+}
+```
+
+Classifies descriptions as grammatical or not - a grammatical description consists of a verb, a noun and then a particle for plurals. 
+```{r}
+legal.description <- function(stage,number,checkedLabel) {
+  if (!(stage %in% c("interactD","interactM","recall1"))) { #ignore anything other than production trials or matcher trials (where label is from partner)
+    legal = NA}
+  else {
+    words <- strsplit(checkedLabel, ' ')[[1]]
+    if (number==1) {  
+      #for singulars, legal if it is 2 words, first is verb, second is animal or vehicle noun
+      legal = ((length(words)==2) & (words[1] %in% verbs) & ((words[2] %in% (animals)) | (words[2] %in% (vehicles))))}
+    else if (number==2) {
+      #for plurals, legal if it is32 words, first is verb, second is animal or vehicle noun,third is particle
+      legal = ((length(words)==3) & (words[1] %in% verbs) & ((words[2] %in% (animals)) | (words[2] %in% (vehicles))) & (words[3] %in% particles))}}
+  legal}
+
+```
+
+
+Identify particle in training trials and in labels produced during testing. Since these are in different columns we need to run twice and then update the Particle column for training trials with the particle in TrainingParticle.
+```{r}
+all.data$TrainingParticle <- factor(sapply(all.data$TrainingLabel,identify.particle))
+all.data$Particle <- factor(sapply(all.data$CheckedLabel,identify.particle))
+all.data <- within(all.data, Particle[Stage=="training"] <- TrainingParticle[Stage=="training"])
+```
+
+Identify noun category for training items and test items. Slightly redundant to calculate both TrainingCategory and Category, but since participants could mislabel a noun on test, TrainingCategory is useful for identifying experimental conditions (see below).
+```{r}
+all.data$TrainingCategory <- factor(sapply(all.data$Meaning,identify.category))
+all.data$Category <- factor(sapply(all.data$Meaning,identify.category))
+```
+
+Identify nouns and number.
+```{r}
+all.data$Noun <- factor(sapply(all.data$Meaning,identify.noun))
+all.data$Number <- factor(sapply(all.data$Meaning,identify.number))
+```
+
+Classify 1-category vs 2-category conditions
+
+`add.condition` identifies the condition based on whether there are one or two categories in training.
+```{r}
+add.condition <- function(data) {
+  data.cond <- data.frame()
+  for (ch in levels(data$Chain)) {
+    this.chain <- subset(data, Chain == ch)
+    this.chain.training <- subset(data, Chain == ch & Stage=="training")
+    if (length(unique(this.chain.training$TrainingCategory)) == 1){
+      this.chain$NCategories <- 1}
+    else if (length(unique(this.chain.training$TrainingCategory)) == 2){
+      this.chain$NCategories <- 2}
+    data.cond <- rbind(data.cond,this.chain)
+  }
+  return(data.cond)
+}
+
+all.data <- add.condition(all.data)
+```
+
+Identify, count and remove illegal descriptions.
+
+```{r}
+all.data$Grammatical <- mapply(function(s,n,l) legal.description(s,n,l),
+                               all.data$Stage,all.data$Number,all.data$CheckedLabel)
+```
+
+Illegal descriptions make up about 1% of the data, and are roughly proportionate across singulars and plurals.
+
+```{r}
+plyr::ddply(all.data,~Grammatical,plyr::summarise,Current_N=length(ParticipantID))
+plyr::ddply(all.data,~Grammatical+Number,plyr::summarise,Current_N=length(ParticipantID))
+```
+Want to leave Grammatical=NA trials in (since those are training trials etc).
+
+```{r}
+all.data.including.ungrammatical <- all.data #need this for convenience later when adding trial numbers for priming analysis
+all.data <- subset(all.data,Grammatical | is.na(Grammatical))
+```
+
+```{r}
+plyr::ddply(all.data,~Grammatical,plyr::summarise,Current_N=length(ParticipantID))
+
+```
+
+# Calculate the majority particle used by each participant
+
+Remove rows containing dummy data or pseudo-partner.
+```{r}
+all.data.for.proportion.analysis <- subset(all.data,ParticipantID!="dummyP")
+all.data.for.proportion.analysis <- subset(all.data.for.proportion.analysis,IP!="127.0.0.1")
+```
+
+Count of participants per condition now dummy participants are removed.
+
+```{r}
+plyr::ddply(all.data.for.proportion.analysis,~Condition+NCategories,plyr::summarise,Current_N=length(unique(ParticipantID)))
+```
+
+NB since the training is 50-50, there is no objective majority particle - this is based on the majority in their productions. If there are two equal-frequency particles, this will classify the alphabetically-first as the majority.
+
+```{r}
+output.data <- data.frame()
+
+for (p in unique(all.data.for.proportion.analysis$ParticipantID)) {
+  this.participant <- subset(all.data.for.proportion.analysis, ParticipantID == p)
+  training.data.p <- subset(this.participant, Stage=='training' & Number == 2)
+  legal.particles <- unique(training.data.p$TrainingParticle)
+  illegal.particles <- unique(this.participant[!this.participant$Particle %in% legal.particles,]$Particle)
+  #NB removing trials where the participant did not use a training particle
+  this.participant <- this.participant[!this.participant$Particle %in% illegal.particles,]
+  recall.data.p <- subset(this.participant, Stage=='recall1' & Number==2)
+  interaction.data.p <- subset(this.participant, Stage=='interactD' & Number==2)
+  Maj_Particle_Recall <- names(which.max(table(recall.data.p$Particle)))
+  Maj_Particle_Interaction <- names(which.max(table(interaction.data.p$Particle)))
+  Maj_Particle_Training <- names(which.max(table(training.data.p$TrainingParticle)))
+  
+  this.participant$MajorityParticle == "NA"
+  this.participant$MajorityParticle[this.participant$Stage == "recall1"] <- Maj_Particle_Recall
+  this.participant$MajorityParticle[this.participant$Stage == "interactD"] <- Maj_Particle_Interaction
+  this.participant$MajorityParticle[this.participant$Stage == "training"] <- Maj_Particle_Training
+  output.data <- rbind(output.data, this.participant)
+}
+```
+
+Once the majority particle is identified, we can categorise each response as using that majority particle or not.
+```{r}
+output.data$MajorityParticleUse[output.data$Particle == output.data$MajorityParticle] <- 1
+output.data$MajorityParticleUse[output.data$Particle != output.data$MajorityParticle] <- 0
+```
+
+Now identify the subsets of output.data we want - only training, recall, or director trials in interaction; only plural trials; only trials where the MajorityParticle is not NA.
+```{r}
+output.data <- subset(output.data, (Stage == "training" | Stage == "recall1" | Stage == "interactD") & Number == 2)
+output.data <- output.data[!is.na(output.data$MajorityParticleUse),]
+```
+
+Reorder factor levels to reflect order in experiment. 
+```{r}
+output.data$Stage <- factor(output.data$Stage, levels=c("training","recall1", "interactD"))
+output.data$Stage <- plyr::revalue(output.data$Stage,
+                              c("training"="Training",
+                                "recall1"="Recall",
+                                "interactD"="Interaction"))
+output.data$Condition <- factor(output.data$Condition, levels=c("Single","PseudoDyad","Dyad"))
+output.data$NCategories <- plyr::revalue(factor(output.data$NCategories),
+                                         c("1"="One Category",
+                                           "2"="Two Categories"))
+
+
+```
+
+# Plot of use of majority marker
+Summarize the data for plotting - by-participant proportions.
+
+```{r}
+proportion.data <- aggregate(MajorityParticleUse~Chain+ParticipantID+Condition+NCategories+Stage,data=subset(output.data, (Stage == "Recall" | Stage == "Interaction")),FUN=mean)
+```
+
+Alternative style - bigger points for mean, no grid lines.
+```{r}
+ggplot(data=proportion.data) +
+  facet_grid(NCategories~Condition) +
+  stat_summary(aes(x=Stage, y=MajorityParticleUse),geom='point', fun.y='mean', colour='black',fill='black',size=3, shape=23) +
+  stat_summary(aes(x=Stage, y=MajorityParticleUse),geom='errorbar', fun.data='mean_cl_boot',fun.ymin="min", fun.ymax="max",width=0.2) +
+  geom_dotplot(aes(x=Stage, y=MajorityParticleUse, fill=Condition),binaxis='y',stackdir="center", binwidth = .025, binpositions='all', dotsize=0.5, alpha=0.5) +
+  theme_bw() +
+  scale_fill_manual(values=my.colours) +
+  theme(legend.position = "none") +
+  theme(axis.title.x = element_blank()) +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
+  ylab("Proportion of plurals marked with majority marker") + 
+  ggsave("Figures/proportions.pdf",width=8,height=6)
+
+```
+
+Stat: just looking at recall vs interaction.
+
+Condition is helmert-coded so the contrasts are:
+Single vs PsuedoDyads (Condition1 in the summary tables)
+(mean of Single-PsuedoDyads) vs Dyads (Condition2 in the summary tables)
+
+Stage and NCategories are sum-coded.
+
+```{r}
+output.data.for.analysis <- subset(output.data,Stage %in% c('Recall','Interaction'))
+output.data.for.analysis$Stage <- droplevels(output.data.for.analysis$Stage)
+contrasts(output.data.for.analysis$Condition) <- contr.helmert(3)
+contrasts(output.data.for.analysis$NCategories) <- -contr.sum(2) #NB - so that Two Categories coded as 1
+contrasts(output.data.for.analysis$Stage) <- -contr.sum(2) #NB - so that Interaction coded as 1
+```
+
+
+```{r}
+proportion.model <- glmer(MajorityParticleUse ~ Condition * Stage * NCategories + (1 + Stage | ParticipantID:Chain),
+                              data=output.data.for.analysis, family=binomial, control=glmerControl(optimizer="bobyqa"))
+```
+
+Model shows effects of:
+- condition2 (Dyads use majority particle more than the other two conditions)
+- stage (more use of the majority particle in interaction)
+- condition2 x stage (effect of stage is bigger in dyads)
+- [marginal] condition2 x n categories (the effect of being a dyad is smaller in the 2-category condition)
+- condition2 x stage x n categories (the effect of being a dyad in interaction  is smaller in the 2-category condition)
+```{r}
+summary(proportion.model)
+```
+
+Per condition analysis focussing on whether marker use changes between recall and interaction - running these on the full data, but using treatment coding to get the effect per condition.
+
+```{r}
+output.data.for.analysis$ConditionSinglesRef <- relevel(output.data.for.analysis$Condition,ref="Single")
+contrasts(output.data.for.analysis$ConditionSinglesRef) <- NULL
+
+output.data.for.analysis$ConditionPseudosRef <- relevel(output.data.for.analysis$Condition,ref="PseudoDyad")
+contrasts(output.data.for.analysis$ConditionPseudosRef) <- NULL
+
+output.data.for.analysis$ConditionDyadsRef <- relevel(output.data.for.analysis$Condition,ref="Dyad")
+contrasts(output.data.for.analysis$ConditionDyadsRef) <- NULL
+```
+
+Singles - no effect of Stage.
+```{r}
+proportion.model.s <- glmer(MajorityParticleUse ~ ConditionSinglesRef * Stage * NCategories + (1 + Stage | ParticipantID:Chain),
+                              data=output.data.for.analysis, family=binomial, control=glmerControl(optimizer="bobyqa"))
+summary(proportion.model.s)
+```
+
+Pseudodyads - no effect of Stage.
+```{r}
+proportion.model.p <- glmer(MajorityParticleUse ~ ConditionPseudosRef * Stage * NCategories + (1 + Stage | ParticipantID:Chain),
+                              data=output.data.for.analysis, family=binomial, control=glmerControl(optimizer="bobyqa"))
+summary(proportion.model.p)
+```
+
+Dyads - clear effect of Stage.
+```{r}
+proportion.model.d <- glmer(MajorityParticleUse ~ ConditionDyadsRef * Stage * NCategories + (1 + Stage | ParticipantID:Chain),
+                              data=output.data.for.analysis, family=binomial, control=glmerControl(optimizer="bobyqa"))
+summary(proportion.model.d)
+```
+
+For the dyads, is the effect of stage significant even if you just look at the 2-category guys? The models above suggest the effect is about half as big as in the 1-category condition. We can check by using treatment coding on NCategories too, with Two Categories set as the reference level. This model still shows a significant effect of Stage, i.e. the 2-category dyads *are* more regular at interaction.
+
+```{r}
+output.data.for.analysis$NCategories2Ref <- relevel(output.data.for.analysis$NCategories,ref="Two Categories")
+contrasts(output.data.for.analysis$NCategories2Ref) <- NULL
+
+proportion.model.d.2 <- glmer(MajorityParticleUse ~ ConditionDyadsRef * Stage * NCategories2Ref + (1 + Stage | ParticipantID:Chain),
+                              data=output.data.for.analysis, family=binomial, control=glmerControl(optimizer="bobyqa"))
+summary(proportion.model.d.2)
+```
+
+# Convergence within dyads
+
+For Singles and Pseudodyads this can be read off from the proportion plot since their partner sticks at 50-50 marker use - but for genuine dyads, it is useful to know if they are using the same marker as their partner. For this we can calculate a per-pair (rather than per-individual) majority marker, express each individual in terms of how they use that marker, then calculate within-pair differences.
+
+```{r}
+convergence.data <- data.frame()
+
+for (c in unique(subset(all.data.for.proportion.analysis,Condition=="Dyad")$Chain)) {
+  this.chain <- subset(all.data.for.proportion.analysis, Chain == c)
+  training.data.c <- subset(this.chain, Stage=='training' & Number == 2)
+  legal.particles <- unique(training.data.c$TrainingParticle)
+  illegal.particles <- unique(this.chain[!this.chain$Particle %in% legal.particles,]$Particle)
+  #NB removing trials where the participant did not use a training particle
+  this.chain <- this.chain[!this.chain$Particle %in% illegal.particles,]
+  recall.data.c <- subset(this.chain, Stage=='recall1' & Number==2)
+  interaction.data.c <- subset(this.chain, Stage=='interactD' & Number==2)
+  Maj_Particle_Recall <- names(which.max(table(recall.data.c$Particle)))
+  Maj_Particle_Interaction <- names(which.max(table(interaction.data.c$Particle)))
+  Maj_Particle_Training <- names(which.max(table(training.data.c$TrainingParticle)))
+  
+  this.chain$MajorityParticle == "NA"
+  this.chain$MajorityParticle[this.chain$Stage == "recall1"] <- Maj_Particle_Recall
+  this.chain$MajorityParticle[this.chain$Stage == "interactD"] <- Maj_Particle_Interaction
+  this.chain$MajorityParticle[this.chain$Stage == "training"] <- Maj_Particle_Training
+  convergence.data <- rbind(convergence.data, this.chain)
+}
+
+convergence.data$MajorityParticleUse[convergence.data$Particle == convergence.data$MajorityParticle] <- 1
+convergence.data$MajorityParticleUse[convergence.data$Particle != convergence.data$MajorityParticle] <- 0
+
+convergence.data <- subset(convergence.data, (Stage == "training" | Stage == "recall1" | Stage == "interactD") & Number == 2)
+convergence.data <- convergence.data[!is.na(convergence.data$MajorityParticleUse),]
+
+convergence.data$Stage <- factor(convergence.data$Stage, levels=c("training","recall1", "interactD"))
+convergence.data$Condition <- factor(convergence.data$Condition, levels=c("Single", "Dyad","PseudoDyad"))
+convergence.data$NCategories <- plyr::revalue(factor(convergence.data$NCategories),
+                                         c("1"="One Category",
+                                           "2"="Two Categories"))
+convergence.data$Stage <- plyr::revalue(convergence.data$Stage,
+                              c("training"="Training",
+                                "recall1"="Recall",
+                                "interactD"="Interaction"))
+```
+
+
+Now calculate per-participant proportions of using that majority marker.
+
+```{r}
+pair.maj.proportion.data <- aggregate(MajorityParticleUse~Chain+ParticipantID+Condition+NCategories+Stage,data=subset(convergence.data, (Stage == "Recall" | Stage == "Interaction")),FUN=mean)
+```
+
+Plot this - anyone using a different majority marker from their partner will show up under 0.5. Key thing here is that nearly everyone is above 0.5 (i.e. aligned on which marker is the majority), and the regularisers in the One Category condition are all at 1, i.e. they have regularised on the same marker as their partner.
+
+```{r}
+ggplot(data=pair.maj.proportion.data) +
+  facet_grid(NCategories~Condition) +
+  stat_summary(aes(x=Stage, y=MajorityParticleUse),geom='point', fun.y='mean', colour='black',fill='black',size=3, shape=23) +
+  stat_summary(aes(x=Stage, y=MajorityParticleUse),geom='errorbar', fun.data='mean_cl_boot',fun.ymin="min", fun.ymax="max",width=0.2) +
+  geom_dotplot(aes(x=Stage, y=MajorityParticleUse, fill=Condition),binaxis='y',stackdir="center", binwidth = .025, binpositions='all', dotsize=0.5, alpha=0.5) +
+  theme_bw() +
+  scale_fill_manual(values=my.colours[3]) +
+  theme(legend.position = "none") +
+  theme(axis.title.x = element_blank()) +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
+  ylab("Proportion of plurals marked with pair majority marker")
+
+```
+Now calculate within-pair difference and plot.
+
+```{r}
+pair.maj.difference.data <- aggregate(MajorityParticleUse~Chain+Condition+NCategories+Stage,data=pair.maj.proportion.data,FUN=function(d) max(d)-min(d))
+```
+
+```{r}
+ggplot(data=pair.maj.difference.data) +
+  facet_grid(NCategories~Condition) +
+  stat_summary(aes(x=Stage, y=MajorityParticleUse),geom='point', fun.y='mean', colour='black',fill='black',size=3, shape=23) +
+  stat_summary(aes(x=Stage, y=MajorityParticleUse),geom='errorbar', fun.data='mean_cl_boot',fun.ymin="min", fun.ymax="max",width=0.2) +
+  geom_dotplot(aes(x=Stage, y=MajorityParticleUse, fill=Condition),binaxis='y',stackdir="center", binwidth = .025, binpositions='all', dotsize=0.5, alpha=0.5) +
+  theme_bw() +
+  scale_fill_manual(values=my.colours[3]) +
+  theme(legend.position = "none") +
+  theme(axis.title.x = element_blank()) +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
+  ylab("Within-pair difference in proportion\nof plurals marked with pair majority marker")
+
+```
+
+# Entropy and Mutual Information
+
+General functions for entropy (using the entropy library where possible).
+
+```{r}
+#particle data can basically be a list of any kind of item (e.g. c(1,2,3,1,1), or a list 
+#of characters, or whatever - NB it is *not* counts
+particle.entropy <- function(particle.data) {
+  particle.table <- table(particle.data) #calculate counts
+  entropy::entropy(as.vector(particle.table),method="ML",unit="log2")
+}
+
+# particle.data is a data frame with one column containing the conditioning factor and 
+# the other column containing the particles, e.g. 
+#   Category  Particle
+#   Animal    bup
+#   Animal    bup
+#   Vehicle   dax
+#   Vehicle   dax
+particle.mi <- function(particle.data) {
+  particle.table <- table(particle.data) #calculate counts
+  entropy::mi.empirical(particle.table,unit="log2")
+}
+
+# this is not built into the entropy library, but given that 
+# MI(X,Y) = H(X) - H(X|Y)
+# -H(X|Y) = MI(X,Y)-H(X)
+# H(X|Y) = -[MI(X,Y)-H(X)]
+particle.conditional.entropy <- function(particle.data) {
+  mi <- particle.mi(particle.data)
+  h <- particle.entropy(particle.data$Particle)
+  -(mi-h)
+}
+
+binom.entropy <- function(x, n) {
+  entropy::entropy(c(x/n,(n-x)/n),method="ML",unit="log2")
+}
+```
+
+reassign.labels randomises marker assignments with respect to either class or lexical conditioning/Mutual Information, while leaving the other level of conditioning unaltered - this allows us to generate randomisations that have e.g. the same level of lexical conditioning but which differ in class conditioning, allowing us to use those randomisations to assess whether the observed level of class conditioning is surprising *given* the amount of lexical conditioning.
+
+Scrambing lexical conditioning while preserving class conditioning is easy - to generate a randomisation we simply randomise the particule assignment to nouns within each class, which leaves the distribution within each class (and therefore the class-based conditioning) unaltered.
+
+Scrambling class conditioning while preserving lexical conditioning unaltered is slightly more complex, and involves shuffling the assignment of nouns to classes - e.g. we might reassign "dog" to the vehicle class and "car" to the animal class. This potentially changes the distribution of markers within each class, but leaves the distribution of markers per noun unaltered.
+
+```{r}
+#helper function - takes a set of data, fully shuffles assignment of particles to nouns
+#if type = class_ce or class_mi then words are shuffled across categories, i.e this generates randomisations with the same lexical ce/mi as the original
+#if type = lexical_ce or lexical_mi then markers are shuffled within categories, i.e. this generates randomisations with the same class ce/mi as the original
+reassign.labels <- function(this.p.data,type){
+  if (type=="class_ce" || type=="class_mi") {
+    #here, need to re-assign the category each noun is assigned to
+    #work out current category assignments
+    current.category.assignments <- unique(this.p.data[,c("Category","Noun")])
+    current.category.assignments.shuffled <- data.frame("Noun"=current.category.assignments$Noun,"Category"=sample(current.category.assignments$Category))
+    #apply new category labels by merging based on Noun
+    this.p.data.reassigned <- merge(this.p.data[,c("Noun","Particle")],current.category.assignments.shuffled,by="Noun")
+    this.p.data.reassigned
+  }
+  else if (type=="lexical_ce" || type=="lexical_mi") {
+    #for this, just need to shuffle A and V categories seperately
+    this.p.data.A <- subset(this.p.data,Category=="A")
+    this.p.data.V <- subset(this.p.data,Category=="V")
+    this.p.data.A.shuffle <- cbind(this.p.data.A[,c("Category","Noun")],sample(this.p.data.A$Particle))
+    colnames(this.p.data.A.shuffle)<-c("Category","Noun","Particle")
+    this.p.data.V.shuffle <- cbind(this.p.data.V[,c("Category","Noun")],sample(this.p.data.V$Particle))
+    colnames(this.p.data.V.shuffle)<-c("Category","Noun","Particle")
+    this.p.data.reassigned <- rbind(this.p.data.A.shuffle,this.p.data.V.shuffle)
+    
+    
+    this.p.data.reassigned
+  }
+}
+
+#helper function - calculates entropy values of various types
+calculate.entropy <- function(this.data,type) {
+  if (type=="class_ce") {
+    relevant.data <- this.data[,c("Category","Particle")]
+    entropy <- particle.conditional.entropy(relevant.data)
+  }
+  else if (type=="lexical_ce") {
+    relevant.data <- this.data[,c("Noun","Particle")]
+    entropy <- particle.conditional.entropy(relevant.data)}
+  else if (type=="class_mi") {
+    relevant.data <- this.data[,c("Category","Particle")]
+    entropy <- particle.mi(relevant.data)
+  }
+  else if (type=="lexical_mi") {
+    relevant.data <- this.data[,c("Noun","Particle")]
+    entropy <- particle.mi(relevant.data)}
+  entropy
+}
+```
+
+Monte Carlo tests.`monte` returns three values:
+  - veridical, which is the actual entropy of the sample
+  - mean, which is the mean of the mc distribution - gives an estimate of chance level of expected conditional entropy
+- p_lower, which is the probability of observing mc values <= the veridical entropy
+- p_higher, which is the probability of observing mc values >= the veridical entropy
+(NB need both since we might want to do this with MI, where high (rather than low) values are surprising).
+
+```{r}
+monte <- function(this.p.data,type) {
+  veridical.entropy <- calculate.entropy(this.p.data,type)
+  msample <- replicate(mc.trials,calculate.entropy(reassign.labels(this.p.data,type),type))
+  n_lower=0
+  n_higher=0
+  for (i in 1:mc.trials) {
+    if(msample[i]<=veridical.entropy) {n_lower=n_lower+1}
+    if(msample[i]>=veridical.entropy) {n_higher=n_higher+1}
+  }
+  list(veridical = veridical.entropy,
+       mean = mean(msample),
+       p_lower = n_lower/mc.trials,
+       p_higher = n_higher/mc.trials)
+}
+
+#similar idea, but this handles mc stuff with total entropy
+#we want to know, given a participant who produces n data points, what is the expected entropy if they produce det1 with probability p1?
+#and how many of those random samples would have same or lower entropy than the veridical?
+total.entropy.monte <- function(n,p1,veridical.entropy,trials) {
+  msample <- replicate(trials,binom.entropy(rbinom(1,n,p1),n))
+  c=0
+  for (i in 1:trials) {
+    if(msample[i]<=veridical.entropy) c=c+1
+  }
+  list(mean=mean(msample),p=c/trials)
+}
+```
+
+Calculate entropy values for the data.
+
+```{r}
+entropy.data <- NULL
+
+suppressWarnings(for (this.condition in c("Dyad","PseudoDyad","Single")) {
+  for (this.stage in c("Recall","Interaction")) {
+    this.data <- subset(output.data, Condition==this.condition & Stage==this.stage)
+    for (this.chain in levels(droplevels(this.data$Chain))) {
+      for (this.generation in 1:max(subset(this.data, Chain==this.chain)$Generation)) {
+        this.generation.data <- subset(this.data,Chain==this.chain & Generation==this.generation)
+        for (this.participant in levels(droplevels(this.generation.data$ParticipantID))) {
+          #print(this.participant)
+          this.n.categories <- unique(this.generation.data$NCategories)
+          this.p.data <- subset(this.generation.data,ParticipantID==this.participant)
+          
+          total.entropy <- particle.entropy(this.p.data$Particle)
+          total.entropy.chain <- particle.entropy(this.generation.data$Particle)
+          
+          #only want MI here
+          #conditional.entropy.class.mc <- monte(this.p.data,"class_ce")
+          #conditional.entropy.class.chain.mc <- monte(this.generation.data,"class_ce")
+          
+          #conditional.entropy.lexical.mc <- monte(this.p.data,"lexical_ce")
+          #conditional.entropy.lexical.chain.mc <- monte(this.generation.data,"lexical_ce")  
+          
+          mutual.information.class.mc <- monte(this.p.data,"class_mi")
+          mutual.information.class.chain.mc <- monte(this.generation.data,"class_mi")
+          
+          mutual.information.lexical.mc <- monte(this.p.data,"lexical_mi")
+          mutual.information.lexical.chain.mc <- monte(this.generation.data,"lexical_mi")
+          
+          this.entropy.data <- data.frame(
+            "Condition"=this.condition,
+            "NCategories"=this.n.categories,
+            "Chain"=this.chain,
+            "Generation"=this.generation,
+            "Participant"=this.participant,
+            "Stage"=this.stage,
+            "Measure"=c(#individual-based measures
+                        "IndividualTotalEntropy",
+                        #"IndividualClassConditionalEntropy",
+                        #"IndividualLexicalConditionalEntropy",
+                        "IndividualMutualInformationClass",
+                        "IndividualMutualInformationLexical",
+                        #pair-based measures
+                        "PairTotalEntropy",
+                        #"PairClassConditionalEntropy",
+                        #"PairLexicalConditionalEntropy",
+                        "PairMutualInformationClass",
+                        "PairMutualInformationLexical",
+                        #measures derived from the MC shuffled sample
+                        #"ChanceIndividualClassConditionalEntropy",
+                        #"PLowerIndividualClassConditionalEntropy",
+                        #"ChanceIndividualLexicalConditionalEntropy",
+                        #"PLowerIndividualLexicalConditionalEntropy",
+                        "ChanceIndividualMutualInformationClass",
+                        "PHigherIndividualMutualInformationClass",
+                        "ChanceIndividualMutualInformationLexical",
+                        "PHigherIndividualMutualInformationLexical",
+                        "PHigherPairMutualInformationClass"),
+            "Entropy"=c(#individual-based measures
+                        total.entropy,# "IndividualTotalEntropy",
+                        #conditional.entropy.class.mc$veridical, #"IndividualClassConditionalEntropy",
+                        #conditional.entropy.lexical.mc$veridical, #"IndividualLexicalConditionalEntropy",
+                        mutual.information.class.mc$veridical, #"IndividualMutualInformationClass",
+                        mutual.information.lexical.mc$veridical, #"IndividualMutualInformationLexical",
+                        #pair-based measures
+                        total.entropy.chain, #"PairTotalEntropy",
+                        #conditional.entropy.class.chain.mc$veridical, #"PairClassConditionalEntropy",
+                        #conditional.entropy.lexical.chain.mc$veridical, #"PairLexicalConditionalEntropy",
+                        mutual.information.class.chain.mc$veridical, #"PairMutualInformationClass",
+                        mutual.information.lexical.chain.mc$veridical, #"PairMutualInformationLexical",
+                        #measures derived from the MC shuffled sample
+                        #conditional.entropy.class.mc$mean, #"ChanceIndividualClassConditionalEntropy",
+                        #conditional.entropy.class.mc$p_lower, #"PLowerIndividualClassConditionalEntropy",
+                        #conditional.entropy.lexical.mc$mean, #"ChanceIndividualLexicalConditionalEntropy",
+                        #conditional.entropy.lexical.mc$p_lower, #"PLowerIndividualLexicalConditionalEntropy",
+                        mutual.information.class.mc$mean, #"ChanceIndividualMutualInformationClass",
+                        mutual.information.class.mc$p_higher, #"PHigherIndividualMutualInformationClass",
+                        mutual.information.lexical.mc$mean, #"ChanceIndividualMutualInformationLexical",
+                        mutual.information.lexical.mc$p_higher, #"PHigherIndividualMutualInformationLexical"
+                        #I also want this one
+                        mutual.information.class.chain.mc$p_higher #"PHigherPairMutualInformationClass",
+                        ))
+
+          entropy.data <- rbind(entropy.data,this.entropy.data)
+        }     
+      }
+    }
+  }
+})
+
+entropy.data$Condition <- factor(entropy.data$Condition, levels=c("Single","PseudoDyad","Dyad"))
+```
+
+
+Plot total entropy - no point running a stat on this since it's the same as the proportion data.
+
+```{r}
+ggplot(data=subset(entropy.data,Measure=="IndividualTotalEntropy")) +
+  facet_grid(NCategories~Condition) +
+  stat_summary(aes(x=Stage, y=Entropy),geom='point', fun.y='mean', colour='black',fill='black',size=3, shape=23) +
+  stat_summary(aes(x=Stage, y=Entropy),geom='errorbar', fun.data='mean_cl_boot',fun.ymin="min", fun.ymax="max",width=0.2) +
+  geom_dotplot(aes(x=Stage, y=Entropy, fill=Condition),binaxis='y',stackdir="center", binwidth = .025, binpositions='all', dotsize=0.5, alpha=0.5) +
+  theme_bw() +
+  scale_fill_manual(values=my.colours) +
+  theme(legend.position = "none") +
+  theme(axis.title.x = element_blank()) +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
+  ylab("Entropy of individual productions")
+
+```
+
+## Class-based conditioning
+
+Plot class MI (for two-category conditions only), to look for class-based conditioning.
+
+```{r}
+ggplot(data=subset(entropy.data,Measure=="IndividualMutualInformationClass" & NCategories=="Two Categories")) +
+  facet_grid(NCategories~Condition) +
+  stat_summary(aes(x=Stage, y=Entropy),geom='point', fun.y='mean', colour='black',fill='black',size=3, shape=23) +
+  stat_summary(aes(x=Stage, y=Entropy),geom='errorbar', fun.data='mean_cl_boot',fun.ymin="min", fun.ymax="max",width=0.2) +
+  geom_dotplot(aes(x=Stage, y=Entropy, fill=Condition),binaxis='y',stackdir="center", binwidth = .025, binpositions='all', dotsize=1, alpha=0.5) +
+  theme_bw() +
+  scale_fill_manual(values=my.colours) +
+  theme(legend.position = "none") +
+  theme(axis.title.x = element_blank()) +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
+  ylab("Mutual information, category") 
+
+```
+
+Same plot with a visual representation of non-chance conditioning.
+
+First, need to get info from PHigherIndividualMutualInformationClass into same row as IndividualMutualInformationClass
+
+```{r}
+entropy.data.class.mi <- subset(entropy.data,Measure=="IndividualMutualInformationClass" & NCategories=="Two Categories")
+entropy.data.class.mi.p <- subset(entropy.data,Measure=="PHigherIndividualMutualInformationClass" & NCategories=="Two Categories")[,c("Participant","Stage","Entropy")]
+entropy.data.class.mi.combined <- merge(entropy.data.class.mi,entropy.data.class.mi.p,by=c("Participant","Stage"))
+entropy.data.class.mi.combined <- plyr::rename(entropy.data.class.mi.combined,c("Entropy.x"="ClassMI","Entropy.y"="p"))
+entropy.data.class.mi.combined$Significant <- mapply(function(p) p<.05,
+                                                     entropy.data.class.mi.combined$p)
+```
+
+Then use Significant to set dotplot line colour.
+
+```{r}
+ggplot(data=entropy.data.class.mi.combined) +
+  facet_grid(NCategories~Condition) +
+  stat_summary(aes(x=Stage, y=ClassMI),geom='point', fun.y='mean', colour='black',fill='black',size=3, shape=23) +
+  stat_summary(aes(x=Stage, y=ClassMI),geom='errorbar', fun.data='mean_cl_boot',fun.ymin="min", fun.ymax="max",width=0.2) +
+  geom_dotplot(aes(x=Stage, y=ClassMI, fill=Condition, colour=Significant),binaxis='y',stackdir="center", binwidth = .025, binpositions='all', dotsize=1, alpha=0.5) +
+  theme_bw() +
+  scale_colour_manual(values=c(NA,"black")) +
+  scale_fill_manual(values=my.colours) +
+  theme(legend.position = "none") +
+  theme(axis.title.x = element_blank()) +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
+  ylab("Mutual information, category") +
+  ggsave("Figures/class_mi.pdf",width=8,height=3)
+
+```
+
+Stat on class-based conditioning.
+
+```{r}
+entropy.data.for.analysis <- subset(entropy.data,Stage %in% c('Recall','Interaction'))
+entropy.data.for.analysis$Stage <- droplevels(entropy.data.for.analysis$Stage)
+contrasts(entropy.data.for.analysis$Condition) <- contr.helmert(3)
+contrasts(entropy.data.for.analysis$NCategories) <- -contr.sum(2) #NB - so that Two Categories coded as 1
+contrasts(entropy.data.for.analysis$Stage) <- -contr.sum(2) #NB - so that Interaction coded as 1
+```
+
+```{r}
+class.mi.model <- lmerTest::lmer(Entropy ~ Condition * Stage + (1 | Participant:Chain),
+                              data=subset(entropy.data.for.analysis,Measure=='IndividualMutualInformationClass' & NCategories=="Two Categories"))
+
+# I had problems installing the necessary libraries to have this run
+#class.mi.model.br <- glmmTMB(Entropy ~ Condition * Stage + (1 | Participant:Chain),
+#data=subset(subset(entropy.data.for.analysis,Measure=='IndividualMutualInformationClass' & NCategories=="Two Categories"),Entropy<1),
+#ziformula=~ Condition * Stage + (1 | Participant:Chain),
+#family=beta_family())
+```
+
+No effects of anything! MI is non-zero overall, but barely.
+
+```{r}
+summary(class.mi.model)
+```
+
+
+
+## Lexical conditioning
+
+Is there lexical conditioning though? Plot lexical MI to see.
+
+```{r}
+ggplot(data=subset(entropy.data,Measure=="IndividualMutualInformationLexical")) +
+  facet_grid(NCategories~Condition) +
+  stat_summary(aes(x=Stage, y=Entropy),geom='point', fun.y='mean', colour='black',fill='black',size=3, shape=23) +
+  stat_summary(aes(x=Stage, y=Entropy),geom='errorbar', fun.data='mean_cl_boot',fun.ymin="min", fun.ymax="max",width=0.2) +
+  geom_dotplot(aes(x=Stage, y=Entropy, fill=Condition),binaxis='y',stackdir="center", binwidth = .025, binpositions='all', dotsize=1, alpha=0.5) +
+  theme_bw() +
+  scale_fill_manual(values=my.colours) +
+  theme(legend.position = "none") +
+  theme(axis.title.x = element_blank()) +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
+  ylab("Mutual information, lexical") 
+
+```
+
+Same idea as above, adding info on p-value from mc test.
+
+```{r}
+
+#first, need to get info from PHigherIndividualMutualInformationLexical into same row as IndividualMutualInformationLexical
+entropy.data.lexical.mi <- subset(entropy.data,Measure=="IndividualMutualInformationLexical")
+entropy.data.lexical.mi.p <- subset(entropy.data,Measure=="PHigherIndividualMutualInformationLexical")[,c("Participant","Stage","Entropy")]
+entropy.data.lexical.mi.combined <- merge(entropy.data.lexical.mi,entropy.data.lexical.mi.p,by=c("Participant","Stage"))
+entropy.data.lexical.mi.combined <- plyr::rename(entropy.data.lexical.mi.combined,c("Entropy.x"="LexicalMI","Entropy.y"="p"))
+entropy.data.lexical.mi.combined$Significant <- mapply(function(p) p<.05,
+                                                     entropy.data.lexical.mi.combined$p)
+```
+
+```{r}
+ggplot(data=entropy.data.lexical.mi.combined) +
+  facet_grid(NCategories~Condition) +
+  stat_summary(aes(x=Stage, y=LexicalMI),geom='point', fun.y='mean', colour='black',fill='black',size=3, shape=23) +
+  stat_summary(aes(x=Stage, y=LexicalMI),geom='errorbar', fun.data='mean_cl_boot',fun.ymin="min", fun.ymax="max",width=0.2) +
+  geom_dotplot(aes(x=Stage, y=LexicalMI, fill=Condition, colour=Significant),binaxis='y',stackdir="center", binwidth = .025, binpositions='all', dotsize=1, alpha=0.5) +
+  theme_bw() +
+  scale_colour_manual(values=c(NA,"black")) +
+  scale_fill_manual(values=my.colours) +
+  theme(legend.position = "none") +
+  theme(axis.title.x = element_blank()) +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
+  ylab("Mutual information, lexical") +
+  ggsave("Figures/lexical_mi.pdf",width=8,height=6)
+  
+
+```
+
+Lexical MI model.
+
+```{r}
+lexical.mi.model <- lmerTest::lmer(Entropy ~ Condition * Stage * NCategories + (1 | Participant:Chain),
+                              data=subset(entropy.data.for.analysis,Measure=='IndividualMutualInformationLexical'))
+```
+
+Model shows:
+
+- intercept is significant (lexical MI is clearly non-zero)
+
+- stage (lexical conditioning declines in interaction)
+
+- condition1 x stage (singles and pseudodyads differ in what happens in interaction - pseudodyads don't show the reduction in lexical conditioning)
+
+- condition2 x stage x n categories (2-category dyads don't show the drop in lexical conditioning in interaction seen elsewhere)
+
+```{r}
+summary(lexical.mi.model)
+```
+
+However, that analysis includes several one-category pairs who have 0 variation - what do the plots and stats look like if we exclude those? That will allow us to see what pairs exhibiting variable behaviour during interaction look like.
+
+Can identify fully-regular pairs using convergence.data (calculated earlier).
+
+```{r}
+
+fully.regular.individuals <- subset(proportion.data,MajorityParticleUse==1)$ParticipantID
+highly.regular.individuals <- subset(proportion.data,MajorityParticleUse>.95)$ParticipantID
+```
+
+Plot and stat without full regularisers.
+
+```{r}
+ggplot(data=subset(entropy.data,Measure=="IndividualMutualInformationLexical" & !(Participant %in% fully.regular.individuals))) +
+  facet_grid(NCategories~Condition) +
+  stat_summary(aes(x=Stage, y=Entropy),geom='point', fun.y='mean', colour='black',fill='black',size=3, shape=23) +
+  stat_summary(aes(x=Stage, y=Entropy),geom='errorbar', fun.data='mean_cl_boot',fun.ymin="min", fun.ymax="max",width=0.2) +
+  geom_dotplot(aes(x=Stage, y=Entropy, fill=Condition),binaxis='y',stackdir="center", binwidth = .025, binpositions='all', dotsize=1, alpha=0.5) +
+  theme_bw() +
+  scale_fill_manual(values=my.colours) +
+  theme(legend.position = "none") +
+  theme(axis.title.x = element_blank()) +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
+  ylab("Mutual information, lexical")
+
+```
+
+The model without the full regularisers still shows the 3-way interaction.
+
+```{r}
+lexical.mi.model.notfull <- lmerTest::lmer(Entropy ~ Condition * Stage * NCategories + (1 | Participant:Chain),
+                              data=subset(entropy.data.for.analysis,Measure=='IndividualMutualInformationLexical' & !(Participant %in% fully.regular.individuals)))
+summary(lexical.mi.model.notfull)
+```
+
+Plot and stat without highly regulars.
+
+```{r}
+ggplot(data=subset(entropy.data,Measure=="IndividualMutualInformationLexical" & !(Participant %in% highly.regular.individuals))) +
+  facet_grid(NCategories~Condition) +
+  stat_summary(aes(x=Stage, y=Entropy),geom='point', fun.y='mean', colour='black',fill='black',size=3, shape=23) +
+  stat_summary(aes(x=Stage, y=Entropy),geom='errorbar', fun.data='mean_cl_boot',fun.ymin="min", fun.ymax="max",width=0.2) +
+  geom_dotplot(aes(x=Stage, y=Entropy, fill=Condition),binaxis='y',stackdir="center", binwidth = .025, binpositions='all', dotsize=1, alpha=0.5) +
+  theme_bw() +
+  scale_fill_manual(values=my.colours) +
+  theme(legend.position = "none") +
+  theme(axis.title.x = element_blank()) +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
+  ylab("Mutual information, lexical")
+
+```
+
+The model without the highly regulariser pairs still shows the 3-way interaction.
+
+```{r}
+lexical.mi.model.nothigh <- lmerTest::lmer(Entropy ~ Condition * Stage * NCategories + (1 | Participant:Chain),
+                              data=subset(entropy.data.for.analysis,Measure=='IndividualMutualInformationLexical' & !(Participant %in% highly.regular.individuals)))
+summary(lexical.mi.model.nothigh)
+```
+
+Plot of class-based versus lexical MI, with line colour indicating significance of the two separate tests (not in paper).
+
+Combine data sets.
+
+```{r}
+entropy.data.both.mi.combined <- merge(entropy.data.lexical.mi.combined,entropy.data.class.mi.combined,by=c("Participant","Stage","Condition","NCategories","Chain","Generation"))
+
+entropy.data.both.mi.combined$SignificantCombined <- paste(entropy.data.both.mi.combined$Significant.x,entropy.data.both.mi.combined$Significant.y)
+
+entropy.data.both.mi.combined$SignificantCombined <- plyr::revalue(entropy.data.both.mi.combined$SignificantCombined,
+                                                                   c("FALSE FALSE"="Neither significant",
+                                                                     "TRUE FALSE"="Significant lexical conditioning only","FALSE TRUE"="Significant class conditioning only","TRUE TRUE"="Both significant"))
+```
+
+```{r}
+ggplot(data=subset(entropy.data.both.mi.combined,NCategories=="Two Categories")) +
+  facet_grid(Stage~Condition) +  
+  geom_point(aes(x=ClassMI, y=LexicalMI, fill=SignificantCombined),shape=21) +
+  theme_bw() +
+  scale_fill_manual(values=c("red",NA,"grey","black")) +
+  #theme(legend.position = "none") +
+  #theme(axis.title.x = element_blank()) +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
+```
+
+The participants where both measures are significant are Dyad 3201 (Recall), Pseudo 2141 (Interaction), Dyad 3001 and 3222 (Interaction). 
+
+## Alignment of conditioning (not in paper)
+
+In addition to calculating mutual information based on each individual's productions, we also calculate MI based on pairs (i.e. looking for conditioning in their collective behaviour). Alignment of conditioning in pairs in a dyad can therefore be evaluated by looking at pair-based measures of conditioning, and in particular whether those increase as we move from pre-interaction recall (where they can only be aligned by chance) to interaction.
+
+The pair-based measures clearly do not increase in interaction.
+
+```{r}
+#for pair-based measures we can aggergate across the members of the pair since the two individuals have the same values on those measures - otherwise we end up plotting 2 points per pair.
+entropy.data.pairbased <- aggregate(Entropy~Chain+Condition+Stage+NCategories+Measure,data=entropy.data,FUN=mean)
+
+ggplot(data=subset(entropy.data.pairbased,Condition=='Dyad' & Measure=="PairMutualInformationClass" & NCategories=="Two Categories")) +
+  facet_grid(NCategories~Condition) +
+  stat_summary(aes(x=Stage, y=Entropy),geom='point', fun.y='mean', colour='black',fill='black',size=3, shape=23) +
+  stat_summary(aes(x=Stage, y=Entropy),geom='errorbar', fun.data='mean_cl_boot',fun.ymin="min", fun.ymax="max",width=0.2) +
+  geom_dotplot(aes(x=Stage, y=Entropy, fill=Condition),binaxis='y',stackdir="center", binwidth = .025, binpositions='all', dotsize=0.5, alpha=0.5) +
+  theme_bw() +
+  scale_fill_manual(values=my.colours[3]) +
+  theme(legend.position = "none") +
+  theme(axis.title.x = element_blank()) +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
+  ylab("Mutual information, category, pair-based") 
+
+```
+
+
+```{r}
+class.mi.model.pair <- lmerTest::lmer(Entropy ~ Stage + (1 | Chain),
+                              data=subset(entropy.data.pairbased,Measure=='PairMutualInformationClass' & NCategories=="Two Categories" & Condition=="Dyad"))
+
+summary(class.mi.model.pair)
+```
+
+Now pair-based lexical MI.
+
+```{r}
+ggplot(data=subset(entropy.data.pairbased,Condition=='Dyad' & Measure=="PairMutualInformationLexical")) +
+  facet_grid(NCategories~Condition) +
+  stat_summary(aes(x=Stage, y=Entropy),geom='point', fun.y='mean', colour='black',fill='black',size=3, shape=23) +
+  stat_summary(aes(x=Stage, y=Entropy),geom='errorbar', fun.data='mean_cl_boot',fun.ymin="min", fun.ymax="max",width=0.2) +
+  geom_dotplot(aes(x=Stage, y=Entropy, fill=Condition),binaxis='y',stackdir="center", binwidth = .025, binpositions='all', alpha=0.5) +
+  theme_bw() +
+  scale_fill_manual(values=my.colours[3]) +
+  theme(legend.position = "none") +
+  theme(axis.title.x = element_blank()) +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
+  ylab("Mutual information, lexical, pair-based") 
+
+```
+
+This model (where everything is treatmemt coded) shows no effect of Stage or NCategories but a Stage*NCategories interaction that shows that lexical (!) MI increased in interaction in Two-Category dyads but not one-category dyads.
+
+```{r}
+lexical.mi.model.pair <- lmerTest::lmer(Entropy ~ Stage * NCategories + (1 | Chain),
+                              data=subset(entropy.data.pairbased,Measure=='PairMutualInformationLexical' & Condition=="Dyad"))
+
+summary(lexical.mi.model.pair)
+```
+
+However, that analysis includes several one-category pairs who have 0 variation - what do the plots look like if we exclude those? That will allow us to see what pairs exhibiting variable behaviour during interaction look like.
+
+Can identify fully-regular pairs using convergence.data (calculated earlier).
+
+```{r}
+pair.maj.proportion.data.for.pair <- aggregate(MajorityParticleUse~Chain+Condition+NCategories+Stage,data=subset(convergence.data, (Stage == "Recall" | Stage == "Interaction")),FUN=mean)
+
+fully.regular.pairs <- subset(pair.maj.proportion.data.for.pair,MajorityParticleUse==1)$Chain
+highly.regular.pairs <- subset(pair.maj.proportion.data.for.pair,MajorityParticleUse>.95)$Chain
+```
+
+Plot and stat excluding fully regular pairs - the interaction is now highly marginal (p=.09)
+
+```{r}
+ggplot(data=subset(entropy.data.pairbased,Condition=='Dyad' & Measure=="PairMutualInformationLexical" & !(Chain%in%fully.regular.pairs))) +
+  facet_grid(NCategories~.) +
+  stat_summary(aes(x=Stage, y=Entropy),geom='point', fun.y='mean', colour='black',fill='black',size=3, shape=23) +
+  stat_summary(aes(x=Stage, y=Entropy),geom='errorbar', fun.data='mean_cl_boot',fun.ymin="min", fun.ymax="max",width=0.2) +
+  geom_dotplot(aes(x=Stage, y=Entropy, fill=Condition),binaxis='y',stackdir="center", binwidth = .025, binpositions='all', alpha=0.5) +
+  theme_bw() +
+  scale_fill_manual(values=my.colours[3]) +
+  theme(legend.position = "none") +
+  theme(axis.title.x = element_blank()) +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
+  ylab("Mutual information, lexical, pair-based")
+
+```
+
+```{r}
+lexical.mi.model.pair.notfull <- lmerTest::lmer(Entropy ~ Stage * NCategories + (1 | Chain),
+                              data=subset(entropy.data.pairbased,Measure=='PairMutualInformationLexical' & Condition=="Dyad" & !(Chain%in%fully.regular.pairs)))
+
+summary(lexical.mi.model.pair.notfull)
+```
+
+Plot and stat excluding highly regular pairs (not just fully regular pairs) - the interaction goes.
+
+```{r}
+ggplot(data=subset(entropy.data.pairbased,Condition=='Dyad' & Measure=="PairMutualInformationLexical" & !(Chain%in%highly.regular.pairs))) +
+  facet_grid(NCategories~Condition) +
+  stat_summary(aes(x=Stage, y=Entropy),geom='point', fun.y='mean', colour='black',fill='black',size=3, shape=23) +
+  stat_summary(aes(x=Stage, y=Entropy),geom='errorbar', fun.data='mean_cl_boot',fun.ymin="min", fun.ymax="max",width=0.2) +
+  geom_dotplot(aes(x=Stage, y=Entropy, fill=Condition),binaxis='y',stackdir="center", binwidth = .025, binpositions='all',  alpha=0.5) +
+  theme_bw() +
+  scale_fill_manual(values=my.colours[3]) +
+  theme(legend.position = "none") +
+  theme(axis.title.x = element_blank()) +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
+  ylab("Mutual information, lexical, pair-based")
+
+```
+
+```{r}
+lexical.mi.model.pair.nothigh <- lmerTest::lmer(Entropy ~ Stage * NCategories + (1 | Chain),
+                              data=subset(entropy.data.pairbased,Measure=='PairMutualInformationLexical' & Condition=="Dyad" & !(Chain%in%highly.regular.pairs)))
+
+summary(lexical.mi.model.pair.nothigh)
+```
+
+
+# Priming
+
+Do we see priming of particle choice? And does across- vs within-category priming differ in the 2-category conditions?
+
+```{r}
+all.data.for.priming.analysis <- subset(all.data.including.ungrammatical, Stage == "interactD")
+#joint trial numbering (TrialNumber is per participant)
+all.data.for.priming.analysis$TrialNumberPair = rep(seq(1,nrow(all.data.for.priming.analysis)/length(levels(all.data.for.priming.analysis$Chain))),length(levels(all.data.for.priming.analysis$Chain)))
+```
+
+For standard priming analysis, want to have partner's previous particle as a predictor - since each pair is assigned a random pair of particles, need to recode for compatability. Recoding to "NoParticle", "Particle1" and "Particle2".
+
+```{r}
+all.data.for.priming.analysis.recoded <- data.frame()
+
+for (p in levels(all.data.for.priming.analysis$Chain)) {
+  this.pair.data <- subset(all.data.for.priming.analysis, Chain == p)
+  this.pair.training.particles <- as.character(unique(subset(all.data, Chain == p & Stage == "training" & Number==2)$TrainingParticle))
+  this.pair.data$ParticleRecoded <- mapply(function (n,particle) ifelse(particle == 0,"NoParticle",ifelse(particle==this.pair.training.particles[1],"Particle1",ifelse(particle == this.pair.training.particles[2],"Particle2",NA))),
+                                  this.pair.data$Number,this.pair.data$Particle)
+  all.data.for.priming.analysis.recoded<-rbind(all.data.for.priming.analysis.recoded,this.pair.data)
+}
+```
+  
+`calc.partner.previous.particle` calculates the last particle produced by the partner - NB we can't just work this out by offsetting the ParticleRecoded column by one, because we want to skip NoParticle trials.
+```{r}
+#calculates whether particle used on this.trial.number is same or different as last particle produced by partner for a plural (NA if partner has not yet produced a plural)
+calc.partner.previous.particle <- function(data,
+                                              this.trial.number, 
+                                              this.pair, this.director) {
+ 
+    previous.trials <- subset(data,
+                              Chain==this.pair & 
+                                ParticipantID!=this.director &
+                                Number==2 & TrialNumberPair < this.trial.number)
+    if (nrow(previous.trials)==0) { #relevant individual hasn't produced for this item yet
+      NA}
+    else {
+      tail(previous.trials$ParticleRecoded,1) }
+}
+
+all.data.for.priming.analysis.recoded$PartnerLastParticle <- 
+  mapply(function(trialn,pair,director) calc.partner.previous.particle(all.data.for.priming.analysis.recoded,trialn,pair,director),
+         all.data.for.priming.analysis.recoded$TrialNumberPair,
+         all.data.for.priming.analysis.recoded$Chain,
+         all.data.for.priming.analysis.recoded$ParticipantID)
+```
+
+For the purposes of comparing within- vs between-category primes, it will also be useful to note the category of the referent associated with PartnerLastParticle. And we can do the same based on whether it's the same or a different noun. We also want to know whether the partner's last production was grammatical or not.
+
+```{r}
+calc.partner.previous.class <- function(data,
+                                              this.trial.number, 
+                                              this.pair, this.director) {
+ 
+    previous.trials <- subset(data,
+                              Chain==this.pair & 
+                                ParticipantID!=this.director &
+                                Number==2 & TrialNumberPair < this.trial.number)
+    if (nrow(previous.trials)==0) { #relevant individual hasn't produced for this item yet
+      NA}
+    else {
+      #have to wrap this in an ifelse for some annoying reason to do with levels
+      ifelse(tail(previous.trials$Category,1)=="V","V", ifelse(tail(previous.trials$Category,1)=="A","A",NA))}
+}
+
+all.data.for.priming.analysis.recoded$PartnerLastParticleClass <- 
+  mapply(function(trialn,pair,director) calc.partner.previous.class(all.data.for.priming.analysis.recoded,trialn,pair,director),
+         all.data.for.priming.analysis.recoded$TrialNumberPair,
+         all.data.for.priming.analysis.recoded$Chain,
+         all.data.for.priming.analysis.recoded$ParticipantID)
+
+calc.partner.previous.noun <- function(data,
+                                              this.trial.number, 
+                                              this.pair, this.director) {
+ 
+    previous.trials <- subset(data,
+                              Chain==this.pair & 
+                                ParticipantID!=this.director &
+                                Number==2 & TrialNumberPair < this.trial.number)
+    if (nrow(previous.trials)==0) { #relevant individual hasn't produced for this item yet
+      NA}
+    else {
+      as.character(tail(previous.trials$Noun,1))}
+}
+
+all.data.for.priming.analysis.recoded$PartnerLastParticleNoun <- 
+  mapply(function(trialn,pair,director) calc.partner.previous.noun(all.data.for.priming.analysis.recoded,trialn,pair,director),
+         all.data.for.priming.analysis.recoded$TrialNumberPair,
+         all.data.for.priming.analysis.recoded$Chain,
+         all.data.for.priming.analysis.recoded$ParticipantID)
+
+calc.partner.previous.grammaticality <- function(data,
+                                                  this.trial.number, 
+                                                  this.pair, this.director) {
+ 
+    previous.trials <- subset(data,
+                              Chain==this.pair & 
+                                ParticipantID!=this.director &
+                                Number==2 & TrialNumberPair < this.trial.number)
+    if (nrow(previous.trials)==0) { #relevant individual hasn't produced for this item yet
+      NA}
+    else {
+      tail(previous.trials$Grammatical,1)}
+}
+
+all.data.for.priming.analysis.recoded$PartnerLastGrammaticality <- 
+  mapply(function(trialn,pair,director) calc.partner.previous.grammaticality(all.data.for.priming.analysis.recoded,trialn,pair,director),
+         all.data.for.priming.analysis.recoded$TrialNumberPair,
+         all.data.for.priming.analysis.recoded$Chain,
+         all.data.for.priming.analysis.recoded$ParticipantID)
+```
+
+Finally, for plotting etc want to code ParticleRecoded as NA/0/1 (NoParticle/Particle1/Particle2 respectively), and add a column with a binary coding for whether partner's prime was for the same or a different class, same or a different noun.
+
+```{r}
+all.data.for.priming.analysis.recoded$ParticleRecodedBinary <-
+  ifelse(all.data.for.priming.analysis.recoded$ParticleRecoded=="NoParticle",NA,
+         ifelse(all.data.for.priming.analysis.recoded$ParticleRecoded=="Particle1",0,1))
+
+all.data.for.priming.analysis.recoded$PrimeOfSameCategory <- all.data.for.priming.analysis.recoded$Category==all.data.for.priming.analysis.recoded$PartnerLastParticleClass
+
+all.data.for.priming.analysis.recoded$PrimeOfSameNoun <- all.data.for.priming.analysis.recoded$Noun==all.data.for.priming.analysis.recoded$PartnerLastParticleNoun
+
+
+#get rid of dummy partner and occasional cases (in dyads only) where partner produced no particle on last plural.
+all.data.for.priming.analysis.recoded <- subset(all.data.for.priming.analysis.recoded,ParticipantID!="dummyP" & PartnerLastParticle!='NoParticle')
+
+
+
+#sort out factor levels and labels
+all.data.for.priming.analysis.recoded$Condition <- factor(all.data.for.priming.analysis.recoded$Condition, levels=c("Single","PseudoDyad","Dyad"))
+all.data.for.priming.analysis.recoded$NCategories <- plyr::revalue(factor(all.data.for.priming.analysis.recoded$NCategories),
+                                         c("1"="One Category",
+                                           "2"="Two Categories"))
+all.data.for.priming.analysis.recoded$PrimeOfSameCategoryPretty <- plyr::revalue(factor(all.data.for.priming.analysis.recoded$PrimeOfSameCategory),
+                                         c("FALSE"="Different Category Prime",
+                                           "TRUE"="Same Category Prime"))
+
+all.data.for.priming.analysis.recoded$PrimeOfSameNounPretty <- plyr::revalue(factor(all.data.for.priming.analysis.recoded$PrimeOfSameNoun),
+                                         c("FALSE"="Different Noun Prime",
+                                           "TRUE"="Same Noun Prime"))
+```         
+
+Exclude trials where participant *or partner's prime* was an illegal description. Counts suggest there are no such cases? **need to check**
+
+```{r}
+plyr::ddply(all.data.for.priming.analysis.recoded,~Grammatical+PartnerLastGrammaticality,plyr::summarise,Current_N=length(ParticipantID))
+```
+
+```{r}
+all.data.for.priming.analysis.recoded <- subset(all.data.for.priming.analysis.recoded,Grammatical & PartnerLastGrammaticality)
+```
+
+Summarize the data for plotting - by-participant proportions.
+
+```{r}
+aggregated.priming.data <- aggregate(ParticleRecodedBinary~Chain+ParticipantID+Condition+NCategories+PartnerLastParticle,data=all.data.for.priming.analysis.recoded,FUN=mean)
+
+aggregated.priming.data$PartnerLastParticle <- plyr::revalue(aggregated.priming.data$PartnerLastParticle,c("Particle1"="Marker 1","Particle2"="Marker 2"))
+
+```
+
+Plot.
+
+```{r}
+ggplot(data=aggregated.priming.data) +
+  facet_grid(NCategories~Condition) +
+  stat_summary(aes(x=PartnerLastParticle, y=ParticleRecodedBinary),geom='point', fun.y='mean', colour='black',fill='black',size=3, shape=23) +
+  stat_summary(aes(x=PartnerLastParticle, y=ParticleRecodedBinary),geom='errorbar', fun.data='mean_cl_boot',fun.ymin="min", fun.ymax="max",width=0.2) +
+  geom_dotplot(aes(x=PartnerLastParticle, y=ParticleRecodedBinary, fill=Condition),binaxis='y',stackdir="center", binwidth = .025, binpositions='all', alpha=0.5) +
+  theme_bw() +
+  scale_fill_manual(values=my.colours) +
+  theme(legend.position = "none") +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
+  xlab("Partner's last production") +
+  ylab("Plural marked using Marker 2") +
+  ggsave("Figures/priming.pdf",width=8,height=6)
+
+```
+
+Stat - is choice of particle shaped by partner's last production?
+
+Coding as before - helmert for condition, everything else sum-coded.
+
+```{r}
+priming.data.for.analysis <- all.data.for.priming.analysis.recoded
+priming.data.for.analysis$PartnerLastParticle <- factor(priming.data.for.analysis$PartnerLastParticle)
+contrasts(priming.data.for.analysis$Condition) <- contr.helmert(3)
+contrasts(priming.data.for.analysis$NCategories) <- -contr.sum(2) #NB - so that Two Categories coded as 1
+contrasts(priming.data.for.analysis$PartnerLastParticle) <- -contr.sum(2) #NB - so that Particle2 coded as 1
+contrasts(priming.data.for.analysis$PrimeOfSameCategory) <- -contr.sum(2) #NB - so that TRUE coded as 1
+contrasts(priming.data.for.analysis$PrimeOfSameNoun) <- -contr.sum(2) #NB - so that TRUE coded as 1
+```
+
+
+```{r}
+priming.model <- glmer(ParticleRecodedBinary ~ Condition * NCategories * PartnerLastParticle + (1 + PartnerLastParticle | ParticipantID:Chain),
+                              data=priming.data.for.analysis, family=binomial, control=glmerControl(optimizer="bobyqa"))
+```
+
+Model shows effects of:
+- PartnerLastParticle (there is priming - if partner produced particle 2 you are more likely to do so)
+- condition x partner last particle: a larger priming effect in dyads
+- condition2 x n categories (less use of particle2 overall in the 2-categories dyads? That's a bit weird, as far as I can work out it's arbitrary (you still get it e.g. if you assign a random particle as particle 2)
+
+```{r}
+summary(priming.model)
+```
+
+Same analysis looking at the effect of within- vs across-category priming (for 2-category conditions only).
+
+```{r}
+aggregated.priming.data.2category <- aggregate(ParticleRecodedBinary~Chain+ParticipantID+Condition+NCategories+PartnerLastParticle+PrimeOfSameCategoryPretty,data=subset(all.data.for.priming.analysis.recoded,NCategories=="Two Categories"),FUN=mean)
+
+aggregated.priming.data.2category$PartnerLastParticle <- plyr::revalue(aggregated.priming.data.2category$PartnerLastParticle,c("Particle1"="Marker 1","Particle2"="Marker 2"))
+
+
+```
+
+Plot (not in paper). NB flipping the layout of the grid to make it easier to compare within conditions.
+
+```{r}
+ggplot(data=aggregated.priming.data.2category) +
+  facet_grid(Condition~PrimeOfSameCategoryPretty) +
+  stat_summary(aes(x=PartnerLastParticle, y=ParticleRecodedBinary),geom='point', fun.y='mean', colour='black',fill='black',size=3, shape=23) +
+  stat_summary(aes(x=PartnerLastParticle, y=ParticleRecodedBinary),geom='errorbar', fun.data='mean_cl_boot',fun.ymin="min", fun.ymax="max",width=0.2) +
+  geom_dotplot(aes(x=PartnerLastParticle, y=ParticleRecodedBinary, fill=Condition),binaxis='y',stackdir="center", binwidth = .025, binpositions='all', alpha=0.5) +
+  theme_bw() +
+  scale_fill_manual(values=my.colours) +
+  theme(legend.position = "none") +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
+  xlab("Partner's last production") +
+  ylab("Plural marked using Marker 2") 
+
+```
+
+Stat for 2-category conditions only, is there a difference for within- vs between-category priming?
+
+```{r}
+#singular fit
+#priming.model.2category <- glmer(ParticleRecodedBinary ~ Condition * PrimeOfSameCategory * PartnerLastParticle + (1 + PartnerLastParticle * PrimeOfSameCategory | ParticipantID:Chain), data=subset(priming.data.for.analysis,NCategories=="Two Categories"), family=binomial, control=glmerControl(optimizer="bobyqa"))
+
+#singular fit, simplifying
+#priming.model.2category <- glmer(ParticleRecodedBinary ~ Condition * PrimeOfSameCategory * PartnerLastParticle + (1 | ParticipantID:Chain) + (0 + PartnerLastParticle * PrimeOfSameCategory | ParticipantID:Chain),data=subset(priming.data.for.analysis,NCategories=="Two Categories"), family=binomial, control=glmerControl(optimizer="bobyqa"))
+
+#singular fit, simplifying
+#priming.model.2category <- glmer(ParticleRecodedBinary ~ Condition * PrimeOfSameCategory * PartnerLastParticle + (1 + PartnerLastParticle + PrimeOfSameCategory | ParticipantID:Chain), data=subset(priming.data.for.analysis,NCategories=="Two Categories"), family=binomial, control=glmerControl(optimizer="bobyqa"))
+
+priming.model.2category <- glmer(ParticleRecodedBinary ~ Condition * PrimeOfSameCategory * PartnerLastParticle + (1 + PartnerLastParticle  | ParticipantID:Chain), data=subset(priming.data.for.analysis,NCategories=="Two Categories"), family=binomial, control=glmerControl(optimizer="bobyqa"))
+
+```
+
+This model shows a Condition2:PrimeOfSameCategory1 interaction - not sure that is interpretable though, it just means they use particle 2 less on trials where the primes are of the same category (i.e. regardless of the prime particle). Crucially there is no PrimeOfSameCategory1:PartnerLastParticle1 interaction (which would suggest stronger priming within- than across-category).
+
+```{r}
+summary(priming.model.2category)
+```
+
+Finally, same analysis looking at the effect of within- vs across-noun priming (the classic lexical boost).
+
+```{r}
+aggregated.priming.data.noun <- aggregate(ParticleRecodedBinary~Chain+ParticipantID+Condition+NCategories+PartnerLastParticle+PrimeOfSameNounPretty,data=subset(all.data.for.priming.analysis.recoded),FUN=mean)
+
+aggregated.priming.data.noun$PartnerLastParticle <- plyr::revalue(aggregated.priming.data.noun$PartnerLastParticle,c("Particle1"="Marker 1","Particle2"="Marker 2"))
+```
+
+Plot (not in paper). NB flipping the layout of the grid to make it easier to compare within conditions. Plotting collapsing over 1 vs 2 category first...
+
+Looks like there's clearly a huge effect of same-noun primes (the effect of the partner particle choice is much bigger on same noun trials), and this effect seems bigger in dyads. NB the number of trials in SameNounPrime is very small.
+
+```{r}
+ggplot(data=aggregated.priming.data.noun) +
+  facet_grid(Condition~PrimeOfSameNounPretty) +
+  stat_summary(aes(x=PartnerLastParticle, y=ParticleRecodedBinary),geom='point', fun.y='mean', colour='black',fill='black',size=3, shape=23) +
+  stat_summary(aes(x=PartnerLastParticle, y=ParticleRecodedBinary),geom='errorbar', fun.data='mean_cl_boot',fun.ymin="min", fun.ymax="max",width=0.2) +
+  geom_dotplot(aes(x=PartnerLastParticle, y=ParticleRecodedBinary, fill=Condition),binaxis='y',stackdir="center", binwidth = .025, binpositions='all', alpha=0.5) +
+  theme_bw() +
+  scale_fill_manual(values=my.colours) +
+  theme(legend.position = "none") +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
+  xlab("Partner's last production") +
+  ylab("Plural marked using Marker 2") 
+
+```
+
+
+
+Stat.
+
+```{r}
+#singular fit
+priming.model.noun <- glmer(ParticleRecodedBinary ~ Condition * NCategories * PrimeOfSameNoun * PartnerLastParticle + (1 + PartnerLastParticle * PrimeOfSameNoun | ParticipantID:Chain), data=priming.data.for.analysis, family=binomial, control=glmerControl(optimizer="bobyqa"))
+
+```
+
+There is a clear lexical boost (as indicated by a significant PrimeOfSameNoun:PartnerLastParticle interaction). There are several marginal interactions involving condition2 - looks like the lexical boost is marginally bigger in dyads than in singles/pseudos (Condition2:PrimeOfSameNoun:PartnerLastParticle).
+
+```{r}
+summary(priming.model.noun)
+```
