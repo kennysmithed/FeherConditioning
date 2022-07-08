@@ -1,0 +1,801 @@
+Chain,Generation,ParticipantID,IP,Stage,Block,TrialNumber,Meaning,TrainingLabel,TypedLabel,CheckedLabel,Array1,Array2,Array3,Array4,Array5,Array6,Array7,Array8,Selected,Score
+S118,1,dummyP,127.0.0.1,vocabTraining,0,1,boat,boat,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTraining,0,2,elephant,elephant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTraining,0,3,plane,plane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTraining,0,4,fox,fox,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTraining,0,5,fox,fox,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTraining,0,6,squirrel,squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTraining,0,7,panda,panda,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTraining,0,8,bus,bus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTraining,0,9,train,train,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTraining,0,1,dog,dog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTraining,0,10,elephant,elephant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTraining,0,11,squirrel,squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTraining,0,12,dog,dog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTraining,0,13,panda,panda,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTraining,0,2,hedgehog,hedgehog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTraining,0,14,boat,boat,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTraining,0,15,kangaroo,kangaroo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTraining,0,16,train,train,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTraining,0,17,bus,bus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTraining,0,18,digger,digger,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTraining,0,3,cow,cow,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTraining,0,19,digger,digger,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTraining,0,20,hedgehog,hedgehog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTraining,0,21,hedgehog,hedgehog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTraining,0,22,rocket,rocket,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTraining,0,4,kangaroo,kangaroo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTraining,0,23,car,car,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTraining,0,24,dog,dog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTraining,0,25,plane,plane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTraining,0,26,cow,cow,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTraining,0,5,fox,fox,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTraining,0,27,kangaroo,kangaroo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTraining,0,28,tractor,tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTraining,0,29,tractor,tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTraining,0,30,cow,cow,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTraining,0,6,digger,digger,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTraining,0,31,rocket,rocket,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTraining,0,32,car,car,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTraining,0,7,car,car,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTraining,0,8,elephant,elephant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTraining,0,9,squirrel,squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTraining,0,10,rocket,rocket,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTraining,0,11,tractor,tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTraining,0,12,dog,dog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTraining,0,13,kangaroo,kangaroo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTraining,0,14,car,car,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTraining,0,15,plane,plane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTraining,0,16,hedgehog,hedgehog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTraining,0,17,digger,digger,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTraining,0,18,tractor,tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTraining,0,19,boat,boat,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTraining,0,20,fox,fox,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTraining,0,21,squirrel,squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTraining,0,22,cow,cow,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTraining,0,23,panda,panda,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTraining,0,24,elephant,elephant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTraining,0,25,plane,plane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTraining,0,26,panda,panda,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTraining,0,27,rocket,rocket,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTraining,0,28,boat,boat,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTraining,0,29,train,train,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTraining,0,30,train,train,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTraining,0,31,bus,bus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTraining,0,32,bus,bus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTesting,0,1,fox,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTesting,0,2,rocket,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTesting,0,3,cow,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTesting,0,4,digger,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTesting,0,5,elephant,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTesting,0,6,car,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTesting,0,7,tractor,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTesting,0,8,elephant,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTesting,0,9,digger,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTesting,0,10,tractor,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTesting,0,1,train,NA,train,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTesting,0,11,boat,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTesting,0,12,hedgehog,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTesting,0,13,car,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTesting,0,14,bus,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTesting,0,15,cow,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTesting,0,16,train,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTesting,0,2,hedgehog,NA,hedgehog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTesting,0,17,fox,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTesting,0,18,dog,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTesting,0,19,plane,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTesting,0,3,panda,NA,panda,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTesting,0,20,boat,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTesting,0,21,plane,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTesting,0,22,panda,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTesting,0,23,squirrel,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTesting,0,24,kangaroo,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTesting,0,25,panda,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTesting,0,4,boat,NA,boat,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTesting,0,26,dog,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTesting,0,27,kangaroo,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTesting,0,28,bus,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTesting,0,5,fox,NA,fox,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTesting,0,29,squirrel,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTesting,0,30,rocket,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTesting,0,31,hedgehog,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,vocabTesting,0,32,train,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTesting,0,6,tractor,NA,tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTesting,0,7,bus,NA,bus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTesting,0,8,tractor,NA,tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTesting,0,9,cow,NA,cowq,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTesting,0,10,car,NA,car,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTesting,0,11,rocket,NA,rocket,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTesting,0,12,squirrel,NA,squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTesting,0,13,bus,NA,bus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTesting,0,14,panda,NA,panda,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTesting,0,15,boat,NA,boat,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTesting,0,16,fox,NA,fox,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTesting,0,17,kangaroo,NA,kangaroo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTesting,0,18,rocket,NA,rocket,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTesting,0,19,cow,NA,cow,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTesting,0,20,elephant,NA,elephant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTesting,0,21,elephant,NA,elephant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTesting,0,22,train,NA,train,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTesting,0,23,kangaroo,NA,kangaroo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTesting,0,24,squirrel,NA,squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTesting,0,25,plane,NA,plane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTesting,0,26,digger,NA,tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTesting,0,27,digger,NA,trasctor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTesting,0,28,plane,NA,plane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTesting,0,29,dog,NA,dog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTesting,0,30,car,NA,car,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTesting,0,31,hedgehog,NA,hedgehog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,vocabTesting,0,32,dog,NA,dog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,1,straight_panda_2,frab panda tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,2,straight_digger_2,frab digger pag,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,3,straight_train_2,frab train tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,4,straight_dog_2,frab dog pag,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,5,straight_rocket_1,frab rocket,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,1,straight_kangaroo_2,frab kangaroo tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,6,straight_car_2,frab car tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,7,straight_elephant_1,frab elephant,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,2,straight_squirrel_2,frab squirrel pag,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,8,straight_cow_1,frab cow,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,9,straight_bus_1,frab bus,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,3,straight_bus_1,frab bus,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,10,straight_bus_2,frab bus tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,11,straight_elephant_2,frab elephant pag,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,4,straight_dog_2,frab dog pag,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,12,straight_digger_2,frab digger tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,13,straight_fox_2,frab fox tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,5,straight_elephant_2,frab elephant pag,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,14,straight_fox_1,frab fox,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,15,straight_kangaroo_2,frab kangaroo tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,6,straight_squirrel_1,frab squirrel,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,16,straight_boat_2,frab boat tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,17,straight_cow_2,frab cow pag,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,7,straight_plane_2,frab plane tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,18,straight_tractor_2,frab tractor pag,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,19,straight_tractor_1,frab tractor,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,8,straight_dog_2,frab dog tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,20,straight_plane_1,frab plane,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,21,straight_tractor_2,frab tractor tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,9,straight_tractor_1,frab tractor,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,22,straight_panda_1,frab panda,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,23,straight_dog_1,frab dog,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,10,straight_kangaroo_1,frab kangaroo,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,24,straight_boat_2,frab boat pag,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,25,straight_train_1,frab train,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,11,straight_cow_1,frab cow,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,26,straight_squirrel_2,frab squirrel pag,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,27,straight_plane_2,frab plane pag,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,12,straight_fox_2,frab fox tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,28,straight_digger_1,frab digger,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,29,straight_bus_2,frab bus pag,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,13,straight_boat_2,frab boat pag,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,30,straight_car_2,frab car pag,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,31,straight_rocket_2,frab rocket tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,14,straight_hedgehog_2,frab hedgehog tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,32,straight_car_1,frab car,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,33,straight_plane_2,frab plane tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,15,straight_car_1,frab car,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,34,straight_dog_2,frab dog tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,35,straight_squirrel_1,frab squirrel,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,16,straight_hedgehog_2,frab hedgehog pag,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,36,straight_fox_2,frab fox pag,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,37,straight_boat_1,frab boat,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,17,straight_elephant_1,frab elephant,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,38,straight_train_2,frab train pag,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,39,straight_cow_2,frab cow tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,18,straight_hedgehog_1,frab hedgehog,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,40,straight_hedgehog_2,frab hedgehog pag,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,41,straight_squirrel_2,frab squirrel tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,42,straight_panda_2,frab panda pag,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,19,straight_car_2,frab car pag,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,43,straight_kangaroo_2,frab kangaroo pag,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,44,straight_kangaroo_1,frab kangaroo,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,20,straight_bus_2,frab bus pag,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,45,straight_rocket_2,frab rocket pag,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,46,straight_hedgehog_2,frab hedgehog tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,21,straight_train_2,frab train tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,47,straight_hedgehog_1,frab hedgehog,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,0,48,straight_elephant_2,frab elephant tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,22,straight_boat_2,frab boat tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,23,straight_dog_1,frab dog,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,24,straight_train_2,frab train pag,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,25,straight_train_1,frab train,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,26,straight_boat_1,frab boat,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,27,straight_tractor_2,frab tractor tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,28,straight_elephant_2,frab elephant tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,29,straight_rocket_2,frab rocket pag,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,30,straight_panda_1,frab panda,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,31,straight_cow_2,frab cow pag,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,32,straight_tractor_2,frab tractor pag,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,33,straight_kangaroo_2,frab kangaroo pag,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,34,straight_digger_2,frab digger pag,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,35,straight_fox_1,frab fox,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,36,straight_rocket_2,frab rocket tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,37,straight_plane_1,frab plane,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,38,straight_fox_2,frab fox pag,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,39,straight_panda_2,frab panda tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,40,straight_squirrel_2,frab squirrel tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,41,straight_car_2,frab car tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,42,straight_panda_2,frab panda pag,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,43,straight_digger_1,frab digger,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,44,straight_bus_2,frab bus tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,45,straight_cow_2,frab cow tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,46,straight_digger_2,frab digger tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,47,straight_rocket_1,frab rocket,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,0,48,straight_plane_2,frab plane pag,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,1,straight_tractor_2,frab tractor tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,2,straight_hedgehog_2,frab hedgehog pag,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,1,straight_hedgehog_2,frab hedgehog tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,3,straight_car_2,frab car pag,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,4,straight_kangaroo_2,frab kangaroo pag,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,2,straight_digger_1,frab digger,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,5,straight_rocket_1,frab rocket,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,6,straight_train_2,frab train pag,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,3,straight_boat_2,frab boat pag,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,7,straight_tractor_1,frab tractor,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,8,straight_plane_2,frab plane pag,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,4,straight_rocket_1,frab rocket,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,9,straight_dog_1,frab dog,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,10,straight_tractor_2,frab tractor pag,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,5,straight_train_2,frab train pag,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,11,straight_squirrel_2,frab squirrel pag,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,12,straight_cow_2,frab cow tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,6,straight_panda_1,frab panda,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,13,straight_boat_2,frab boat pag,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,14,straight_plane_2,frab plane tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,7,straight_dog_2,frab dog pag,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,15,straight_fox_1,frab fox,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,16,straight_panda_1,frab panda,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,8,straight_car_2,frab car pag,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,17,straight_bus_1,frab bus,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,18,straight_cow_2,frab cow pag,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,9,straight_rocket_2,frab rocket pag,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,19,straight_bus_2,frab bus tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,20,straight_digger_2,frab digger pag,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,10,straight_bus_2,frab bus tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,21,straight_hedgehog_2,frab hedgehog tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,22,straight_boat_2,frab boat tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,11,straight_dog_1,frab dog,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,23,straight_bus_2,frab bus pag,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,24,straight_dog_2,frab dog tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,12,straight_squirrel_2,frab squirrel pag,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,25,straight_rocket_2,frab rocket pag,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,26,straight_digger_1,frab digger,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,13,straight_train_1,frab train,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,27,straight_dog_2,frab dog pag,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,28,straight_squirrel_1,frab squirrel,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,14,straight_hedgehog_2,frab hedgehog pag,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,29,straight_elephant_2,frab elephant tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,30,straight_fox_2,frab fox pag,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,15,straight_squirrel_2,frab squirrel tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,31,straight_squirrel_2,frab squirrel tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,32,straight_car_1,frab car,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,16,straight_fox_2,frab fox tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,33,straight_train_2,frab train tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,34,straight_plane_1,frab plane,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,17,straight_cow_1,frab cow,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,35,straight_elephant_1,frab elephant,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,36,straight_panda_2,frab panda pag,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,18,straight_panda_2,frab panda pag,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,37,straight_cow_1,frab cow,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,38,straight_car_2,frab car tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,19,straight_elephant_1,frab elephant,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,39,straight_digger_2,frab digger tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,40,straight_train_1,frab train,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,20,straight_panda_2,frab panda tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,41,straight_hedgehog_1,frab hedgehog,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,42,straight_panda_2,frab panda tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,21,straight_plane_2,frab plane tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,43,straight_kangaroo_1,frab kangaroo,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,44,straight_fox_2,frab fox tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,22,straight_boat_2,frab boat tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,45,straight_boat_1,frab boat,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,46,straight_rocket_2,frab rocket tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,23,straight_cow_2,frab cow pag,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,47,straight_elephant_2,frab elephant pag,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,training,1,48,straight_kangaroo_2,frab kangaroo tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,24,straight_squirrel_1,frab squirrel,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,25,straight_bus_1,frab bus,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,26,straight_digger_2,frab digger pag,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,27,straight_car_2,frab car tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,28,straight_elephant_2,frab elephant tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,29,straight_bus_2,frab bus pag,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,30,straight_elephant_2,frab elephant pag,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,31,straight_fox_1,frab fox,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,32,straight_tractor_2,frab tractor pag,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,33,straight_fox_2,frab fox pag,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,34,straight_plane_2,frab plane pag,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,35,straight_dog_2,frab dog tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,36,straight_tractor_1,frab tractor,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,37,straight_tractor_2,frab tractor tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,38,straight_boat_1,frab boat,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,39,straight_hedgehog_1,frab hedgehog,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,40,straight_digger_2,frab digger tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,41,straight_car_1,frab car,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,42,straight_cow_2,frab cow tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,43,straight_kangaroo_2,frab kangaroo pag,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,44,straight_kangaroo_1,frab kangaroo,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,45,straight_rocket_2,frab rocket tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,46,straight_kangaroo_2,frab kangaroo tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,47,straight_train_2,frab train tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,training,1,48,straight_plane_1,frab plane,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,1,straight_kangaroo_2,NA,frab kangaroo tid,frab kangaroo tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,2,straight_tractor_2,NA,frab tractor pag,frab tractor pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,3,straight_fox_2,NA,frab fox tid,frab fox tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,4,straight_panda_2,NA,frab panda tid,frab panda tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,5,straight_cow_2,NA,frab cow tid,frab cow tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,6,straight_elephant_2,NA,frab elephant tid,frab elephant tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,7,straight_cow_1,NA,frab cow,frab cow,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,8,straight_cow_2,NA,frab cow pag,frab cow pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,9,straight_rocket_1,NA,frab rocket,frab rocket,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,10,straight_rocket_2,NA,frab rocket tid,frab rocket tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,11,straight_hedgehog_2,NA,frab hedgehog pag,frab hedgehog pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,1,straight_train_2,NA,frab train tid,frab train tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,12,straight_hedgehog_1,NA,frab hedgehog,frab hedgehog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,13,straight_boat_1,NA,frab boat,frab boat,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,2,straight_cow_1,NA,trag cow,train cow,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,14,straight_plane_1,NA,frab plane,frab plane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,15,straight_elephant_1,NA,frab elephant,frab elephant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,3,straight_rocket_1,NA,frag rocket,frab rocket,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,16,straight_bus_2,NA,frab bus pag,frab bus pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,17,straight_digger_2,NA,frab digger pag,frab digger pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,18,straight_plane_2,NA,frab plane pag,frab plane pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,4,straight_plane_2,NA,frag plane tid,frab plane tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,19,straight_car_2,NA,frab car pag,frab car pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,20,straight_tractor_2,NA,frab tractor tid,frab tractor tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,21,straight_train_2,NA,frab train tid,frab train tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,5,straight_squirrel_1,NA,frag squirrel,frab squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,22,straight_digger_1,NA,frab digger,frab digger,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,23,straight_dog_2,NA,frab dog pag,frab dog pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,6,straight_rocket_2,NA,frag rocket tid,frab rocket tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,24,straight_kangaroo_1,NA,frab kangaroo,frab kangaroo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,25,straight_fox_1,NA,frab fox,frab fox,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,26,straight_panda_1,NA,frab panda,frab panda,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,7,straight_bus_2,NA,frag bus tid,frab bus tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,27,straight_boat_2,NA,frab boat pag,frab boat pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,28,straight_elephant_2,NA,frab elephant pag,frab elephant pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,29,straight_train_1,NA,frab train,frab train,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,8,straight_boat_2,NA,frag ship tid,frab tid tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,30,straight_car_1,NA,frab car,frab car,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,31,straight_kangaroo_2,NA,frab kangaroo pag,frab kangaroo pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,32,straight_squirrel_2,NA,frab squirrel pag,frab squirrel pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,33,straight_dog_1,NA,frab dog,frab dog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,9,straight_tractor_2,NA,frag tractor tid,frab tractor tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,34,straight_digger_2,NA,frab digger tid,frab digger tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,35,straight_train_2,NA,frab train pag,frab train pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,36,straight_plane_2,NA,frab plane tid,frab plane tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,37,straight_squirrel_2,NA,frab squirrel tid,frab squirrel tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,10,straight_digger_2,NA,frag tractor tid,frab tractor tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,38,straight_fox_2,NA,frab fox pag,frab fox pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,39,straight_panda_2,NA,frab panda pag,frab panda pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,40,straight_bus_2,NA,frab bus tid,frab bus tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,11,straight_hedgehog_1,NA,frag squirrel,frab squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,41,straight_squirrel_1,NA,frab squirrel,frab squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,42,straight_car_2,NA,frab car tid,frab car tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,12,straight_elephant_2,NA,frag elephant,frab elephant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,43,straight_tractor_1,NA,frab tractor,frab tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,44,straight_boat_2,NA,frab boat tid,frab boat tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,13,straight_digger_1,NA,frag tractor,frab tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,45,straight_hedgehog_2,NA,frab hedgehog tid,frab hedgehog tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,46,straight_rocket_2,NA,frab rocket pag,frab rocket pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,47,straight_bus_1,NA,frab bus,frab bus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,14,straight_tractor_2,NA,frag trractor tid,frab tractor tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,0,48,straight_dog_2,NA,frab dog tid,frab dog tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,15,straight_boat_1,NA,fragh shuiop,frab train,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,16,straight_hedgehog_2,NA,frag squirrel,frab squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,17,straight_kangaroo_2,NA,frag kangaroo tid,frab kangaroo tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,18,straight_panda_1,NA,frag panda,frab panda,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,19,straight_fox_2,NA,frag squirrel tif,frab squirrel tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,20,straight_squirrel_2,NA,frag squirrel tid,frab squirrel tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,21,straight_panda_2,NA,frag panda tid,frab panda tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,22,straight_bus_2,NA,frag bus tid,frab bus tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,23,straight_kangaroo_2,NA,frag squirrel tid,frab squirrel tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,24,straight_tractor_1,NA,frag rtractor tid,frab tractor tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,25,straight_cow_2,NA,frag cow fag,frab cow pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,26,straight_fox_2,NA,frag cow fag,frab cow pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,27,straight_kangaroo_1,NA,frag squirre,frab squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,28,straight_panda_2,NA,frag panda fag,frab panda pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,29,straight_cow_2,NA,frag cow fag,frab cow pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,30,straight_rocket_2,NA,frag rockwet tid,frab rocket tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,31,straight_elephant_2,NA,frag elephant fag,frab elephant pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,32,straight_hedgehog_2,NA,frag hedgehog fagf,frab hedgehog pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,33,straight_boat_2,NA,frag ship tid,frab tid tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,34,straight_dog_1,NA,frag dpg,frab dog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,35,straight_plane_2,NA,frag pane,frab plane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,36,straight_dog_2,NA,frage dog fag,frab dog pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,37,straight_car_2,NA,frag car fag,frab car pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,38,straight_bus_1,NA,frag bus fag,frab bus pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,39,straight_train_2,NA,frag train tid,frab train tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,40,straight_train_1,NA,dfrag ttrteain,frab train,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,41,straight_dog_2,NA,frag dog fag,frab dog pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,42,straight_car_2,NA,frag car fdag,frab car frab,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,43,straight_car_1,NA,frag car,frab car,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,44,straight_fox_1,NA,frag squirrel,frab squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,45,straight_elephant_1,NA,frag elephent,frab elephant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,46,straight_plane_1,NA,frag plane,frab plane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,47,straight_digger_2,NA,frag tractor tid,frab tractor tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,0,48,straight_squirrel_2,NA,frag squirrel fag,frab squirrel pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,1,straight_tractor_2,NA,frab tractor pag,frab tractor pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,2,straight_dog_2,NA,frab dog tid,frab dog tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,3,straight_panda_1,NA,frab panda,frab panda,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,4,straight_panda_2,NA,frab panda pag,frab panda pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,1,straight_train_2,NA,frag train fag,frab train pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,5,straight_tractor_2,NA,frab tractor tid,frab tractor tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,6,straight_boat_2,NA,frab boat pag,frab boat pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,2,straight_cow_2,NA,frag cow fag,frab cow pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,7,straight_train_2,NA,frab train pag,frab train pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,8,straight_plane_2,NA,frab plane tid,frab plane tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,3,straight_squirrel_2,NA,frag squirrel fag,frab squirrel pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,9,straight_digger_2,NA,frab digger tid,frab digger tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,10,straight_elephant_2,NA,frab elephant tid,frab elephant tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,4,straight_panda_2,NA,frag panda fag,frab panda pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,11,straight_train_2,NA,frab train tid,frab train tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,12,straight_kangaroo_2,NA,frab kangaroo tid,frab kangaroo tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,13,straight_cow_2,NA,frab cow pag,frab cow pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,5,straight_fox_1,NA,frag fox,frab fox,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,14,straight_hedgehog_2,NA,frab hedgehog tid,frab hedgehog tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,15,straight_elephant_2,NA,frab elephant pag,frab elephant pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,6,straight_digger_2,NA,frrag rtracotr,frab tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,16,straight_bus_1,NA,frab bus,frab bus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,17,straight_hedgehog_1,NA,frab hedgehog,frab hedgehog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,18,straight_digger_1,NA,frab digger,frab digger,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,7,straight_tractor_1,NA,frag tractor,frab tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,19,straight_car_2,NA,frab car pag,frab car pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,20,straight_squirrel_2,NA,frab squirrel tid,frab squirrel tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,8,straight_dog_2,NA,frag dog fag,frab dog pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,21,straight_panda_2,NA,frab panda tid,frab panda tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,22,straight_rocket_2,NA,frab rocket pag,frab rocket pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,9,straight_boat_1,NA,frag sdhip,frab dog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,23,straight_hedgehog_2,NA,frab hedgehog pag,frab hedgehog pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,24,straight_cow_1,NA,frab cow,frab cow,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,10,straight_rocket_2,NA,frag rocket tid,frab rocket tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,25,straight_tractor_1,NA,frab tractor,frab tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,26,straight_car_1,NA,frab car,frab car,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,11,straight_plane_1,NA,frag plane,frab plane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,27,straight_fox_2,NA,frab fox tid,frab fox tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,12,straight_cow_1,NA,frag cow,frab cow,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,28,straight_plane_1,NA,frab plane,frab plane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,29,straight_dog_1,NA,frab dog,frab dog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,13,straight_fox_2,NA,frag squirrel,frab squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,30,straight_plane_2,NA,frab plane pag,frab plane pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,31,straight_rocket_2,NA,frab rocket tid,frab rocket tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,14,straight_car_2,NA,frag car fag,frab car pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,32,straight_bus_2,NA,frab bus pag,frab bus pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,33,straight_boat_1,NA,frab boat,frab boat,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,34,straight_rocket_1,NA,frab rocket,frab rocket,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,35,straight_kangaroo_1,NA,frab kangaroo,frab kangaroo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,15,straight_hedgehog_2,NA,frag hedgehog fag,frab hedgehog pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,36,straight_fox_1,NA,frab fox,frab fox,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,37,straight_kangaroo_2,NA,frab kangaroo pag,frab kangaroo pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,38,straight_squirrel_2,NA,frab squirrel pag,frab squirrel pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,16,straight_boat_2,NA,frag boat fag,frab boat pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,39,straight_elephant_1,NA,frab elephant,frab elephant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,40,straight_fox_2,NA,frab fox pag,frab fox pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,17,straight_elephant_2,NA,frag elephant fag,frab elephant pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,41,straight_bus_2,NA,frab bus tid,frab bus tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,42,straight_dog_2,NA,frab dog pag,frab dog pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,18,straight_rocket_2,NA,frag rocket fag,frab rocket pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,43,straight_cow_2,NA,frab cow tid,frab cow tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,44,straight_digger_2,NA,frab digger pag,frab digger pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,45,straight_boat_2,NA,frab boat tid,frab boat tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,19,straight_elephant_1,NA,frag elephant,frab elephant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,46,straight_car_2,NA,frab car tid,frab car tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,47,straight_squirrel_1,NA,frab squirrel,frab squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,recall1,1,48,straight_train_1,NA,frab train,frab train,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,20,straight_boat_2,NA,frag boat fag,frab boat pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,21,straight_digger_1,NA,frag treactor,frab tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,22,straight_bus_2,NA,frag bus,frab bus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,23,straight_kangaroo_2,NA,frag squirrel,frab squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,24,straight_squirrel_1,NA,frag sqwuirel,frab squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,25,straight_car_2,NA,frag car fag,frab car pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,26,straight_train_2,NA,frag train fag,frab train pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,27,straight_fox_2,NA,frag squirrel fag,frab squirrel pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,28,straight_tractor_2,NA,fag tractor fdag,pag tractor dog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,29,straight_train_1,NA,frag terain,frab train,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,30,straight_bus_2,NA,frag bus tid,frab bus tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,31,straight_plane_2,NA,frag plane tid,frab plane tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,32,straight_elephant_2,NA,frag elephjant fag,frab elephant pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,33,straight_plane_2,NA,frag plane tid,frab plane tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,34,straight_bus_1,NA,frag bus tid,frab bus tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,35,straight_squirrel_2,NA,frag bustid,frab bus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,36,straight_panda_1,NA,frag panda,frab panda,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,37,straight_hedgehog_1,NA,frag hedgehog,frab hedgehog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,38,straight_cow_2,NA,frag cow fag,frab cow pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,39,straight_hedgehog_2,NA,frag hewdgehog tid,frab hedgehog tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,40,straight_dog_1,NA,frag copw,frab cow,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,41,straight_kangaroo_1,NA,frag squirrel,frab squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,42,straight_digger_2,NA,frag tractor,frab tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,43,straight_dog_2,NA,frag dog fag,frab dog pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,44,straight_panda_2,NA,frag panda fag,frab panda pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,45,straight_rocket_1,NA,frag rocket ,frab rocket,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,46,straight_tractor_2,NA,frah tractor fdazg,frab tractor pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,47,straight_car_1,NA,farc fks,car bus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,recall1,1,48,straight_kangaroo_2,NA,frag squirrel,frab squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactD,0,0,straight_hedgehog_2,NA,frab hedgehog tid,frab hedgehog tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,0,0,straight_hedgehog_2,NA,NA,frab hedgehog tid,straight_hedgehog_2,straight_car_2,straight_kangaroo_2,straight_car_1,straight_hedgehog_1,straight_dog_1,straight_kangaroo_1,straight_dog_2,straight_hedgehog_2,1
+S118,1,1181,129.215.204.33,interactD,0,0,straight_kangaroo_2,NA,frag kangaroo fag,frab kangaroo pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,0,0,straight_kangaroo_2,NA,NA,frab kangaroo pag,straight_elephant_1,straight_elephant_2,straight_kangaroo_1,straight_cow_1,straight_boat_2,straight_cow_2,straight_kangaroo_2,straight_boat_1,straight_kangaroo_2,1
+S118,1,dummyP,127.0.0.1,interactD,0,1,straight_squirrel_2,NA,frab squirrel pag,frab squirrel pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,0,1,straight_squirrel_2,NA,NA,frab squirrel pag,straight_rocket_2,straight_squirrel_1,straight_rocket_1,straight_hedgehog_2,straight_hedgehog_1,straight_squirrel_2,straight_car_1,straight_car_2,straight_squirrel_2,1
+S118,1,1181,129.215.204.33,interactD,0,1,straight_dog_1,NA,frag dog,frab dog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,0,1,straight_dog_1,NA,NA,frab dog,straight_tractor_2,straight_tractor_1,straight_panda_2,straight_digger_2,straight_digger_1,straight_dog_2,straight_panda_1,straight_dog_1,straight_dog_1,1
+S118,1,dummyP,127.0.0.1,interactD,0,2,straight_elephant_2,NA,frab elephant tid,frab elephant tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,0,2,straight_elephant_2,NA,NA,frab elephant tid,straight_digger_1,straight_train_1,straight_train_2,straight_digger_2,straight_elephant_1,straight_bus_1,straight_elephant_2,straight_bus_2,straight_elephant_2,1
+S118,1,1181,129.215.204.33,interactD,0,2,straight_fox_2,NA,frag squirrel fag,frab squirrel pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,0,2,straight_fox_2,NA,NA,frab squirrel pag,straight_plane_2,straight_cow_1,straight_car_1,straight_cow_2,straight_fox_1,straight_fox_2,straight_car_2,straight_plane_1,straight_plane_2,0
+S118,1,dummyP,127.0.0.1,interactD,0,3,straight_boat_2,NA,frab boat tid,frab boat tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,0,3,straight_boat_2,NA,NA,frab boat tid,straight_plane_2,straight_boat_1,straight_boat_2,straight_plane_1,straight_panda_2,straight_cow_1,straight_panda_1,straight_cow_2,straight_boat_2,1
+S118,1,1181,129.215.204.33,interactD,0,3,straight_tractor_2,NA,frag tractor tid,frab tractor tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,0,3,straight_tractor_2,NA,NA,frab tractor tid,straight_tractor_1,straight_kangaroo_2,straight_elephant_2,straight_kangaroo_1,straight_panda_1,straight_elephant_1,straight_panda_2,straight_tractor_2,straight_tractor_2,1
+S118,1,dummyP,127.0.0.1,interactD,0,4,straight_car_1,NA,frab car,frab car,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,0,4,straight_car_1,NA,NA,frab car,straight_car_1,straight_panda_1,straight_fox_1,straight_panda_2,straight_fox_2,straight_car_2,straight_cow_2,straight_cow_1,straight_car_1,1
+S118,1,1181,129.215.204.33,interactD,0,4,straight_squirrel_2,NA,frag squirrel tid,frab squirrel tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,0,4,straight_squirrel_2,NA,NA,frab squirrel tid,straight_squirrel_2,straight_panda_1,straight_hedgehog_1,straight_hedgehog_2,straight_rocket_1,straight_squirrel_1,straight_rocket_2,straight_panda_2,straight_squirrel_2,1
+S118,1,dummyP,127.0.0.1,interactD,0,5,straight_tractor_2,NA,frab tractor tid,frab tractor tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,0,5,straight_tractor_2,NA,NA,frab tractor tid,straight_train_1,straight_hedgehog_2,straight_train_2,straight_rocket_2,straight_hedgehog_1,straight_rocket_1,straight_tractor_1,straight_tractor_2,straight_tractor_2,1
+S118,1,1181,129.215.204.33,interactD,0,5,straight_elephant_2,NA,frab elephant fag,frab elephant pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,0,5,straight_elephant_2,NA,NA,frab elephant pag,straight_plane_2,straight_tractor_1,straight_cow_2,straight_tractor_2,straight_cow_1,straight_plane_1,straight_elephant_1,straight_elephant_2,straight_elephant_2,1
+S118,1,dummyP,127.0.0.1,interactD,0,6,straight_elephant_1,NA,frab elephant,frab elephant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,0,6,straight_elephant_1,NA,NA,frab elephant,straight_rocket_2,straight_boat_1,straight_rocket_1,straight_train_2,straight_elephant_2,straight_boat_2,straight_train_1,straight_elephant_1,straight_elephant_1,1
+S118,1,1181,129.215.204.33,interactD,0,6,straight_panda_1,NA,frab panda,frab panda,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,0,6,straight_panda_1,NA,NA,frab panda,straight_bus_2,straight_panda_2,straight_panda_1,straight_rocket_2,straight_train_1,straight_rocket_1,straight_train_2,straight_bus_1,straight_panda_1,1
+S118,1,dummyP,127.0.0.1,interactD,0,7,straight_boat_2,NA,frab boat pag,frab boat pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,0,7,straight_boat_2,NA,NA,frab boat pag,straight_tractor_2,straight_boat_1,straight_squirrel_1,straight_squirrel_2,straight_rocket_2,straight_rocket_1,straight_tractor_1,straight_boat_2,straight_boat_2,1
+S118,1,1181,129.215.204.33,interactD,0,7,straight_elephant_1,NA,frab elephant,frab elephant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,0,7,straight_elephant_1,NA,NA,frab elephant,straight_panda_2,straight_kangaroo_2,straight_train_1,straight_panda_1,straight_elephant_2,straight_elephant_1,straight_train_2,straight_kangaroo_1,straight_elephant_1,1
+S118,1,dummyP,127.0.0.1,interactD,0,8,straight_rocket_2,NA,frab rocket tid,frab rocket tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,0,8,straight_rocket_2,NA,NA,frab rocket tid,straight_boat_1,straight_cow_1,straight_plane_2,straight_rocket_2,straight_cow_2,straight_plane_1,straight_rocket_1,straight_boat_2,straight_rocket_2,1
+S118,1,1181,129.215.204.33,interactD,0,8,straight_train_2,NA,frab traint id,frab train tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,0,8,straight_train_2,NA,NA,frab train tid,straight_dog_2,straight_kangaroo_1,straight_fox_1,straight_train_2,straight_dog_1,straight_train_1,straight_fox_2,straight_kangaroo_2,straight_train_2,1
+S118,1,dummyP,127.0.0.1,interactD,0,9,straight_squirrel_2,NA,frab squirrel tid,frab squirrel tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,0,9,straight_squirrel_2,NA,NA,frab squirrel tid,straight_fox_2,straight_dog_1,straight_boat_1,straight_fox_1,straight_squirrel_1,straight_boat_2,straight_squirrel_2,straight_dog_2,straight_squirrel_2,1
+S118,1,1181,129.215.204.33,interactD,0,9,straight_dog_2,NA,frab dog,frab dog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,0,9,straight_dog_2,NA,NA,frab dog,straight_bus_1,straight_dog_1,straight_digger_1,straight_bus_2,straight_kangaroo_1,straight_digger_2,straight_kangaroo_2,straight_dog_2,straight_dog_1,0
+S118,1,dummyP,127.0.0.1,interactD,0,10,straight_bus_2,NA,frab bus pag,frab bus pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,0,10,straight_bus_2,NA,NA,frab bus pag,straight_bus_1,straight_car_2,straight_train_2,straight_car_1,straight_cow_1,straight_cow_2,straight_bus_2,straight_train_1,straight_bus_2,1
+S118,1,1181,129.215.204.33,interactD,0,10,straight_boat_2,NA,frab ship tid,frab tid tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,0,10,straight_boat_2,NA,NA,frab tid tid,straight_digger_2,straight_plane_1,straight_boat_1,straight_car_2,straight_boat_2,straight_plane_2,straight_car_1,straight_digger_1,straight_car_2,0
+S118,1,dummyP,127.0.0.1,interactD,0,11,straight_rocket_2,NA,frab rocket pag,frab rocket pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,0,11,straight_rocket_2,NA,NA,frab rocket pag,straight_car_2,straight_boat_1,straight_boat_2,straight_rocket_1,straight_rocket_2,straight_car_1,straight_train_2,straight_train_1,straight_rocket_2,1
+S118,1,1181,129.215.204.33,interactD,0,11,straight_tractor_1,NA,frab tractor,frab tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,0,11,straight_tractor_1,NA,NA,frab tractor,straight_tractor_2,straight_rocket_1,straight_boat_1,straight_tractor_1,straight_plane_1,straight_rocket_2,straight_plane_2,straight_boat_2,straight_tractor_1,1
+S118,1,dummyP,127.0.0.1,interactD,0,12,straight_plane_2,NA,frab plane tid,frab plane tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,0,12,straight_plane_2,NA,NA,frab plane tid,straight_plane_1,straight_elephant_1,straight_plane_2,straight_rocket_2,straight_squirrel_1,straight_rocket_1,straight_elephant_2,straight_squirrel_2,straight_plane_2,1
+S118,1,1181,129.215.204.33,interactD,0,12,straight_kangaroo_1,NA,frab kangaroo,frab kangaroo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,0,12,straight_kangaroo_1,NA,NA,frab kangaroo,straight_kangaroo_2,straight_panda_2,straight_tractor_1,straight_tractor_2,straight_fox_1,straight_panda_1,straight_fox_2,straight_kangaroo_1,straight_kangaroo_1,1
+S118,1,dummyP,127.0.0.1,interactD,0,13,straight_panda_2,NA,frab panda pag,frab panda pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,0,13,straight_panda_2,NA,NA,frab panda pag,straight_panda_1,straight_elephant_2,straight_train_2,straight_bus_2,straight_bus_1,straight_train_1,straight_elephant_1,straight_panda_2,straight_panda_2,1
+S118,1,1181,129.215.204.33,interactD,0,13,straight_train_1,NA,frab train,frab train,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,0,13,straight_train_1,NA,NA,frab train,straight_fox_2,straight_dog_1,straight_fox_1,straight_train_2,straight_tractor_1,straight_dog_2,straight_tractor_2,straight_train_1,straight_train_1,1
+S118,1,dummyP,127.0.0.1,interactD,0,14,straight_bus_1,NA,frab bus,frab bus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,0,14,straight_bus_1,NA,NA,frab bus,straight_bus_1,straight_tractor_1,straight_panda_1,straight_bus_2,straight_boat_1,straight_panda_2,straight_tractor_2,straight_boat_2,straight_bus_1,1
+S118,1,1181,129.215.204.33,interactD,0,14,straight_digger_2,NA,frab tractor tid,frab tractor tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,0,14,straight_digger_2,NA,NA,frab tractor tid,straight_digger_2,straight_digger_1,straight_panda_1,straight_panda_2,straight_kangaroo_2,straight_kangaroo_1,straight_dog_1,straight_dog_2,straight_panda_2,0
+S118,1,dummyP,127.0.0.1,interactD,0,15,straight_fox_2,NA,frab fox pag,frab fox pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,0,15,straight_fox_2,NA,NA,frab fox pag,straight_boat_2,straight_dog_1,straight_boat_1,straight_fox_2,straight_squirrel_1,straight_squirrel_2,straight_fox_1,straight_dog_2,straight_fox_2,1
+S118,1,1181,129.215.204.33,interactD,0,15,straight_boat_2,NA,frab boat tid,frab boat tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,0,15,straight_boat_2,NA,NA,frab boat tid,straight_squirrel_2,straight_squirrel_1,straight_panda_2,straight_panda_1,straight_boat_2,straight_boat_1,straight_bus_2,straight_bus_1,straight_boat_2,1
+S118,1,dummyP,127.0.0.1,interactD,0,16,straight_cow_2,NA,frab cow pag,frab cow pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,0,16,straight_cow_2,NA,NA,frab cow pag,straight_cow_2,straight_squirrel_2,straight_cow_1,straight_panda_1,straight_boat_1,straight_panda_2,straight_boat_2,straight_squirrel_1,straight_cow_2,1
+S118,1,1181,129.215.204.33,interactD,0,16,straight_boat_1,NA,frab boat,frab boat,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,0,16,straight_boat_1,NA,NA,frab boat,straight_bus_1,straight_digger_2,straight_boat_2,straight_elephant_1,straight_boat_1,straight_elephant_2,straight_digger_1,straight_bus_2,straight_boat_1,1
+S118,1,dummyP,127.0.0.1,interactD,0,17,straight_panda_2,NA,frab panda tid,frab panda tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,0,17,straight_panda_2,NA,NA,frab panda tid,straight_car_1,straight_panda_1,straight_panda_2,straight_tractor_1,straight_dog_2,straight_tractor_2,straight_dog_1,straight_car_2,straight_panda_2,1
+S118,1,1181,129.215.204.33,interactD,0,17,straight_squirrel_2,NA,frab squirrel pag,frab squirrel pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,0,17,straight_squirrel_2,NA,NA,frab squirrel pag,straight_squirrel_1,straight_squirrel_2,straight_fox_2,straight_elephant_1,straight_elephant_2,straight_fox_1,straight_dog_1,straight_dog_2,straight_squirrel_2,1
+S118,1,dummyP,127.0.0.1,interactD,0,18,straight_cow_1,NA,frab cow,frab cow,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,0,18,straight_cow_1,NA,NA,frab cow,straight_dog_2,straight_hedgehog_2,straight_tractor_2,straight_hedgehog_1,straight_cow_1,straight_dog_1,straight_cow_2,straight_tractor_1,straight_cow_1,1
+S118,1,1181,129.215.204.33,interactD,0,18,straight_elephant_2,NA,frag elephant tid,frab elephant tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,0,18,straight_elephant_2,NA,NA,frab elephant tid,straight_car_2,straight_elephant_2,straight_elephant_1,straight_train_1,straight_train_2,straight_car_1,straight_kangaroo_1,straight_kangaroo_2,straight_elephant_2,1
+S118,1,dummyP,127.0.0.1,interactD,0,19,straight_rocket_1,NA,frab rocket,frab rocket,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,0,19,straight_rocket_1,NA,NA,frab rocket,straight_rocket_2,straight_dog_1,straight_rocket_1,straight_car_1,straight_dog_2,straight_fox_2,straight_fox_1,straight_car_2,straight_rocket_2,0
+S118,1,1181,129.215.204.33,interactD,0,19,straight_panda_2,NA,frag panda fag,frab panda pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,0,19,straight_panda_2,NA,NA,frab panda pag,straight_hedgehog_2,straight_car_2,straight_hedgehog_1,straight_panda_1,straight_digger_2,straight_car_1,straight_panda_2,straight_digger_1,straight_panda_2,1
+S118,1,dummyP,127.0.0.1,interactD,0,20,straight_hedgehog_2,NA,frab hedgehog pag,frab hedgehog pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,0,20,straight_hedgehog_2,NA,NA,frab hedgehog pag,straight_cow_2,straight_panda_2,straight_hedgehog_1,straight_kangaroo_2,straight_kangaroo_1,straight_cow_1,straight_hedgehog_2,straight_panda_1,straight_kangaroo_2,0
+S118,1,1181,129.215.204.33,interactD,0,20,straight_squirrel_1,NA,frag squirrel,frab squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,0,20,straight_squirrel_1,NA,NA,frab squirrel,straight_digger_1,straight_dog_1,straight_squirrel_2,straight_squirrel_1,straight_tractor_2,straight_tractor_1,straight_dog_2,straight_digger_2,straight_squirrel_1,1
+S118,1,dummyP,127.0.0.1,interactD,0,21,straight_car_2,NA,frab car pag,frab car pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,0,21,straight_car_2,NA,NA,frab car pag,straight_kangaroo_1,straight_kangaroo_2,straight_rocket_2,straight_car_1,straight_boat_1,straight_boat_2,straight_car_2,straight_rocket_1,straight_car_1,0
+S118,1,1181,129.215.204.33,interactD,0,21,straight_rocket_1,NA,frag eroicket,frab rocket,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,0,21,straight_rocket_1,NA,NA,frab rocket,straight_rocket_2,straight_dog_1,straight_rocket_1,straight_kangaroo_2,straight_squirrel_1,straight_kangaroo_1,straight_squirrel_2,straight_dog_2,straight_rocket_1,1
+S118,1,dummyP,127.0.0.1,interactD,0,22,straight_fox_2,NA,frab fox tid,frab fox tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,0,22,straight_fox_2,NA,NA,frab fox tid,straight_fox_2,straight_panda_1,straight_plane_2,straight_plane_1,straight_squirrel_1,straight_fox_1,straight_squirrel_2,straight_panda_2,straight_squirrel_2,0
+S118,1,1181,129.215.204.33,interactD,0,22,straight_rocket_2,NA,frag rocket tid,frab rocket tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,0,22,straight_rocket_2,NA,NA,frab rocket tid,straight_rocket_1,straight_train_1,straight_train_2,straight_bus_1,straight_dog_2,straight_dog_1,straight_bus_2,straight_rocket_2,straight_rocket_2,1
+S118,1,dummyP,127.0.0.1,interactD,0,23,straight_car_2,NA,frab car tid,frab car tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,0,23,straight_car_2,NA,NA,frab car tid,straight_digger_2,straight_dog_2,straight_car_2,straight_dog_1,straight_car_1,straight_digger_1,straight_panda_2,straight_panda_1,straight_car_2,1
+S118,1,1181,129.215.204.33,interactD,0,23,straight_plane_1,NA,frag pane,frab plane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,0,23,straight_plane_1,NA,NA,frab plane,straight_car_1,straight_plane_1,straight_cow_2,straight_car_2,straight_digger_1,straight_plane_2,straight_digger_2,straight_cow_1,straight_plane_1,1
+S118,1,dummyP,127.0.0.1,interactD,0,24,straight_elephant_2,NA,frab elephant pag,frab elephant pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,0,24,straight_elephant_2,NA,NA,frab elephant pag,straight_panda_1,straight_rocket_2,straight_elephant_2,straight_squirrel_2,straight_squirrel_1,straight_panda_2,straight_rocket_1,straight_elephant_1,straight_elephant_2,1
+S118,1,1181,129.215.204.33,interactD,0,24,straight_plane_2,NA,frag plane fagh,frab plane pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,0,24,straight_plane_2,NA,NA,frab plane pag,straight_boat_1,straight_plane_2,straight_elephant_1,straight_hedgehog_2,straight_boat_2,straight_elephant_2,straight_plane_1,straight_hedgehog_1,straight_plane_2,1
+S118,1,dummyP,127.0.0.1,interactD,0,25,straight_panda_1,NA,frab panda,frab panda,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,0,25,straight_panda_1,NA,NA,frab panda,straight_panda_2,straight_kangaroo_1,straight_fox_1,straight_digger_1,straight_kangaroo_2,straight_fox_2,straight_digger_2,straight_panda_1,straight_panda_1,1
+S118,1,1181,129.215.204.33,interactD,0,25,straight_panda_2,NA,frag panda fag,frab panda pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,0,25,straight_panda_2,NA,NA,frab panda pag,straight_tractor_2,straight_tractor_1,straight_panda_1,straight_panda_2,straight_bus_1,straight_bus_2,straight_rocket_2,straight_rocket_1,straight_panda_2,1
+S118,1,dummyP,127.0.0.1,interactD,0,26,straight_tractor_2,NA,frab tractor pag,frab tractor pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,0,26,straight_tractor_2,NA,NA,frab tractor pag,straight_fox_2,straight_car_1,straight_tractor_1,straight_fox_1,straight_kangaroo_1,straight_kangaroo_2,straight_car_2,straight_tractor_2,straight_tractor_2,1
+S118,1,1181,129.215.204.33,interactD,0,26,straight_plane_2,NA,frag pane fag,frab plane pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,0,26,straight_plane_2,NA,NA,frab plane pag,straight_elephant_1,straight_dog_2,straight_boat_1,straight_boat_2,straight_plane_2,straight_dog_1,straight_plane_1,straight_elephant_2,straight_plane_2,1
+S118,1,dummyP,127.0.0.1,interactD,0,27,straight_hedgehog_1,NA,frab hedgehog,frab hedgehog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,0,27,straight_hedgehog_1,NA,NA,frab hedgehog,straight_dog_1,straight_hedgehog_1,straight_hedgehog_2,straight_panda_1,straight_digger_2,straight_digger_1,straight_panda_2,straight_dog_2,straight_hedgehog_2,0
+S118,1,1181,129.215.204.33,interactD,0,27,straight_digger_1,NA,fartg tractor,pag tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,0,27,straight_digger_1,NA,NA,pag tractor,straight_cow_2,straight_dog_2,straight_hedgehog_1,straight_dog_1,straight_cow_1,straight_hedgehog_2,straight_digger_1,straight_digger_2,straight_cow_1,0
+S118,1,dummyP,127.0.0.1,interactD,0,28,straight_plane_1,NA,frab plane,frab plane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,0,28,straight_plane_1,NA,NA,frab plane,straight_plane_1,straight_dog_2,straight_train_1,straight_kangaroo_1,straight_dog_1,straight_kangaroo_2,straight_train_2,straight_plane_2,straight_kangaroo_1,0
+S118,1,1181,129.215.204.33,interactD,0,28,straight_fox_1,NA,frag,frab,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,0,28,straight_fox_1,NA,NA,frab,straight_bus_2,straight_cow_2,straight_cow_1,straight_boat_1,straight_boat_2,straight_fox_1,straight_bus_1,straight_fox_2,straight_bus_1,0
+S118,1,dummyP,127.0.0.1,interactD,0,29,straight_squirrel_1,NA,frab squirrel,frab squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,0,29,straight_squirrel_1,NA,NA,frab squirrel,straight_digger_1,straight_dog_2,straight_squirrel_1,straight_digger_2,straight_dog_1,straight_cow_2,straight_cow_1,straight_squirrel_2,straight_squirrel_1,1
+S118,1,1181,129.215.204.33,interactD,0,29,straight_tractor_2,NA,frag tractor,frab tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,0,29,straight_tractor_2,NA,NA,frab tractor,straight_squirrel_2,straight_bus_1,straight_boat_1,straight_tractor_2,straight_squirrel_1,straight_bus_2,straight_boat_2,straight_tractor_1,straight_tractor_1,0
+S118,1,dummyP,127.0.0.1,interactD,0,30,straight_cow_2,NA,frab cow tid,frab cow tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,0,30,straight_cow_2,NA,NA,frab cow tid,straight_boat_2,straight_boat_1,straight_fox_2,straight_cow_1,straight_digger_2,straight_cow_2,straight_digger_1,straight_fox_1,straight_cow_2,1
+S118,1,1181,129.215.204.33,interactD,0,30,straight_rocket_2,NA,frag rocket tid,frab rocket tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,0,30,straight_rocket_2,NA,NA,frab rocket tid,straight_hedgehog_2,straight_rocket_2,straight_boat_2,straight_hedgehog_1,straight_rocket_1,straight_kangaroo_2,straight_kangaroo_1,straight_boat_1,straight_rocket_2,1
+S118,1,dummyP,127.0.0.1,interactD,0,31,straight_bus_2,NA,frab bus tid,frab bus tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,0,31,straight_bus_2,NA,NA,frab bus tid,straight_plane_2,straight_car_1,straight_car_2,straight_plane_1,straight_tractor_1,straight_bus_1,straight_bus_2,straight_tractor_2,straight_bus_2,1
+S118,1,1181,129.215.204.33,interactD,0,31,straight_kangaroo_2,NA,frag kangaroo fagh,frab kangaroo pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,0,31,straight_kangaroo_2,NA,NA,frab kangaroo pag,straight_kangaroo_1,straight_dog_1,straight_elephant_2,straight_kangaroo_2,straight_elephant_1,straight_boat_1,straight_boat_2,straight_dog_2,straight_kangaroo_2,1
+S118,1,dummyP,127.0.0.1,interactD,0,32,straight_tractor_1,NA,frab tractor,frab tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,0,32,straight_tractor_1,NA,NA,frab tractor,straight_boat_1,straight_fox_2,straight_boat_2,straight_tractor_1,straight_panda_1,straight_tractor_2,straight_panda_2,straight_fox_1,straight_tractor_1,1
+S118,1,1181,129.215.204.33,interactD,0,32,straight_digger_2,NA,frag tracotr tid,frab tractor tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,0,32,straight_digger_2,NA,NA,frab tractor tid,straight_car_2,straight_rocket_1,straight_rocket_2,straight_digger_1,straight_train_2,straight_car_1,straight_digger_2,straight_train_1,straight_train_2,0
+S118,1,dummyP,127.0.0.1,interactD,0,33,straight_plane_2,NA,frab plane pag,frab plane pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,0,33,straight_plane_2,NA,NA,frab plane pag,straight_dog_2,straight_elephant_2,straight_elephant_1,straight_cow_1,straight_dog_1,straight_cow_2,straight_plane_2,straight_plane_1,straight_elephant_1,0
+S118,1,1181,129.215.204.33,interactD,0,33,straight_dog_2,NA,frag dog fag,frab dog pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,0,33,straight_dog_2,NA,NA,frab dog pag,straight_dog_2,straight_squirrel_2,straight_dog_1,straight_squirrel_1,straight_tractor_2,straight_tractor_1,straight_bus_1,straight_bus_2,straight_dog_2,1
+S118,1,dummyP,127.0.0.1,interactD,0,34,straight_boat_1,NA,frab boat,frab boat,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,0,34,straight_boat_1,NA,NA,frab boat,straight_bus_1,straight_boat_2,straight_bus_2,straight_train_2,straight_rocket_1,straight_rocket_2,straight_boat_1,straight_train_1,straight_train_1,0
+S118,1,1181,129.215.204.33,interactD,0,34,straight_train_2,NA,frag trainfag,frab train,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,0,34,straight_train_2,NA,NA,frab train,straight_train_1,straight_rocket_1,straight_car_1,straight_car_2,straight_rocket_2,straight_cow_2,straight_train_2,straight_cow_1,straight_train_1,0
+S118,1,dummyP,127.0.0.1,interactD,0,35,straight_fox_1,NA,frab fox,frab fox,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,0,35,straight_fox_1,NA,NA,frab fox,straight_bus_2,straight_fox_2,straight_fox_1,straight_squirrel_1,straight_car_2,straight_squirrel_2,straight_car_1,straight_bus_1,straight_fox_1,1
+S118,1,1181,129.215.204.33,interactD,0,35,straight_fox_2,NA,frag foz tid,frab fox tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,0,35,straight_fox_2,NA,NA,frab fox tid,straight_digger_1,straight_cow_2,straight_fox_2,straight_cow_1,straight_digger_2,straight_fox_1,straight_car_2,straight_car_1,straight_fox_2,1
+S118,1,dummyP,127.0.0.1,interactD,1,0,straight_fox_1,NA,frab fox,frab fox,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,1,0,straight_fox_1,NA,NA,frab fox,straight_fox_1,straight_cow_1,straight_cow_2,straight_fox_2,straight_bus_1,straight_kangaroo_2,straight_kangaroo_1,straight_bus_2,straight_fox_1,1
+S118,1,1181,129.215.204.33,interactD,1,0,straight_panda_2,NA,frag panda fag,frab panda pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,1,0,straight_panda_2,NA,NA,frab panda pag,straight_kangaroo_1,straight_panda_2,straight_panda_1,straight_kangaroo_2,straight_bus_1,straight_car_2,straight_car_1,straight_bus_2,straight_panda_2,1
+S118,1,dummyP,127.0.0.1,interactD,1,1,straight_boat_2,NA,frab boat pag,frab boat pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,1,1,straight_boat_2,NA,NA,frab boat pag,straight_bus_1,straight_boat_1,straight_boat_2,straight_train_1,straight_bus_2,straight_dog_2,straight_train_2,straight_dog_1,straight_train_1,0
+S118,1,1181,129.215.204.33,interactD,1,1,straight_elephant_2,NA,frag elephant fag,frab elephant pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,1,1,straight_elephant_2,NA,NA,frab elephant pag,straight_elephant_1,straight_dog_2,straight_hedgehog_2,straight_digger_1,straight_digger_2,straight_elephant_2,straight_dog_1,straight_hedgehog_1,straight_elephant_2,1
+S118,1,dummyP,127.0.0.1,interactD,1,2,straight_hedgehog_2,NA,frab hedgehog tid,frab hedgehog tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,1,2,straight_hedgehog_2,NA,NA,frab hedgehog tid,straight_rocket_1,straight_panda_1,straight_panda_2,straight_boat_1,straight_boat_2,straight_rocket_2,straight_hedgehog_1,straight_hedgehog_2,straight_hedgehog_2,1
+S118,1,1181,129.215.204.33,interactD,1,2,straight_dog_2,NA,frag dog fag,frab dog pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,1,2,straight_dog_2,NA,NA,frab dog pag,straight_tractor_1,straight_digger_1,straight_tractor_2,straight_car_1,straight_digger_2,straight_dog_2,straight_dog_1,straight_car_2,straight_dog_2,1
+S118,1,dummyP,127.0.0.1,interactD,1,3,straight_squirrel_1,NA,frab squirrel,frab squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,1,3,straight_squirrel_1,NA,NA,frab squirrel,straight_boat_2,straight_squirrel_1,straight_train_1,straight_bus_1,straight_boat_1,straight_bus_2,straight_squirrel_2,straight_train_2,straight_squirrel_1,1
+S118,1,1181,129.215.204.33,interactD,1,3,straight_tractor_2,NA,frag tractor fag,frab tractor pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,1,3,straight_tractor_2,NA,NA,frab tractor pag,straight_panda_1,straight_tractor_1,straight_cow_1,straight_digger_2,straight_panda_2,straight_digger_1,straight_cow_2,straight_tractor_2,straight_tractor_2,1
+S118,1,dummyP,127.0.0.1,interactD,1,4,straight_tractor_2,NA,frab tractor pag,frab tractor pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,1,4,straight_tractor_2,NA,NA,frab tractor pag,straight_tractor_2,straight_elephant_2,straight_boat_1,straight_elephant_1,straight_bus_2,straight_boat_2,straight_bus_1,straight_tractor_1,straight_tractor_2,1
+S118,1,1181,129.215.204.33,interactD,1,4,straight_elephant_2,NA,frag elephant fag,frab elephant pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,1,4,straight_elephant_2,NA,NA,frab elephant pag,straight_tractor_1,straight_tractor_2,straight_elephant_1,straight_boat_1,straight_hedgehog_1,straight_elephant_2,straight_hedgehog_2,straight_boat_2,straight_elephant_2,1
+S118,1,dummyP,127.0.0.1,interactD,1,5,straight_cow_1,NA,frab cow,frab cow,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,1,5,straight_cow_1,NA,NA,frab cow,straight_digger_2,straight_digger_1,straight_plane_2,straight_cow_2,straight_cow_1,straight_plane_1,straight_boat_1,straight_boat_2,straight_cow_1,1
+S118,1,1181,129.215.204.33,interactD,1,5,straight_train_1,NA,frag train,frab train,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,1,5,straight_train_1,NA,NA,frab train,straight_fox_1,straight_fox_2,straight_tractor_2,straight_tractor_1,straight_train_2,straight_train_1,straight_digger_1,straight_digger_2,straight_train_1,1
+S118,1,dummyP,127.0.0.1,interactD,1,6,straight_tractor_1,NA,frab tractor,frab tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,1,6,straight_tractor_1,NA,NA,frab tractor,straight_bus_1,straight_plane_2,straight_elephant_1,straight_elephant_2,straight_bus_2,straight_tractor_1,straight_tractor_2,straight_plane_1,straight_tractor_1,1
+S118,1,1181,129.215.204.33,interactD,1,6,straight_panda_1,NA,frag panda fag,frab panda pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,1,6,straight_panda_1,NA,NA,frab panda pag,straight_fox_2,straight_fox_1,straight_plane_2,straight_boat_1,straight_plane_1,straight_boat_2,straight_panda_1,straight_panda_2,straight_panda_2,0
+S118,1,dummyP,127.0.0.1,interactD,1,7,straight_cow_2,NA,frab cow pag,frab cow pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,1,7,straight_cow_2,NA,NA,frab cow pag,straight_cow_1,straight_elephant_1,straight_elephant_2,straight_fox_2,straight_cow_2,straight_rocket_1,straight_rocket_2,straight_fox_1,straight_fox_2,0
+S118,1,1181,129.215.204.33,interactD,1,7,straight_squirrel_2,NA,frag squirrel fag,frab squirrel pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,1,7,straight_squirrel_2,NA,NA,frab squirrel pag,straight_kangaroo_2,straight_elephant_2,straight_kangaroo_1,straight_elephant_1,straight_squirrel_2,straight_rocket_2,straight_squirrel_1,straight_rocket_1,straight_squirrel_2,1
+S118,1,dummyP,127.0.0.1,interactD,1,8,straight_bus_2,NA,frab bus pag,frab bus pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,1,8,straight_bus_2,NA,NA,frab bus pag,straight_elephant_2,straight_dog_2,straight_cow_1,straight_cow_2,straight_elephant_1,straight_bus_2,straight_dog_1,straight_bus_1,straight_cow_2,0
+S118,1,1181,129.215.204.33,interactD,1,8,straight_tractor_1,NA,frag tractor,frab tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,1,8,straight_tractor_1,NA,NA,frab tractor,straight_bus_2,straight_tractor_2,straight_digger_2,straight_tractor_1,straight_digger_1,straight_train_1,straight_bus_1,straight_train_2,straight_tractor_1,1
+S118,1,dummyP,127.0.0.1,interactD,1,9,straight_rocket_1,NA,frab rocket,frab rocket,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,1,9,straight_rocket_1,NA,NA,frab rocket,straight_car_1,straight_plane_2,straight_car_2,straight_rocket_2,straight_plane_1,straight_train_1,straight_train_2,straight_rocket_1,straight_rocket_1,1
+S118,1,1181,129.215.204.33,interactD,1,9,straight_kangaroo_2,NA,frag kangaroo fag,frab kangaroo pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,1,9,straight_kangaroo_2,NA,NA,frab kangaroo pag,straight_kangaroo_1,straight_tractor_2,straight_kangaroo_2,straight_panda_2,straight_tractor_1,straight_panda_1,straight_boat_1,straight_boat_2,straight_kangaroo_2,1
+S118,1,dummyP,127.0.0.1,interactD,1,10,straight_car_2,NA,frab car tid,frab car tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,1,10,straight_car_2,NA,NA,frab car tid,straight_kangaroo_2,straight_car_1,straight_car_2,straight_panda_1,straight_kangaroo_1,straight_train_2,straight_train_1,straight_panda_2,straight_car_2,1
+S118,1,1181,129.215.204.33,interactD,1,10,straight_train_2,NA,frag train fag,frab train pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,1,10,straight_train_2,NA,NA,frab train pag,straight_train_1,straight_train_2,straight_boat_2,straight_plane_2,straight_rocket_2,straight_boat_1,straight_plane_1,straight_rocket_1,straight_train_2,1
+S118,1,dummyP,127.0.0.1,interactD,1,11,straight_hedgehog_2,NA,frab hedgehog pag,frab hedgehog pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,1,11,straight_hedgehog_2,NA,NA,frab hedgehog pag,straight_rocket_1,straight_cow_2,straight_cow_1,straight_tractor_1,straight_hedgehog_2,straight_hedgehog_1,straight_tractor_2,straight_rocket_2,straight_hedgehog_2,1
+S118,1,1181,129.215.204.33,interactD,1,11,straight_boat_2,NA,frag train tid,frab train tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,1,11,straight_boat_2,NA,NA,frab train tid,straight_plane_1,straight_boat_2,straight_fox_2,straight_panda_1,straight_boat_1,straight_plane_2,straight_panda_2,straight_fox_1,straight_plane_2,0
+S118,1,dummyP,127.0.0.1,interactD,1,12,straight_panda_1,NA,frab panda,frab panda,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,1,12,straight_panda_1,NA,NA,frab panda,straight_plane_2,straight_panda_2,straight_panda_1,straight_rocket_1,straight_dog_1,straight_rocket_2,straight_plane_1,straight_dog_2,straight_panda_1,1
+S118,1,1181,129.215.204.33,interactD,1,12,straight_plane_2,NA,frag pamne fag,frab plane pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,1,12,straight_plane_2,NA,NA,frab plane pag,straight_rocket_1,straight_plane_1,straight_rocket_2,straight_plane_2,straight_train_1,straight_digger_1,straight_digger_2,straight_train_2,straight_plane_2,1
+S118,1,dummyP,127.0.0.1,interactD,1,13,straight_hedgehog_1,NA,frab hedgehog,frab hedgehog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,1,13,straight_hedgehog_1,NA,NA,frab hedgehog,straight_elephant_2,straight_bus_1,straight_hedgehog_2,straight_digger_2,straight_bus_2,straight_hedgehog_1,straight_digger_1,straight_elephant_1,straight_hedgehog_1,1
+S118,1,1181,129.215.204.33,interactD,1,13,straight_kangaroo_2,NA,frag kangaroo fag,frab kangaroo pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,1,13,straight_kangaroo_2,NA,NA,frab kangaroo pag,straight_train_1,straight_train_2,straight_digger_1,straight_digger_2,straight_kangaroo_2,straight_car_1,straight_car_2,straight_kangaroo_1,straight_kangaroo_2,1
+S118,1,dummyP,127.0.0.1,interactD,1,14,straight_elephant_1,NA,frab elephant,frab elephant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,1,14,straight_elephant_1,NA,NA,frab elephant,straight_panda_2,straight_bus_1,straight_dog_2,straight_panda_1,straight_elephant_2,straight_dog_1,straight_bus_2,straight_elephant_1,straight_elephant_1,1
+S118,1,1181,129.215.204.33,interactD,1,14,straight_fox_1,NA,frag squirrel,frab squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,1,14,straight_fox_1,NA,NA,frab squirrel,straight_digger_2,straight_fox_1,straight_tractor_2,straight_tractor_1,straight_digger_1,straight_fox_2,straight_cow_1,straight_cow_2,straight_digger_1,0
+S118,1,dummyP,127.0.0.1,interactD,1,15,straight_bus_2,NA,frab bus tid,frab bus tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,1,15,straight_bus_2,NA,NA,frab bus tid,straight_dog_1,straight_bus_1,straight_tractor_2,straight_boat_1,straight_dog_2,straight_bus_2,straight_tractor_1,straight_boat_2,straight_bus_1,0
+S118,1,1181,129.215.204.33,interactD,1,15,straight_dog_1,NA,frag dog,frab dog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,1,15,straight_dog_1,NA,NA,frab dog,straight_cow_1,straight_hedgehog_2,straight_dog_2,straight_panda_2,straight_dog_1,straight_cow_2,straight_panda_1,straight_hedgehog_1,straight_dog_1,1
+S118,1,dummyP,127.0.0.1,interactD,1,16,straight_bus_1,NA,frab bus,frab bus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,1,16,straight_bus_1,NA,NA,frab bus,straight_tractor_1,straight_dog_1,straight_tractor_2,straight_panda_2,straight_bus_1,straight_dog_2,straight_panda_1,straight_bus_2,straight_bus_1,1
+S118,1,1181,129.215.204.33,interactD,1,16,straight_rocket_2,NA,frag rocket fag,frab rocket pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,1,16,straight_rocket_2,NA,NA,frab rocket pag,straight_rocket_1,straight_rocket_2,straight_squirrel_1,straight_kangaroo_2,straight_bus_1,straight_squirrel_2,straight_bus_2,straight_kangaroo_1,straight_rocket_2,1
+S118,1,dummyP,127.0.0.1,interactD,1,17,straight_fox_2,NA,frab fox tid,frab fox tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,1,17,straight_fox_2,NA,NA,frab fox tid,straight_plane_2,straight_elephant_2,straight_elephant_1,straight_cow_1,straight_plane_1,straight_fox_1,straight_fox_2,straight_cow_2,straight_fox_1,0
+S118,1,1181,129.215.204.33,interactD,1,17,straight_boat_1,NA,frag baot,frab boat,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,1,17,straight_boat_1,NA,NA,frab boat,straight_panda_2,straight_boat_1,straight_panda_1,straight_boat_2,straight_fox_1,straight_fox_2,straight_rocket_1,straight_rocket_2,straight_boat_1,1
+S118,1,dummyP,127.0.0.1,interactD,1,18,straight_boat_1,NA,frab boat,frab boat,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,1,18,straight_boat_1,NA,NA,frab boat,straight_panda_1,straight_cow_1,straight_boat_1,straight_cow_2,straight_panda_2,straight_squirrel_2,straight_squirrel_1,straight_boat_2,straight_boat_1,1
+S118,1,1181,129.215.204.33,interactD,1,18,straight_digger_2,NA,frag tractor fag,frab tractor pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,1,18,straight_digger_2,NA,NA,frab tractor pag,straight_digger_2,straight_dog_2,straight_digger_1,straight_bus_1,straight_boat_1,straight_dog_1,straight_bus_2,straight_boat_2,straight_boat_2,0
+S118,1,dummyP,127.0.0.1,interactD,1,19,straight_car_2,NA,frab car pag,frab car pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,1,19,straight_car_2,NA,NA,frab car pag,straight_digger_2,straight_cow_1,straight_cow_2,straight_car_1,straight_digger_1,straight_hedgehog_1,straight_hedgehog_2,straight_car_2,straight_car_1,0
+S118,1,1181,129.215.204.33,interactD,1,19,straight_digger_1,NA,frab tractor,frab tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,1,19,straight_digger_1,NA,NA,frab tractor,straight_digger_1,straight_plane_2,straight_dog_1,straight_plane_1,straight_tractor_2,straight_digger_2,straight_tractor_1,straight_dog_2,straight_tractor_1,0
+S118,1,dummyP,127.0.0.1,interactD,1,20,straight_panda_2,NA,frab panda pag,frab panda pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,1,20,straight_panda_2,NA,NA,frab panda pag,straight_kangaroo_2,straight_bus_1,straight_kangaroo_1,straight_bus_2,straight_car_1,straight_panda_1,straight_panda_2,straight_car_2,straight_panda_2,1
+S118,1,1181,129.215.204.33,interactD,1,20,straight_rocket_1,NA,frab rocket,frab rocket,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,1,20,straight_rocket_1,NA,NA,frab rocket,straight_rocket_2,straight_fox_2,straight_fox_1,straight_hedgehog_2,straight_hedgehog_1,straight_panda_1,straight_rocket_1,straight_panda_2,straight_rocket_1,1
+S118,1,dummyP,127.0.0.1,interactD,1,21,straight_cow_2,NA,frab cow tid,frab cow tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,1,21,straight_cow_2,NA,NA,frab cow tid,straight_squirrel_2,straight_cow_1,straight_cow_2,straight_dog_2,straight_squirrel_1,straight_digger_2,straight_digger_1,straight_dog_1,straight_cow_2,1
+S118,1,1181,129.215.204.33,interactD,1,21,straight_plane_1,NA,frab planbe,frab plane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,1,21,straight_plane_1,NA,NA,frab plane,straight_digger_1,straight_bus_2,straight_boat_2,straight_plane_2,straight_bus_1,straight_digger_2,straight_plane_1,straight_boat_1,straight_plane_1,1
+S118,1,dummyP,127.0.0.1,interactD,1,22,straight_elephant_2,NA,frab elephant pag,frab elephant pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,1,22,straight_elephant_2,NA,NA,frab elephant pag,straight_elephant_2,straight_hedgehog_2,straight_dog_2,straight_panda_1,straight_dog_1,straight_panda_2,straight_hedgehog_1,straight_elephant_1,straight_elephant_2,1
+S118,1,1181,129.215.204.33,interactD,1,22,straight_tractor_2,NA,frab tractior fag,frab tractor pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,1,22,straight_tractor_2,NA,NA,frab tractor pag,straight_dog_2,straight_tractor_1,straight_tractor_2,straight_squirrel_2,straight_squirrel_1,straight_elephant_1,straight_dog_1,straight_elephant_2,straight_tractor_2,1
+S118,1,dummyP,127.0.0.1,interactD,1,23,straight_rocket_2,NA,frab rocket tid,frab rocket tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,1,23,straight_rocket_2,NA,NA,frab rocket tid,straight_boat_1,straight_tractor_1,straight_boat_2,straight_rocket_2,straight_rocket_1,straight_kangaroo_1,straight_tractor_2,straight_kangaroo_2,straight_tractor_2,0
+S118,1,1181,129.215.204.33,interactD,1,23,straight_kangaroo_1,NA,frab kangaroo,frab kangaroo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,1,23,straight_kangaroo_1,NA,NA,frab kangaroo,straight_kangaroo_1,straight_dog_2,straight_cow_1,straight_cow_2,straight_boat_2,straight_dog_1,straight_boat_1,straight_kangaroo_2,straight_kangaroo_1,1
+S118,1,dummyP,127.0.0.1,interactD,1,24,straight_fox_2,NA,frab fox pag,frab fox pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,1,24,straight_fox_2,NA,NA,frab fox pag,straight_kangaroo_2,straight_fox_2,straight_rocket_2,straight_kangaroo_1,straight_fox_1,straight_rocket_1,straight_car_1,straight_car_2,straight_fox_1,0
+S118,1,1181,129.215.204.33,interactD,1,24,straight_panda_2,NA,frag panda,frab panda,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,1,24,straight_panda_2,NA,NA,frab panda,straight_squirrel_1,straight_plane_1,straight_dog_2,straight_plane_2,straight_panda_2,straight_panda_1,straight_dog_1,straight_squirrel_2,straight_panda_1,0
+S118,1,dummyP,127.0.0.1,interactD,1,25,straight_squirrel_2,NA,frab squirrel tid,frab squirrel tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,1,25,straight_squirrel_2,NA,NA,frab squirrel tid,straight_car_2,straight_elephant_2,straight_cow_2,straight_squirrel_2,straight_elephant_1,straight_cow_1,straight_car_1,straight_squirrel_1,straight_squirrel_1,0
+S118,1,1181,129.215.204.33,interactD,1,25,straight_boat_2,NA,frag boat fag,frab boat pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,1,25,straight_boat_2,NA,NA,frab boat pag,straight_hedgehog_2,straight_car_2,straight_boat_2,straight_car_1,straight_squirrel_1,straight_squirrel_2,straight_boat_1,straight_hedgehog_1,straight_boat_2,1
+S118,1,dummyP,127.0.0.1,interactD,1,26,straight_elephant_2,NA,frab elephant tid,frab elephant tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,1,26,straight_elephant_2,NA,NA,frab elephant tid,straight_boat_1,straight_tractor_1,straight_boat_2,straight_digger_2,straight_elephant_1,straight_elephant_2,straight_tractor_2,straight_digger_1,straight_elephant_2,1
+S118,1,1181,129.215.204.33,interactD,1,26,straight_elephant_1,NA,frag elephant,frab elephant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,1,26,straight_elephant_1,NA,NA,frab elephant,straight_elephant_2,straight_elephant_1,straight_panda_1,straight_panda_2,straight_cow_1,straight_cow_2,straight_tractor_2,straight_tractor_1,straight_elephant_1,1
+S118,1,dummyP,127.0.0.1,interactD,1,27,straight_squirrel_2,NA,frab squirrel pag,frab squirrel pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,1,27,straight_squirrel_2,NA,NA,frab squirrel pag,straight_plane_1,straight_squirrel_1,straight_bus_2,straight_squirrel_2,straight_bus_1,straight_plane_2,straight_train_1,straight_train_2,straight_squirrel_2,1
+S118,1,1181,129.215.204.33,interactD,1,27,straight_squirrel_1,NA,frag swquirrel,frab squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,1,27,straight_squirrel_1,NA,NA,frab squirrel,straight_squirrel_2,straight_panda_2,straight_train_2,straight_kangaroo_2,straight_train_1,straight_squirrel_1,straight_panda_1,straight_kangaroo_1,straight_squirrel_1,1
+S118,1,dummyP,127.0.0.1,interactD,1,28,straight_car_1,NA,frab car,frab car,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,1,28,straight_car_1,NA,NA,frab car,straight_digger_2,straight_dog_2,straight_bus_2,straight_bus_1,straight_car_1,straight_dog_1,straight_digger_1,straight_car_2,straight_car_1,1
+S118,1,1181,129.215.204.33,interactD,1,28,straight_train_2,NA,frag train tid,frab train tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,1,28,straight_train_2,NA,NA,frab train tid,straight_bus_2,straight_kangaroo_1,straight_fox_2,straight_kangaroo_2,straight_train_1,straight_bus_1,straight_train_2,straight_fox_1,straight_train_2,1
+S118,1,dummyP,127.0.0.1,interactD,1,29,straight_rocket_2,NA,frab rocket pag,frab rocket pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,1,29,straight_rocket_2,NA,NA,frab rocket pag,straight_digger_1,straight_kangaroo_2,straight_train_2,straight_kangaroo_1,straight_train_1,straight_digger_2,straight_rocket_1,straight_rocket_2,straight_rocket_2,1
+S118,1,1181,129.215.204.33,interactD,1,29,straight_dog_2,NA,frag dog fag,frab dog pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,1,29,straight_dog_2,NA,NA,frab dog pag,straight_dog_1,straight_car_1,straight_dog_2,straight_hedgehog_2,straight_digger_1,straight_hedgehog_1,straight_digger_2,straight_car_2,straight_dog_2,1
+S118,1,dummyP,127.0.0.1,interactD,1,30,straight_plane_2,NA,frab plane tid,frab plane tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,1,30,straight_plane_2,NA,NA,frab plane tid,straight_car_1,straight_elephant_2,straight_digger_1,straight_elephant_1,straight_plane_1,straight_digger_2,straight_plane_2,straight_car_2,straight_plane_2,1
+S118,1,1181,129.215.204.33,interactD,1,30,straight_squirrel_2,NA,frag squirrel fag,frab squirrel pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,1,30,straight_squirrel_2,NA,NA,frab squirrel pag,straight_squirrel_2,straight_bus_2,straight_plane_2,straight_plane_1,straight_squirrel_1,straight_bus_1,straight_boat_2,straight_boat_1,straight_squirrel_2,1
+S118,1,dummyP,127.0.0.1,interactD,1,31,straight_plane_1,NA,frab plane,frab plane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,1,31,straight_plane_1,NA,NA,frab plane,straight_squirrel_2,straight_digger_1,straight_digger_2,straight_plane_2,straight_squirrel_1,straight_bus_2,straight_plane_1,straight_bus_1,straight_plane_1,1
+S118,1,1181,129.215.204.33,interactD,1,31,straight_fox_2,NA,frag squirrel fag,frab squirrel pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,1,31,straight_fox_2,NA,NA,frab squirrel pag,straight_fox_1,straight_elephant_2,straight_elephant_1,straight_dog_1,straight_tractor_1,straight_fox_2,straight_tractor_2,straight_dog_2,straight_fox_2,1
+S118,1,dummyP,127.0.0.1,interactD,1,32,straight_plane_2,NA,frab plane pag,frab plane pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,1,32,straight_plane_2,NA,NA,frab plane pag,straight_fox_1,straight_plane_2,straight_rocket_2,straight_bus_2,straight_rocket_1,straight_plane_1,straight_bus_1,straight_fox_2,straight_plane_2,1
+S118,1,1181,129.215.204.33,interactD,1,32,straight_rocket_2,NA,frag rocket tid,frab rocket tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,1,32,straight_rocket_2,NA,NA,frab rocket tid,straight_rocket_2,straight_rocket_1,straight_boat_2,straight_train_2,straight_boat_1,straight_panda_1,straight_train_1,straight_panda_2,straight_rocket_2,1
+S118,1,dummyP,127.0.0.1,interactD,1,33,straight_panda_2,NA,frab panda tid,frab panda tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,1,33,straight_panda_2,NA,NA,frab panda tid,straight_elephant_1,straight_plane_2,straight_panda_2,straight_plane_1,straight_bus_1,straight_elephant_2,straight_panda_1,straight_bus_2,straight_panda_2,1
+S118,1,1181,129.215.204.33,interactD,1,33,straight_fox_2,NA,frag squirrel fag,frab squirrel pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,1,33,straight_fox_2,NA,NA,frab squirrel pag,straight_fox_1,straight_bus_1,straight_dog_2,straight_dog_1,straight_bus_2,straight_fox_2,straight_cow_2,straight_cow_1,straight_bus_2,0
+S118,1,dummyP,127.0.0.1,interactD,1,34,straight_tractor_2,NA,frab tractor tid,frab tractor tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,1,34,straight_tractor_2,NA,NA,frab tractor tid,straight_car_1,straight_tractor_1,straight_bus_1,straight_tractor_2,straight_train_2,straight_bus_2,straight_train_1,straight_car_2,straight_tractor_2,1
+S118,1,1181,129.215.204.33,interactD,1,34,straight_digger_2,NA,frag tractor fag,frab tractor pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,1,34,straight_digger_2,NA,NA,frab tractor pag,straight_car_2,straight_kangaroo_1,straight_kangaroo_2,straight_digger_2,straight_car_1,straight_tractor_2,straight_digger_1,straight_tractor_1,straight_tractor_2,0
+S118,1,dummyP,127.0.0.1,interactD,1,35,straight_boat_2,NA,frab boat tid,frab boat tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,1181,129.215.204.33,interactM,1,35,straight_boat_2,NA,NA,frab boat tid,straight_boat_1,straight_boat_2,straight_car_2,straight_digger_1,straight_digger_2,straight_car_1,straight_fox_2,straight_fox_1,straight_boat_2,1
+S118,1,1181,129.215.204.33,interactD,1,35,straight_plane_2,NA,frag pplane fag,frab plane pag,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S118,1,dummyP,127.0.0.1,interactM,1,35,straight_plane_2,NA,NA,frab plane pag,straight_plane_2,straight_cow_1,straight_hedgehog_2,straight_hedgehog_1,straight_car_1,straight_plane_1,straight_car_2,straight_cow_2,straight_plane_2,1

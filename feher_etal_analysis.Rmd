@@ -53,14 +53,14 @@ load.data.by.prefix <- function(prefix, directory.name) {
 ```
 
 ```{r}
-dyad.data <- load.data.by.prefix("D", "../../Data/NoBottleneckData/Dyads")
+dyad.data <- load.data.by.prefix("D", "Data/NoBottleneckData/Dyads")
 ```
 ```{r}
-pseudodyad.data <- load.data.by.prefix("P",  "../../Data/NoBottleneckData/PseudoDyads")
+pseudodyad.data <- load.data.by.prefix("P",  "Data/NoBottleneckData/PseudoDyads")
 ```
 
 ```{r}
-single.data <- load.data.by.prefix("S",  "../../Data/NoBottleneckData/Singles")
+single.data <- load.data.by.prefix("S",  "Data/NoBottleneckData/Singles")
 ```
 
 Combine into a single data frame.

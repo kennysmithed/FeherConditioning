@@ -1,0 +1,801 @@
+Chain,Generation,ParticipantID,IP,Stage,Block,TrialNumber,Meaning,TrainingLabel,TypedLabel,CheckedLabel,Array1,Array2,Array3,Array4,Array5,Array6,Array7,Array8,Selected,Score
+S119,1,dummyP,127.0.0.1,vocabTraining,0,1,panda,panda,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTraining,0,2,kangaroo,kangaroo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTraining,0,3,squirrel,squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTraining,0,4,hamster,hamster,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTraining,0,5,zebra,zebra,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTraining,0,6,fox,fox,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTraining,0,7,cow,cow,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTraining,0,8,tiger,tiger,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTraining,0,9,elephant,elephant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTraining,0,10,elephant,elephant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTraining,0,11,hippo,hippo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTraining,0,12,tiger,tiger,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTraining,0,1,hamster,hamster,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTraining,0,13,fox,fox,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTraining,0,14,giraffe,giraffe,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTraining,0,15,hedgehog,hedgehog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTraining,0,16,giraffe,giraffe,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTraining,0,2,kangaroo,kangaroo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTraining,0,17,dog,dog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTraining,0,18,pig,pig,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTraining,0,19,pig,pig,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTraining,0,20,rabbit,rabbit,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTraining,0,3,elephant,elephant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTraining,0,21,cow,cow,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTraining,0,22,kangaroo,kangaroo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTraining,0,23,dog,dog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTraining,0,24,hippo,hippo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTraining,0,4,cow,cow,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTraining,0,25,panda,panda,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTraining,0,26,rabbit,rabbit,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTraining,0,27,squirrel,squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTraining,0,28,hedgehog,hedgehog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTraining,0,5,tiger,tiger,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTraining,0,29,zebra,zebra,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTraining,0,30,sheep,sheep,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTraining,0,31,hamster,hamster,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTraining,0,32,sheep,sheep,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTraining,0,6,cow,cow,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTraining,0,7,pig,pig,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTraining,0,8,panda,panda,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTraining,0,9,giraffe,giraffe,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTraining,0,10,hippo,hippo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTraining,0,11,tiger,tiger,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTraining,0,12,elephant,elephant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTraining,0,13,squirrel,squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTraining,0,14,zebra,zebra,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTraining,0,15,hamster,hamster,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTraining,0,16,fox,fox,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTraining,0,17,kangaroo,kangaroo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTraining,0,18,sheep,sheep,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTraining,0,19,giraffe,giraffe,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTraining,0,20,panda,panda,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTraining,0,21,dog,dog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTraining,0,22,dog,dog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTraining,0,23,sheep,sheep,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTraining,0,24,zebra,zebra,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTraining,0,25,pig,pig,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTraining,0,26,hippo,hippo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTraining,0,27,squirrel,squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTraining,0,28,fox,fox,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTraining,0,29,hedgehog,hedgehog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTraining,0,30,rabbit,rabbit,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTraining,0,31,hedgehog,hedgehog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTraining,0,32,rabbit,rabbit,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTesting,0,1,panda,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTesting,0,2,dog,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTesting,0,3,rabbit,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTesting,0,4,giraffe,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTesting,0,5,sheep,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTesting,0,6,zebra,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTesting,0,7,hedgehog,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTesting,0,8,cow,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTesting,0,9,hamster,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTesting,0,10,sheep,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTesting,0,11,elephant,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTesting,0,12,hamster,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTesting,0,13,panda,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTesting,0,14,kangaroo,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTesting,0,15,hedgehog,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTesting,0,16,tiger,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTesting,0,17,fox,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTesting,0,18,tiger,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTesting,0,1,dog,NA,dog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTesting,0,19,hippo,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTesting,0,20,hippo,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTesting,0,21,dog,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTesting,0,22,cow,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTesting,0,2,hippo,NA,hippo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTesting,0,23,rabbit,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTesting,0,24,squirrel,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTesting,0,25,pig,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTesting,0,26,zebra,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTesting,0,3,panda,NA,panda,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTesting,0,27,squirrel,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTesting,0,28,pig,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTesting,0,29,fox,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTesting,0,30,giraffe,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTesting,0,4,elephant,NA,elephant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTesting,0,31,kangaroo,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,vocabTesting,0,32,elephant,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTesting,0,5,kangaroo,NA,kangaroo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTesting,0,6,pig,NA,pig,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTesting,0,7,kangaroo,NA,kangaroo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTesting,0,8,fox,NA,fox,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTesting,0,9,hedgehog,NA,hedgehog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTesting,0,10,giraffe,NA,giraffe,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTesting,0,11,tiger,NA,tiger,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTesting,0,12,cow,NA,cow,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTesting,0,13,cow,NA,cow,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTesting,0,14,dog,NA,dog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTesting,0,15,hippo,NA,hippo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTesting,0,16,squirrel,NA,squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTesting,0,17,hamster,NA,hamster,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTesting,0,18,sheep,NA,shhep,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTesting,0,19,zebra,NA,zebra,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTesting,0,20,hamster,NA,hamster,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTesting,0,21,elephant,NA,elephant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTesting,0,22,giraffe,NA,giraffe,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTesting,0,23,pig,NA,pig,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTesting,0,24,fox,NA,fox,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTesting,0,25,hedgehog,NA,hedgehog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTesting,0,26,rabbit,NA,rabbit,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTesting,0,27,rabbit,NA,rabbit,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTesting,0,28,squirrel,NA,squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTesting,0,29,sheep,NA,sheep,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTesting,0,30,tiger,NA,tiger,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTesting,0,31,panda,NA,panda,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,vocabTesting,0,32,zebra,NA,zebra,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,1,straight_sheep_1,shen sheep,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,2,straight_cow_2,shen cow tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,3,straight_rabbit_2,shen rabbit wib,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,4,straight_squirrel_2,shen squirrel tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,5,straight_dog_2,shen dog wib,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,6,straight_hedgehog_2,shen hedgehog wib,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,7,straight_giraffe_2,shen giraffe tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,8,straight_sheep_2,shen sheep tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,9,straight_hamster_2,shen hamster tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,1,straight_cow_1,shen cow,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,10,straight_hedgehog_1,shen hedgehog,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,11,straight_hamster_1,shen hamster,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,2,straight_rabbit_2,shen rabbit wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,12,straight_pig_2,shen pig tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,13,straight_fox_2,shen fox wib,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,3,straight_hedgehog_2,shen hedgehog wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,14,straight_hippo_2,shen hippo tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,15,straight_fox_1,shen fox,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,4,straight_elephant_2,shen elephant wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,16,straight_hedgehog_2,shen hedgehog tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,17,straight_panda_2,shen panda wib,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,5,straight_kangaroo_1,shen kangaroo,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,18,straight_giraffe_1,shen giraffe,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,19,straight_fox_2,shen fox tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,6,straight_pig_2,shen pig wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,20,straight_rabbit_2,shen rabbit tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,21,straight_squirrel_2,shen squirrel wib,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,7,straight_rabbit_1,shen rabbit,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,22,straight_panda_1,shen panda,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,23,straight_pig_2,shen pig wib,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,8,straight_kangaroo_2,shen kangaroo tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,24,straight_elephant_2,shen elephant wib,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,25,straight_zebra_1,shen zebra,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,9,straight_dog_1,shen dog,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,26,straight_tiger_2,shen tiger wib,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,27,straight_panda_2,shen panda tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,10,straight_squirrel_2,shen squirrel wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,28,straight_kangaroo_1,shen kangaroo,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,29,straight_hippo_2,shen hippo wib,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,11,straight_panda_2,shen panda tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,30,straight_kangaroo_2,shen kangaroo tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,31,straight_dog_2,shen dog tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,12,straight_giraffe_2,shen giraffe wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,32,straight_hippo_1,shen hippo,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,33,straight_kangaroo_2,shen kangaroo wib,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,13,straight_pig_1,shen pig,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,34,straight_pig_1,shen pig,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,35,straight_sheep_2,shen sheep wib,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,14,straight_hamster_2,shen hamster tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,36,straight_cow_2,shen cow wib,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,37,straight_tiger_1,shen tiger,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,15,straight_hippo_1,shen hippo,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,38,straight_giraffe_2,shen giraffe wib,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,39,straight_zebra_2,shen zebra tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,40,straight_rabbit_1,shen rabbit,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,16,straight_tiger_2,shen tiger tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,41,straight_cow_1,shen cow,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,42,straight_hamster_2,shen hamster wib,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,17,straight_cow_2,shen cow wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,43,straight_elephant_1,shen elephant,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,44,straight_elephant_2,shen elephant tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,18,straight_zebra_2,shen zebra wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,45,straight_dog_1,shen dog,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,46,straight_zebra_2,shen zebra wib,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,19,straight_sheep_2,shen sheep wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,47,straight_tiger_2,shen tiger tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,0,48,straight_squirrel_1,shen squirrel,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,20,straight_zebra_2,shen zebra tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,21,straight_fox_2,shen fox wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,22,straight_hamster_2,shen hamster wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,23,straight_sheep_1,shen sheep,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,24,straight_elephant_2,shen elephant tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,25,straight_hamster_1,shen hamster,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,26,straight_tiger_1,shen tiger,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,27,straight_squirrel_2,shen squirrel tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,28,straight_pig_2,shen pig tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,29,straight_hedgehog_2,shen hedgehog tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,30,straight_rabbit_2,shen rabbit tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,31,straight_sheep_2,shen sheep tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,32,straight_zebra_1,shen zebra,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,33,straight_dog_2,shen dog tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,34,straight_hippo_2,shen hippo wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,35,straight_fox_1,shen fox,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,36,straight_dog_2,shen dog wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,37,straight_panda_1,shen panda,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,38,straight_giraffe_1,shen giraffe,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,39,straight_tiger_2,shen tiger wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,40,straight_kangaroo_2,shen kangaroo wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,41,straight_squirrel_1,shen squirrel,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,42,straight_hippo_2,shen hippo tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,43,straight_giraffe_2,shen giraffe tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,44,straight_elephant_1,shen elephant,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,45,straight_hedgehog_1,shen hedgehog,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,46,straight_panda_2,shen panda wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,47,straight_fox_2,shen fox tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,0,48,straight_cow_2,shen cow tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,1,straight_kangaroo_1,shen kangaroo,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,2,straight_kangaroo_2,shen kangaroo wib,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,1,straight_hamster_2,shen hamster tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,3,straight_hedgehog_2,shen hedgehog wib,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,4,straight_elephant_1,shen elephant,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,2,straight_cow_1,shen cow,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,5,straight_fox_2,shen fox wib,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,6,straight_tiger_2,shen tiger wib,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,3,straight_tiger_2,shen tiger wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,7,straight_pig_2,shen pig tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,8,straight_cow_2,shen cow tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,4,straight_elephant_2,shen elephant tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,9,straight_tiger_2,shen tiger tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,10,straight_hedgehog_2,shen hedgehog tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,5,straight_giraffe_2,shen giraffe tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,11,straight_squirrel_2,shen squirrel tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,12,straight_fox_1,shen fox,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,6,straight_fox_1,shen fox,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,13,straight_panda_2,shen panda tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,14,straight_hedgehog_1,shen hedgehog,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,7,straight_panda_2,shen panda tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,15,straight_hamster_2,shen hamster wib,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,16,straight_panda_2,shen panda wib,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,8,straight_panda_1,shen panda,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,17,straight_cow_1,shen cow,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,18,straight_giraffe_1,shen giraffe,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,9,straight_giraffe_2,shen giraffe wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,19,straight_rabbit_2,shen rabbit wib,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,20,straight_cow_2,shen cow wib,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,10,straight_fox_2,shen fox wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,21,straight_pig_2,shen pig wib,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,22,straight_kangaroo_2,shen kangaroo tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,11,straight_sheep_2,shen sheep wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,23,straight_hippo_2,shen hippo wib,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,24,straight_sheep_2,shen sheep wib,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,12,straight_tiger_2,shen tiger tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,25,straight_dog_2,shen dog wib,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,26,straight_squirrel_2,shen squirrel wib,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,13,straight_kangaroo_2,shen kangaroo wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,27,straight_zebra_2,shen zebra wib,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,28,straight_rabbit_2,shen rabbit tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,14,straight_cow_2,shen cow wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,29,straight_giraffe_2,shen giraffe wib,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,30,straight_squirrel_1,shen squirrel,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,15,straight_panda_2,shen panda wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,31,straight_sheep_2,shen sheep tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,32,straight_dog_2,shen dog tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,16,straight_pig_2,shen pig wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,33,straight_sheep_1,shen sheep,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,34,straight_hamster_1,shen hamster,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,17,straight_pig_1,shen pig,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,35,straight_panda_1,shen panda,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,36,straight_rabbit_1,shen rabbit,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,18,straight_tiger_1,shen tiger,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,37,straight_elephant_2,shen elephant wib,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,38,straight_hippo_2,shen hippo tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,19,straight_hedgehog_2,shen hedgehog wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,39,straight_elephant_2,shen elephant tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,40,straight_giraffe_2,shen giraffe tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,20,straight_sheep_2,shen sheep tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,41,straight_hippo_1,shen hippo,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,42,straight_zebra_2,shen zebra tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,21,straight_zebra_2,shen zebra wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,43,straight_tiger_1,shen tiger,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,44,straight_fox_2,shen fox tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,22,straight_hedgehog_2,shen hedgehog tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,45,straight_hamster_2,shen hamster tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,46,straight_zebra_1,shen zebra,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,23,straight_dog_2,shen dog wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,47,straight_dog_1,shen dog,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,training,1,48,straight_pig_1,shen pig,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,24,straight_sheep_1,shen sheep,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,25,straight_hippo_1,shen hippo,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,26,straight_zebra_2,shen zebra tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,27,straight_pig_2,shen pig tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,28,straight_elephant_1,shen elephant,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,29,straight_squirrel_2,shen squirrel wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,30,straight_rabbit_2,shen rabbit tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,31,straight_squirrel_2,shen squirrel tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,32,straight_cow_2,shen cow tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,33,straight_hedgehog_1,shen hedgehog,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,34,straight_hippo_2,shen hippo wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,35,straight_hamster_1,shen hamster,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,36,straight_giraffe_1,shen giraffe,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,37,straight_rabbit_2,shen rabbit wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,38,straight_hamster_2,shen hamster wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,39,straight_squirrel_1,shen squirrel,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,40,straight_dog_2,shen dog tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,41,straight_kangaroo_2,shen kangaroo tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,42,straight_elephant_2,shen elephant wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,43,straight_zebra_1,shen zebra,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,44,straight_fox_2,shen fox tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,45,straight_hippo_2,shen hippo tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,46,straight_kangaroo_1,shen kangaroo,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,47,straight_dog_1,shen dog,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,training,1,48,straight_rabbit_1,shen rabbit,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,1,straight_giraffe_1,NA,shen giraffe,shen giraffe,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,2,straight_tiger_1,NA,shen tiger,shen tiger,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,3,straight_rabbit_1,NA,shen rabbit,shen rabbit,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,4,straight_hamster_2,NA,shen hamster tid,shen hamster tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,5,straight_pig_2,NA,shen pig wib,shen pig wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,6,straight_cow_2,NA,shen cow wib,shen cow wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,7,straight_giraffe_2,NA,shen giraffe wib,shen giraffe wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,8,straight_kangaroo_2,NA,shen kangaroo tid,shen kangaroo tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,9,straight_tiger_2,NA,shen tiger tid,shen tiger tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,1,straight_dog_2,NA,shen dog wib,shen dog wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,10,straight_fox_2,NA,shen fox tid,shen fox tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,11,straight_hippo_2,NA,shen hippo wib,shen hippo wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,12,straight_tiger_2,NA,shen tiger wib,shen tiger wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,13,straight_squirrel_1,NA,shen squirrel,shen squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,2,straight_squirrel_1,NA,shen squirrel,shen squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,14,straight_elephant_2,NA,shen elephant wib,shen elephant wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,15,straight_dog_2,NA,shen dog wib,shen dog wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,3,straight_hippo_1,NA,shen hippo,shen hippo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,16,straight_cow_2,NA,shen cow tid,shen cow tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,17,straight_rabbit_2,NA,shen rabbit tid,shen rabbit tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,18,straight_sheep_1,NA,shen sheep,shen sheep,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,4,straight_kangaroo_1,NA,shen kangaroo,shen kangaroo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,19,straight_squirrel_2,NA,shen squirrel tid,shen squirrel tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,20,straight_kangaroo_1,NA,shen kangaroo,shen kangaroo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,21,straight_hamster_1,NA,shen hamster,shen hamster,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,22,straight_hippo_1,NA,shen hippo,shen hippo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,23,straight_zebra_1,NA,shen zebra,shen zebra,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,5,straight_panda_2,NA,shen panda tid,shen panda tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,24,straight_hamster_2,NA,shen hamster wib,shen hamster wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,25,straight_dog_1,NA,shen dog,shen dog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,6,straight_hamster_1,NA,shen hamster,shen hamster,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,26,straight_kangaroo_2,NA,shen kangaroo wib,shen kangaroo wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,27,straight_panda_2,NA,shen panda tid,shen panda tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,28,straight_rabbit_2,NA,shen rabbit wib,shen rabbit wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,29,straight_squirrel_2,NA,shen squirrel wib,shen squirrel wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,7,straight_zebra_2,NA,shen zebra wib,shen zebra wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,30,straight_fox_1,NA,shen fox,shen fox,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,31,straight_pig_1,NA,shen pig,shen pig,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,32,straight_elephant_2,NA,shen elephant tid,shen elephant tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,33,straight_zebra_2,NA,shen zebra wib,shen zebra wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,34,straight_elephant_1,NA,shen elephant,shen elephant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,35,straight_hedgehog_2,NA,shen hedgehog tid,shen hedgehog tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,8,straight_squirrel_2,NA,shen squirrel tid,shen squirrel tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,36,straight_giraffe_2,NA,shen giraffe tid,shen giraffe tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,37,straight_hedgehog_1,NA,shen hedgehog,shen hedgehog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,38,straight_sheep_2,NA,shen sheep wib,shen sheep wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,39,straight_hippo_2,NA,shen hippo tid,shen hippo tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,9,straight_giraffe_1,NA,shen girraffe,shen giraffe,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,40,straight_fox_2,NA,shen fox wib,shen fox wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,41,straight_cow_1,NA,shen cow,shen cow,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,42,straight_sheep_2,NA,shen sheep tid,shen sheep tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,43,straight_pig_2,NA,shen pig tid,shen pig tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,44,straight_hedgehog_2,NA,shen hedgehog wib,shen hedgehog wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,45,straight_panda_1,NA,shen panda,shen panda,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,10,straight_elephant_2,NA,shen elephant wib,shen elephant wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,46,straight_panda_2,NA,shen panda wib,shen panda wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,47,straight_dog_2,NA,shen dog tid,shen dog tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,0,48,straight_zebra_2,NA,shen zebra tid,shen zebra tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,11,straight_fox_2,NA,shen fox wib,shen fox wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,12,straight_hippo_2,NA,shen hippo tid,shen hippo tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,13,straight_giraffe_2,NA,shen giraffe tid,shen giraffe tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,14,straight_hedgehog_1,NA,shen hedgehog ,shen hedgehog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,15,straight_sheep_2,NA,shen sheep wib,shen sheep wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,16,straight_tiger_2,NA,shen tiger tid,shen tiger tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,17,straight_hippo_2,NA,shen hippo wib,shen hippo wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,18,straight_sheep_2,NA,shen sheep wib,shen sheep wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,19,straight_panda_1,NA,shen panda,shen panda,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,20,straight_cow_1,NA,shen cow,shen cow,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,21,straight_sheep_1,NA,shen sheep,shen sheep,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,22,straight_dog_2,NA,shen dog tid,shen dog tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,23,straight_fox_2,NA,shen fox wib,shen fox wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,24,straight_elephant_2,NA,shen elephant wib,shen elephant wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,25,straight_pig_2,NA,shen pig wib,shen pig wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,26,straight_panda_2,NA,shen panda tid,shen panda tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,27,straight_tiger_2,NA,shen tiger tid,shen tiger tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,28,straight_giraffe_2,NA,shen girraffe wib,shen giraffe wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,29,straight_zebra_1,NA,shen zebra,shen zebra,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,30,straight_rabbit_1,NA,shen rabbit,shen rabbit,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,31,straight_elephant_1,NA,shen elephant,shen elephant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,32,straight_hedgehog_2,NA,shen hedgehog wib,shen hedgehog wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,33,straight_zebra_2,NA,shen zebra tid,shen zebra tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,34,straight_dog_1,NA,shen dog,shen dog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,35,straight_squirrel_2,NA,shen squirrel tid,shen squirrel tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,36,straight_pig_1,NA,shen pig,shen pig,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,37,straight_rabbit_2,NA,shen rabbit tid,shen rabbit tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,38,straight_hamster_2,NA,shen hamster wib,shen hamster wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,39,straight_fox_1,NA,shen fox,shen fox,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,40,straight_hedgehog_2,NA,shen hedgehog wib,shen hedgehog wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,41,straight_kangaroo_2,NA,shen kangaroo wib,shen kangaroo wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,42,straight_pig_2,NA,shen pig wib,shen pig wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,43,straight_cow_2,NA,shen cow wib,shen cow wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,44,straight_hamster_2,NA,shen hamster wib,shen hamster wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,45,straight_cow_2,NA,shen cow tid,shen cow tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,46,straight_rabbit_2,NA,shen rabbit wib,shen rabbit wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,47,straight_tiger_1,NA,shen tiger,shen tiger,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,0,48,straight_kangaroo_2,NA,shen kangaroo wib,shen kangaroo wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,1,straight_hedgehog_2,NA,shen hedgehog wib,shen hedgehog wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,2,straight_kangaroo_2,NA,shen kangaroo wib,shen kangaroo wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,3,straight_sheep_2,NA,shen sheep tid,shen sheep tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,4,straight_cow_2,NA,shen cow wib,shen cow wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,1,straight_cow_2,NA,shen cow tid,shen cow tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,5,straight_cow_1,NA,shen cow,shen cow,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,6,straight_pig_1,NA,shen pig,shen pig,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,2,straight_zebra_1,NA,shen zebra,shen zebra,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,7,straight_panda_2,NA,shen panda tid,shen panda tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,8,straight_dog_2,NA,shen dog wib,shen dog wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,9,straight_squirrel_2,NA,shen squirrel tid,shen squirrel tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,3,straight_fox_2,NA,shen fox tid,shen fox tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,10,straight_elephant_2,NA,shen elephant wib,shen elephant wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,11,straight_dog_1,NA,shen dog,shen dog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,12,straight_cow_2,NA,shen cow tid,shen cow tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,13,straight_hedgehog_2,NA,shen hedgehog tid,shen hedgehog tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,14,straight_rabbit_2,NA,shen rabbit wib,shen rabbit wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,4,straight_squirrel_2,NA,shen squirrel tid,shen squirrel tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,15,straight_giraffe_2,NA,shen giraffe tid,shen giraffe tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,16,straight_pig_2,NA,shen pig tid,shen pig tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,17,straight_giraffe_2,NA,shen giraffe wib,shen giraffe wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,5,straight_pig_2,NA,shen pig wib,shen pig wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,18,straight_squirrel_1,NA,shen squirrel,shen squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,19,straight_hippo_2,NA,shen hippo wib,shen hippo wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,20,straight_tiger_1,NA,shen tiger,shen tiger,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,6,straight_kangaroo_1,NA,shen kangaroo,shen kangaroo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,21,straight_zebra_1,NA,shen zebra,shen zebra,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,22,straight_fox_2,NA,shen fox wib,shen fox wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,23,straight_sheep_1,NA,shen sheep,shen sheep,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,7,straight_sheep_2,NA,shen sheep wib,shen sheep wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,24,straight_zebra_2,NA,shen zebra tid,shen zebra tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,25,straight_elephant_1,NA,shen elephant,shen elephant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,26,straight_fox_1,NA,shen fox,shen fox,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,27,straight_kangaroo_1,NA,shen kangaroo,shen kangaroo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,8,straight_zebra_2,NA,shen zebra tid,shen zebra tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,28,straight_kangaroo_2,NA,shen kangaroo tid,shen kangaroo tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,29,straight_pig_2,NA,shen pig wib,shen pig wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,30,straight_squirrel_2,NA,shen squirrel wib,shen squirrel wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,31,straight_hippo_1,NA,shen hippo,shen hippo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,32,straight_sheep_2,NA,shen sheep wib,shen sheep wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,9,straight_squirrel_2,NA,shen squirrel tid,shen squirrel tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,33,straight_rabbit_1,NA,shen rabbit,shen rabbit,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,34,straight_hippo_2,NA,shen hippo tid,shen hippo tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,35,straight_tiger_2,NA,shen tiger tid,shen tiger tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,36,straight_hamster_2,NA,shen hamster wib,shen hamster wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,37,straight_fox_2,NA,shen fox tid,shen fox tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,38,straight_dog_2,NA,shen dog tid,shen dog tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,39,straight_elephant_2,NA,shen elephant tid,shen elephant tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,40,straight_panda_1,NA,shen panda,shen panda,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,41,straight_hedgehog_1,NA,shen hedgehog,shen hedgehog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,42,straight_tiger_2,NA,shen tiger wib,shen tiger wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,43,straight_giraffe_1,NA,shen giraffe,shen giraffe,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,44,straight_hamster_2,NA,shen hamster tid,shen hamster tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,10,straight_giraffe_1,NA,shen giraffe ,shen giraffe,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,45,straight_panda_2,NA,shen panda wib,shen panda wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,46,straight_hamster_1,NA,shen hamster,shen hamster,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,47,straight_rabbit_2,NA,shen rabbit tid,shen rabbit tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,11,straight_hippo_2,NA,shen hippo tid,shen hippo tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,recall1,1,48,straight_zebra_2,NA,shen zebra wib,shen zebra wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,12,straight_dog_2,NA,shen dog wib,shen dog wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,13,straight_elephant_2,NA,shen elephant wib,shen elephant wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,14,straight_hamster_2,NA,shen hamster wib,shen hamster wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,15,straight_sheep_2,NA,shen sheep tid,shen sheep tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,16,straight_kangaroo_2,NA,shen kangaroo wib,shen kangaroo wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,17,straight_dog_2,NA,shen dog tid,shen dog tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,18,straight_hedgehog_2,NA,shen hedgehog wib,shen hedgehog wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,19,straight_pig_2,NA,shen pig tid,shen pig tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,20,straight_rabbit_2,NA,shen rabbit wib,shen rabbit wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,21,straight_hedgehog_2,NA,shen hedgehog wib,shen hedgehog wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,22,straight_panda_2,NA,shen panda tid,shen panda tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,23,straight_giraffe_2,NA,she girraffe tid,shen giraffe tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,24,straight_rabbit_1,NA,shen rabbit,shen rabbit,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,25,straight_pig_1,NA,shen pig,shen pig,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,26,straight_hippo_2,NA,shen hippo wib,shen hippo wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,27,straight_cow_1,NA,shen cow,shen cow,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,28,straight_sheep_1,NA,shen sheep,shen sheep,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,29,straight_tiger_2,NA,shen tiger tid,shen tiger tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,30,straight_squirrel_1,NA,shen squirrel,shen squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,31,straight_fox_2,NA,shen fox wib,shen fox wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,32,straight_fox_1,NA,shen fox,shen fox,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,33,straight_hippo_1,NA,shen hippo,shen hippo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,34,straight_zebra_2,NA,shen zebra,shen zebra,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,35,straight_cow_2,NA,shen cow tid,shen cow tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,36,straight_rabbit_2,NA,shen rabbit tid,shen rabbit tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,37,straight_dog_1,NA,shen dog,shen dog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,38,straight_hamster_1,NA,shen zebra,shen zebra,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,39,straight_elephant_2,NA,shen elephant tid,shen elephant tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,40,straight_elephant_1,NA,shen elephant,shen elephant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,41,straight_hamster_2,NA,shen hamster tid,shen hamster tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,42,straight_panda_1,NA,shen panda,shen panda,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,43,straight_tiger_2,NA,shen tiger tid,shen tiger tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,44,straight_hedgehog_1,NA,shen hedgehog ,shen hedgehog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,45,straight_kangaroo_2,NA,shen kangaroo wib,shen kangaroo wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,46,straight_panda_2,NA,shen panda wib,shen panda wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,47,straight_tiger_1,NA,shen tiger,shen tiger,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,recall1,1,48,straight_giraffe_2,NA,shen girraffe wib,shen giraffe wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactD,0,0,straight_hamster_2,NA,shen hamster wib,shen hamster wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,0,0,straight_hamster_2,NA,NA,shen hamster wib,straight_kangaroo_2,straight_fox_2,straight_hamster_2,straight_fox_1,straight_dog_2,straight_kangaroo_1,straight_hamster_1,straight_dog_1,straight_hamster_2,1
+S119,1,1191,129.215.204.33,interactD,0,0,straight_squirrel_2,NA,shen squirrel tid,shen squirrel tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,0,0,straight_squirrel_2,NA,NA,shen squirrel tid,straight_fox_1,straight_elephant_2,straight_squirrel_1,straight_sheep_2,straight_fox_2,straight_sheep_1,straight_squirrel_2,straight_elephant_1,straight_squirrel_2,1
+S119,1,dummyP,127.0.0.1,interactD,0,1,straight_panda_2,NA,shen panda tid,shen panda tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,0,1,straight_panda_2,NA,NA,shen panda tid,straight_rabbit_2,straight_panda_1,straight_squirrel_1,straight_squirrel_2,straight_rabbit_1,straight_pig_1,straight_panda_2,straight_pig_2,straight_panda_2,1
+S119,1,1191,129.215.204.33,interactD,0,1,straight_hedgehog_2,NA,shen hedgehog wib,shen hedgehog wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,0,1,straight_hedgehog_2,NA,NA,shen hedgehog wib,straight_hedgehog_2,straight_sheep_2,straight_squirrel_1,straight_sheep_1,straight_fox_1,straight_fox_2,straight_hedgehog_1,straight_squirrel_2,straight_hedgehog_2,1
+S119,1,dummyP,127.0.0.1,interactD,0,2,straight_giraffe_1,NA,shen giraffe,shen giraffe,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,0,2,straight_giraffe_1,NA,NA,shen giraffe,straight_cow_1,straight_giraffe_1,straight_rabbit_2,straight_zebra_1,straight_zebra_2,straight_rabbit_1,straight_cow_2,straight_giraffe_2,straight_giraffe_1,1
+S119,1,1191,129.215.204.33,interactD,0,2,straight_tiger_1,NA,shen tiger,shen tiger,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,0,2,straight_tiger_1,NA,NA,shen tiger,straight_tiger_1,straight_cow_1,straight_hamster_2,straight_cow_2,straight_hamster_1,straight_panda_2,straight_panda_1,straight_tiger_2,straight_tiger_1,1
+S119,1,dummyP,127.0.0.1,interactD,0,3,straight_panda_2,NA,shen panda wib,shen panda wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,0,3,straight_panda_2,NA,NA,shen panda wib,straight_dog_2,straight_squirrel_1,straight_dog_1,straight_panda_2,straight_squirrel_2,straight_kangaroo_2,straight_kangaroo_1,straight_panda_1,straight_panda_2,1
+S119,1,1191,129.215.204.33,interactD,0,3,straight_dog_2,NA,shen dog tid,shen dog tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,0,3,straight_dog_2,NA,NA,shen dog tid,straight_cow_2,straight_dog_2,straight_squirrel_2,straight_rabbit_2,straight_cow_1,straight_dog_1,straight_rabbit_1,straight_squirrel_1,straight_dog_2,1
+S119,1,dummyP,127.0.0.1,interactD,0,4,straight_rabbit_2,NA,shen rabbit wib,shen rabbit wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,0,4,straight_rabbit_2,NA,NA,shen rabbit wib,straight_fox_1,straight_rabbit_2,straight_hippo_2,straight_giraffe_2,straight_giraffe_1,straight_fox_2,straight_hippo_1,straight_rabbit_1,straight_rabbit_2,1
+S119,1,1191,129.215.204.33,interactD,0,4,straight_sheep_2,NA,shen sheep wib,shen sheep wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,0,4,straight_sheep_2,NA,NA,shen sheep wib,straight_squirrel_1,straight_kangaroo_2,straight_hippo_2,straight_kangaroo_1,straight_hippo_1,straight_sheep_2,straight_squirrel_2,straight_sheep_1,straight_sheep_2,1
+S119,1,dummyP,127.0.0.1,interactD,0,5,straight_pig_2,NA,shen pig wib,shen pig wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,0,5,straight_pig_2,NA,NA,shen pig wib,straight_squirrel_2,straight_squirrel_1,straight_rabbit_2,straight_giraffe_1,straight_giraffe_2,straight_pig_1,straight_pig_2,straight_rabbit_1,straight_pig_2,1
+S119,1,1191,129.215.204.33,interactD,0,5,straight_squirrel_2,NA,shen squirrel tid,shen squirrel tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,0,5,straight_squirrel_2,NA,NA,shen squirrel tid,straight_hamster_1,straight_cow_1,straight_elephant_2,straight_cow_2,straight_squirrel_2,straight_elephant_1,straight_hamster_2,straight_squirrel_1,straight_squirrel_2,1
+S119,1,dummyP,127.0.0.1,interactD,0,6,straight_squirrel_2,NA,shen squirrel tid,shen squirrel tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,0,6,straight_squirrel_2,NA,NA,shen squirrel tid,straight_sheep_1,straight_rabbit_1,straight_squirrel_2,straight_sheep_2,straight_rabbit_2,straight_squirrel_1,straight_panda_2,straight_panda_1,straight_squirrel_2,1
+S119,1,1191,129.215.204.33,interactD,0,6,straight_zebra_1,NA,shen zebra,shen zebra,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,0,6,straight_zebra_1,NA,NA,shen zebra,straight_rabbit_2,straight_kangaroo_1,straight_rabbit_1,straight_zebra_2,straight_zebra_1,straight_elephant_2,straight_kangaroo_2,straight_elephant_1,straight_zebra_1,1
+S119,1,dummyP,127.0.0.1,interactD,0,7,straight_giraffe_2,NA,shen giraffe tid,shen giraffe tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,0,7,straight_giraffe_2,NA,NA,shen giraffe tid,straight_giraffe_1,straight_zebra_2,straight_zebra_1,straight_giraffe_2,straight_hamster_1,straight_squirrel_2,straight_squirrel_1,straight_hamster_2,straight_giraffe_2,1
+S119,1,1191,129.215.204.33,interactD,0,7,straight_hamster_1,NA,shen hamster,shen hamster,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,0,7,straight_hamster_1,NA,NA,shen hamster,straight_hamster_1,straight_tiger_1,straight_fox_1,straight_hamster_2,straight_squirrel_1,straight_fox_2,straight_tiger_2,straight_squirrel_2,straight_hamster_1,1
+S119,1,dummyP,127.0.0.1,interactD,0,8,straight_squirrel_1,NA,shen squirrel,shen squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,0,8,straight_squirrel_1,NA,NA,shen squirrel,straight_tiger_1,straight_zebra_2,straight_zebra_1,straight_squirrel_2,straight_rabbit_1,straight_rabbit_2,straight_squirrel_1,straight_tiger_2,straight_squirrel_1,1
+S119,1,1191,129.215.204.33,interactD,0,8,straight_hippo_1,NA,shen hippo,shen hippo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,0,8,straight_hippo_1,NA,NA,shen hippo,straight_zebra_2,straight_squirrel_2,straight_hippo_2,straight_squirrel_1,straight_kangaroo_2,straight_zebra_1,straight_kangaroo_1,straight_hippo_1,straight_hippo_1,1
+S119,1,dummyP,127.0.0.1,interactD,0,9,straight_panda_1,NA,shen panda,shen panda,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,0,9,straight_panda_1,NA,NA,shen panda,straight_hedgehog_1,straight_zebra_2,straight_panda_1,straight_panda_2,straight_tiger_1,straight_zebra_1,straight_tiger_2,straight_hedgehog_2,straight_panda_1,1
+S119,1,1191,129.215.204.33,interactD,0,9,straight_kangaroo_2,NA,shen kangaroo wib,shen kangaroo wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,0,9,straight_kangaroo_2,NA,NA,shen kangaroo wib,straight_hippo_1,straight_hippo_2,straight_zebra_2,straight_kangaroo_2,straight_tiger_1,straight_zebra_1,straight_tiger_2,straight_kangaroo_1,straight_kangaroo_2,1
+S119,1,dummyP,127.0.0.1,interactD,0,10,straight_dog_2,NA,shen dog tid,shen dog tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,0,10,straight_dog_2,NA,NA,shen dog tid,straight_kangaroo_2,straight_hippo_1,straight_squirrel_1,straight_dog_2,straight_squirrel_2,straight_hippo_2,straight_kangaroo_1,straight_dog_1,straight_dog_1,0
+S119,1,1191,129.215.204.33,interactD,0,10,straight_kangaroo_1,NA,shen kangaroo,shen kangaroo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,0,10,straight_kangaroo_1,NA,NA,shen kangaroo,straight_fox_1,straight_dog_2,straight_dog_1,straight_fox_2,straight_hippo_1,straight_kangaroo_1,straight_kangaroo_2,straight_hippo_2,straight_kangaroo_1,1
+S119,1,dummyP,127.0.0.1,interactD,0,11,straight_elephant_1,NA,shen elephant,shen elephant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,0,11,straight_elephant_1,NA,NA,shen elephant,straight_pig_1,straight_hippo_1,straight_hippo_2,straight_elephant_1,straight_giraffe_1,straight_elephant_2,straight_pig_2,straight_giraffe_2,straight_elephant_1,1
+S119,1,1191,129.215.204.33,interactD,0,11,straight_hamster_2,NA,shen hamster tid,shen hamster tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,0,11,straight_hamster_2,NA,NA,shen hamster tid,straight_hippo_1,straight_hamster_1,straight_elephant_2,straight_hippo_2,straight_cow_2,straight_hamster_2,straight_elephant_1,straight_cow_1,straight_hamster_2,1
+S119,1,dummyP,127.0.0.1,interactD,0,12,straight_kangaroo_2,NA,shen kangaroo wib,shen kangaroo wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,0,12,straight_kangaroo_2,NA,NA,shen kangaroo wib,straight_hamster_2,straight_kangaroo_1,straight_hamster_1,straight_cow_2,straight_cow_1,straight_kangaroo_2,straight_tiger_1,straight_tiger_2,straight_kangaroo_2,1
+S119,1,1191,129.215.204.33,interactD,0,12,straight_dog_2,NA,shen dog wib,shen dog wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,0,12,straight_dog_2,NA,NA,shen dog wib,straight_hamster_1,straight_squirrel_2,straight_fox_1,straight_hamster_2,straight_fox_2,straight_dog_1,straight_dog_2,straight_squirrel_1,straight_dog_2,1
+S119,1,dummyP,127.0.0.1,interactD,0,13,straight_dog_2,NA,shen dog wib,shen dog wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,0,13,straight_dog_2,NA,NA,shen dog wib,straight_dog_1,straight_kangaroo_1,straight_dog_2,straight_hippo_1,straight_hippo_2,straight_kangaroo_2,straight_giraffe_1,straight_giraffe_2,straight_dog_2,1
+S119,1,1191,129.215.204.33,interactD,0,13,straight_dog_1,NA,shen dog tid,shen dog tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,0,13,straight_dog_1,NA,NA,shen dog tid,straight_squirrel_1,straight_hippo_1,straight_hedgehog_1,straight_hippo_2,straight_dog_1,straight_hedgehog_2,straight_squirrel_2,straight_dog_2,straight_dog_2,0
+S119,1,dummyP,127.0.0.1,interactD,0,14,straight_zebra_2,NA,shen zebra wib,shen zebra wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,0,14,straight_zebra_2,NA,NA,shen zebra wib,straight_zebra_1,straight_sheep_2,straight_giraffe_1,straight_giraffe_2,straight_zebra_2,straight_hamster_1,straight_hamster_2,straight_sheep_1,straight_zebra_2,1
+S119,1,1191,129.215.204.33,interactD,0,14,straight_hedgehog_1,NA,shen hedgehog ,shen hedgehog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,0,14,straight_hedgehog_1,NA,NA,shen hedgehog,straight_hedgehog_1,straight_kangaroo_1,straight_hedgehog_2,straight_squirrel_2,straight_kangaroo_2,straight_fox_1,straight_fox_2,straight_squirrel_1,straight_hedgehog_1,1
+S119,1,dummyP,127.0.0.1,interactD,0,15,straight_hamster_1,NA,shen hamster,shen hamster,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,0,15,straight_hamster_1,NA,NA,shen hamster,straight_rabbit_2,straight_tiger_1,straight_hamster_1,straight_tiger_2,straight_cow_1,straight_hamster_2,straight_rabbit_1,straight_cow_2,straight_hamster_1,1
+S119,1,1191,129.215.204.33,interactD,0,15,straight_cow_1,NA,shen cow,shen cow,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,0,15,straight_cow_1,NA,NA,shen cow,straight_fox_1,straight_fox_2,straight_squirrel_1,straight_squirrel_2,straight_dog_2,straight_cow_2,straight_cow_1,straight_dog_1,straight_cow_1,1
+S119,1,dummyP,127.0.0.1,interactD,0,16,straight_giraffe_2,NA,shen giraffe wib,shen giraffe wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,0,16,straight_giraffe_2,NA,NA,shen giraffe wib,straight_hedgehog_2,straight_kangaroo_1,straight_giraffe_2,straight_kangaroo_2,straight_hedgehog_1,straight_giraffe_1,straight_panda_2,straight_panda_1,straight_giraffe_2,1
+S119,1,1191,129.215.204.33,interactD,0,16,straight_rabbit_2,NA,shen rabbit tib,shen rabbit wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,0,16,straight_rabbit_2,NA,NA,shen rabbit wib,straight_hippo_1,straight_rabbit_2,straight_sheep_1,straight_zebra_1,straight_rabbit_1,straight_sheep_2,straight_zebra_2,straight_hippo_2,straight_rabbit_2,1
+S119,1,dummyP,127.0.0.1,interactD,0,17,straight_fox_2,NA,shen fox tid,shen fox tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,0,17,straight_fox_2,NA,NA,shen fox tid,straight_hippo_2,straight_elephant_1,straight_rabbit_2,straight_fox_2,straight_rabbit_1,straight_hippo_1,straight_fox_1,straight_elephant_2,straight_fox_2,1
+S119,1,1191,129.215.204.33,interactD,0,17,straight_zebra_2,NA,shen zebra wib,shen zebra wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,0,17,straight_zebra_2,NA,NA,shen zebra wib,straight_pig_2,straight_dog_2,straight_hippo_2,straight_zebra_2,straight_zebra_1,straight_dog_1,straight_hippo_1,straight_pig_1,straight_zebra_2,1
+S119,1,dummyP,127.0.0.1,interactD,0,18,straight_elephant_2,NA,shen elephant tid,shen elephant tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,0,18,straight_elephant_2,NA,NA,shen elephant tid,straight_pig_2,straight_elephant_2,straight_elephant_1,straight_sheep_1,straight_hamster_1,straight_hamster_2,straight_pig_1,straight_sheep_2,straight_elephant_2,1
+S119,1,1191,129.215.204.33,interactD,0,18,straight_hamster_2,NA,shen hamster tid,shen hamster tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,0,18,straight_hamster_2,NA,NA,shen hamster tid,straight_hippo_1,straight_hamster_2,straight_pig_2,straight_kangaroo_2,straight_hamster_1,straight_hippo_2,straight_kangaroo_1,straight_pig_1,straight_hamster_2,1
+S119,1,dummyP,127.0.0.1,interactD,0,19,straight_hamster_2,NA,shen hamster tid,shen hamster tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,0,19,straight_hamster_2,NA,NA,shen hamster tid,straight_hamster_2,straight_squirrel_2,straight_giraffe_2,straight_tiger_2,straight_hamster_1,straight_tiger_1,straight_giraffe_1,straight_squirrel_1,straight_hamster_2,1
+S119,1,1191,129.215.204.33,interactD,0,19,straight_hippo_2,NA,shen hippo tid,shen hippo tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,0,19,straight_hippo_2,NA,NA,shen hippo tid,straight_panda_1,straight_hippo_2,straight_hippo_1,straight_sheep_1,straight_sheep_2,straight_panda_2,straight_fox_1,straight_fox_2,straight_hippo_2,1
+S119,1,dummyP,127.0.0.1,interactD,0,20,straight_kangaroo_1,NA,shen kangaroo,shen kangaroo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,0,20,straight_kangaroo_1,NA,NA,shen kangaroo,straight_kangaroo_2,straight_zebra_2,straight_squirrel_1,straight_kangaroo_1,straight_zebra_1,straight_hamster_2,straight_squirrel_2,straight_hamster_1,straight_kangaroo_1,1
+S119,1,1191,129.215.204.33,interactD,0,20,straight_panda_1,NA,shen panda,shen panda,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,0,20,straight_panda_1,NA,NA,shen panda,straight_elephant_1,straight_hippo_1,straight_hippo_2,straight_pig_2,straight_pig_1,straight_elephant_2,straight_panda_1,straight_panda_2,straight_panda_1,1
+S119,1,dummyP,127.0.0.1,interactD,0,21,straight_fox_1,NA,shen fox,shen fox,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,0,21,straight_fox_1,NA,NA,shen fox,straight_panda_2,straight_fox_2,straight_rabbit_2,straight_tiger_1,straight_panda_1,straight_rabbit_1,straight_tiger_2,straight_fox_1,straight_fox_1,1
+S119,1,1191,129.215.204.33,interactD,0,21,straight_panda_2,NA,shen panda wib,shen panda wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,0,21,straight_panda_2,NA,NA,shen panda wib,straight_hamster_1,straight_tiger_2,straight_tiger_1,straight_pig_2,straight_panda_2,straight_pig_1,straight_hamster_2,straight_panda_1,straight_panda_2,1
+S119,1,dummyP,127.0.0.1,interactD,0,22,straight_squirrel_2,NA,shen squirrel wib,shen squirrel wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,0,22,straight_squirrel_2,NA,NA,shen squirrel wib,straight_sheep_1,straight_squirrel_2,straight_zebra_1,straight_dog_2,straight_sheep_2,straight_dog_1,straight_squirrel_1,straight_zebra_2,straight_squirrel_2,1
+S119,1,1191,129.215.204.33,interactD,0,22,straight_squirrel_1,NA,shen squirrel ,shen squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,0,22,straight_squirrel_1,NA,NA,shen squirrel,straight_kangaroo_2,straight_squirrel_2,straight_tiger_2,straight_squirrel_1,straight_giraffe_1,straight_giraffe_2,straight_kangaroo_1,straight_tiger_1,straight_squirrel_1,1
+S119,1,dummyP,127.0.0.1,interactD,0,23,straight_kangaroo_2,NA,shen kangaroo tid,shen kangaroo tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,0,23,straight_kangaroo_2,NA,NA,shen kangaroo tid,straight_squirrel_1,straight_hedgehog_2,straight_kangaroo_2,straight_hedgehog_1,straight_sheep_1,straight_kangaroo_1,straight_sheep_2,straight_squirrel_2,straight_kangaroo_1,0
+S119,1,1191,129.215.204.33,interactD,0,23,straight_rabbit_1,NA,shen rabbit,shen rabbit,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,0,23,straight_rabbit_1,NA,NA,shen rabbit,straight_hedgehog_1,straight_pig_2,straight_fox_2,straight_fox_1,straight_rabbit_1,straight_hedgehog_2,straight_pig_1,straight_rabbit_2,straight_rabbit_1,1
+S119,1,dummyP,127.0.0.1,interactD,0,24,straight_zebra_2,NA,shen zebra tid,shen zebra tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,0,24,straight_zebra_2,NA,NA,shen zebra tid,straight_pig_2,straight_sheep_2,straight_giraffe_1,straight_giraffe_2,straight_zebra_2,straight_pig_1,straight_sheep_1,straight_zebra_1,straight_zebra_2,1
+S119,1,1191,129.215.204.33,interactD,0,24,straight_rabbit_2,NA,shen rabbit,shen rabbit,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,0,24,straight_rabbit_2,NA,NA,shen rabbit,straight_rabbit_1,straight_kangaroo_2,straight_sheep_1,straight_sheep_2,straight_kangaroo_1,straight_rabbit_2,straight_hedgehog_1,straight_hedgehog_2,straight_rabbit_1,0
+S119,1,dummyP,127.0.0.1,interactD,0,25,straight_dog_1,NA,shen dog,shen dog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,0,25,straight_dog_1,NA,NA,shen dog,straight_tiger_2,straight_squirrel_2,straight_dog_2,straight_kangaroo_2,straight_dog_1,straight_squirrel_1,straight_kangaroo_1,straight_tiger_1,straight_dog_1,1
+S119,1,1191,129.215.204.33,interactD,0,25,straight_panda_2,NA,shen panda tid,shen panda tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,0,25,straight_panda_2,NA,NA,shen panda tid,straight_hippo_2,straight_panda_2,straight_kangaroo_2,straight_hippo_1,straight_kangaroo_1,straight_zebra_1,straight_panda_1,straight_zebra_2,straight_panda_2,1
+S119,1,dummyP,127.0.0.1,interactD,0,26,straight_elephant_2,NA,shen elephant wib,shen elephant wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,0,26,straight_elephant_2,NA,NA,shen elephant wib,straight_squirrel_1,straight_hippo_2,straight_pig_1,straight_hippo_1,straight_pig_2,straight_elephant_1,straight_squirrel_2,straight_elephant_2,straight_hippo_2,0
+S119,1,1191,129.215.204.33,interactD,0,26,straight_kangaroo_2,NA,shen kangaroo tid,shen kangaroo tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,0,26,straight_kangaroo_2,NA,NA,shen kangaroo tid,straight_elephant_2,straight_cow_1,straight_cow_2,straight_rabbit_2,straight_rabbit_1,straight_elephant_1,straight_kangaroo_1,straight_kangaroo_2,straight_kangaroo_2,1
+S119,1,dummyP,127.0.0.1,interactD,0,27,straight_hedgehog_2,NA,shen hedgehog wib,shen hedgehog wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,0,27,straight_hedgehog_2,NA,NA,shen hedgehog wib,straight_fox_1,straight_squirrel_1,straight_hedgehog_1,straight_hedgehog_2,straight_dog_1,straight_dog_2,straight_fox_2,straight_squirrel_2,straight_hedgehog_2,1
+S119,1,1191,129.215.204.33,interactD,0,27,straight_sheep_1,NA,shen sheep,shen sheep,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,0,27,straight_sheep_1,NA,NA,shen sheep,straight_hamster_2,straight_panda_2,straight_sheep_2,straight_panda_1,straight_hamster_1,straight_zebra_2,straight_zebra_1,straight_sheep_1,straight_sheep_1,1
+S119,1,dummyP,127.0.0.1,interactD,0,28,straight_rabbit_1,NA,shen rabbit,shen rabbit,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,0,28,straight_rabbit_1,NA,NA,shen rabbit,straight_pig_2,straight_kangaroo_1,straight_elephant_1,straight_elephant_2,straight_rabbit_2,straight_kangaroo_2,straight_pig_1,straight_rabbit_1,straight_rabbit_1,1
+S119,1,1191,129.215.204.33,interactD,0,28,straight_cow_2,NA,shen cow wib,shen cow wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,0,28,straight_cow_2,NA,NA,shen cow wib,straight_squirrel_2,straight_hamster_2,straight_sheep_2,straight_cow_1,straight_hamster_1,straight_sheep_1,straight_cow_2,straight_squirrel_1,straight_cow_2,1
+S119,1,dummyP,127.0.0.1,interactD,0,29,straight_zebra_1,NA,shen zebra,shen zebra,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,0,29,straight_zebra_1,NA,NA,shen zebra,straight_zebra_2,straight_hippo_2,straight_hippo_1,straight_zebra_1,straight_hamster_1,straight_cow_1,straight_hamster_2,straight_cow_2,straight_zebra_1,1
+S119,1,1191,129.215.204.33,interactD,0,29,straight_zebra_2,NA,shen zebra wib,shen zebra wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,0,29,straight_zebra_2,NA,NA,shen zebra wib,straight_rabbit_2,straight_zebra_2,straight_zebra_1,straight_squirrel_2,straight_dog_1,straight_rabbit_1,straight_squirrel_1,straight_dog_2,straight_zebra_2,1
+S119,1,dummyP,127.0.0.1,interactD,0,30,straight_hedgehog_1,NA,shen hedgehog,shen hedgehog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,0,30,straight_hedgehog_1,NA,NA,shen hedgehog,straight_pig_2,straight_hedgehog_1,straight_hedgehog_2,straight_sheep_2,straight_sheep_1,straight_panda_1,straight_pig_1,straight_panda_2,straight_hedgehog_1,1
+S119,1,1191,129.215.204.33,interactD,0,30,straight_hippo_2,NA,shen hippo tid,shen hippo tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,0,30,straight_hippo_2,NA,NA,shen hippo tid,straight_pig_2,straight_hippo_1,straight_hippo_2,straight_zebra_2,straight_cow_2,straight_zebra_1,straight_cow_1,straight_pig_1,straight_hippo_2,1
+S119,1,dummyP,127.0.0.1,interactD,0,31,straight_rabbit_2,NA,shen rabbit tid,shen rabbit tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,0,31,straight_rabbit_2,NA,NA,shen rabbit tid,straight_hedgehog_1,straight_kangaroo_1,straight_hedgehog_2,straight_rabbit_1,straight_kangaroo_2,straight_rabbit_2,straight_fox_2,straight_fox_1,straight_rabbit_2,1
+S119,1,1191,129.215.204.33,interactD,0,31,straight_sheep_2,NA,shen sheep wib,shen sheep wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,0,31,straight_sheep_2,NA,NA,shen sheep wib,straight_sheep_2,straight_hamster_2,straight_zebra_2,straight_hedgehog_1,straight_zebra_1,straight_sheep_1,straight_hedgehog_2,straight_hamster_1,straight_sheep_2,1
+S119,1,dummyP,127.0.0.1,interactD,0,32,straight_hedgehog_2,NA,shen hedgehog tid,shen hedgehog tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,0,32,straight_hedgehog_2,NA,NA,shen hedgehog tid,straight_cow_1,straight_cow_2,straight_hedgehog_2,straight_panda_2,straight_hedgehog_1,straight_dog_1,straight_panda_1,straight_dog_2,straight_hedgehog_2,1
+S119,1,1191,129.215.204.33,interactD,0,32,straight_tiger_2,NA,shen tiger wib,shen tiger wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,0,32,straight_tiger_2,NA,NA,shen tiger wib,straight_tiger_2,straight_giraffe_2,straight_giraffe_1,straight_sheep_2,straight_panda_1,straight_sheep_1,straight_tiger_1,straight_panda_2,straight_tiger_2,1
+S119,1,dummyP,127.0.0.1,interactD,0,33,straight_fox_2,NA,shen fox wib,shen fox wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,0,33,straight_fox_2,NA,NA,shen fox wib,straight_fox_2,straight_squirrel_2,straight_squirrel_1,straight_fox_1,straight_kangaroo_1,straight_hippo_2,straight_hippo_1,straight_kangaroo_2,straight_fox_2,1
+S119,1,1191,129.215.204.33,interactD,0,33,straight_cow_2,NA,shen cow tid,shen cow tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,0,33,straight_cow_2,NA,NA,shen cow tid,straight_cow_2,straight_fox_1,straight_fox_2,straight_rabbit_1,straight_rabbit_2,straight_elephant_2,straight_cow_1,straight_elephant_1,straight_cow_2,1
+S119,1,dummyP,127.0.0.1,interactD,0,34,straight_pig_2,NA,shen pig tid,shen pig tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,0,34,straight_pig_2,NA,NA,shen pig tid,straight_squirrel_2,straight_pig_1,straight_pig_2,straight_kangaroo_2,straight_kangaroo_1,straight_hedgehog_2,straight_hedgehog_1,straight_squirrel_1,straight_pig_2,1
+S119,1,1191,129.215.204.33,interactD,0,34,straight_tiger_2,NA,shen tiger tid,shen tiger tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,0,34,straight_tiger_2,NA,NA,shen tiger tid,straight_giraffe_2,straight_squirrel_1,straight_fox_2,straight_squirrel_2,straight_fox_1,straight_tiger_1,straight_giraffe_1,straight_tiger_2,straight_tiger_2,1
+S119,1,dummyP,127.0.0.1,interactD,0,35,straight_pig_1,NA,shen pig,shen pig,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,0,35,straight_pig_1,NA,NA,shen pig,straight_pig_1,straight_zebra_2,straight_cow_2,straight_zebra_1,straight_pig_2,straight_cow_1,straight_hamster_2,straight_hamster_1,straight_pig_1,1
+S119,1,1191,129.215.204.33,interactD,0,35,straight_hedgehog_2,NA,shen hedgehog tid,shen hedgehog tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,0,35,straight_hedgehog_2,NA,NA,shen hedgehog tid,straight_hamster_2,straight_hedgehog_2,straight_elephant_1,straight_giraffe_1,straight_hedgehog_1,straight_giraffe_2,straight_hamster_1,straight_elephant_2,straight_hedgehog_2,1
+S119,1,1191,129.215.204.33,interactD,1,0,straight_kangaroo_2,NA,shen kangaroo tid,shen kangaroo tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,1,0,straight_kangaroo_2,NA,NA,shen kangaroo tid,straight_zebra_2,straight_kangaroo_2,straight_kangaroo_1,straight_cow_1,straight_zebra_1,straight_hippo_2,straight_hippo_1,straight_cow_2,straight_kangaroo_2,1
+S119,1,dummyP,127.0.0.1,interactD,1,0,straight_elephant_1,NA,shen elephant,shen elephant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,1,0,straight_elephant_1,NA,NA,shen elephant,straight_rabbit_2,straight_pig_2,straight_elephant_2,straight_hippo_2,straight_pig_1,straight_hippo_1,straight_rabbit_1,straight_elephant_1,straight_elephant_1,1
+S119,1,1191,129.215.204.33,interactD,1,1,straight_hippo_2,NA,shen hippo tid,shen hippo tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,1,1,straight_hippo_2,NA,NA,shen hippo tid,straight_cow_2,straight_cow_1,straight_hedgehog_1,straight_zebra_2,straight_zebra_1,straight_hedgehog_2,straight_hippo_1,straight_hippo_2,straight_hippo_2,1
+S119,1,dummyP,127.0.0.1,interactD,1,1,straight_zebra_2,NA,shen zebra wib,shen zebra wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,1,1,straight_zebra_2,NA,NA,shen zebra wib,straight_tiger_1,straight_hamster_2,straight_panda_1,straight_panda_2,straight_tiger_2,straight_hamster_1,straight_zebra_1,straight_zebra_2,straight_zebra_2,1
+S119,1,1191,129.215.204.33,interactD,1,2,straight_dog_1,NA,shendog,shen,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,1,2,straight_dog_1,NA,NA,shen,straight_dog_1,straight_cow_2,straight_squirrel_1,straight_fox_2,straight_fox_1,straight_cow_1,straight_squirrel_2,straight_dog_2,straight_fox_1,0
+S119,1,dummyP,127.0.0.1,interactD,1,2,straight_hamster_1,NA,shen hamster,shen hamster,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,1,2,straight_hamster_1,NA,NA,shen hamster,straight_hamster_1,straight_hamster_2,straight_tiger_2,straight_dog_1,straight_dog_2,straight_fox_2,straight_fox_1,straight_tiger_1,straight_hamster_1,1
+S119,1,1191,129.215.204.33,interactD,1,3,straight_hippo_1,NA,shen hippo,shen hippo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,1,3,straight_hippo_1,NA,NA,shen hippo,straight_hamster_1,straight_sheep_1,straight_hippo_2,straight_rabbit_1,straight_hamster_2,straight_rabbit_2,straight_hippo_1,straight_sheep_2,straight_hippo_1,1
+S119,1,dummyP,127.0.0.1,interactD,1,3,straight_pig_1,NA,shen pig,shen pig,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,1,3,straight_pig_1,NA,NA,shen pig,straight_zebra_1,straight_pig_2,straight_fox_1,straight_fox_2,straight_pig_1,straight_elephant_2,straight_zebra_2,straight_elephant_1,straight_pig_1,1
+S119,1,1191,129.215.204.33,interactD,1,4,straight_sheep_2,NA,shen sheep wib,shen sheep wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,1,4,straight_sheep_2,NA,NA,shen sheep wib,straight_squirrel_2,straight_rabbit_2,straight_sheep_2,straight_elephant_1,straight_squirrel_1,straight_sheep_1,straight_rabbit_1,straight_elephant_2,straight_sheep_2,1
+S119,1,dummyP,127.0.0.1,interactD,1,4,straight_rabbit_2,NA,shen rabbit tid,shen rabbit tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,1,4,straight_rabbit_2,NA,NA,shen rabbit tid,straight_sheep_2,straight_rabbit_1,straight_pig_2,straight_elephant_1,straight_pig_1,straight_elephant_2,straight_rabbit_2,straight_sheep_1,straight_rabbit_2,1
+S119,1,1191,129.215.204.33,interactD,1,5,straight_hedgehog_1,NA,shen hedgehog,shen hedgehog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,1,5,straight_hedgehog_1,NA,NA,shen hedgehog,straight_tiger_1,straight_tiger_2,straight_pig_1,straight_dog_2,straight_dog_1,straight_hedgehog_1,straight_hedgehog_2,straight_pig_2,straight_hedgehog_1,1
+S119,1,dummyP,127.0.0.1,interactD,1,5,straight_hamster_2,NA,shen hamster tid,shen hamster tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,1,5,straight_hamster_2,NA,NA,shen hamster tid,straight_cow_2,straight_hedgehog_2,straight_kangaroo_2,straight_hedgehog_1,straight_cow_1,straight_kangaroo_1,straight_hamster_2,straight_hamster_1,straight_hamster_2,1
+S119,1,1191,129.215.204.33,interactD,1,6,straight_rabbit_2,NA,shen rabbit wib,shen rabbit wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,1,6,straight_rabbit_2,NA,NA,shen rabbit wib,straight_giraffe_2,straight_hippo_1,straight_giraffe_1,straight_rabbit_1,straight_rabbit_2,straight_zebra_2,straight_hippo_2,straight_zebra_1,straight_rabbit_2,1
+S119,1,dummyP,127.0.0.1,interactD,1,6,straight_panda_1,NA,shen panda,shen panda,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,1,6,straight_panda_1,NA,NA,shen panda,straight_panda_1,straight_tiger_2,straight_tiger_1,straight_hippo_2,straight_hippo_1,straight_dog_1,straight_dog_2,straight_panda_2,straight_panda_1,1
+S119,1,1191,129.215.204.33,interactD,1,7,straight_sheep_2,NA,shen sheep tid,shen sheep tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,1,7,straight_sheep_2,NA,NA,shen sheep tid,straight_rabbit_1,straight_kangaroo_1,straight_zebra_1,straight_sheep_1,straight_kangaroo_2,straight_sheep_2,straight_zebra_2,straight_rabbit_2,straight_sheep_2,1
+S119,1,dummyP,127.0.0.1,interactD,1,7,straight_elephant_2,NA,shen elephant tid,shen elephant tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,1,7,straight_elephant_2,NA,NA,shen elephant tid,straight_kangaroo_1,straight_kangaroo_2,straight_elephant_2,straight_elephant_1,straight_dog_2,straight_cow_2,straight_cow_1,straight_dog_1,straight_elephant_2,1
+S119,1,1191,129.215.204.33,interactD,1,8,straight_hamster_2,NA,shen hamster tid,shen hamster tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,1,8,straight_hamster_2,NA,NA,shen hamster tid,straight_kangaroo_2,straight_panda_1,straight_hamster_1,straight_panda_2,straight_kangaroo_1,straight_hamster_2,straight_hippo_2,straight_hippo_1,straight_hamster_2,1
+S119,1,dummyP,127.0.0.1,interactD,1,8,straight_rabbit_2,NA,shen rabbit wib,shen rabbit wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,1,8,straight_rabbit_2,NA,NA,shen rabbit wib,straight_hippo_2,straight_rabbit_1,straight_tiger_2,straight_tiger_1,straight_pig_2,straight_rabbit_2,straight_pig_1,straight_hippo_1,straight_rabbit_2,1
+S119,1,1191,129.215.204.33,interactD,1,9,straight_panda_2,NA,shen panda tid,shen panda tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,1,9,straight_panda_2,NA,NA,shen panda tid,straight_giraffe_2,straight_rabbit_2,straight_hippo_2,straight_giraffe_1,straight_panda_1,straight_hippo_1,straight_rabbit_1,straight_panda_2,straight_panda_2,1
+S119,1,dummyP,127.0.0.1,interactD,1,9,straight_giraffe_1,NA,shen giraffe,shen giraffe,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,1,9,straight_giraffe_1,NA,NA,shen giraffe,straight_rabbit_2,straight_rabbit_1,straight_fox_2,straight_giraffe_1,straight_fox_1,straight_panda_1,straight_giraffe_2,straight_panda_2,straight_giraffe_1,1
+S119,1,1191,129.215.204.33,interactD,1,10,straight_hippo_2,NA,shen hippo wib,shen hippo wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,1,10,straight_hippo_2,NA,NA,shen hippo wib,straight_tiger_1,straight_cow_1,straight_hippo_2,straight_cow_2,straight_rabbit_2,straight_hippo_1,straight_tiger_2,straight_rabbit_1,straight_hippo_2,1
+S119,1,dummyP,127.0.0.1,interactD,1,10,straight_zebra_2,NA,shen zebra tid,shen zebra tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,1,10,straight_zebra_2,NA,NA,shen zebra tid,straight_kangaroo_2,straight_sheep_2,straight_zebra_2,straight_sheep_1,straight_kangaroo_1,straight_zebra_1,straight_hedgehog_1,straight_hedgehog_2,straight_zebra_2,1
+S119,1,1191,129.215.204.33,interactD,1,11,straight_tiger_2,NA,shen tiger wib,shen tiger wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,1,11,straight_tiger_2,NA,NA,shen tiger wib,straight_pig_1,straight_dog_2,straight_tiger_2,straight_dog_1,straight_cow_1,straight_pig_2,straight_tiger_1,straight_cow_2,straight_tiger_2,1
+S119,1,dummyP,127.0.0.1,interactD,1,11,straight_fox_1,NA,shen fox,shen fox,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,1,11,straight_fox_1,NA,NA,shen fox,straight_dog_2,straight_dog_1,straight_sheep_1,straight_kangaroo_1,straight_kangaroo_2,straight_sheep_2,straight_fox_2,straight_fox_1,straight_fox_1,1
+S119,1,1191,129.215.204.33,interactD,1,12,straight_dog_2,NA,shen dog tid,shen dog tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,1,12,straight_dog_2,NA,NA,shen dog tid,straight_tiger_2,straight_rabbit_2,straight_rabbit_1,straight_dog_1,straight_pig_2,straight_pig_1,straight_dog_2,straight_tiger_1,straight_dog_2,1
+S119,1,dummyP,127.0.0.1,interactD,1,12,straight_hamster_2,NA,shen hamster wib,shen hamster wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,1,12,straight_hamster_2,NA,NA,shen hamster wib,straight_fox_2,straight_hamster_2,straight_hippo_2,straight_hamster_1,straight_kangaroo_1,straight_kangaroo_2,straight_hippo_1,straight_fox_1,straight_hamster_2,1
+S119,1,1191,129.215.204.33,interactD,1,13,straight_panda_2,NA,shen panda wib,shen panda wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,1,13,straight_panda_2,NA,NA,shen panda wib,straight_zebra_2,straight_zebra_1,straight_giraffe_1,straight_tiger_2,straight_panda_2,straight_panda_1,straight_tiger_1,straight_giraffe_2,straight_panda_2,1
+S119,1,dummyP,127.0.0.1,interactD,1,13,straight_dog_2,NA,shen dog wib,shen dog wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,1,13,straight_dog_2,NA,NA,shen dog wib,straight_fox_2,straight_giraffe_2,straight_giraffe_1,straight_fox_1,straight_dog_2,straight_dog_1,straight_panda_2,straight_panda_1,straight_dog_2,1
+S119,1,1191,129.215.204.33,interactD,1,14,straight_hedgehog_2,NA,shen hedgehog tid,shen hedgehog tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,1,14,straight_hedgehog_2,NA,NA,shen hedgehog tid,straight_hedgehog_1,straight_pig_2,straight_hippo_1,straight_dog_2,straight_hedgehog_2,straight_hippo_2,straight_pig_1,straight_dog_1,straight_hedgehog_2,1
+S119,1,dummyP,127.0.0.1,interactD,1,14,straight_hedgehog_1,NA,shen hedgehog,shen hedgehog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,1,14,straight_hedgehog_1,NA,NA,shen hedgehog,straight_kangaroo_2,straight_kangaroo_1,straight_rabbit_2,straight_hamster_2,straight_hedgehog_2,straight_hamster_1,straight_rabbit_1,straight_hedgehog_1,straight_hedgehog_1,1
+S119,1,1191,129.215.204.33,interactD,1,15,straight_kangaroo_2,NA,shen kangaroo tid,shen kangaroo tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,1,15,straight_kangaroo_2,NA,NA,shen kangaroo tid,straight_kangaroo_1,straight_tiger_2,straight_tiger_1,straight_dog_1,straight_panda_1,straight_panda_2,straight_kangaroo_2,straight_dog_2,straight_kangaroo_2,1
+S119,1,dummyP,127.0.0.1,interactD,1,15,straight_elephant_2,NA,shen elephant wib,shen elephant wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,1,15,straight_elephant_2,NA,NA,shen elephant wib,straight_dog_2,straight_tiger_1,straight_tiger_2,straight_elephant_2,straight_pig_1,straight_elephant_1,straight_dog_1,straight_pig_2,straight_elephant_2,1
+S119,1,1191,129.215.204.33,interactD,1,16,straight_squirrel_2,NA,shen squirrel wib,shen squirrel wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,1,16,straight_squirrel_2,NA,NA,shen squirrel wib,straight_giraffe_2,straight_zebra_2,straight_tiger_1,straight_zebra_1,straight_squirrel_2,straight_squirrel_1,straight_giraffe_1,straight_tiger_2,straight_squirrel_2,1
+S119,1,dummyP,127.0.0.1,interactD,1,16,straight_dog_2,NA,shen dog tid,shen dog tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,1,16,straight_dog_2,NA,NA,shen dog tid,straight_dog_2,straight_hamster_2,straight_zebra_2,straight_sheep_1,straight_sheep_2,straight_zebra_1,straight_hamster_1,straight_dog_1,straight_dog_2,1
+S119,1,1191,129.215.204.33,interactD,1,17,straight_cow_2,NA,shen cow wib,shen cow wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,1,17,straight_cow_2,NA,NA,shen cow wib,straight_elephant_2,straight_giraffe_1,straight_hamster_1,straight_cow_2,straight_hamster_2,straight_giraffe_2,straight_cow_1,straight_elephant_1,straight_cow_2,1
+S119,1,dummyP,127.0.0.1,interactD,1,17,straight_giraffe_2,NA,shen giraffe wib,shen giraffe wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,1,17,straight_giraffe_2,NA,NA,shen giraffe wib,straight_zebra_1,straight_kangaroo_2,straight_squirrel_2,straight_giraffe_1,straight_zebra_2,straight_kangaroo_1,straight_giraffe_2,straight_squirrel_1,straight_giraffe_2,1
+S119,1,1191,129.215.204.33,interactD,1,18,straight_dog_2,NA,shen dog tid,shen dog tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,1,18,straight_dog_2,NA,NA,shen dog tid,straight_dog_1,straight_tiger_1,straight_hamster_1,straight_tiger_2,straight_hamster_2,straight_pig_2,straight_dog_2,straight_pig_1,straight_dog_2,1
+S119,1,dummyP,127.0.0.1,interactD,1,18,straight_hedgehog_2,NA,shen hedgehog tid,shen hedgehog tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,1,18,straight_hedgehog_2,NA,NA,shen hedgehog tid,straight_hedgehog_2,straight_kangaroo_2,straight_hippo_1,straight_cow_2,straight_cow_1,straight_kangaroo_1,straight_hedgehog_1,straight_hippo_2,straight_hedgehog_2,1
+S119,1,1191,129.215.204.33,interactD,1,19,straight_sheep_1,NA,shen sheep,shen sheep,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,1,19,straight_sheep_1,NA,NA,shen sheep,straight_hedgehog_2,straight_sheep_2,straight_elephant_1,straight_hedgehog_1,straight_cow_2,straight_elephant_2,straight_cow_1,straight_sheep_1,straight_sheep_1,1
+S119,1,dummyP,127.0.0.1,interactD,1,19,straight_fox_2,NA,shen fox wib,shen fox wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,1,19,straight_fox_2,NA,NA,shen fox wib,straight_panda_2,straight_fox_1,straight_kangaroo_2,straight_kangaroo_1,straight_panda_1,straight_fox_2,straight_tiger_1,straight_tiger_2,straight_fox_2,1
+S119,1,1191,129.215.204.33,interactD,1,20,straight_rabbit_2,NA,shen rabbit tid,shen rabbit tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,1,20,straight_rabbit_2,NA,NA,shen rabbit tid,straight_cow_2,straight_rabbit_1,straight_cow_1,straight_tiger_1,straight_elephant_2,straight_elephant_1,straight_tiger_2,straight_rabbit_2,straight_rabbit_2,1
+S119,1,dummyP,127.0.0.1,interactD,1,20,straight_zebra_1,NA,shen zebra,shen zebra,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,1,20,straight_zebra_1,NA,NA,shen zebra,straight_kangaroo_2,straight_kangaroo_1,straight_elephant_1,straight_zebra_1,straight_elephant_2,straight_zebra_2,straight_hamster_2,straight_hamster_1,straight_zebra_1,1
+S119,1,1191,129.215.204.33,interactD,1,21,straight_cow_1,NA,shen cow,shen cow,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,1,21,straight_cow_1,NA,NA,shen cow,straight_cow_1,straight_tiger_1,straight_tiger_2,straight_pig_2,straight_pig_1,straight_kangaroo_2,straight_kangaroo_1,straight_cow_2,straight_cow_1,1
+S119,1,dummyP,127.0.0.1,interactD,1,21,straight_panda_2,NA,shen panda wib,shen panda wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,1,21,straight_panda_2,NA,NA,shen panda wib,straight_panda_1,straight_pig_2,straight_hamster_2,straight_squirrel_2,straight_hamster_1,straight_panda_2,straight_pig_1,straight_squirrel_1,straight_panda_2,1
+S119,1,1191,129.215.204.33,interactD,1,22,straight_zebra_1,NA,shen zebra,shen zebra,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,1,22,straight_zebra_1,NA,NA,shen zebra,straight_tiger_1,straight_fox_2,straight_tiger_2,straight_zebra_1,straight_kangaroo_2,straight_fox_1,straight_kangaroo_1,straight_zebra_2,straight_zebra_1,1
+S119,1,dummyP,127.0.0.1,interactD,1,22,straight_dog_1,NA,shen dog,shen dog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,1,22,straight_dog_1,NA,NA,shen dog,straight_fox_2,straight_dog_2,straight_sheep_1,straight_dog_1,straight_sheep_2,straight_cow_2,straight_cow_1,straight_fox_1,straight_dog_1,1
+S119,1,1191,129.215.204.33,interactD,1,23,straight_hedgehog_2,NA,shen hedgehog tid,shen hedgehog tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,1,23,straight_hedgehog_2,NA,NA,shen hedgehog tid,straight_zebra_1,straight_elephant_1,straight_dog_2,straight_zebra_2,straight_hedgehog_2,straight_dog_1,straight_elephant_2,straight_hedgehog_1,straight_hedgehog_2,1
+S119,1,dummyP,127.0.0.1,interactD,1,23,straight_squirrel_1,NA,shen squirrel,shen squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,1,23,straight_squirrel_1,NA,NA,shen squirrel,straight_elephant_1,straight_hippo_2,straight_hamster_1,straight_hamster_2,straight_squirrel_1,straight_squirrel_2,straight_hippo_1,straight_elephant_2,straight_squirrel_1,1
+S119,1,1191,129.215.204.33,interactD,1,24,straight_panda_1,NA,shen panda,shen panda,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,1,24,straight_panda_1,NA,NA,shen panda,straight_tiger_1,straight_hamster_2,straight_panda_1,straight_kangaroo_2,straight_kangaroo_1,straight_panda_2,straight_hamster_1,straight_tiger_2,straight_panda_1,1
+S119,1,dummyP,127.0.0.1,interactD,1,24,straight_hedgehog_2,NA,shen hedgehog wib,shen hedgehog wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,1,24,straight_hedgehog_2,NA,NA,shen hedgehog wib,straight_squirrel_1,straight_sheep_1,straight_sheep_2,straight_squirrel_2,straight_kangaroo_1,straight_kangaroo_2,straight_hedgehog_2,straight_hedgehog_1,straight_hedgehog_2,1
+S119,1,1191,129.215.204.33,interactD,1,25,straight_zebra_2,NA,shen zebra wib,shen zebra wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,1,25,straight_zebra_2,NA,NA,shen zebra wib,straight_zebra_1,straight_dog_1,straight_rabbit_2,straight_hippo_1,straight_rabbit_1,straight_dog_2,straight_hippo_2,straight_zebra_2,straight_zebra_2,1
+S119,1,dummyP,127.0.0.1,interactD,1,25,straight_squirrel_2,NA,shen squirrel wib,shen squirrel wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,1,25,straight_squirrel_2,NA,NA,shen squirrel wib,straight_panda_1,straight_tiger_1,straight_squirrel_2,straight_rabbit_2,straight_rabbit_1,straight_squirrel_1,straight_tiger_2,straight_panda_2,straight_squirrel_2,1
+S119,1,1191,129.215.204.33,interactD,1,26,straight_squirrel_2,NA,shen squirrel ,shen squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,1,26,straight_squirrel_2,NA,NA,shen squirrel,straight_tiger_2,straight_hedgehog_2,straight_squirrel_2,straight_cow_2,straight_squirrel_1,straight_tiger_1,straight_cow_1,straight_hedgehog_1,straight_squirrel_1,0
+S119,1,dummyP,127.0.0.1,interactD,1,26,straight_pig_2,NA,shen pig tid,shen pig tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,1,26,straight_pig_2,NA,NA,shen pig tid,straight_fox_1,straight_fox_2,straight_pig_1,straight_tiger_2,straight_tiger_1,straight_squirrel_2,straight_pig_2,straight_squirrel_1,straight_pig_2,1
+S119,1,1191,129.215.204.33,interactD,1,27,straight_tiger_1,NA,shen tiger,shen tiger,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,1,27,straight_tiger_1,NA,NA,shen tiger,straight_tiger_1,straight_cow_1,straight_hedgehog_2,straight_cow_2,straight_hedgehog_1,straight_tiger_2,straight_hippo_1,straight_hippo_2,straight_tiger_1,1
+S119,1,dummyP,127.0.0.1,interactD,1,27,straight_kangaroo_2,NA,shen kangaroo tid,shen kangaroo tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,1,27,straight_kangaroo_2,NA,NA,shen kangaroo tid,straight_fox_1,straight_zebra_2,straight_kangaroo_1,straight_hamster_2,straight_fox_2,straight_hamster_1,straight_zebra_1,straight_kangaroo_2,straight_kangaroo_2,1
+S119,1,1191,129.215.204.33,interactD,1,28,straight_rabbit_1,NA,shen rabbit,shen rabbit,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,1,28,straight_rabbit_1,NA,NA,shen rabbit,straight_panda_1,straight_hamster_1,straight_hamster_2,straight_panda_2,straight_cow_2,straight_cow_1,straight_rabbit_1,straight_rabbit_2,straight_rabbit_1,1
+S119,1,dummyP,127.0.0.1,interactD,1,28,straight_squirrel_2,NA,shen squirrel tid,shen squirrel tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,1,28,straight_squirrel_2,NA,NA,shen squirrel tid,straight_zebra_2,straight_hippo_2,straight_sheep_1,straight_squirrel_2,straight_sheep_2,straight_hippo_1,straight_squirrel_1,straight_zebra_1,straight_squirrel_2,1
+S119,1,1191,129.215.204.33,interactD,1,29,straight_kangaroo_1,NA,shen kangaroo,shen kangaroo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,1,29,straight_kangaroo_1,NA,NA,shen kangaroo,straight_hedgehog_2,straight_giraffe_2,straight_elephant_1,straight_hedgehog_1,straight_kangaroo_2,straight_kangaroo_1,straight_giraffe_1,straight_elephant_2,straight_kangaroo_1,1
+S119,1,dummyP,127.0.0.1,interactD,1,29,straight_kangaroo_1,NA,shen kangaroo,shen kangaroo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,1,29,straight_kangaroo_1,NA,NA,shen kangaroo,straight_kangaroo_2,straight_hippo_2,straight_pig_2,straight_hippo_1,straight_pig_1,straight_kangaroo_1,straight_squirrel_2,straight_squirrel_1,straight_kangaroo_1,1
+S119,1,1191,129.215.204.33,interactD,1,30,straight_squirrel_1,NA,shen squirrel,shen squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,1,30,straight_squirrel_1,NA,NA,shen squirrel,straight_sheep_1,straight_zebra_2,straight_zebra_1,straight_squirrel_2,straight_squirrel_1,straight_elephant_1,straight_elephant_2,straight_sheep_2,straight_squirrel_1,1
+S119,1,dummyP,127.0.0.1,interactD,1,30,straight_kangaroo_2,NA,shen kangaroo wib,shen kangaroo wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,1,30,straight_kangaroo_2,NA,NA,shen kangaroo wib,straight_sheep_2,straight_fox_1,straight_hamster_2,straight_sheep_1,straight_fox_2,straight_kangaroo_1,straight_kangaroo_2,straight_hamster_1,straight_kangaroo_2,1
+S119,1,1191,129.215.204.33,interactD,1,31,straight_zebra_2,NA,shen zebra tib,shen zebra wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,1,31,straight_zebra_2,NA,NA,shen zebra wib,straight_elephant_1,straight_tiger_2,straight_zebra_1,straight_squirrel_2,straight_tiger_1,straight_elephant_2,straight_zebra_2,straight_squirrel_1,straight_zebra_2,1
+S119,1,dummyP,127.0.0.1,interactD,1,31,straight_giraffe_2,NA,shen giraffe tid,shen giraffe tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,1,31,straight_giraffe_2,NA,NA,shen giraffe tid,straight_kangaroo_2,straight_giraffe_2,straight_elephant_1,straight_kangaroo_1,straight_elephant_2,straight_rabbit_2,straight_rabbit_1,straight_giraffe_1,straight_giraffe_2,1
+S119,1,1191,129.215.204.33,interactD,1,32,straight_cow_2,NA,shen cow wib,shen cow wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,1,32,straight_cow_2,NA,NA,shen cow wib,straight_cow_1,straight_tiger_1,straight_dog_2,straight_kangaroo_1,straight_cow_2,straight_kangaroo_2,straight_tiger_2,straight_dog_1,straight_cow_2,1
+S119,1,dummyP,127.0.0.1,interactD,1,32,straight_panda_2,NA,shen panda tid,shen panda tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,1,32,straight_panda_2,NA,NA,shen panda tid,straight_panda_1,straight_dog_2,straight_panda_2,straight_rabbit_2,straight_zebra_1,straight_dog_1,straight_rabbit_1,straight_zebra_2,straight_panda_2,1
+S119,1,1191,129.215.204.33,interactD,1,33,straight_hamster_1,NA,shen hamster,shen hamster,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,1,33,straight_hamster_1,NA,NA,shen hamster,straight_fox_2,straight_pig_2,straight_pig_1,straight_hamster_2,straight_fox_1,straight_dog_2,straight_dog_1,straight_hamster_1,straight_hamster_1,1
+S119,1,dummyP,127.0.0.1,interactD,1,33,straight_rabbit_1,NA,shen rabbit,shen rabbit,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,1,33,straight_rabbit_1,NA,NA,shen rabbit,straight_pig_2,straight_zebra_2,straight_elephant_1,straight_pig_1,straight_rabbit_1,straight_rabbit_2,straight_zebra_1,straight_elephant_2,straight_rabbit_1,1
+S119,1,1191,129.215.204.33,interactD,1,34,straight_tiger_2,NA,shen tiger tid,shen tiger tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,1,34,straight_tiger_2,NA,NA,shen tiger tid,straight_tiger_2,straight_sheep_1,straight_tiger_1,straight_hamster_2,straight_hamster_1,straight_elephant_2,straight_elephant_1,straight_sheep_2,straight_tiger_2,1
+S119,1,dummyP,127.0.0.1,interactD,1,34,straight_pig_2,NA,shen pig wib,shen pig wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,1,34,straight_pig_2,NA,NA,shen pig wib,straight_hedgehog_1,straight_hedgehog_2,straight_hippo_1,straight_squirrel_2,straight_hippo_2,straight_pig_1,straight_squirrel_1,straight_pig_2,straight_pig_2,1
+S119,1,1191,129.215.204.33,interactD,1,35,straight_hamster_2,NA,shen hamster wib,shen hamster wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,dummyP,127.0.0.1,interactM,1,35,straight_hamster_2,NA,NA,shen hamster wib,straight_tiger_1,straight_hippo_2,straight_hamster_1,straight_elephant_2,straight_hippo_1,straight_tiger_2,straight_elephant_1,straight_hamster_2,straight_hamster_2,1
+S119,1,dummyP,127.0.0.1,interactD,1,35,straight_fox_2,NA,shen fox tid,shen fox tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S119,1,1191,129.215.204.33,interactM,1,35,straight_fox_2,NA,NA,shen fox tid,straight_zebra_2,straight_tiger_1,straight_tiger_2,straight_fox_2,straight_kangaroo_1,straight_fox_1,straight_kangaroo_2,straight_zebra_1,straight_fox_2,1

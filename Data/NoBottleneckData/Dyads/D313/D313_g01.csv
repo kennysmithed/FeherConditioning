@@ -1,0 +1,801 @@
+Chain,Generation,ParticipantID,IP,Stage,Block,TrialNumber,Meaning,TrainingLabel,TypedLabel,CheckedLabel,Array1,Array2,Array3,Array4,Array5,Array6,Array7,Array8,Selected,Score
+D313,1,3132,129.215.204.33,vocabTraining,0,1,digger,digger,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTraining,0,1,train,train,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTraining,0,2,car,car,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTraining,0,2,helicopter,helicopter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTraining,0,3,helicopter,helicopter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTraining,0,3,car,car,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTraining,0,4,tank,tank,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTraining,0,4,plane,plane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTraining,0,5,boat,boat,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTraining,0,5,truck,truck,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTraining,0,6,plane,plane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTraining,0,6,tank,tank,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTraining,0,7,rocket,rocket,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTraining,0,7,bike,bike,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTraining,0,8,plane,plane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTraining,0,8,car,car,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTraining,0,9,digger,digger,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTraining,0,9,boat,boat,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTraining,0,10,bike,bike,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTraining,0,10,rocket,rocket,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTraining,0,11,bus,bus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTraining,0,11,digger,digger,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTraining,0,12,train,train,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTraining,0,12,scooter,scooter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTraining,0,13,helicopter,helicopter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTraining,0,13,tractor,tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTraining,0,14,truck,truck,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTraining,0,14,truck,truck,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTraining,0,15,tractor,tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTraining,0,15,ambulance,ambulance,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTraining,0,16,scooter,scooter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTraining,0,16,van,van,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTraining,0,17,tractor,tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTraining,0,17,ambulance,ambulance,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTraining,0,18,ambulance,ambulance,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTraining,0,18,scooter,scooter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTraining,0,19,bus,bus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTraining,0,19,submarine,submarine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTraining,0,20,submarine,submarine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTraining,0,20,plane,plane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTraining,0,21,bike,bike,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTraining,0,21,helicopter,helicopter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTraining,0,22,car,car,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTraining,0,22,train,train,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTraining,0,23,boat,boat,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTraining,0,23,tank,tank,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTraining,0,24,van,van,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTraining,0,24,bike,bike,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTraining,0,25,truck,truck,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTraining,0,25,bus,bus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTraining,0,26,van,van,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTraining,0,26,bus,bus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTraining,0,27,ambulance,ambulance,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTraining,0,27,van,van,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTraining,0,28,scooter,scooter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTraining,0,28,digger,digger,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTraining,0,29,rocket,rocket,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTraining,0,29,boat,boat,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTraining,0,30,tank,tank,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTraining,0,30,rocket,rocket,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTraining,0,31,submarine,submarine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTraining,0,31,submarine,submarine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTraining,0,32,train,train,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTraining,0,32,tractor,tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTesting,0,1,tank,NA,tank,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTesting,0,2,tractor,NA,tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTesting,0,3,train,NA,train,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTesting,0,1,bus,NA,bus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTesting,0,4,van,NA,van,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTesting,0,5,scooter,NA,scooter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTesting,0,2,car,NA, car,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTesting,0,6,tractor,NA,tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTesting,0,3,tractor,NA,tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTesting,0,7,helicopter,NA,helicopter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTesting,0,8,scooter,NA,scooter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTesting,0,4,tractor,NA,tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTesting,0,9,boat,NA,boat,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTesting,0,5,rocket,NA,rocket,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTesting,0,10,bus,NA,bus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTesting,0,6,plane,NA,plane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTesting,0,11,bike,NA,bike,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTesting,0,12,rocket,NA,rocket,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTesting,0,7,digger,NA,digger,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTesting,0,13,tank,NA,tank,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTesting,0,8,tank,NA,tank,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTesting,0,14,boat,NA,boat,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTesting,0,9,bus,NA,bus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTesting,0,15,helicopter,NA,helicopter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTesting,0,10,bike,NA,bike,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTesting,0,16,train,NA,train,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTesting,0,17,digger,NA,digger,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTesting,0,11,tank,NA,tank,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTesting,0,18,digger,NA,digger,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTesting,0,12,train,NA,train,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTesting,0,19,truck,NA,truck,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTesting,0,20,plane,NA,plane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTesting,0,21,car,NA,car,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTesting,0,13,truck,NA,truck,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTesting,0,22,plane,NA,plane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTesting,0,14,van,NA,van,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTesting,0,23,car,NA,car,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTesting,0,24,bike,NA,bike,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTesting,0,15,truck,NA,truck,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTesting,0,25,ambulance,NA,ambulance,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTesting,0,26,rocket,NA,rocket,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTesting,0,16,ambulance,NA,ambulance,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTesting,0,17,digger,NA,digger,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTesting,0,27,submarine,NA,submarine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTesting,0,28,van,NA,van,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTesting,0,18,helicopter,NA,helicopter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTesting,0,29,submarine,NA,submarine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTesting,0,19,plane,NA,plane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTesting,0,30,bus,NA,bus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTesting,0,20,scooter,NA,scooter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTesting,0,31,ambulance,NA,ambulance,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,vocabTesting,0,32,truck,NA,truck,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTesting,0,21,ambulance,NA,ambulance,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTesting,0,22,van,NA,van,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTesting,0,23,rocket,NA,rocket,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTesting,0,24,helicopter,NA,helicopter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTesting,0,25,car,NA,car,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTesting,0,26,boat,NA,boat,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTesting,0,27,submarine,NA,submarine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTesting,0,28,boat,NA,boat,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTesting,0,29,train,NA,train,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTesting,0,30,scooter,NA,scooter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTesting,0,31,submarine,NA,submarine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,vocabTesting,0,32,bike,NA,bike,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,1,straight_rocket_1,frab rocket,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,2,straight_helicopter_1,frab helicopter,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,1,straight_train_2,frab train dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,3,straight_bus_2,frab bus dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,2,straight_scooter_2,frab scooter dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,4,straight_tank_2,frab tank dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,3,straight_bike_2,frab bike wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,5,straight_truck_2,frab truck dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,4,straight_tractor_1,frab tractor,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,6,straight_ambulance_2,frab ambulance wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,5,straight_car_2,frab car wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,7,straight_digger_1,frab digger,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,6,straight_bike_2,frab bike dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,8,straight_helicopter_2,frab helicopter wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,7,straight_car_1,frab car,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,9,straight_boat_2,frab boat wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,8,straight_digger_2,frab digger dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,10,straight_train_2,frab train dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,9,straight_bus_1,frab bus,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,11,straight_ambulance_2,frab ambulance dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,10,straight_plane_1,frab plane,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,12,straight_plane_1,frab plane,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,11,straight_ambulance_2,frab ambulance wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,13,straight_submarine_2,frab submarine wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,12,straight_digger_1,frab digger,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,14,straight_tractor_2,frab tractor dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,13,straight_truck_2,frab truck dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,15,straight_van_2,frab van dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,14,straight_rocket_2,frab rocket dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,16,straight_plane_2,frab plane dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,15,straight_ambulance_2,frab ambulance dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,17,straight_tractor_2,frab tractor wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,16,straight_helicopter_1,frab helicopter,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,18,straight_truck_2,frab truck wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,17,straight_ambulance_1,frab ambulance,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,19,straight_bus_1,frab bus,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,18,straight_helicopter_2,frab helicopter dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,20,straight_helicopter_2,frab helicopter dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,19,straight_tank_2,frab tank wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,21,straight_car_2,frab car wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,20,straight_van_1,frab van,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,22,straight_boat_1,frab boat,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,21,straight_car_2,frab car dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,23,straight_plane_2,frab plane wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,22,straight_truck_2,frab truck wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,24,straight_car_2,frab car dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,23,straight_tank_1,frab tank,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,25,straight_scooter_1,frab scooter,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,24,straight_van_2,frab van dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,26,straight_train_1,frab train,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,25,straight_scooter_2,frab scooter wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,27,straight_car_1,frab car,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,26,straight_truck_1,frab truck,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,28,straight_scooter_2,frab scooter wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,27,straight_boat_2,frab boat dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,29,straight_bus_2,frab bus wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,28,straight_tank_2,frab tank dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,30,straight_rocket_2,frab rocket wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,29,straight_tractor_2,frab tractor dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,31,straight_van_2,frab van wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,30,straight_helicopter_2,frab helicopter wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,32,straight_bike_2,frab bike wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,31,straight_rocket_2,frab rocket wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,33,straight_rocket_2,frab rocket dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,32,straight_plane_2,frab plane dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,34,straight_ambulance_1,frab ambulance,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,33,straight_tractor_2,frab tractor wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,35,straight_digger_2,frab digger dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,34,straight_bus_2,frab bus wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,36,straight_submarine_2,frab submarine dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,35,straight_submarine_1,frab submarine,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,37,straight_submarine_1,frab submarine,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,36,straight_train_1,frab train,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,38,straight_bike_2,frab bike dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,37,straight_train_2,frab train wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,39,straight_bike_1,frab bike,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,38,straight_submarine_2,frab submarine dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,40,straight_tank_1,frab tank,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,39,straight_rocket_1,frab rocket,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,41,straight_van_1,frab van,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,40,straight_bike_1,frab bike,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,42,straight_train_2,frab train wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,41,straight_bus_2,frab bus dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,43,straight_tractor_1,frab tractor,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,42,straight_submarine_2,frab submarine wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,44,straight_tank_2,frab tank wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,43,straight_van_2,frab van wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,45,straight_digger_2,frab digger wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,44,straight_scooter_1,frab scooter,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,46,straight_scooter_2,frab scooter dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,45,straight_digger_2,frab digger wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,47,straight_boat_2,frab boat dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,46,straight_plane_2,frab plane wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,0,48,straight_truck_1,frab truck,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,47,straight_boat_2,frab boat wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,0,48,straight_boat_1,frab boat,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,1,straight_bike_2,frab bike wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,1,straight_scooter_2,frab scooter dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,2,straight_tank_2,frab tank wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,2,straight_van_2,frab van dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,3,straight_bus_1,frab bus,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,3,straight_bike_2,frab bike wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,4,straight_scooter_2,frab scooter wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,4,straight_ambulance_1,frab ambulance,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,5,straight_submarine_2,frab submarine wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,5,straight_tractor_1,frab tractor,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,6,straight_helicopter_2,frab helicopter wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,6,straight_digger_2,frab digger wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,7,straight_rocket_1,frab rocket,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,7,straight_helicopter_2,frab helicopter wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,8,straight_submarine_2,frab submarine dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,8,straight_plane_2,frab plane dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,9,straight_boat_2,frab boat wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,9,straight_submarine_2,frab submarine dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,10,straight_ambulance_1,frab ambulance,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,10,straight_bus_2,frab bus dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,11,straight_van_2,frab van dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,11,straight_tank_2,frab tank wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,12,straight_tractor_2,frab tractor wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,12,straight_boat_2,frab boat dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,13,straight_digger_2,frab digger dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,13,straight_tank_2,frab tank dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,14,straight_rocket_2,frab rocket dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,14,straight_car_2,frab car wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,15,straight_submarine_1,frab submarine,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,15,straight_rocket_1,frab rocket,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,16,straight_digger_1,frab digger,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,16,straight_tractor_2,frab tractor dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,17,straight_helicopter_2,frab helicopter dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,17,straight_bike_1,frab bike,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,18,straight_bus_2,frab bus dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,18,straight_car_1,frab car,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,19,straight_rocket_2,frab rocket wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,19,straight_rocket_2,frab rocket wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,20,straight_ambulance_2,frab ambulance dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,20,straight_scooter_1,frab scooter,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,21,straight_boat_2,frab boat dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,21,straight_scooter_2,frab scooter wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,22,straight_helicopter_1,frab helicopter,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,22,straight_truck_2,frab truck wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,23,straight_scooter_1,frab scooter,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,23,straight_digger_1,frab digger,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,24,straight_plane_1,frab plane,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,24,straight_rocket_2,frab rocket dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,25,straight_truck_1,frab truck,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,25,straight_bus_2,frab bus wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,26,straight_car_2,frab car dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,26,straight_truck_1,frab truck,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,27,straight_boat_1,frab boat,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,27,straight_van_1,frab van,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,28,straight_tractor_2,frab tractor dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,28,straight_bike_2,frab bike dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,29,straight_plane_2,frab plane wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,29,straight_boat_2,frab boat wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,30,straight_scooter_2,frab scooter dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,30,straight_train_2,frab train wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,31,straight_truck_2,frab truck wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,31,straight_car_2,frab car dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,32,straight_tank_1,frab tank,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,32,straight_van_2,frab van wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,33,straight_tank_2,frab tank dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,33,straight_submarine_2,frab submarine wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,34,straight_train_1,frab train,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,34,straight_plane_1,frab plane,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,35,straight_bus_2,frab bus wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,35,straight_train_1,frab train,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,36,straight_car_1,frab car,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,36,straight_bus_1,frab bus,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,37,straight_van_2,frab van wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,37,straight_ambulance_2,frab ambulance wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,38,straight_train_2,frab train wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,38,straight_submarine_1,frab submarine,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,39,straight_bike_1,frab bike,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,39,straight_helicopter_1,frab helicopter,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,40,straight_truck_2,frab truck dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,40,straight_truck_2,frab truck dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,41,straight_digger_2,frab digger wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,41,straight_boat_1,frab boat,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,42,straight_tractor_1,frab tractor,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,42,straight_helicopter_2,frab helicopter dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,43,straight_bike_2,frab bike dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,43,straight_digger_2,frab digger dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,44,straight_plane_2,frab plane dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,44,straight_train_2,frab train dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,45,straight_van_1,frab van,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,45,straight_tank_1,frab tank,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,46,straight_train_2,frab train dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,46,straight_ambulance_2,frab ambulance dak,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,47,straight_ambulance_2,frab ambulance wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,47,straight_tractor_2,frab tractor wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,training,1,48,straight_car_2,frab car wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,training,1,48,straight_plane_2,frab plane wib,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,1,straight_scooter_2,NA,frab scooter dak,frab scooter dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,1,straight_rocket_1,NA,frab rocket,frab rocket,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,2,straight_car_2,NA,frab car dak,frab car dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,2,straight_bus_2,NA,frab bus dak,frab bus dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,3,straight_rocket_2,NA,drab rocket wib,frab rocket wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,4,straight_submarine_2,NA,frab submarine dak,frab submarine dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,3,straight_car_2,NA,frab car dak,frab car dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,4,straight_train_2,NA,frab train dak,frab train dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,5,straight_plane_2,NA,drab plane dak,frab plane dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,6,straight_ambulance_1,NA,frab ambulance,frab ambulance,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,5,straight_truck_1,NA,frab truck,frab truck,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,6,straight_tank_1,NA,frab tank,frab tank,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,7,straight_bike_2,NA,frab bike wib,frab bike wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,8,straight_digger_1,NA,frab digger,frab digger,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,9,straight_submarine_1,NA,frab submarine,frab submarine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,10,straight_boat_1,NA,frab boat,frab boat,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,7,straight_ambulance_1,NA,frab ambulence,frab ambulance,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,11,straight_truck_2,NA,frab truck wib,frab truck wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,8,straight_plane_2,NA,frab plane wib,frab plane wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,12,straight_rocket_1,NA,frab rocket,frab rocket,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,13,straight_ambulance_2,NA,frab ambulance dak,frab ambulance dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,9,straight_bike_2,NA,frab bike dak,frab bike dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,14,straight_helicopter_2,NA,frab helicopter dak,frab helicopter dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,15,straight_van_2,NA,frab van wib,frab van wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,10,straight_van_2,NA,frab van wib,frab van wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,16,straight_car_2,NA,frab car wib,frab car wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,17,straight_train_2,NA,frab train wib,frab train wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,11,straight_boat_2,NA,frab boat wib,frab boat wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,18,straight_bus_2,NA,frab bus wib,frab bus wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,12,straight_bus_2,NA,frab bus dak,frab bus dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,19,straight_tractor_2,NA,frab tractor dak,frab tractor dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,20,straight_bus_2,NA,frab bus wib,frab bus wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,13,straight_rocket_2,NA,frab rocket dak,frab rocket dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,21,straight_tractor_2,NA,frab tractor dak,frab tractor dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,14,straight_ambulance_2,NA,frab ambulence wib,frab ambulance wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,22,straight_helicopter_2,NA,frab helicopter wib,frab helicopter wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,15,straight_submarine_2,NA,frab submarine dak,frab submarine dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,23,straight_tank_2,NA,frab tank dak,frab tank dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,16,straight_boat_1,NA,frab boat,frab boat,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,24,straight_van_2,NA,frab van wib,frab van wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,17,straight_helicopter_1,NA,frab helicopter,frab helicopter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,25,straight_tractor_1,NA,frab tractor,frab tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,26,straight_submarine_2,NA,frab submarine wib,frab submarine wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,18,straight_van_2,NA,frab van dak,frab van dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,27,straight_truck_2,NA,frab truck wib,frab truck wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,28,straight_helicopter_1,NA,frab helicopter,frab helicopter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,19,straight_tank_2,NA,frab tank dak,frab tank dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,29,straight_boat_2,NA,frab boat wib,frab boat wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,20,straight_van_1,NA,frab van,frab van,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,30,straight_plane_2,NA,frab plane wib,frab plane wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,21,straight_helicopter_2,NA,frab helicopter dak,frab helicopter dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,31,straight_tank_2,NA,frab tank dak,frab tank dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,32,straight_car_1,NA,frab car,frab car,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,22,straight_bike_1,NA,frab bike,frab bike,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,33,straight_tank_1,NA,frab tank,frab tank,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,23,straight_train_1,NA,frab train,frab train,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,34,straight_digger_2,NA,frab digger wib,frab digger wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,24,straight_train_2,NA,frab train dak,frab train dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,35,straight_bike_1,NA,frab bike,frab bike,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,36,straight_digger_2,NA,frab digger wib,frab digger wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,25,straight_submarine_1,NA,frab submarine,frab submarine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,37,straight_truck_1,NA,frab truck,frab truck,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,26,straight_plane_2,NA,frab plane wib,frab plane wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,38,straight_van_1,NA,frab van,frab van,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,39,straight_bike_2,NA,frab bike wib,frab bike wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,27,straight_truck_2,NA,frab truck wib,frab truck wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,40,straight_bus_1,NA,frab bus,frab bus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,28,straight_plane_1,NA,frab plane,frab plane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,41,straight_ambulance_2,NA,frab ambulance wib,frab ambulance wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,29,straight_scooter_2,NA,frab scooter,frab scooter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,42,straight_train_2,NA,frab truck dak,frab truck dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,43,straight_scooter_1,NA,frab scooter,frab scooter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,30,straight_helicopter_2,NA,frab helicopter dak,frab helicopter dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,44,straight_rocket_2,NA,frab rocket wib,frab rocket wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,45,straight_boat_2,NA,frab boat wib,frab boat wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,31,straight_tractor_2,NA,frab tractor wib,frab tractor wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,46,straight_scooter_2,NA,frab scooter wib,frab scooter wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,47,straight_plane_1,NA,frab plane,frab plane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,0,48,straight_train_1,NA,frab train,frab train,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,32,straight_digger_2,NA,frab digger wib,frab digger wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,33,straight_car_2,NA,frab car dak,frab car dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,34,straight_scooter_1,NA,frab scooter,frab scooter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,35,straight_tractor_1,NA,frab tractor,frab tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,36,straight_ambulance_2,NA,frab ambulance wib,frab ambulance wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,37,straight_car_1,NA,frab car,frab car,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,38,straight_boat_2,NA,frab boat dak,frab boat dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,39,straight_tractor_2,NA,frab tractor wib,frab tractor wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,40,straight_submarine_2,NA,frab submarine wib,frab submarine wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,41,straight_bus_1,NA,frab bus,frab bus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,42,straight_truck_2,NA,frab truck dak,frab truck dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,43,straight_tank_2,NA,frab tank dak,frab tank dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,44,straight_bike_2,NA,frab bike wib,frab bike wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,45,straight_digger_1,NA,frab digger,frab digger,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,46,straight_rocket_2,NA,frab rocket dak,frab rocket dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,47,straight_scooter_2,NA,frab scooter dak,frab scooter dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,0,48,straight_digger_2,NA,frab digger wib,frab digger wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,1,straight_bus_2,NA,frab bus dak,frab bus dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,1,straight_car_2,NA,frab car wib,frab car wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,2,straight_digger_2,NA,frab digger dak,frab digger dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,2,straight_bus_2,NA,frab bus dak,frab bus dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,3,straight_plane_2,NA,frab plane wib,frab plane wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,3,straight_submarine_2,NA,frab submarine wib,frab submarine wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,4,straight_truck_2,NA,frab truch dak,frab truck dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,4,straight_train_2,NA,frab train dak,frab train dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,5,straight_tank_1,NA,frab tank ,frab tank,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,6,straight_truck_2,NA,frab truck wib,frab truck wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,7,straight_plane_1,NA,frab plane,frab plane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,5,straight_helicopter_2,NA,frab helicopter dak,frab helicopter dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,8,straight_rocket_2,NA,frab rocket wib,frab rocket wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,9,straight_helicopter_1,NA,frab helicopter,frab helicopter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,6,straight_digger_2,NA,frab digger wib,frab digger wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,10,straight_tank_2,NA,frab tank dak,frab tank dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,7,straight_truck_1,NA,frab truck,frab truck,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,11,straight_digger_2,NA,frab digger wib,frab digger wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,12,straight_submarine_1,NA,frab submarine,frab submarine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,8,straight_train_2,NA,frab train dak,frab train dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,13,straight_scooter_2,NA,frab scooter wib,frab scooter wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,14,straight_digger_2,NA,frab digger wib,frab digger wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,9,straight_truck_2,NA,frab truck wib,frab truck wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,15,straight_van_1,NA,frab van,frab van,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,16,straight_boat_1,NA,frab boat,frab boat,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,10,straight_rocket_1,NA,frab rocket,frab rocket,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,17,straight_van_2,NA,frab van wib,frab van wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,18,straight_rocket_2,NA,frab rocket wib,frab rocket wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,11,straight_scooter_2,NA,frab scooter dak,frab scooter dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,19,straight_train_2,NA,frab train dak,frab train dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,12,straight_digger_1,NA,frab digger,frab digger,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,20,straight_bike_1,NA,frab bike,frab bike,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,21,straight_bus_1,NA,frab bus,frab bus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,13,straight_van_2,NA,frab van wib,frab van wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,22,straight_submarine_2,NA,frab submarine wib,frab submarine wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,23,straight_ambulance_2,NA,frab ambulance wib,frab ambulance wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,14,straight_bus_2,NA,frab bus dak,frab bus dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,24,straight_scooter_2,NA,frab scooter wib,frab scooter wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,25,straight_truck_2,NA,frab truck wib,frab truck wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,15,straight_rocket_2,NA,frab rocket rib,frab rocket wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,26,straight_scooter_1,NA,frab scooter,frab scooter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,16,straight_ambulance_1,NA,frab ambulence ,frab ambulance,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,27,straight_bike_2,NA,frab bike wib,frab bike wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,28,straight_boat_2,NA,frab boat wib,frab boat wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,29,straight_train_1,NA,frab train,frab train,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,17,straight_submarine_2,NA,frab submarine dak,frab submarine dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,30,straight_car_2,NA,frab car wib,frab car wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,18,straight_train_2,NA,frab train dak,frab train dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,31,straight_helicopter_2,NA,frab helicopter dak,frab helicopter dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,19,straight_tank_1,NA,frab tank,frab tank,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,32,straight_plane_2,NA,frab plane wib,frab plane wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,33,straight_helicopter_2,NA,frab helicopter dak,frab helicopter dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,34,straight_plane_2,NA,frab plane wib,frab plane wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,20,straight_rocket_2,NA,frab rocket wib,frab rocket wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,35,straight_boat_2,NA,frab boat wib,frab boat wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,21,straight_tractor_2,NA,frab tractor wib,frab tractor wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,36,straight_tractor_1,NA,frab tractor,frab tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,22,straight_bike_1,NA,frab bike,frab bike,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,37,straight_tank_2,NA,frab tank wib,frab tank wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,38,straight_ambulance_2,NA,frab ambulance wib,frab ambulance wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,23,straight_car_2,NA,frab car dak,frab car dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,39,straight_rocket_1,NA,frab rocket,frab rocket,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,40,straight_tractor_2,NA,frab tractor wib,frab tractor wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,24,straight_bus_1,NA,frab bus,frab bus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,41,straight_digger_1,NA,frab digger,frab digger,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,25,straight_plane_1,NA,frab plane,frab plane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,42,straight_tractor_2,NA,frab tractor wib,frab tractor wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,43,straight_bike_2,NA,frab bike wib,frab bike wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,26,straight_van_2,NA,frab van wib,frab van wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,44,straight_ambulance_1,NA,frab ambulance,frab ambulance,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,27,straight_tractor_2,NA,frab tractor dak,frab tractor dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,45,straight_bus_2,NA,frab bus dak,frab bus dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,46,straight_van_2,NA,frab van wib,frab van wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,28,straight_submarine_1,NA,frab submarine,frab submarine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,47,straight_truck_1,NA,frab truck,frab truck,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,recall1,1,48,straight_car_1,NA,frab car,frab car,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,29,straight_ambulance_2,NA,frab ambulence wib,frab ambulance wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,30,straight_car_1,NA,frab car,frab car,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,31,straight_tractor_1,NA,frab tractor,frab tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,32,straight_scooter_1,NA,frab scooter,frab scooter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,33,straight_van_1,NA,frab van,frab van,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,34,straight_tank_2,NA,frab tank dak,frab tank dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,35,straight_car_2,NA,frab car dak,frab car dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,36,straight_boat_1,NA,frab boat,frab boat,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,37,straight_scooter_2,NA,frab scooter wib,frab scooter wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,38,straight_bike_2,NA,frab bike dak,frab bike dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,39,straight_plane_2,NA,frab plane dak,frab plane dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,40,straight_boat_2,NA,frab boat wib,frab boat wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,41,straight_bike_2,NA,frab bike dak,frab bike dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,42,straight_train_1,NA,frab train,frab train,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,43,straight_submarine_2,NA,frab submarine dak,frab submarine dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,44,straight_tank_2,NA,frab tank wib,frab tank wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,45,straight_boat_2,NA,frab boat dak,frab boat dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,46,straight_ambulance_2,NA,frab ambuence dak,frab ambulance dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,47,straight_helicopter_1,NA,frab helicopter,frab helicopter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,recall1,1,48,straight_helicopter_2,NA,frab helicopter dak,frab helicopter dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactD,0,0,straight_ambulance_1,NA,frab ambulence,frab ambulance,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,0,0,straight_ambulance_1,NA,NA,frab ambulance,straight_submarine_2,straight_ambulance_2,straight_scooter_1,straight_tank_1,straight_tank_2,straight_scooter_2,straight_submarine_1,straight_ambulance_1,straight_ambulance_1,1
+D313,1,3131,129.215.204.50,interactD,0,0,straight_truck_1,NA,frab truck,frab truck,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,0,0,straight_truck_1,NA,NA,frab truck,straight_truck_2,straight_truck_1,straight_rocket_1,straight_tank_1,straight_rocket_2,straight_digger_2,straight_tank_2,straight_digger_1,straight_truck_1,1
+D313,1,3132,129.215.204.33,interactD,0,1,straight_plane_1,NA,frab plane,frab plane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,0,1,straight_plane_1,NA,NA,frab plane,straight_submarine_1,straight_scooter_1,straight_submarine_2,straight_train_2,straight_scooter_2,straight_plane_2,straight_plane_1,straight_train_1,straight_plane_1,1
+D313,1,3131,129.215.204.50,interactD,0,1,straight_train_1,NA,frab train,frab train,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,0,1,straight_train_1,NA,NA,frab train,straight_car_1,straight_rocket_1,straight_train_2,straight_car_2,straight_rocket_2,straight_train_1,straight_ambulance_1,straight_ambulance_2,straight_train_1,1
+D313,1,3132,129.215.204.33,interactD,0,2,straight_rocket_1,NA,frab rocket,frab rocket,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,0,2,straight_rocket_1,NA,NA,frab rocket,straight_rocket_2,straight_van_1,straight_van_2,straight_rocket_1,straight_helicopter_2,straight_helicopter_1,straight_bus_1,straight_bus_2,straight_rocket_1,1
+D313,1,3131,129.215.204.50,interactD,0,2,straight_truck_2,NA,frab truck wib,frab truck wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,0,2,straight_truck_2,NA,NA,frab truck wib,straight_car_2,straight_train_2,straight_truck_1,straight_car_1,straight_truck_2,straight_train_1,straight_tank_1,straight_tank_2,straight_train_1,0
+D313,1,3132,129.215.204.33,interactD,0,3,straight_boat_2,NA,frab boat wib,frab boat wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,0,3,straight_boat_2,NA,NA,frab boat wib,straight_car_1,straight_van_1,straight_car_2,straight_van_2,straight_boat_1,straight_boat_2,straight_bus_1,straight_bus_2,straight_boat_2,1
+D313,1,3131,129.215.204.50,interactD,0,3,straight_submarine_2,NA,frab submarine wib,frab submarine wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,0,3,straight_submarine_2,NA,NA,frab submarine wib,straight_train_1,straight_plane_2,straight_ambulance_1,straight_plane_1,straight_ambulance_2,straight_submarine_2,straight_submarine_1,straight_train_2,straight_submarine_2,1
+D313,1,3132,129.215.204.33,interactD,0,4,straight_bike_2,NA,frab bike dak,frab bike dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,0,4,straight_bike_2,NA,NA,frab bike dak,straight_bike_2,straight_train_1,straight_rocket_1,straight_boat_2,straight_boat_1,straight_rocket_2,straight_bike_1,straight_train_2,straight_bike_2,1
+D313,1,3131,129.215.204.50,interactD,0,4,straight_boat_2,NA,frab boat wib,frab boat wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,0,4,straight_boat_2,NA,NA,frab boat wib,straight_truck_2,straight_rocket_2,straight_helicopter_2,straight_rocket_1,straight_truck_1,straight_boat_2,straight_helicopter_1,straight_boat_1,straight_boat_2,1
+D313,1,3132,129.215.204.33,interactD,0,5,straight_plane_2,NA,frab plane wib,frab plane wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,0,5,straight_plane_2,NA,NA,frab plane wib,straight_boat_1,straight_train_1,straight_truck_2,straight_plane_2,straight_train_2,straight_boat_2,straight_truck_1,straight_plane_1,straight_plane_2,1
+D313,1,3131,129.215.204.50,interactD,0,5,straight_helicopter_2,NA,frab helicopter dak,frab helicopter dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,0,5,straight_helicopter_2,NA,NA,frab helicopter dak,straight_bus_1,straight_helicopter_1,straight_van_1,straight_helicopter_2,straight_van_2,straight_bike_1,straight_bike_2,straight_bus_2,straight_helicopter_2,1
+D313,1,3132,129.215.204.33,interactD,0,6,straight_scooter_2,NA,frab scooter dak,frab scooter dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,0,6,straight_scooter_2,NA,NA,frab scooter dak,straight_bike_1,straight_scooter_2,straight_train_2,straight_scooter_1,straight_rocket_2,straight_train_1,straight_rocket_1,straight_bike_2,straight_scooter_2,1
+D313,1,3131,129.215.204.50,interactD,0,6,straight_tank_2,NA,frab tank dak,frab tank dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,0,6,straight_tank_2,NA,NA,frab tank dak,straight_tank_2,straight_truck_1,straight_submarine_1,straight_tank_1,straight_truck_2,straight_boat_1,straight_boat_2,straight_submarine_2,straight_tank_2,1
+D313,1,3132,129.215.204.33,interactD,0,7,straight_tank_2,NA,frab tank dak,frab tank dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,0,7,straight_tank_2,NA,NA,frab tank dak,straight_scooter_2,straight_tractor_2,straight_car_2,straight_tractor_1,straight_scooter_1,straight_tank_1,straight_tank_2,straight_car_1,straight_tank_2,1
+D313,1,3131,129.215.204.50,interactD,0,7,straight_submarine_1,NA,frab submarine,frab submarine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,0,7,straight_submarine_1,NA,NA,frab submarine,straight_rocket_1,straight_submarine_1,straight_tractor_2,straight_rocket_2,straight_van_2,straight_tractor_1,straight_submarine_2,straight_van_1,straight_submarine_1,1
+D313,1,3132,129.215.204.33,interactD,0,8,straight_boat_2,NA,frab boat wib,frab boat wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,0,8,straight_boat_2,NA,NA,frab boat wib,straight_van_2,straight_truck_1,straight_truck_2,straight_train_1,straight_boat_2,straight_boat_1,straight_train_2,straight_van_1,straight_boat_2,1
+D313,1,3131,129.215.204.50,interactD,0,8,straight_bus_2,NA,frab bus dak,frab bus dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,0,8,straight_bus_2,NA,NA,frab bus dak,straight_bus_2,straight_car_1,straight_bus_1,straight_digger_2,straight_helicopter_1,straight_digger_1,straight_helicopter_2,straight_car_2,straight_bus_2,1
+D313,1,3132,129.215.204.33,interactD,0,9,straight_ambulance_2,NA,frab ambulence wib,frab ambulance wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,0,9,straight_ambulance_2,NA,NA,frab ambulance wib,straight_helicopter_1,straight_helicopter_2,straight_ambulance_1,straight_ambulance_2,straight_van_2,straight_van_1,straight_submarine_2,straight_submarine_1,straight_ambulance_2,1
+D313,1,3131,129.215.204.50,interactD,0,9,straight_digger_2,NA,frab digger wib,frab digger wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,0,9,straight_digger_2,NA,NA,frab digger wib,straight_digger_2,straight_digger_1,straight_boat_1,straight_ambulance_1,straight_train_1,straight_boat_2,straight_train_2,straight_ambulance_2,straight_digger_2,1
+D313,1,3132,129.215.204.33,interactD,0,10,straight_tank_1,NA,frab tank,frab tank,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,0,10,straight_tank_1,NA,NA,frab tank,straight_van_1,straight_ambulance_2,straight_van_2,straight_tractor_1,straight_tractor_2,straight_tank_1,straight_tank_2,straight_ambulance_1,straight_tank_1,1
+D313,1,3131,129.215.204.50,interactD,0,10,straight_ambulance_1,NA,frab ambulance,frab ambulance,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,0,10,straight_ambulance_1,NA,NA,frab ambulance,straight_plane_1,straight_ambulance_2,straight_digger_1,straight_ambulance_1,straight_train_2,straight_plane_2,straight_train_1,straight_digger_2,straight_ambulance_1,1
+D313,1,3132,129.215.204.33,interactD,0,11,straight_helicopter_2,NA,frab helicopter dak,frab helicopter dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,0,11,straight_helicopter_2,NA,NA,frab helicopter dak,straight_bus_1,straight_plane_1,straight_bus_2,straight_helicopter_2,straight_tractor_2,straight_plane_2,straight_tractor_1,straight_helicopter_1,straight_helicopter_2,1
+D313,1,3131,129.215.204.50,interactD,0,11,straight_scooter_2,NA,frab scooter wib,frab scooter wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,0,11,straight_scooter_2,NA,NA,frab scooter wib,straight_bus_1,straight_bus_2,straight_bike_2,straight_scooter_1,straight_tractor_1,straight_bike_1,straight_scooter_2,straight_tractor_2,straight_scooter_2,1
+D313,1,3132,129.215.204.33,interactD,0,12,straight_bike_1,NA,frab bike,frab bike,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,0,12,straight_bike_1,NA,NA,frab bike,straight_boat_2,straight_truck_2,straight_van_2,straight_bike_1,straight_bike_2,straight_boat_1,straight_truck_1,straight_van_1,straight_bike_1,1
+D313,1,3131,129.215.204.50,interactD,0,12,straight_car_1,NA,frab car,frab car,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,0,12,straight_car_1,NA,NA,frab car,straight_van_1,straight_car_2,straight_boat_1,straight_boat_2,straight_bike_1,straight_bike_2,straight_car_1,straight_van_2,straight_car_1,1
+D313,1,3132,129.215.204.33,interactD,0,13,straight_tractor_1,NA,frab tractor,frab tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,0,13,straight_tractor_1,NA,NA,frab tractor,straight_train_2,straight_helicopter_1,straight_digger_1,straight_digger_2,straight_train_1,straight_helicopter_2,straight_tractor_2,straight_tractor_1,straight_tractor_1,1
+D313,1,3131,129.215.204.50,interactD,0,13,straight_rocket_2,NA,frab rocket wib,frab rocket wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,0,13,straight_rocket_2,NA,NA,frab rocket wib,straight_train_2,straight_car_1,straight_submarine_2,straight_rocket_1,straight_submarine_1,straight_car_2,straight_rocket_2,straight_train_1,straight_rocket_2,1
+D313,1,3132,129.215.204.33,interactD,0,14,straight_rocket_2,NA,frab rocket wib,frab rocket wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,0,14,straight_rocket_2,NA,NA,frab rocket wib,straight_plane_2,straight_plane_1,straight_submarine_2,straight_rocket_1,straight_bus_2,straight_submarine_1,straight_rocket_2,straight_bus_1,straight_rocket_2,1
+D313,1,3131,129.215.204.50,interactD,0,14,straight_submarine_2,NA,frab submarine wib,frab submarine wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,0,14,straight_submarine_2,NA,NA,frab submarine wib,straight_plane_2,straight_plane_1,straight_submarine_1,straight_boat_1,straight_boat_2,straight_scooter_1,straight_scooter_2,straight_submarine_2,straight_submarine_2,1
+D313,1,3132,129.215.204.33,interactD,0,15,straight_bike_2,NA,frab bike dak,frab bike dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,0,15,straight_bike_2,NA,NA,frab bike dak,straight_bike_1,straight_boat_2,straight_truck_1,straight_plane_1,straight_truck_2,straight_bike_2,straight_boat_1,straight_plane_2,straight_bike_2,1
+D313,1,3131,129.215.204.50,interactD,0,15,straight_tank_2,NA,frab tank dak,frab tank dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,0,15,straight_tank_2,NA,NA,frab tank dak,straight_tank_1,straight_tank_2,straight_submarine_2,straight_ambulance_2,straight_truck_2,straight_submarine_1,straight_truck_1,straight_ambulance_1,straight_tank_2,1
+D313,1,3132,129.215.204.33,interactD,0,16,straight_helicopter_1,NA,frab helicopter,frab helicopter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,0,16,straight_helicopter_1,NA,NA,frab helicopter,straight_scooter_2,straight_helicopter_1,straight_scooter_1,straight_tractor_2,straight_helicopter_2,straight_boat_1,straight_tractor_1,straight_boat_2,straight_helicopter_1,1
+D313,1,3131,129.215.204.50,interactD,0,16,straight_helicopter_1,NA,frab helicopter,frab helicopter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,0,16,straight_helicopter_1,NA,NA,frab helicopter,straight_bike_2,straight_helicopter_2,straight_tractor_2,straight_tractor_1,straight_bike_1,straight_scooter_2,straight_helicopter_1,straight_scooter_1,straight_helicopter_1,1
+D313,1,3132,129.215.204.33,interactD,0,17,straight_truck_1,NA,frab truck,frab truck,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,0,17,straight_truck_1,NA,NA,frab truck,straight_tank_2,straight_truck_2,straight_van_1,straight_truck_1,straight_tank_1,straight_helicopter_2,straight_helicopter_1,straight_van_2,straight_truck_1,1
+D313,1,3131,129.215.204.50,interactD,0,17,straight_bus_1,NA,frab bus,frab bus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,0,17,straight_bus_1,NA,NA,frab bus,straight_truck_1,straight_train_2,straight_bus_1,straight_bus_2,straight_train_1,straight_rocket_2,straight_truck_2,straight_rocket_1,straight_bus_1,1
+D313,1,3132,129.215.204.33,interactD,0,18,straight_rocket_2,NA,frab rocket wib,frab rocket wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,0,18,straight_rocket_2,NA,NA,frab rocket wib,straight_truck_1,straight_truck_2,straight_bus_1,straight_bus_2,straight_rocket_2,straight_rocket_1,straight_scooter_2,straight_scooter_1,straight_rocket_2,1
+D313,1,3131,129.215.204.50,interactD,0,18,straight_helicopter_2,NA,frab helicopter dak,frab helicopter dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,0,18,straight_helicopter_2,NA,NA,frab helicopter dak,straight_train_1,straight_bike_2,straight_helicopter_2,straight_tractor_1,straight_helicopter_1,straight_tractor_2,straight_bike_1,straight_train_2,straight_helicopter_2,1
+D313,1,3132,129.215.204.33,interactD,0,19,straight_van_2,NA,frab van dak,frab van dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,0,19,straight_van_2,NA,NA,frab van dak,straight_submarine_2,straight_car_2,straight_car_1,straight_submarine_1,straight_truck_2,straight_van_2,straight_van_1,straight_truck_1,straight_van_2,1
+D313,1,3131,129.215.204.50,interactD,0,19,straight_truck_2,NA,frab truck wib,frab truck wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,0,19,straight_truck_2,NA,NA,frab truck wib,straight_train_2,straight_ambulance_2,straight_truck_2,straight_ambulance_1,straight_submarine_1,straight_submarine_2,straight_truck_1,straight_train_1,straight_truck_2,1
+D313,1,3132,129.215.204.33,interactD,0,20,straight_truck_2,NA,frab truck wib,frab truck wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,0,20,straight_truck_2,NA,NA,frab truck wib,straight_submarine_2,straight_truck_1,straight_scooter_1,straight_scooter_2,straight_bike_2,straight_submarine_1,straight_truck_2,straight_bike_1,straight_truck_2,1
+D313,1,3131,129.215.204.50,interactD,0,20,straight_digger_1,NA,frab digger,frab digger,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,0,20,straight_digger_1,NA,NA,frab digger,straight_tank_2,straight_van_2,straight_truck_1,straight_van_1,straight_truck_2,straight_tank_1,straight_digger_1,straight_digger_2,straight_digger_1,1
+D313,1,3132,129.215.204.33,interactD,0,21,straight_van_1,NA,frab van,frab van,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,0,21,straight_van_1,NA,NA,frab van,straight_rocket_1,straight_van_2,straight_digger_2,straight_rocket_2,straight_digger_1,straight_bus_1,straight_bus_2,straight_van_1,straight_van_1,1
+D313,1,3131,129.215.204.50,interactD,0,21,straight_scooter_1,NA,frab scooter,frab scooter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,0,21,straight_scooter_1,NA,NA,frab scooter,straight_bus_1,straight_digger_2,straight_bus_2,straight_van_2,straight_scooter_1,straight_van_1,straight_scooter_2,straight_digger_1,straight_scooter_1,1
+D313,1,3132,129.215.204.33,interactD,0,22,straight_helicopter_2,NA,frab helicopter dak,frab helicopter dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,0,22,straight_helicopter_2,NA,NA,frab helicopter dak,straight_rocket_2,straight_scooter_2,straight_digger_1,straight_rocket_1,straight_helicopter_1,straight_scooter_1,straight_helicopter_2,straight_digger_2,straight_helicopter_2,1
+D313,1,3131,129.215.204.50,interactD,0,22,straight_train_2,NA,frab train dak,frab train dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,0,22,straight_train_2,NA,NA,frab train dak,straight_bus_2,straight_train_2,straight_van_2,straight_ambulance_1,straight_ambulance_2,straight_bus_1,straight_train_1,straight_van_1,straight_train_2,1
+D313,1,3132,129.215.204.33,interactD,0,23,straight_tractor_2,NA,frab tractor dak,frab tractor dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,0,23,straight_tractor_2,NA,NA,frab tractor dak,straight_bus_2,straight_helicopter_2,straight_helicopter_1,straight_submarine_1,straight_tractor_1,straight_bus_1,straight_submarine_2,straight_tractor_2,straight_tractor_2,1
+D313,1,3131,129.215.204.50,interactD,0,23,straight_car_2,NA,frab car wib,frab car wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,0,23,straight_car_2,NA,NA,frab car wib,straight_car_1,straight_van_1,straight_submarine_2,straight_car_2,straight_submarine_1,straight_van_2,straight_tractor_2,straight_tractor_1,straight_car_2,1
+D313,1,3132,129.215.204.33,interactD,0,24,straight_boat_1,NA,frab boat,frab boat,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,0,24,straight_boat_1,NA,NA,frab boat,straight_scooter_2,straight_scooter_1,straight_rocket_2,straight_boat_1,straight_rocket_1,straight_truck_2,straight_truck_1,straight_boat_2,straight_boat_1,1
+D313,1,3131,129.215.204.50,interactD,0,24,straight_boat_1,NA,frab boat,frab boat,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,0,24,straight_boat_1,NA,NA,frab boat,straight_scooter_1,straight_tractor_2,straight_boat_1,straight_tractor_1,straight_scooter_2,straight_boat_2,straight_bus_1,straight_bus_2,straight_boat_1,1
+D313,1,3132,129.215.204.33,interactD,0,25,straight_plane_2,NA,frab plane dak,frab plane dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,0,25,straight_plane_2,NA,NA,frab plane dak,straight_train_1,straight_train_2,straight_car_2,straight_plane_1,straight_plane_2,straight_car_1,straight_rocket_2,straight_rocket_1,straight_plane_2,1
+D313,1,3131,129.215.204.50,interactD,0,25,straight_ambulance_2,NA,frab ambulance wib,frab ambulance wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,0,25,straight_ambulance_2,NA,NA,frab ambulance wib,straight_ambulance_2,straight_tank_2,straight_ambulance_1,straight_plane_2,straight_boat_1,straight_boat_2,straight_plane_1,straight_tank_1,straight_ambulance_2,1
+D313,1,3132,129.215.204.33,interactD,0,26,straight_bus_2,NA,frab bus dak,frab bus dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,0,26,straight_bus_2,NA,NA,frab bus dak,straight_plane_2,straight_bus_2,straight_bus_1,straight_rocket_1,straight_rocket_2,straight_digger_2,straight_plane_1,straight_digger_1,straight_bus_2,1
+D313,1,3131,129.215.204.50,interactD,0,26,straight_rocket_1,NA,frab rocket,frab rocket,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,0,26,straight_rocket_1,NA,NA,frab rocket,straight_plane_2,straight_rocket_2,straight_submarine_1,straight_rocket_1,straight_plane_1,straight_submarine_2,straight_train_1,straight_train_2,straight_rocket_1,1
+D313,1,3132,129.215.204.33,interactD,0,27,straight_scooter_2,NA,frab scooter wib,frab scooter wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,0,27,straight_scooter_2,NA,NA,frab scooter wib,straight_van_2,straight_digger_1,straight_scooter_2,straight_van_1,straight_digger_2,straight_scooter_1,straight_boat_2,straight_boat_1,straight_scooter_2,1
+D313,1,3131,129.215.204.50,interactD,0,27,straight_boat_2,NA,frab boat wib,frab boat wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,0,27,straight_boat_2,NA,NA,frab boat wib,straight_car_1,straight_boat_2,straight_bike_1,straight_bike_2,straight_boat_1,straight_car_2,straight_ambulance_2,straight_ambulance_1,straight_boat_2,1
+D313,1,3132,129.215.204.33,interactD,0,28,straight_ambulance_2,NA,frab ambulence dak,frab ambulance dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,0,28,straight_ambulance_2,NA,NA,frab ambulance dak,straight_plane_2,straight_ambulance_2,straight_submarine_2,straight_plane_1,straight_submarine_1,straight_train_1,straight_train_2,straight_ambulance_1,straight_ambulance_2,1
+D313,1,3131,129.215.204.50,interactD,0,28,straight_rocket_2,NA,frab rocket wib,frab rocket wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,0,28,straight_rocket_2,NA,NA,frab rocket wib,straight_tractor_2,straight_boat_1,straight_rocket_2,straight_digger_1,straight_digger_2,straight_boat_2,straight_tractor_1,straight_rocket_1,straight_rocket_2,1
+D313,1,3132,129.215.204.33,interactD,0,29,straight_tank_2,NA,frab tank dak,frab tank dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,0,29,straight_tank_2,NA,NA,frab tank dak,straight_tractor_2,straight_truck_1,straight_tank_1,straight_tractor_1,straight_truck_2,straight_tank_2,straight_car_1,straight_car_2,straight_tank_2,1
+D313,1,3131,129.215.204.50,interactD,0,29,straight_bus_2,NA,frab bus dak,frab bus dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,0,29,straight_bus_2,NA,NA,frab bus dak,straight_van_1,straight_helicopter_1,straight_bus_2,straight_helicopter_2,straight_van_2,straight_bus_1,straight_submarine_1,straight_submarine_2,straight_bus_2,1
+D313,1,3132,129.215.204.33,interactD,0,30,straight_bus_1,NA,frab bus,frab bus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,0,30,straight_bus_1,NA,NA,frab bus,straight_digger_2,straight_car_2,straight_bus_2,straight_digger_1,straight_boat_1,straight_car_1,straight_boat_2,straight_bus_1,straight_bus_1,1
+D313,1,3131,129.215.204.50,interactD,0,30,straight_car_2,NA,frab car wib,frab car wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,0,30,straight_car_2,NA,NA,frab car wib,straight_van_1,straight_plane_2,straight_submarine_1,straight_plane_1,straight_car_2,straight_submarine_2,straight_van_2,straight_car_1,straight_car_2,1
+D313,1,3132,129.215.204.33,interactD,0,31,straight_bus_2,NA,frab bus dak,frab bus dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,0,31,straight_bus_2,NA,NA,frab bus dak,straight_digger_2,straight_tank_2,straight_tractor_2,straight_bus_2,straight_bus_1,straight_tractor_1,straight_tank_1,straight_digger_1,straight_bus_2,1
+D313,1,3131,129.215.204.50,interactD,0,31,straight_digger_2,NA,frab digger wib,frab digger wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,0,31,straight_digger_2,NA,NA,frab digger wib,straight_submarine_1,straight_digger_2,straight_train_2,straight_truck_1,straight_submarine_2,straight_digger_1,straight_train_1,straight_truck_2,straight_digger_2,1
+D313,1,3132,129.215.204.33,interactD,0,32,straight_tractor_2,NA,frab tractor dak,frab tractor dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,0,32,straight_tractor_2,NA,NA,frab tractor dak,straight_plane_2,straight_tractor_1,straight_digger_1,straight_tractor_2,straight_digger_2,straight_ambulance_1,straight_plane_1,straight_ambulance_2,straight_tractor_2,1
+D313,1,3131,129.215.204.50,interactD,0,32,straight_tank_1,NA,frab tank,frab tank,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,0,32,straight_tank_1,NA,NA,frab tank,straight_tank_2,straight_van_2,straight_van_1,straight_scooter_1,straight_rocket_2,straight_tank_1,straight_rocket_1,straight_scooter_2,straight_tank_1,1
+D313,1,3132,129.215.204.33,interactD,0,33,straight_truck_2,NA,frab truck wib,frab truck wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,0,33,straight_truck_2,NA,NA,frab truck wib,straight_truck_2,straight_bike_1,straight_truck_1,straight_scooter_1,straight_scooter_2,straight_digger_2,straight_digger_1,straight_bike_2,straight_truck_2,1
+D313,1,3131,129.215.204.50,interactD,0,33,straight_train_2,NA,frab train dak,frab train dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,0,33,straight_train_2,NA,NA,frab train dak,straight_train_1,straight_bus_2,straight_van_2,straight_train_2,straight_plane_1,straight_van_1,straight_plane_2,straight_bus_1,straight_train_2,1
+D313,1,3132,129.215.204.33,interactD,0,34,straight_van_2,NA,frab van dak,frab van dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,0,34,straight_van_2,NA,NA,frab van dak,straight_van_2,straight_rocket_2,straight_helicopter_1,straight_rocket_1,straight_helicopter_2,straight_tank_1,straight_tank_2,straight_van_1,straight_van_2,1
+D313,1,3131,129.215.204.50,interactD,0,34,straight_ambulance_2,NA,frab ambulance wib,frab ambulance wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,0,34,straight_ambulance_2,NA,NA,frab ambulance wib,straight_bike_1,straight_ambulance_1,straight_van_1,straight_tractor_2,straight_tractor_1,straight_ambulance_2,straight_van_2,straight_bike_2,straight_ambulance_2,1
+D313,1,3132,129.215.204.33,interactD,0,35,straight_scooter_1,NA,frab scooter,frab scooter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,0,35,straight_scooter_1,NA,NA,frab scooter,straight_digger_1,straight_scooter_2,straight_plane_1,straight_plane_2,straight_scooter_1,straight_digger_2,straight_van_1,straight_van_2,straight_scooter_1,1
+D313,1,3131,129.215.204.50,interactD,0,35,straight_scooter_2,NA,frab scooter wib,frab scooter wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,0,35,straight_scooter_2,NA,NA,frab scooter wib,straight_van_1,straight_bus_2,straight_train_1,straight_scooter_1,straight_train_2,straight_bus_1,straight_van_2,straight_scooter_2,straight_scooter_2,1
+D313,1,3132,129.215.204.33,interactD,1,0,straight_bus_2,NA,frab bus dak,frab bus dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,1,0,straight_bus_2,NA,NA,frab bus dak,straight_boat_2,straight_scooter_2,straight_car_1,straight_bus_1,straight_bus_2,straight_car_2,straight_scooter_1,straight_boat_1,straight_bus_2,1
+D313,1,3131,129.215.204.50,interactD,1,0,straight_truck_2,NA,frab truck wib,frab truck wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,1,0,straight_truck_2,NA,NA,frab truck wib,straight_van_1,straight_truck_2,straight_truck_1,straight_tractor_1,straight_van_2,straight_tractor_2,straight_bus_2,straight_bus_1,straight_truck_2,1
+D313,1,3132,129.215.204.33,interactD,1,1,straight_tank_1,NA,frab tank,frab tank,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,1,1,straight_tank_1,NA,NA,frab tank,straight_tank_2,straight_digger_1,straight_boat_1,straight_boat_2,straight_ambulance_2,straight_tank_1,straight_digger_2,straight_ambulance_1,straight_tank_1,1
+D313,1,3131,129.215.204.50,interactD,1,1,straight_tank_2,NA,frab tank dak,frab tank dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,1,1,straight_tank_2,NA,NA,frab tank dak,straight_helicopter_1,straight_scooter_2,straight_tank_2,straight_car_2,straight_tank_1,straight_scooter_1,straight_helicopter_2,straight_car_1,straight_tank_2,1
+D313,1,3132,129.215.204.33,interactD,1,2,straight_plane_2,NA,frab plane dak,frab plane dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,1,2,straight_plane_2,NA,NA,frab plane dak,straight_rocket_1,straight_scooter_1,straight_plane_1,straight_helicopter_1,straight_rocket_2,straight_helicopter_2,straight_scooter_2,straight_plane_2,straight_plane_2,1
+D313,1,3131,129.215.204.50,interactD,1,2,straight_rocket_2,NA,frab rocket wib,frab rocket wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,1,2,straight_rocket_2,NA,NA,frab rocket wib,straight_scooter_1,straight_truck_2,straight_truck_1,straight_tractor_2,straight_tractor_1,straight_rocket_2,straight_scooter_2,straight_rocket_1,straight_rocket_2,1
+D313,1,3132,129.215.204.33,interactD,1,3,straight_van_2,NA,frab van dak,frab van dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,1,3,straight_van_2,NA,NA,frab van dak,straight_digger_2,straight_plane_1,straight_van_2,straight_train_1,straight_digger_1,straight_train_2,straight_van_1,straight_plane_2,straight_van_2,1
+D313,1,3131,129.215.204.50,interactD,1,3,straight_ambulance_2,NA,frab ambulance wib,frab ambulance wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,1,3,straight_ambulance_2,NA,NA,frab ambulance wib,straight_rocket_2,straight_bus_1,straight_bus_2,straight_scooter_1,straight_ambulance_2,straight_ambulance_1,straight_scooter_2,straight_rocket_1,straight_ambulance_2,1
+D313,1,3132,129.215.204.33,interactD,1,4,straight_rocket_1,NA,frab rocket,frab rocket,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,1,4,straight_rocket_1,NA,NA,frab rocket,straight_helicopter_1,straight_rocket_2,straight_train_2,straight_train_1,straight_rocket_1,straight_bike_1,straight_helicopter_2,straight_bike_2,straight_rocket_1,1
+D313,1,3131,129.215.204.50,interactD,1,4,straight_rocket_1,NA,frab rocket,frab rocket,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,1,4,straight_rocket_1,NA,NA,frab rocket,straight_tank_1,straight_rocket_1,straight_train_2,straight_tank_2,straight_rocket_2,straight_plane_2,straight_plane_1,straight_train_1,straight_rocket_1,1
+D313,1,3132,129.215.204.33,interactD,1,5,straight_van_1,NA,frab van,frab van,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,1,5,straight_van_1,NA,NA,frab van,straight_van_1,straight_boat_2,straight_helicopter_2,straight_plane_2,straight_helicopter_1,straight_plane_1,straight_boat_1,straight_van_2,straight_van_1,1
+D313,1,3131,129.215.204.50,interactD,1,5,straight_bus_2,NA,frab bus dak,frab bus dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,1,5,straight_bus_2,NA,NA,frab bus dak,straight_van_1,straight_bus_2,straight_car_2,straight_van_2,straight_helicopter_1,straight_car_1,straight_bus_1,straight_helicopter_2,straight_bus_2,1
+D313,1,3132,129.215.204.33,interactD,1,6,straight_bike_2,NA,frab bike dak,frab bike dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,1,6,straight_bike_2,NA,NA,frab bike dak,straight_van_1,straight_bike_2,straight_digger_2,straight_van_2,straight_bike_1,straight_bus_2,straight_digger_1,straight_bus_1,straight_bike_2,1
+D313,1,3131,129.215.204.50,interactD,1,6,straight_car_1,NA,frab car,frab car,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,1,6,straight_car_1,NA,NA,frab car,straight_submarine_1,straight_ambulance_2,straight_car_1,straight_truck_2,straight_ambulance_1,straight_car_2,straight_submarine_2,straight_truck_1,straight_car_1,1
+D313,1,3132,129.215.204.33,interactD,1,7,straight_van_2,NA,frab van wib,frab van wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,1,7,straight_van_2,NA,NA,frab van wib,straight_van_1,straight_van_2,straight_submarine_2,straight_scooter_2,straight_truck_2,straight_scooter_1,straight_truck_1,straight_submarine_1,straight_truck_2,0
+D313,1,3131,129.215.204.50,interactD,1,7,straight_bus_2,NA,frab bus dak,frab bus dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,1,7,straight_bus_2,NA,NA,frab bus dak,straight_tank_2,straight_rocket_2,straight_van_1,straight_tank_1,straight_van_2,straight_bus_2,straight_bus_1,straight_rocket_1,straight_bus_2,1
+D313,1,3132,129.215.204.33,interactD,1,8,straight_ambulance_1,NA,frab ambulence,frab ambulance,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,1,8,straight_ambulance_1,NA,NA,frab ambulance,straight_digger_2,straight_ambulance_1,straight_digger_1,straight_helicopter_2,straight_helicopter_1,straight_tank_2,straight_ambulance_2,straight_tank_1,straight_ambulance_1,1
+D313,1,3131,129.215.204.50,interactD,1,8,straight_train_1,NA,frab train,frab train,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,1,8,straight_train_1,NA,NA,frab train,straight_train_2,straight_van_1,straight_ambulance_1,straight_ambulance_2,straight_boat_1,straight_train_1,straight_van_2,straight_boat_2,straight_train_1,1
+D313,1,3132,129.215.204.33,interactD,1,9,straight_boat_2,NA,frab boat dak,frab boat dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,1,9,straight_boat_2,NA,NA,frab boat dak,straight_scooter_2,straight_ambulance_1,straight_ambulance_2,straight_boat_1,straight_boat_2,straight_scooter_1,straight_truck_1,straight_truck_2,straight_boat_2,1
+D313,1,3131,129.215.204.50,interactD,1,9,straight_helicopter_2,NA,frab helicopter dak,frab helicopter dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,1,9,straight_helicopter_2,NA,NA,frab helicopter dak,straight_submarine_2,straight_truck_1,straight_tank_2,straight_helicopter_2,straight_tank_1,straight_truck_2,straight_helicopter_1,straight_submarine_1,straight_helicopter_2,1
+D313,1,3132,129.215.204.33,interactD,1,10,straight_truck_1,NA,frab truck,frab truck,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,1,10,straight_truck_1,NA,NA,frab truck,straight_digger_2,straight_truck_2,straight_train_2,straight_helicopter_2,straight_truck_1,straight_train_1,straight_digger_1,straight_helicopter_1,straight_truck_1,1
+D313,1,3131,129.215.204.50,interactD,1,10,straight_submarine_2,NA,frab submarine wib,frab submarine wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,1,10,straight_submarine_2,NA,NA,frab submarine wib,straight_bike_1,straight_van_2,straight_bus_2,straight_submarine_1,straight_bike_2,straight_van_1,straight_bus_1,straight_submarine_2,straight_submarine_2,1
+D313,1,3132,129.215.204.33,interactD,1,11,straight_truck_2,NA,frab truck wib,frab truck wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,1,11,straight_truck_2,NA,NA,frab truck wib,straight_ambulance_2,straight_train_2,straight_truck_2,straight_train_1,straight_car_2,straight_car_1,straight_ambulance_1,straight_truck_1,straight_truck_2,1
+D313,1,3131,129.215.204.50,interactD,1,11,straight_car_2,NA,frab car wib,frab car wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,1,11,straight_car_2,NA,NA,frab car wib,straight_tractor_2,straight_car_1,straight_train_2,straight_car_2,straight_submarine_1,straight_tractor_1,straight_train_1,straight_submarine_2,straight_car_2,1
+D313,1,3132,129.215.204.33,interactD,1,12,straight_bus_1,NA,frab bus,frab bus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,1,12,straight_bus_1,NA,NA,frab bus,straight_bus_1,straight_truck_2,straight_bus_2,straight_truck_1,straight_scooter_2,straight_plane_1,straight_plane_2,straight_scooter_1,straight_bus_1,1
+D313,1,3131,129.215.204.50,interactD,1,12,straight_helicopter_1,NA,frab helicopter,frab helicopter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,1,12,straight_helicopter_1,NA,NA,frab helicopter,straight_helicopter_1,straight_van_2,straight_van_1,straight_truck_2,straight_truck_1,straight_helicopter_2,straight_train_2,straight_train_1,straight_helicopter_1,1
+D313,1,3132,129.215.204.33,interactD,1,13,straight_helicopter_1,NA,frab helicopter,frab helicopter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,1,13,straight_helicopter_1,NA,NA,frab helicopter,straight_boat_1,straight_van_1,straight_train_2,straight_helicopter_1,straight_helicopter_2,straight_van_2,straight_boat_2,straight_train_1,straight_helicopter_1,1
+D313,1,3131,129.215.204.50,interactD,1,13,straight_tank_1,NA,frab tank,frab tank,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,1,13,straight_tank_1,NA,NA,frab tank,straight_plane_1,straight_boat_2,straight_plane_2,straight_digger_2,straight_tank_2,straight_boat_1,straight_tank_1,straight_digger_1,straight_tank_1,1
+D313,1,3132,129.215.204.33,interactD,1,14,straight_tractor_2,NA,frab tractor dak,frab tractor dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,1,14,straight_tractor_2,NA,NA,frab tractor dak,straight_truck_2,straight_rocket_1,straight_truck_1,straight_helicopter_1,straight_tractor_2,straight_helicopter_2,straight_tractor_1,straight_rocket_2,straight_tractor_2,1
+D313,1,3131,129.215.204.50,interactD,1,14,straight_boat_2,NA,frab boat wib,frab boat wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,1,14,straight_boat_2,NA,NA,frab boat wib,straight_tank_1,straight_boat_1,straight_helicopter_2,straight_submarine_1,straight_tank_2,straight_boat_2,straight_helicopter_1,straight_submarine_2,straight_boat_2,1
+D313,1,3132,129.215.204.33,interactD,1,15,straight_helicopter_2,NA,frab helicopter wib,frab helicopter wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,1,15,straight_helicopter_2,NA,NA,frab helicopter wib,straight_submarine_2,straight_helicopter_1,straight_submarine_1,straight_van_2,straight_plane_2,straight_plane_1,straight_helicopter_2,straight_van_1,straight_helicopter_2,1
+D313,1,3131,129.215.204.50,interactD,1,15,straight_scooter_1,NA,frab scooter,frab scooter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,1,15,straight_scooter_1,NA,NA,frab scooter,straight_scooter_1,straight_digger_1,straight_digger_2,straight_bike_1,straight_bike_2,straight_tank_1,straight_scooter_2,straight_tank_2,straight_scooter_1,1
+D313,1,3132,129.215.204.33,interactD,1,16,straight_tank_2,NA,frab tank dak,frab tank dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,1,16,straight_tank_2,NA,NA,frab tank dak,straight_truck_2,straight_tank_2,straight_ambulance_1,straight_truck_1,straight_tank_1,straight_bus_2,straight_bus_1,straight_ambulance_2,straight_tank_2,1
+D313,1,3131,129.215.204.50,interactD,1,16,straight_ambulance_2,NA,frab ambulance wib,frab ambulance wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,1,16,straight_ambulance_2,NA,NA,frab ambulance wib,straight_boat_1,straight_train_2,straight_ambulance_1,straight_boat_2,straight_train_1,straight_ambulance_2,straight_helicopter_1,straight_helicopter_2,straight_ambulance_2,1
+D313,1,3132,129.215.204.33,interactD,1,17,straight_rocket_2,NA,frab rocket dak,frab rocket dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,1,17,straight_rocket_2,NA,NA,frab rocket dak,straight_ambulance_2,straight_helicopter_2,straight_plane_1,straight_plane_2,straight_rocket_2,straight_helicopter_1,straight_rocket_1,straight_ambulance_1,straight_rocket_2,1
+D313,1,3131,129.215.204.50,interactD,1,17,straight_submarine_2,NA,frab submarine wib,frab submarine wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,1,17,straight_submarine_2,NA,NA,frab submarine wib,straight_submarine_1,straight_tank_1,straight_bike_2,straight_submarine_2,straight_tank_2,straight_plane_2,straight_bike_1,straight_plane_1,straight_submarine_2,1
+D313,1,3132,129.215.204.33,interactD,1,18,straight_tractor_2,NA,frab tractor wib,frab tractor wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,1,18,straight_tractor_2,NA,NA,frab tractor wib,straight_boat_1,straight_ambulance_2,straight_boat_2,straight_tractor_1,straight_ambulance_1,straight_rocket_2,straight_rocket_1,straight_tractor_2,straight_tractor_2,1
+D313,1,3131,129.215.204.50,interactD,1,18,straight_submarine_1,NA,frab submarine,frab submarine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,1,18,straight_submarine_1,NA,NA,frab submarine,straight_submarine_2,straight_car_1,straight_bike_2,straight_train_1,straight_car_2,straight_train_2,straight_bike_1,straight_submarine_1,straight_submarine_1,1
+D313,1,3132,129.215.204.33,interactD,1,19,straight_scooter_2,NA,frab scooter dak,frab scooter dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,1,19,straight_scooter_2,NA,NA,frab scooter dak,straight_bike_1,straight_scooter_2,straight_ambulance_2,straight_ambulance_1,straight_scooter_1,straight_tank_2,straight_bike_2,straight_tank_1,straight_scooter_2,1
+D313,1,3131,129.215.204.50,interactD,1,19,straight_boat_1,NA,frab boat,frab boat,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,1,19,straight_boat_1,NA,NA,frab boat,straight_truck_2,straight_bike_2,straight_boat_1,straight_submarine_2,straight_truck_1,straight_bike_1,straight_submarine_1,straight_boat_2,straight_boat_1,1
+D313,1,3132,129.215.204.33,interactD,1,20,straight_scooter_1,NA,frab scooter,frab scooter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,1,20,straight_scooter_1,NA,NA,frab scooter,straight_tank_2,straight_helicopter_2,straight_scooter_1,straight_tank_1,straight_scooter_2,straight_digger_1,straight_digger_2,straight_helicopter_1,straight_scooter_1,1
+D313,1,3131,129.215.204.50,interactD,1,20,straight_car_2,NA,frab car wib,frab car wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,1,20,straight_car_2,NA,NA,frab car wib,straight_submarine_2,straight_van_1,straight_boat_2,straight_submarine_1,straight_van_2,straight_car_2,straight_boat_1,straight_car_1,straight_car_2,1
+D313,1,3132,129.215.204.33,interactD,1,21,straight_rocket_2,NA,frab rocket dak,frab rocket dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,1,21,straight_rocket_2,NA,NA,frab rocket dak,straight_bike_1,straight_ambulance_2,straight_bike_2,straight_car_1,straight_car_2,straight_rocket_1,straight_rocket_2,straight_ambulance_1,straight_rocket_2,1
+D313,1,3131,129.215.204.50,interactD,1,21,straight_digger_2,NA,frab digger wib,frab digger wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,1,21,straight_digger_2,NA,NA,frab digger wib,straight_truck_1,straight_van_2,straight_train_1,straight_truck_2,straight_digger_2,straight_digger_1,straight_van_1,straight_train_2,straight_digger_2,1
+D313,1,3132,129.215.204.33,interactD,1,22,straight_bus_2,NA,frab bus dak,frab bus dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,1,22,straight_bus_2,NA,NA,frab bus dak,straight_helicopter_2,straight_bus_2,straight_ambulance_1,straight_bus_1,straight_digger_1,straight_helicopter_1,straight_ambulance_2,straight_digger_2,straight_bus_2,1
+D313,1,3131,129.215.204.50,interactD,1,22,straight_ambulance_1,NA,frab ambulance,frab ambulance,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,1,22,straight_ambulance_1,NA,NA,frab ambulance,straight_ambulance_1,straight_ambulance_2,straight_truck_2,straight_tractor_2,straight_tractor_1,straight_car_2,straight_car_1,straight_truck_1,straight_ambulance_1,1
+D313,1,3132,129.215.204.33,interactD,1,23,straight_ambulance_2,NA,frab ambulence dak,frab ambulance dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,1,23,straight_ambulance_2,NA,NA,frab ambulance dak,straight_ambulance_2,straight_scooter_2,straight_bus_1,straight_scooter_1,straight_plane_1,straight_plane_2,straight_ambulance_1,straight_bus_2,straight_ambulance_2,1
+D313,1,3131,129.215.204.50,interactD,1,23,straight_tank_2,NA,frab tank dak,frab tank dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,1,23,straight_tank_2,NA,NA,frab tank dak,straight_tractor_2,straight_tank_2,straight_van_2,straight_bus_1,straight_bus_2,straight_tank_1,straight_tractor_1,straight_van_1,straight_tank_2,1
+D313,1,3132,129.215.204.33,interactD,1,24,straight_truck_2,NA,frab truck dak,frab truck dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,1,24,straight_truck_2,NA,NA,frab truck dak,straight_ambulance_2,straight_digger_1,straight_ambulance_1,straight_truck_1,straight_helicopter_2,straight_helicopter_1,straight_truck_2,straight_digger_2,straight_truck_2,1
+D313,1,3131,129.215.204.50,interactD,1,24,straight_train_2,NA,frab train dak,frab train dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,1,24,straight_train_2,NA,NA,frab train dak,straight_helicopter_2,straight_helicopter_1,straight_bus_1,straight_train_2,straight_plane_1,straight_plane_2,straight_bus_2,straight_train_1,straight_train_2,1
+D313,1,3132,129.215.204.33,interactD,1,25,straight_ambulance_2,NA,frab ambulence wib,frab ambulance wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,1,25,straight_ambulance_2,NA,NA,frab ambulance wib,straight_truck_1,straight_submarine_1,straight_ambulance_1,straight_ambulance_2,straight_helicopter_2,straight_helicopter_1,straight_truck_2,straight_submarine_2,straight_ambulance_2,1
+D313,1,3131,129.215.204.50,interactD,1,25,straight_rocket_2,NA,frab rocket wib,frab rocket wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,1,25,straight_rocket_2,NA,NA,frab rocket wib,straight_digger_2,straight_rocket_2,straight_train_1,straight_submarine_1,straight_digger_1,straight_rocket_1,straight_submarine_2,straight_train_2,straight_rocket_2,1
+D313,1,3132,129.215.204.33,interactD,1,26,straight_helicopter_2,NA,frab helicopter dak,frab helicopter dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,1,26,straight_helicopter_2,NA,NA,frab helicopter dak,straight_tractor_1,straight_submarine_2,straight_truck_1,straight_truck_2,straight_tractor_2,straight_helicopter_1,straight_submarine_1,straight_helicopter_2,straight_helicopter_2,1
+D313,1,3131,129.215.204.50,interactD,1,26,straight_digger_1,NA,frab digger,frab digger,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,1,26,straight_digger_1,NA,NA,frab digger,straight_tractor_2,straight_digger_2,straight_helicopter_2,straight_tractor_1,straight_rocket_2,straight_helicopter_1,straight_digger_1,straight_rocket_1,straight_digger_1,1
+D313,1,3132,129.215.204.33,interactD,1,27,straight_bike_1,NA,frab bike,frab bike,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,1,27,straight_bike_1,NA,NA,frab bike,straight_bus_1,straight_van_1,straight_bike_1,straight_bus_2,straight_submarine_1,straight_bike_2,straight_van_2,straight_submarine_2,straight_bike_1,1
+D313,1,3131,129.215.204.50,interactD,1,27,straight_truck_1,NA,frab truck,frab truck,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,1,27,straight_truck_1,NA,NA,frab truck,straight_ambulance_1,straight_van_2,straight_bus_1,straight_bus_2,straight_ambulance_2,straight_truck_2,straight_van_1,straight_truck_1,straight_truck_1,1
+D313,1,3132,129.215.204.33,interactD,1,28,straight_tractor_1,NA,frab tractor,frab tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,1,28,straight_tractor_1,NA,NA,frab tractor,straight_submarine_1,straight_tractor_2,straight_submarine_2,straight_van_2,straight_truck_2,straight_tractor_1,straight_van_1,straight_truck_1,straight_tractor_1,1
+D313,1,3131,129.215.204.50,interactD,1,28,straight_truck_2,NA,frab truck wib,frab truck wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,1,28,straight_truck_2,NA,NA,frab truck wib,straight_truck_1,straight_boat_2,straight_tractor_2,straight_digger_2,straight_digger_1,straight_tractor_1,straight_truck_2,straight_boat_1,straight_truck_2,1
+D313,1,3132,129.215.204.33,interactD,1,29,straight_boat_2,NA,frab boat wib,frab boat wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,1,29,straight_boat_2,NA,NA,frab boat wib,straight_van_2,straight_van_1,straight_scooter_1,straight_bike_1,straight_boat_1,straight_scooter_2,straight_bike_2,straight_boat_2,straight_boat_2,1
+D313,1,3131,129.215.204.50,interactD,1,29,straight_scooter_2,NA,frab scooter wib,frab scooter wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,1,29,straight_scooter_2,NA,NA,frab scooter wib,straight_scooter_2,straight_tractor_2,straight_helicopter_2,straight_train_2,straight_train_1,straight_tractor_1,straight_helicopter_1,straight_scooter_1,straight_scooter_2,1
+D313,1,3132,129.215.204.33,interactD,1,30,straight_tank_2,NA,frab tank dak,frab tank dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,1,30,straight_tank_2,NA,NA,frab tank dak,straight_scooter_1,straight_scooter_2,straight_bus_2,straight_tank_2,straight_bus_1,straight_digger_2,straight_digger_1,straight_tank_1,straight_tank_2,1
+D313,1,3131,129.215.204.50,interactD,1,30,straight_digger_2,NA,frab digger wib,frab digger wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,1,30,straight_digger_2,NA,NA,frab digger wib,straight_train_1,straight_submarine_2,straight_ambulance_1,straight_digger_1,straight_digger_2,straight_train_2,straight_submarine_1,straight_ambulance_2,straight_digger_2,1
+D313,1,3132,129.215.204.33,interactD,1,31,straight_plane_1,NA,frab plane,frab plane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,1,31,straight_plane_1,NA,NA,frab plane,straight_scooter_1,straight_van_1,straight_plane_1,straight_van_2,straight_plane_2,straight_boat_1,straight_scooter_2,straight_boat_2,straight_plane_1,1
+D313,1,3131,129.215.204.50,interactD,1,31,straight_train_2,NA,frab train dak,frab train dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,1,31,straight_train_2,NA,NA,frab train dak,straight_train_2,straight_train_1,straight_boat_1,straight_boat_2,straight_submarine_1,straight_plane_2,straight_submarine_2,straight_plane_1,straight_train_2,1
+D313,1,3132,129.215.204.33,interactD,1,32,straight_plane_2,NA,frab plane dak,frab plane dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,1,32,straight_plane_2,NA,NA,frab plane dak,straight_van_1,straight_van_2,straight_rocket_1,straight_bike_1,straight_plane_1,straight_bike_2,straight_plane_2,straight_rocket_2,straight_plane_2,1
+D313,1,3131,129.215.204.50,interactD,1,32,straight_helicopter_2,NA,frab helicopter dak,frab helicopter dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,1,32,straight_helicopter_2,NA,NA,frab helicopter dak,straight_van_2,straight_tank_1,straight_helicopter_2,straight_van_1,straight_tank_2,straight_rocket_2,straight_helicopter_1,straight_rocket_1,straight_helicopter_2,1
+D313,1,3132,129.215.204.33,interactD,1,33,straight_bike_2,NA,frab bike dak,frab bike dak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,1,33,straight_bike_2,NA,NA,frab bike dak,straight_bus_1,straight_bike_2,straight_ambulance_2,straight_ambulance_1,straight_bike_1,straight_bus_2,straight_truck_2,straight_truck_1,straight_bike_2,1
+D313,1,3131,129.215.204.50,interactD,1,33,straight_bus_1,NA,frab bus,frab bus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,1,33,straight_bus_1,NA,NA,frab bus,straight_tractor_2,straight_boat_1,straight_submarine_2,straight_bus_2,straight_tractor_1,straight_boat_2,straight_submarine_1,straight_bus_1,straight_bus_1,1
+D313,1,3132,129.215.204.33,interactD,1,34,straight_scooter_2,NA,frab scooter wib,frab scooter wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,1,34,straight_scooter_2,NA,NA,frab scooter wib,straight_rocket_1,straight_tank_2,straight_scooter_1,straight_bus_1,straight_bus_2,straight_rocket_2,straight_scooter_2,straight_tank_1,straight_scooter_2,1
+D313,1,3131,129.215.204.50,interactD,1,34,straight_boat_2,NA,frab boat wib,frab boat wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,1,34,straight_boat_2,NA,NA,frab boat wib,straight_car_1,straight_plane_1,straight_rocket_1,straight_rocket_2,straight_car_2,straight_plane_2,straight_boat_1,straight_boat_2,straight_boat_2,1
+D313,1,3132,129.215.204.33,interactD,1,35,straight_boat_1,NA,frab boat,frab boat,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3131,129.215.204.50,interactM,1,35,straight_boat_1,NA,NA,frab boat,straight_plane_2,straight_car_2,straight_boat_2,straight_bike_2,straight_boat_1,straight_car_1,straight_bike_1,straight_plane_1,straight_boat_1,1
+D313,1,3131,129.215.204.50,interactD,1,35,straight_scooter_2,NA,frab scooter wib,frab scooter wib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D313,1,3132,129.215.204.33,interactM,1,35,straight_scooter_2,NA,NA,frab scooter wib,straight_scooter_2,straight_ambulance_2,straight_digger_2,straight_ambulance_1,straight_digger_1,straight_tractor_1,straight_tractor_2,straight_scooter_1,straight_scooter_2,1

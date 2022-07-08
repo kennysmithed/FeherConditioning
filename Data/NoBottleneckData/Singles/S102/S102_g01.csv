@@ -1,0 +1,801 @@
+Chain,Generation,ParticipantID,IP,Stage,Block,TrialNumber,Meaning,TrainingLabel,TypedLabel,CheckedLabel,Array1,Array2,Array3,Array4,Array5,Array6,Array7,Array8,Selected,Score
+S102,1,dummyP,127.0.0.1,vocabTraining,0,1,sheep,sheep,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTraining,0,2,squirrel,squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTraining,0,3,bike,bike,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTraining,0,4,plane,plane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTraining,0,5,hamster,hamster,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTraining,0,6,tank,tank,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTraining,0,7,dog,dog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTraining,0,8,helicopter,helicopter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTraining,0,9,dog,dog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTraining,0,10,helicopter,helicopter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTraining,0,11,squirrel,squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTraining,0,1,ambulance,ambulance,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTraining,0,12,giraffe,giraffe,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTraining,0,13,rabbit,rabbit,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTraining,0,14,ambulance,ambulance,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTraining,0,15,rabbit,rabbit,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTraining,0,2,ambulance,ambulance,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTraining,0,16,panda,panda,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTraining,0,17,plane,plane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTraining,0,18,bike,bike,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTraining,0,19,rocket,rocket,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTraining,0,3,helicopter,helicopter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTraining,0,20,giraffe,giraffe,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTraining,0,21,bus,bus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTraining,0,22,tractor,tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTraining,0,23,hamster,hamster,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTraining,0,4,tractor,tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTraining,0,24,rocket,rocket,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTraining,0,25,fox,fox,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTraining,0,26,ambulance,ambulance,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTraining,0,27,fox,fox,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTraining,0,5,sheep,sheep,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTraining,0,28,sheep,sheep,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTraining,0,29,bus,bus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTraining,0,30,tractor,tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTraining,0,31,tank,tank,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTraining,0,32,panda,panda,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTraining,0,6,fox,fox,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTraining,0,7,giraffe,giraffe,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTraining,0,8,hamster,hamster,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTraining,0,9,rocket,rocket,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTraining,0,10,bus,bus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTraining,0,11,dog,dog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTraining,0,12,panda,panda,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTraining,0,13,plane,plane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTraining,0,14,squirrel,squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTraining,0,15,squirrel,squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTraining,0,16,fox,fox,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTraining,0,17,bike,bike,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTraining,0,18,rabbit,rabbit,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTraining,0,19,giraffe,giraffe,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTraining,0,20,rocket,rocket,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTraining,0,21,bike,bike,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTraining,0,22,sheep,sheep,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTraining,0,23,bus,bus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTraining,0,24,rabbit,rabbit,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTraining,0,25,plane,plane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTraining,0,26,panda,panda,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTraining,0,27,helicopter,helicopter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTraining,0,28,hamster,hamster,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTraining,0,29,tractor,tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTraining,0,30,dog,dog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTraining,0,31,tank,tank,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTraining,0,32,tank,tank,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTesting,0,1,ambulance,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTesting,0,2,tank,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTesting,0,3,giraffe,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTesting,0,4,hamster,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTesting,0,5,fox,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTesting,0,6,bus,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTesting,0,7,tank,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTesting,0,8,rocket,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTesting,0,9,rocket,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTesting,0,10,sheep,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTesting,0,11,dog,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTesting,0,1,hamster,NA,hamster,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTesting,0,12,squirrel,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTesting,0,13,ambulance,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTesting,0,2,tank,NA,tank,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTesting,0,14,helicopter,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTesting,0,15,panda,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTesting,0,16,bike,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTesting,0,3,dog,NA,dog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTesting,0,17,tractor,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTesting,0,18,hamster,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTesting,0,19,bike,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTesting,0,20,sheep,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTesting,0,4,squirrel,NA,squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTesting,0,21,giraffe,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTesting,0,22,rabbit,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTesting,0,5,bus,NA,bus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTesting,0,23,helicopter,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTesting,0,24,tractor,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTesting,0,25,bus,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTesting,0,26,fox,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTesting,0,6,giraffe,NA,giraffe,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTesting,0,27,squirrel,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTesting,0,28,rabbit,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTesting,0,7,tank,NA,tank,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTesting,0,29,plane,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTesting,0,30,panda,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTesting,0,8,hamster,NA,hamster,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTesting,0,31,plane,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,vocabTesting,0,32,dog,NA,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTesting,0,9,fox,NA,fox,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTesting,0,10,rabbit,NA,rabbit,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTesting,0,11,tractor,NA,tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTesting,0,12,sheep,NA,sheep,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTesting,0,13,sheep,NA,sheep,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTesting,0,14,bike,NA,bike,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTesting,0,15,panda,NA,panda,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTesting,0,16,ambulance,NA,ambulance,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTesting,0,17,plane,NA,plane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTesting,0,18,panda,NA,panda,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTesting,0,19,plane,NA,plane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTesting,0,20,squirrel,NA,squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTesting,0,21,dog,NA,dog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTesting,0,22,rocket,NA,rocket,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTesting,0,23,rocket,NA,rocket,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTesting,0,24,bus,NA,bus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTesting,0,25,giraffe,NA,giraffe,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTesting,0,26,bike,NA,bike,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTesting,0,27,rabbit,NA,rabbit,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTesting,0,28,fox,NA,fox,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTesting,0,29,helicopter,NA,helicopter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTesting,0,30,ambulance,NA,ambulance,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTesting,0,31,helicopter,NA,helicopter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,vocabTesting,0,32,tractor,NA,tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,1,straight_squirrel_2,gund squirrel yav,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,2,straight_dog_2,gund dog tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,3,straight_plane_1,gund plane,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,4,straight_helicopter_2,gund helicopter tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,5,straight_squirrel_2,gund squirrel tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,1,straight_helicopter_2,gund helicopter yav,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,6,straight_hamster_1,gund hamster,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,7,straight_bus_1,gund bus,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,2,straight_rocket_2,gund rocket tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,8,straight_giraffe_2,gund giraffe tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,9,straight_fox_2,gund fox yav,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,3,straight_bike_1,gund bike,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,10,straight_hamster_2,gund hamster yav,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,11,straight_squirrel_1,gund squirrel,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,4,straight_plane_2,gund plane yav,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,12,straight_bike_1,gund bike,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,13,straight_bus_2,gund bus yav,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,5,straight_bike_2,gund bike tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,14,straight_tank_2,gund tank tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,15,straight_rocket_1,gund rocket,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,6,straight_hamster_1,gund hamster,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,16,straight_dog_1,gund dog,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,17,straight_plane_2,gund plane yav,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,7,straight_plane_2,gund plane tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,18,straight_bike_2,gund bike tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,19,straight_sheep_1,gund sheep,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,8,straight_giraffe_2,gund giraffe yav,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,20,straight_rabbit_2,gund rabbit yav,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,21,straight_fox_1,gund fox,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,9,straight_sheep_2,gund sheep yav,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,22,straight_ambulance_2,gund ambulance yav,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,23,straight_rabbit_2,gund rabbit tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,10,straight_sheep_1,gund sheep,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,24,straight_sheep_2,gund sheep tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,25,straight_tractor_1,gund tractor,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,11,straight_dog_2,gund dog tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,26,straight_tractor_2,gund tractor tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,27,straight_panda_2,gund panda tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,12,straight_sheep_2,gund sheep tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,28,straight_rabbit_1,gund rabbit,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,29,straight_panda_1,gund panda,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,30,straight_dog_2,gund dog yav,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,13,straight_panda_2,gund panda yav,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,31,straight_rocket_2,gund rocket tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,32,straight_giraffe_1,gund giraffe,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,14,straight_ambulance_2,gund ambulance tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,33,straight_tractor_2,gund tractor yav,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,34,straight_giraffe_2,gund giraffe yav,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,15,straight_tank_2,gund tank tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,35,straight_hamster_2,gund hamster tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,36,straight_bike_2,gund bike yav,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,16,straight_tractor_2,gund tractor yav,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,37,straight_ambulance_1,gund ambulance,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,38,straight_tank_1,gund tank,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,17,straight_tank_2,gund tank yav,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,39,straight_rocket_2,gund rocket yav,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,40,straight_helicopter_1,gund helicopter,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,18,straight_dog_2,gund dog yav,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,41,straight_helicopter_2,gund helicopter yav,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,42,straight_tank_2,gund tank yav,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,19,straight_squirrel_1,gund squirrel,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,43,straight_panda_2,gund panda yav,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,44,straight_fox_2,gund fox tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,20,straight_giraffe_1,gund giraffe,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,45,straight_sheep_2,gund sheep yav,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,46,straight_bus_2,gund bus tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,21,straight_panda_2,gund panda tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,47,straight_ambulance_2,gund ambulance tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,0,48,straight_plane_2,gund plane tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,22,straight_rabbit_2,gund rabbit yav,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,23,straight_hamster_2,gund hamster yav,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,24,straight_fox_2,gund fox yav,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,25,straight_bike_2,gund bike yav,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,26,straight_giraffe_2,gund giraffe tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,27,straight_ambulance_1,gund ambulance,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,28,straight_plane_1,gund plane,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,29,straight_bus_1,gund bus,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,30,straight_hamster_2,gund hamster tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,31,straight_helicopter_2,gund helicopter tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,32,straight_dog_1,gund dog,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,33,straight_squirrel_2,gund squirrel yav,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,34,straight_ambulance_2,gund ambulance yav,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,35,straight_rabbit_2,gund rabbit tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,36,straight_panda_1,gund panda,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,37,straight_tank_1,gund tank,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,38,straight_bus_2,gund bus yav,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,39,straight_rocket_2,gund rocket yav,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,40,straight_rabbit_1,gund rabbit,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,41,straight_tractor_2,gund tractor tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,42,straight_fox_2,gund fox tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,43,straight_bus_2,gund bus tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,44,straight_helicopter_1,gund helicopter,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,45,straight_fox_1,gund fox,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,46,straight_rocket_1,gund rocket,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,47,straight_tractor_1,gund tractor,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,0,48,straight_squirrel_2,gund squirrel tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,1,straight_giraffe_1,gund giraffe,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,2,straight_tank_2,gund tank yav,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,1,straight_panda_1,gund panda,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,3,straight_helicopter_1,gund helicopter,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,4,straight_plane_1,gund plane,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,2,straight_plane_1,gund plane,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,5,straight_squirrel_2,gund squirrel tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,6,straight_hamster_2,gund hamster yav,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,3,straight_plane_2,gund plane tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,7,straight_tractor_1,gund tractor,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,8,straight_tractor_2,gund tractor tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,4,straight_rabbit_2,gund rabbit tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,9,straight_sheep_2,gund sheep tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,10,straight_giraffe_2,gund giraffe tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,5,straight_rocket_2,gund rocket tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,11,straight_tractor_2,gund tractor yav,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,12,straight_bike_2,gund bike yav,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,6,straight_panda_2,gund panda tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,13,straight_panda_1,gund panda,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,14,straight_tank_2,gund tank tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,7,straight_bike_2,gund bike yav,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,15,straight_helicopter_2,gund helicopter tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,16,straight_bus_2,gund bus tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,8,straight_sheep_2,gund sheep yav,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,17,straight_rocket_2,gund rocket yav,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,18,straight_plane_2,gund plane tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,9,straight_rabbit_2,gund rabbit yav,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,19,straight_tank_1,gund tank,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,20,straight_ambulance_2,gund ambulance tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,10,straight_tractor_1,gund tractor,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,21,straight_squirrel_2,gund squirrel yav,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,22,straight_sheep_1,gund sheep,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,11,straight_rocket_2,gund rocket yav,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,23,straight_panda_2,gund panda yav,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,24,straight_bus_2,gund bus yav,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,12,straight_dog_2,gund dog tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,25,straight_rabbit_1,gund rabbit,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,26,straight_bike_2,gund bike tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,13,straight_dog_1,gund dog,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,27,straight_fox_2,gund fox yav,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,28,straight_rabbit_2,gund rabbit tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,14,straight_hamster_2,gund hamster tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,29,straight_rocket_1,gund rocket,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,30,straight_hamster_2,gund hamster tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,15,straight_bus_2,gund bus yav,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,31,straight_bus_1,gund bus,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,32,straight_rocket_2,gund rocket tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,16,straight_giraffe_1,gund giraffe,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,33,straight_squirrel_1,gund squirrel,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,34,straight_dog_2,gund dog tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,17,straight_giraffe_2,gund giraffe tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,35,straight_fox_2,gund fox tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,36,straight_fox_1,gund fox,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,18,straight_tractor_2,gund tractor yav,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,37,straight_giraffe_2,gund giraffe yav,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,38,straight_dog_2,gund dog yav,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,19,straight_helicopter_1,gund helicopter,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,39,straight_hamster_1,gund hamster,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,40,straight_plane_2,gund plane yav,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,20,straight_hamster_1,gund hamster,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,41,straight_dog_1,gund dog,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,42,straight_ambulance_1,gund ambulance,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,21,straight_fox_2,gund fox yav,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,43,straight_panda_2,gund panda tid,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,44,straight_rabbit_2,gund rabbit yav,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,22,straight_rabbit_1,gund rabbit,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,45,straight_sheep_2,gund sheep yav,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,46,straight_helicopter_2,gund helicopter yav,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,23,straight_fox_1,gund fox,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,47,straight_bike_1,gund bike,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,training,1,48,straight_ambulance_2,gund ambulance yav,DummyPartner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,24,straight_giraffe_2,gund giraffe yav,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,25,straight_rocket_1,gund rocket,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,26,straight_ambulance_2,gund ambulance yav,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,27,straight_squirrel_2,gund squirrel tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,28,straight_fox_2,gund fox tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,29,straight_tractor_2,gund tractor tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,30,straight_helicopter_2,gund helicopter tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,31,straight_sheep_1,gund sheep,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,32,straight_hamster_2,gund hamster yav,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,33,straight_tank_1,gund tank,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,34,straight_squirrel_1,gund squirrel,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,35,straight_ambulance_1,gund ambulance,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,36,straight_sheep_2,gund sheep tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,37,straight_helicopter_2,gund helicopter yav,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,38,straight_tank_2,gund tank yav,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,39,straight_bus_1,gund bus,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,40,straight_ambulance_2,gund ambulance tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,41,straight_bike_2,gund bike tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,42,straight_bike_1,gund bike,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,43,straight_tank_2,gund tank tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,44,straight_dog_2,gund dog yav,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,45,straight_bus_2,gund bus tid,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,46,straight_plane_2,gund plane yav,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,47,straight_squirrel_2,gund squirrel yav,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,training,1,48,straight_panda_2,gund panda yav,NoRetyping,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,1,straight_sheep_1,NA,gund sheep,gund sheep,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,2,straight_panda_2,NA,gund panda yav,gund panda yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,3,straight_tank_1,NA,gund tank,gund tank,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,4,straight_dog_1,NA,gund dog,gund dog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,5,straight_helicopter_1,NA,gund helicopter,gund helicopter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,6,straight_fox_2,NA,gund fox yav,gund fox yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,7,straight_sheep_2,NA,gund sheep yav,gund sheep yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,8,straight_panda_1,NA,gund panda,gund panda,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,1,straight_fox_2,NA,gund fox yav,gund fox yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,9,straight_squirrel_1,NA,gund squirrel,gund squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,10,straight_tractor_2,NA,gund tractor yav,gund tractor yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,11,straight_plane_2,NA,gund plane tid,gund plane tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,2,straight_sheep_2,NA,gund sheep yav,gund sheep yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,12,straight_fox_2,NA,gund fox tid,gund fox tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,13,straight_bus_2,NA,gund bus yav,gund bus yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,3,straight_giraffe_1,NA,gund giraffe,gund giraffe,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,14,straight_squirrel_2,NA,gund squirrel tid,gund squirrel tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,15,straight_plane_1,NA,gund plane,gund plane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,16,straight_tank_2,NA,gund tank yav,gund tank yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,4,straight_plane_2,NA,gund plane tid ,gund plane tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,17,straight_rocket_1,NA,gund rocket,gund rocket,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,18,straight_squirrel_2,NA,gund squirrel yav,gund squirrel yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,19,straight_dog_2,NA,gund dog yav,gund dog yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,5,straight_tank_2,NA,gund tank tid,gund tank tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,20,straight_bus_2,NA,gund bus tid,gund bus tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,21,straight_rabbit_2,NA,gund rabbit tid,gund rabbit tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,6,straight_bike_2,NA,gund bike yav,gund bike yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,22,straight_hamster_2,NA,gund hamster yav,gund hamster yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,23,straight_bike_2,NA,gund bike tid,gund bike tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,24,straight_ambulance_2,NA,gund ambulance yav,gund ambulance yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,7,straight_rabbit_2,NA,gund rabbit tid ,gund rabbit tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,25,straight_tractor_2,NA,gund tractor tid,gund tractor tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,26,straight_rabbit_1,NA,gund rabbit,gund rabbit,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,8,straight_rocket_1,NA,gund rocket,gund rocket,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,27,straight_tractor_1,NA,gund tractor,gund tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,28,straight_bike_2,NA,gund bike yav,gund bike yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,29,straight_helicopter_2,NA,gund helicopter yav,gund helicopter yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,30,straight_rocket_2,NA,gund rocket yav,gund rocket yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,31,straight_sheep_2,NA,gund sheep tid,gund sheep tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,32,straight_giraffe_1,NA,gund giraffe,gund giraffe,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,33,straight_tank_2,NA,gund tank tid,gund tank tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,9,straight_fox_2,NA,gund fox tid ,gund fox tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,34,straight_plane_2,NA,gund plane yav,gund plane yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,35,straight_rabbit_2,NA,gund rabbit yav,gund rabbit yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,10,straight_hamster_2,NA,gund hamster tid,gund hamster tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,36,straight_rocket_2,NA,gund rocket tid,gund rocket tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,37,straight_panda_2,NA,gund panda tid,gund panda tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,38,straight_bike_1,NA,gund bike,gund bike,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,11,straight_tractor_2,NA,gund tractor yav,gund tractor yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,39,straight_fox_1,NA,gund fox,gund fox,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,40,straight_ambulance_1,NA,gund ambulance,gund ambulance,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,12,straight_squirrel_1,NA,gund squirrel ,gund squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,41,straight_giraffe_2,NA,gund giraffe yav,gund giraffe yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,42,straight_hamster_2,NA,gund hamster tid,gund hamster tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,13,straight_helicopter_1,NA,gund helicopter,gund helicopter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,43,straight_giraffe_2,NA,gund giraffe tid,gund giraffe tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,44,straight_bus_1,NA,gund bus,gund bus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,14,straight_bike_1,NA,gund bike,gund bike,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,45,straight_dog_2,NA,gund dog tid,gund dog tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,15,straight_dog_1,NA,gund dog,gund dog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,46,straight_helicopter_2,NA,gund helicopter tid,gund helicopter tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,47,straight_hamster_1,NA,gund hamster,gund hamster,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,16,straight_rabbit_1,NA,gund rabbit,gund rabbit,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,0,48,straight_ambulance_2,NA,gund ambulance tid,gund ambulance tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,17,straight_bus_2,NA,gund bus yav,gund bus yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,18,straight_giraffe_2,NA,gund giraffe tid ,gund giraffe tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,19,straight_helicopter_2,NA,gund helicopter yav,gund helicopter yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,20,straight_tank_2,NA,gund tank yav,gund tank yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,21,straight_tractor_2,NA,gund tractor yav,gund tractor yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,22,straight_dog_2,NA,gund dog tid ,gund dog tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,23,straight_rocket_2,NA,gund rocket tid,gund rocket tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,24,straight_squirrel_2,NA,gund squirrel tid ,gund squirrel tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,25,straight_panda_2,NA,gund panda tid,gund panda tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,26,straight_hamster_2,NA,gund hamster tid,gund hamster tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,27,straight_helicopter_2,NA,gund helicopter yav,gund helicopter yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,28,straight_bus_2,NA,gund bus yav,gund bus yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,29,straight_sheep_1,NA,gund sheep,gund sheep,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,30,straight_bus_1,NA,gund bus,gund bus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,31,straight_rabbit_2,NA,gund rabbit tid,gund rabbit tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,32,straight_dog_2,NA,gund dog tid,gund dog tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,33,straight_ambulance_2,NA,gund ambulance tid,gund ambulance tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,34,straight_plane_1,NA,gund plane,gund plane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,35,straight_panda_2,NA,gund panda tid ,gund panda tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,36,straight_plane_2,NA,gund plane yav,gund plane yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,37,straight_sheep_2,NA,gund sheep tid,gund sheep tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,38,straight_ambulance_1,NA,gund ambulance,gund ambulance,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,39,straight_fox_1,NA,gund fox,gund fox,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,40,straight_rocket_2,NA,gund rocket tid,gund rocket tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,41,straight_tractor_1,NA,gund tractor,gund tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,42,straight_panda_1,NA,gund panda,gund panda,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,43,straight_ambulance_2,NA,gund ambulance,gund ambulance,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,44,straight_tank_1,NA,gund tank,gund tank,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,45,straight_squirrel_2,NA,gund squirrel tid,gund squirrel tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,46,straight_giraffe_2,NA,gund giraffe yav,gund giraffe yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,47,straight_hamster_1,NA,gund hamster,gund hamster,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,0,48,straight_bike_2,NA,gund bike tid,gund bike tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,1,straight_rocket_2,NA,gund rocket yav,gund rocket yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,2,straight_rocket_1,NA,gund rocket,gund rocket,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,1,straight_panda_1,NA,gund panda ,gund panda,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,3,straight_bike_2,NA,gund bike yav,gund bike yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,4,straight_ambulance_2,NA,gund ambulance tid,gund ambulance tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,2,straight_tractor_2,NA,gund tractor yav,gund tractor yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,5,straight_squirrel_2,NA,gund squirrel tid,gund squirrel tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,6,straight_rocket_2,NA,gund rocket tid,gund rocket tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,7,straight_hamster_1,NA,gund hamster,gund hamster,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,3,straight_bike_2,NA,gund bike tid,gund bike tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,8,straight_hamster_2,NA,gund hamster tid,gund hamster tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,9,straight_panda_1,NA,gund panda,gund panda,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,4,straight_hamster_1,NA,gund hamster ,gund hamster,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,10,straight_bus_2,NA,gund bus tid,gund bus tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,11,straight_panda_2,NA,gund panda tid,gund panda tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,12,straight_helicopter_1,NA,gund helicopter,gund helicopter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,5,straight_fox_2,NA,gund fox tid ,gund fox tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,13,straight_bus_2,NA,gund bus yav,gund bus yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,14,straight_squirrel_1,NA,gund squirrel,gund squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,6,straight_giraffe_2,NA,gund giraffe yav ,gund giraffe yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,15,straight_bike_1,NA,gund bike,gund bike,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,16,straight_fox_1,NA,gund fox,gund fox,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,17,straight_dog_1,NA,gund dog,gund dog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,7,straight_plane_2,NA,gund plane yav,gund plane yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,18,straight_bus_1,NA,gund bus,gund bus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,19,straight_tractor_1,NA,gund tractor,gund tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,8,straight_rabbit_2,NA,gund rabbit tid,gund rabbit tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,20,straight_tank_2,NA,gund tank tid,gund tank tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,21,straight_hamster_2,NA,gund hamster yav,gund hamster yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,9,straight_ambulance_2,NA,gund ambulance tid ,gund ambulance tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,22,straight_giraffe_2,NA,gund giraffe tid,gund giraffe tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,23,straight_bike_2,NA,gund bike tid,gund bike tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,10,straight_fox_1,NA,gund fox,gund fox,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,24,straight_plane_2,NA,gund plane tid,gund plane tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,25,straight_tractor_2,NA,gund tractor yav,gund tractor yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,11,straight_squirrel_2,NA,gund squirrel tid,gund squirrel tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,26,straight_tank_1,NA,gund tank,gund tank,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,12,straight_plane_1,NA,gund plane ,gund plane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,27,straight_fox_2,NA,gund fox tid,gund fox tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,28,straight_helicopter_2,NA,gund helicopter tid,gund helicopter tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,29,straight_ambulance_1,NA,gund ambulance,gund ambulance,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,13,straight_panda_2,NA,gund panda tid ,gund panda tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,30,straight_sheep_2,NA,gund sheep yav,gund sheep yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,31,straight_sheep_1,NA,gund sheep,gund sheep,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,32,straight_dog_2,NA,gund dog tid,gund dog tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,33,straight_panda_2,NA,gund panda yav,gund panda yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,34,straight_ambulance_2,NA,gund ambulance yav,gund ambulance yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,14,straight_helicopter_2,NA,gund helicopter yav,gund helicopter yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,35,straight_squirrel_2,NA,gund squirrel yav,gund squirrel yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,15,straight_rabbit_1,NA,gund rabbit,gund rabbit,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,36,straight_rabbit_2,NA,gund rabbit tid,gund rabbit tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,37,straight_fox_2,NA,gund fox yav,gund fox yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,38,straight_rabbit_1,NA,gund rabbit,gund rabbit,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,16,straight_ambulance_1,NA,gund ambulance,gund ambulance,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,39,straight_dog_2,NA,gund dog yav,gund dog yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,40,straight_giraffe_2,NA,gund giraffe yav,gund giraffe yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,41,straight_plane_2,NA,gund plane yav,gund plane yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,17,straight_squirrel_2,NA,gund squirrel tid,gund squirrel tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,42,straight_tractor_2,NA,gund tractor tid,gund tractor tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,43,straight_giraffe_1,NA,gund giraffe,gund giraffe,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,44,straight_helicopter_2,NA,gund helicopter yav,gund helicopter yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,18,straight_sheep_2,NA,gund sheep tid,gund sheep tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,45,straight_rabbit_2,NA,gund rabbit yav,gund rabbit yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,46,straight_tank_2,NA,gund tank yav,gund tank yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,19,straight_fox_2,NA,gund fox yav,gund fox yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,47,straight_plane_1,NA,gund plane,gund plane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,recall1,1,48,straight_sheep_2,NA,gund sheep tid,gund sheep tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,20,straight_rabbit_2,NA,gund rabbit tid,gund rabbit tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,21,straight_giraffe_2,NA,gund giraffe yav,gund giraffe yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,22,straight_hamster_2,NA,gund hamster tid,gund hamster tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,23,straight_bus_1,NA,gund bus,gund bus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,24,straight_tank_2,NA,gund tank yav,gund tank yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,25,straight_dog_2,NA,gund dog tiv,gund dog tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,26,straight_plane_2,NA,gund plane tid ,gund plane tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,27,straight_dog_1,NA,gund dog,gund dog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,28,straight_giraffe_1,NA,gund giraffe,gund giraffe,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,29,straight_sheep_2,NA,gund sheep tid,gund sheep tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,30,straight_helicopter_2,NA,gund helicopter yav,gund helicopter yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,31,straight_bus_2,NA,gund bus yav ,gund bus yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,32,straight_rocket_2,NA,gund rocket yav,gund rocket yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,33,straight_tractor_2,NA,gund tractor yav,gund tractor yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,34,straight_bike_2,NA,gund bike tid,gund bike tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,35,straight_helicopter_1,NA,gund helicopter,gund helicopter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,36,straight_rocket_2,NA,gund rocket tid,gund rocket tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,37,straight_bus_2,NA,gund bus yav,gund bus yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,38,straight_tank_1,NA,gund tank,gund tank,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,39,straight_rocket_1,NA,gund rocket,gund rocket,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,40,straight_dog_2,NA,gund dog yav,gund dog yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,41,straight_ambulance_2,NA,gund ambulance tid,gund ambulance tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,42,straight_squirrel_1,NA,gund squirrel ,gund squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,43,straight_panda_2,NA,gund panda tid,gund panda tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,44,straight_hamster_2,NA,gund hamster tid ,gund hamster tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,45,straight_bike_1,NA,gund bike,gund bike,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,46,straight_tank_2,NA,gund tank yav,gund tank yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,47,straight_sheep_1,NA,gund sheep,gund sheep,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,recall1,1,48,straight_tractor_1,NA,gund tractor,gund tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactD,0,0,straight_ambulance_2,NA,gund ambulance tid,gund ambulance tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,0,0,straight_ambulance_2,NA,NA,gund ambulance tid,straight_sheep_1,straight_ambulance_1,straight_dog_1,straight_rocket_2,straight_rocket_1,straight_dog_2,straight_ambulance_2,straight_sheep_2,straight_ambulance_2,1
+S102,1,dummyP,127.0.0.1,interactD,0,0,straight_sheep_2,NA,gund sheep yav,gund sheep yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,0,0,straight_sheep_2,NA,NA,gund sheep yav,straight_hamster_1,straight_rabbit_1,straight_dog_2,straight_hamster_2,straight_sheep_1,straight_dog_1,straight_rabbit_2,straight_sheep_2,straight_sheep_2,1
+S102,1,1021,129.215.204.42,interactD,0,1,straight_dog_1,NA,gund dog,gund dog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,0,1,straight_dog_1,NA,NA,gund dog,straight_dog_1,straight_hamster_2,straight_panda_1,straight_dog_2,straight_hamster_1,straight_tractor_2,straight_tractor_1,straight_panda_2,straight_dog_1,1
+S102,1,dummyP,127.0.0.1,interactD,0,1,straight_rocket_2,NA,gund rocket tid,gund rocket tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,0,1,straight_rocket_2,NA,NA,gund rocket tid,straight_hamster_2,straight_dog_1,straight_giraffe_2,straight_rocket_2,straight_giraffe_1,straight_dog_2,straight_hamster_1,straight_rocket_1,straight_rocket_2,1
+S102,1,1021,129.215.204.42,interactD,0,2,straight_giraffe_2,NA,gund giraffe yav,gund giraffe yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,0,2,straight_giraffe_2,NA,NA,gund giraffe yav,straight_panda_1,straight_ambulance_2,straight_giraffe_1,straight_rocket_2,straight_giraffe_2,straight_panda_2,straight_ambulance_1,straight_rocket_1,straight_giraffe_2,1
+S102,1,dummyP,127.0.0.1,interactD,0,2,straight_plane_2,NA,gund plane tid,gund plane tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,0,2,straight_plane_2,NA,NA,gund plane tid,straight_plane_1,straight_fox_1,straight_tank_1,straight_plane_2,straight_fox_2,straight_tank_2,straight_rabbit_2,straight_rabbit_1,straight_plane_2,1
+S102,1,1021,129.215.204.42,interactD,0,3,straight_squirrel_1,NA,gund squirrel,gund squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,0,3,straight_squirrel_1,NA,NA,gund squirrel,straight_hamster_2,straight_sheep_2,straight_sheep_1,straight_dog_1,straight_squirrel_1,straight_dog_2,straight_squirrel_2,straight_hamster_1,straight_squirrel_1,1
+S102,1,dummyP,127.0.0.1,interactD,0,3,straight_helicopter_2,NA,gund helicopter tid,gund helicopter tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,0,3,straight_helicopter_2,NA,NA,gund helicopter tid,straight_tank_2,straight_helicopter_2,straight_helicopter_1,straight_panda_2,straight_tank_1,straight_panda_1,straight_sheep_2,straight_sheep_1,straight_helicopter_2,1
+S102,1,1021,129.215.204.42,interactD,0,4,straight_ambulance_2,NA,gund ambulance yav,gund ambulance yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,0,4,straight_ambulance_2,NA,NA,gund ambulance yav,straight_ambulance_2,straight_bike_1,straight_ambulance_1,straight_rocket_2,straight_giraffe_1,straight_bike_2,straight_rocket_1,straight_giraffe_2,straight_ambulance_2,1
+S102,1,dummyP,127.0.0.1,interactD,0,4,straight_sheep_1,NA,gund sheep,gund sheep,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,0,4,straight_sheep_1,NA,NA,gund sheep,straight_hamster_2,straight_bus_2,straight_bus_1,straight_sheep_1,straight_giraffe_2,straight_sheep_2,straight_hamster_1,straight_giraffe_1,straight_sheep_1,1
+S102,1,1021,129.215.204.42,interactD,0,5,straight_bike_2,NA,gund bike tid,gund bike tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,0,5,straight_bike_2,NA,NA,gund bike tid,straight_fox_2,straight_bike_2,straight_rocket_1,straight_rocket_2,straight_helicopter_2,straight_helicopter_1,straight_bike_1,straight_fox_1,straight_bike_2,1
+S102,1,dummyP,127.0.0.1,interactD,0,5,straight_panda_2,NA,gund panda yav,gund panda yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,0,5,straight_panda_2,NA,NA,gund panda yav,straight_tank_2,straight_hamster_1,straight_panda_2,straight_hamster_2,straight_panda_1,straight_tank_1,straight_bike_2,straight_bike_1,straight_panda_2,1
+S102,1,1021,129.215.204.42,interactD,0,6,straight_hamster_1,NA,gund hamster,gund hamster,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,0,6,straight_hamster_1,NA,NA,gund hamster,straight_bus_1,straight_helicopter_2,straight_rabbit_1,straight_rabbit_2,straight_bus_2,straight_hamster_2,straight_hamster_1,straight_helicopter_1,straight_hamster_1,1
+S102,1,dummyP,127.0.0.1,interactD,0,6,straight_rabbit_2,NA,gund rabbit tid,gund rabbit tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,0,6,straight_rabbit_2,NA,NA,gund rabbit tid,straight_panda_2,straight_tank_2,straight_rabbit_1,straight_bike_2,straight_rabbit_2,straight_bike_1,straight_tank_1,straight_panda_1,straight_rabbit_2,1
+S102,1,1021,129.215.204.42,interactD,0,7,straight_ambulance_1,NA,gund ambulance,gund ambulance,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,0,7,straight_ambulance_1,NA,NA,gund ambulance,straight_panda_1,straight_sheep_2,straight_tractor_2,straight_panda_2,straight_tractor_1,straight_sheep_1,straight_ambulance_2,straight_ambulance_1,straight_ambulance_1,1
+S102,1,dummyP,127.0.0.1,interactD,0,7,straight_helicopter_1,NA,gund helicopter,gund helicopter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,0,7,straight_helicopter_1,NA,NA,gund helicopter,straight_plane_2,straight_squirrel_2,straight_sheep_2,straight_plane_1,straight_sheep_1,straight_helicopter_1,straight_helicopter_2,straight_squirrel_1,straight_helicopter_1,1
+S102,1,1021,129.215.204.42,interactD,0,8,straight_bus_1,NA,gund bus,gund bus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,0,8,straight_bus_1,NA,NA,gund bus,straight_helicopter_2,straight_tank_2,straight_bus_2,straight_tank_1,straight_helicopter_1,straight_bus_1,straight_panda_1,straight_panda_2,straight_bus_1,1
+S102,1,dummyP,127.0.0.1,interactD,0,8,straight_tank_2,NA,gund tank tid,gund tank tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,0,8,straight_tank_2,NA,NA,gund tank tid,straight_bus_2,straight_tank_1,straight_bus_1,straight_squirrel_1,straight_panda_1,straight_squirrel_2,straight_tank_2,straight_panda_2,straight_tank_2,1
+S102,1,1021,129.215.204.42,interactD,0,9,straight_dog_2,NA,gund dog yav,gund dog yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,0,9,straight_dog_2,NA,NA,gund dog yav,straight_fox_1,straight_helicopter_2,straight_panda_1,straight_helicopter_1,straight_panda_2,straight_dog_1,straight_dog_2,straight_fox_2,straight_dog_2,1
+S102,1,dummyP,127.0.0.1,interactD,0,9,straight_plane_2,NA,gund plane yav,gund plane yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,0,9,straight_plane_2,NA,NA,gund plane yav,straight_plane_2,straight_squirrel_2,straight_plane_1,straight_squirrel_1,straight_helicopter_1,straight_giraffe_2,straight_giraffe_1,straight_helicopter_2,straight_plane_2,1
+S102,1,1021,129.215.204.42,interactD,0,10,straight_fox_2,NA,gund fox yav,gund fox yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,0,10,straight_fox_2,NA,NA,gund fox yav,straight_fox_2,straight_tractor_2,straight_tractor_1,straight_plane_2,straight_plane_1,straight_rocket_1,straight_fox_1,straight_rocket_2,straight_fox_2,1
+S102,1,dummyP,127.0.0.1,interactD,0,10,straight_squirrel_1,NA,gund squirrel,gund squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,0,10,straight_squirrel_1,NA,NA,gund squirrel,straight_dog_2,straight_plane_2,straight_tank_2,straight_tank_1,straight_squirrel_1,straight_plane_1,straight_squirrel_2,straight_dog_1,straight_squirrel_1,1
+S102,1,1021,129.215.204.42,interactD,0,11,straight_tractor_1,NA,gund tractor,gund tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,0,11,straight_tractor_1,NA,NA,gund tractor,straight_tractor_2,straight_plane_1,straight_plane_2,straight_rabbit_2,straight_dog_1,straight_rabbit_1,straight_tractor_1,straight_dog_2,straight_tractor_1,1
+S102,1,dummyP,127.0.0.1,interactD,0,11,straight_hamster_2,NA,gund hamster yav,gund hamster yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,0,11,straight_hamster_2,NA,NA,gund hamster yav,straight_dog_1,straight_hamster_1,straight_bike_2,straight_bike_1,straight_dog_2,straight_squirrel_1,straight_squirrel_2,straight_hamster_2,straight_hamster_2,1
+S102,1,1021,129.215.204.42,interactD,0,12,straight_fox_1,NA,gund fox,gund fox,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,0,12,straight_fox_1,NA,NA,gund fox,straight_sheep_1,straight_fox_1,straight_giraffe_2,straight_plane_1,straight_fox_2,straight_giraffe_1,straight_plane_2,straight_sheep_2,straight_fox_1,1
+S102,1,dummyP,127.0.0.1,interactD,0,12,straight_tank_1,NA,gund tank,gund tank,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,0,12,straight_tank_1,NA,NA,gund tank,straight_plane_1,straight_plane_2,straight_tank_1,straight_panda_1,straight_bike_1,straight_panda_2,straight_bike_2,straight_tank_2,straight_tank_1,1
+S102,1,1021,129.215.204.42,interactD,0,13,straight_hamster_2,NA,gund hamster yav,gund hamster yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,0,13,straight_hamster_2,NA,NA,gund hamster yav,straight_dog_1,straight_bus_2,straight_dog_2,straight_giraffe_2,straight_bus_1,straight_hamster_1,straight_hamster_2,straight_giraffe_1,straight_hamster_2,1
+S102,1,dummyP,127.0.0.1,interactD,0,13,straight_ambulance_1,NA,gund ambulance,gund ambulance,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,0,13,straight_ambulance_1,NA,NA,gund ambulance,straight_plane_1,straight_plane_2,straight_squirrel_1,straight_dog_1,straight_dog_2,straight_ambulance_2,straight_squirrel_2,straight_ambulance_1,straight_ambulance_1,1
+S102,1,1021,129.215.204.42,interactD,0,14,straight_panda_2,NA,gund panda yav,gund panda yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,0,14,straight_panda_2,NA,NA,gund panda yav,straight_dog_2,straight_plane_1,straight_ambulance_2,straight_ambulance_1,straight_panda_2,straight_dog_1,straight_plane_2,straight_panda_1,straight_panda_2,1
+S102,1,dummyP,127.0.0.1,interactD,0,14,straight_panda_2,NA,gund panda tid,gund panda tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,0,14,straight_panda_2,NA,NA,gund panda tid,straight_hamster_2,straight_rabbit_1,straight_helicopter_2,straight_helicopter_1,straight_hamster_1,straight_panda_2,straight_rabbit_2,straight_panda_1,straight_panda_2,1
+S102,1,1021,129.215.204.42,interactD,0,15,straight_squirrel_2,NA,gund squirrel yav,gund squirrel yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,0,15,straight_squirrel_2,NA,NA,gund squirrel yav,straight_bus_1,straight_bus_2,straight_hamster_2,straight_rocket_1,straight_rocket_2,straight_hamster_1,straight_squirrel_1,straight_squirrel_2,straight_squirrel_2,1
+S102,1,dummyP,127.0.0.1,interactD,0,15,straight_hamster_1,NA,gund hamster,gund hamster,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,0,15,straight_hamster_1,NA,NA,gund hamster,straight_sheep_2,straight_ambulance_2,straight_hamster_2,straight_ambulance_1,straight_hamster_1,straight_giraffe_2,straight_sheep_1,straight_giraffe_1,straight_hamster_1,1
+S102,1,1021,129.215.204.42,interactD,0,16,straight_rocket_1,NA,gund rocket,gund rocket,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,0,16,straight_rocket_1,NA,NA,gund rocket,straight_sheep_2,straight_helicopter_1,straight_rocket_2,straight_helicopter_2,straight_sheep_1,straight_rocket_1,straight_ambulance_1,straight_ambulance_2,straight_rocket_1,1
+S102,1,dummyP,127.0.0.1,interactD,0,16,straight_giraffe_2,NA,gund giraffe tid,gund giraffe tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,0,16,straight_giraffe_2,NA,NA,gund giraffe tid,straight_tractor_2,straight_dog_2,straight_dog_1,straight_giraffe_2,straight_giraffe_1,straight_sheep_1,straight_tractor_1,straight_sheep_2,straight_giraffe_2,1
+S102,1,1021,129.215.204.42,interactD,0,17,straight_giraffe_2,NA,gund giraffe tid,gund giraffe tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,0,17,straight_giraffe_2,NA,NA,gund giraffe tid,straight_fox_2,straight_giraffe_1,straight_sheep_2,straight_ambulance_2,straight_giraffe_2,straight_ambulance_1,straight_sheep_1,straight_fox_1,straight_giraffe_2,1
+S102,1,dummyP,127.0.0.1,interactD,0,17,straight_bike_2,NA,gund bike yav,gund bike yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,0,17,straight_bike_2,NA,NA,gund bike yav,straight_giraffe_1,straight_squirrel_2,straight_bike_2,straight_squirrel_1,straight_bike_1,straight_giraffe_2,straight_plane_1,straight_plane_2,straight_bike_2,1
+S102,1,1021,129.215.204.42,interactD,0,18,straight_rocket_2,NA,gund rocket yav,gund rocket yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,0,18,straight_rocket_2,NA,NA,gund rocket yav,straight_sheep_2,straight_tractor_2,straight_rocket_2,straight_panda_2,straight_tractor_1,straight_panda_1,straight_rocket_1,straight_sheep_1,straight_rocket_2,1
+S102,1,dummyP,127.0.0.1,interactD,0,18,straight_panda_1,NA,gund panda,gund panda,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,0,18,straight_panda_1,NA,NA,gund panda,straight_dog_2,straight_plane_1,straight_dog_1,straight_panda_1,straight_plane_2,straight_rabbit_1,straight_rabbit_2,straight_panda_2,straight_panda_1,1
+S102,1,1021,129.215.204.42,interactD,0,19,straight_bike_2,NA,gund bike yav,gund bike yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,0,19,straight_bike_2,NA,NA,gund bike yav,straight_dog_2,straight_hamster_1,straight_bike_1,straight_plane_2,straight_plane_1,straight_hamster_2,straight_dog_1,straight_bike_2,straight_bike_2,1
+S102,1,dummyP,127.0.0.1,interactD,0,19,straight_plane_1,NA,gund plane,gund plane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,0,19,straight_plane_1,NA,NA,gund plane,straight_plane_1,straight_plane_2,straight_squirrel_1,straight_helicopter_1,straight_squirrel_2,straight_helicopter_2,straight_giraffe_1,straight_giraffe_2,straight_plane_1,1
+S102,1,1021,129.215.204.42,interactD,0,20,straight_panda_2,NA,gund panda yav,gund panda yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,0,20,straight_panda_2,NA,NA,gund panda yav,straight_squirrel_1,straight_helicopter_1,straight_helicopter_2,straight_rocket_2,straight_panda_1,straight_panda_2,straight_rocket_1,straight_squirrel_2,straight_panda_2,1
+S102,1,dummyP,127.0.0.1,interactD,0,20,straight_squirrel_2,NA,gund squirrel yav,gund squirrel yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,0,20,straight_squirrel_2,NA,NA,gund squirrel yav,straight_giraffe_2,straight_squirrel_2,straight_giraffe_1,straight_squirrel_1,straight_tank_2,straight_dog_1,straight_dog_2,straight_tank_1,straight_squirrel_2,1
+S102,1,1021,129.215.204.42,interactD,0,21,straight_bike_1,NA,gund bike,gund bike,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,0,21,straight_bike_1,NA,NA,gund bike,straight_plane_2,straight_plane_1,straight_bike_1,straight_sheep_2,straight_bike_2,straight_rocket_1,straight_rocket_2,straight_sheep_1,straight_bike_1,1
+S102,1,dummyP,127.0.0.1,interactD,0,21,straight_hamster_2,NA,gund hamster tid,gund hamster tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,0,21,straight_hamster_2,NA,NA,gund hamster tid,straight_hamster_2,straight_plane_2,straight_tank_1,straight_rabbit_2,straight_rabbit_1,straight_tank_2,straight_hamster_1,straight_plane_1,straight_hamster_2,1
+S102,1,1021,129.215.204.42,interactD,0,22,straight_bus_2,NA,gund bus tid,gund bus tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,0,22,straight_bus_2,NA,NA,gund bus tid,straight_dog_2,straight_tank_2,straight_fox_1,straight_bus_2,straight_dog_1,straight_fox_2,straight_tank_1,straight_bus_1,straight_bus_2,1
+S102,1,dummyP,127.0.0.1,interactD,0,22,straight_giraffe_1,NA,gund giraffe,gund giraffe,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,0,22,straight_giraffe_1,NA,NA,gund giraffe,straight_giraffe_2,straight_sheep_2,straight_dog_1,straight_giraffe_1,straight_bike_2,straight_bike_1,straight_sheep_1,straight_dog_2,straight_giraffe_1,1
+S102,1,1021,129.215.204.42,interactD,0,23,straight_plane_2,NA,gund plane yav,gund plane yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,0,23,straight_plane_2,NA,NA,gund plane yav,straight_tractor_1,straight_plane_1,straight_giraffe_2,straight_plane_2,straight_tractor_2,straight_hamster_2,straight_giraffe_1,straight_hamster_1,straight_plane_2,1
+S102,1,dummyP,127.0.0.1,interactD,0,23,straight_helicopter_2,NA,gund helicopter yav,gund helicopter yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,0,23,straight_helicopter_2,NA,NA,gund helicopter yav,straight_helicopter_1,straight_dog_2,straight_ambulance_1,straight_helicopter_2,straight_dog_1,straight_ambulance_2,straight_sheep_1,straight_sheep_2,straight_helicopter_2,1
+S102,1,1021,129.215.204.42,interactD,0,24,straight_squirrel_2,NA,gund squirrel yav,gund squirrel yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,0,24,straight_squirrel_2,NA,NA,gund squirrel yav,straight_fox_1,straight_ambulance_1,straight_tractor_2,straight_ambulance_2,straight_tractor_1,straight_squirrel_2,straight_fox_2,straight_squirrel_1,straight_squirrel_2,1
+S102,1,dummyP,127.0.0.1,interactD,0,24,straight_giraffe_2,NA,gund giraffe yav,gund giraffe yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,0,24,straight_giraffe_2,NA,NA,gund giraffe yav,straight_tractor_1,straight_helicopter_2,straight_dog_2,straight_dog_1,straight_giraffe_2,straight_helicopter_1,straight_giraffe_1,straight_tractor_2,straight_giraffe_2,1
+S102,1,1021,129.215.204.42,interactD,0,25,straight_tractor_2,NA,gund tractor tid,gund tractor tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,0,25,straight_tractor_2,NA,NA,gund tractor tid,straight_plane_1,straight_tank_2,straight_plane_2,straight_tractor_1,straight_ambulance_2,straight_tank_1,straight_tractor_2,straight_ambulance_1,straight_tractor_2,1
+S102,1,dummyP,127.0.0.1,interactD,0,25,straight_rabbit_2,NA,gund rabbit yav,gund rabbit yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,0,25,straight_rabbit_2,NA,NA,gund rabbit yav,straight_tractor_1,straight_squirrel_2,straight_squirrel_1,straight_ambulance_2,straight_ambulance_1,straight_rabbit_2,straight_tractor_2,straight_rabbit_1,straight_rabbit_2,1
+S102,1,1021,129.215.204.42,interactD,0,26,straight_fox_2,NA,gund fox yav,gund fox yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,0,26,straight_fox_2,NA,NA,gund fox yav,straight_ambulance_2,straight_fox_1,straight_helicopter_1,straight_fox_2,straight_ambulance_1,straight_tank_2,straight_tank_1,straight_helicopter_2,straight_fox_2,1
+S102,1,dummyP,127.0.0.1,interactD,0,26,straight_tank_2,NA,gund tank yav,gund tank yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,0,26,straight_tank_2,NA,NA,gund tank yav,straight_panda_1,straight_bike_1,straight_tank_2,straight_tank_1,straight_panda_2,straight_plane_2,straight_plane_1,straight_bike_2,straight_tank_2,1
+S102,1,1021,129.215.204.42,interactD,0,27,straight_giraffe_1,NA,gund giraffe,gund giraffe,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,0,27,straight_giraffe_1,NA,NA,gund giraffe,straight_rocket_2,straight_giraffe_1,straight_giraffe_2,straight_hamster_1,straight_plane_2,straight_rocket_1,straight_plane_1,straight_hamster_2,straight_giraffe_1,1
+S102,1,dummyP,127.0.0.1,interactD,0,27,straight_ambulance_2,NA,gund ambulance yav,gund ambulance yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,0,27,straight_ambulance_2,NA,NA,gund ambulance yav,straight_ambulance_1,straight_hamster_2,straight_hamster_1,straight_squirrel_2,straight_squirrel_1,straight_bus_2,straight_ambulance_2,straight_bus_1,straight_ambulance_2,1
+S102,1,1021,129.215.204.42,interactD,0,28,straight_panda_1,NA,gund panda,gund panda,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,0,28,straight_panda_1,NA,NA,gund panda,straight_panda_1,straight_sheep_2,straight_rabbit_2,straight_rabbit_1,straight_dog_1,straight_dog_2,straight_sheep_1,straight_panda_2,straight_panda_1,1
+S102,1,dummyP,127.0.0.1,interactD,0,28,straight_rocket_2,NA,gund rocket yav,gund rocket yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,0,28,straight_rocket_2,NA,NA,gund rocket yav,straight_rocket_1,straight_hamster_2,straight_rocket_2,straight_bus_2,straight_bus_1,straight_sheep_1,straight_sheep_2,straight_hamster_1,straight_rocket_2,1
+S102,1,1021,129.215.204.42,interactD,0,29,straight_tractor_2,NA,gund tractor yav,gund tractor yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,0,29,straight_tractor_2,NA,NA,gund tractor yav,straight_tank_1,straight_squirrel_1,straight_bus_1,straight_squirrel_2,straight_bus_2,straight_tractor_2,straight_tractor_1,straight_tank_2,straight_tractor_2,1
+S102,1,dummyP,127.0.0.1,interactD,0,29,straight_rabbit_1,NA,gund rabbit,gund rabbit,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,0,29,straight_rabbit_1,NA,NA,gund rabbit,straight_bike_1,straight_rabbit_1,straight_dog_2,straight_bike_2,straight_rocket_2,straight_dog_1,straight_rabbit_2,straight_rocket_1,straight_rabbit_1,1
+S102,1,1021,129.215.204.42,interactD,0,30,straight_hamster_2,NA,gund hamster yav,gund hamster yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,0,30,straight_hamster_2,NA,NA,gund hamster yav,straight_squirrel_1,straight_dog_1,straight_hamster_2,straight_dog_2,straight_squirrel_2,straight_bike_1,straight_bike_2,straight_hamster_1,straight_hamster_2,1
+S102,1,dummyP,127.0.0.1,interactD,0,30,straight_bike_2,NA,gund bike tid,gund bike tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,0,30,straight_bike_2,NA,NA,gund bike tid,straight_bus_1,straight_bike_1,straight_bus_2,straight_tractor_1,straight_bike_2,straight_ambulance_1,straight_ambulance_2,straight_tractor_2,straight_bike_2,1
+S102,1,1021,129.215.204.42,interactD,0,31,straight_dog_2,NA,gund dog yav,gund dog yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,0,31,straight_dog_2,NA,NA,gund dog yav,straight_panda_2,straight_helicopter_1,straight_plane_2,straight_dog_2,straight_plane_1,straight_helicopter_2,straight_dog_1,straight_panda_1,straight_dog_2,1
+S102,1,dummyP,127.0.0.1,interactD,0,31,straight_bike_1,NA,gund bike,gund bike,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,0,31,straight_bike_1,NA,NA,gund bike,straight_bike_2,straight_bus_2,straight_giraffe_2,straight_panda_2,straight_panda_1,straight_bike_1,straight_giraffe_1,straight_bus_1,straight_bike_1,1
+S102,1,1021,129.215.204.42,interactD,0,32,straight_bus_2,NA,gund bus tid,gund bus tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,0,32,straight_bus_2,NA,NA,gund bus tid,straight_helicopter_2,straight_helicopter_1,straight_bus_2,straight_ambulance_2,straight_ambulance_1,straight_tractor_2,straight_tractor_1,straight_bus_1,straight_bus_2,1
+S102,1,dummyP,127.0.0.1,interactD,0,32,straight_sheep_2,NA,gund sheep tid,gund sheep tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,0,32,straight_sheep_2,NA,NA,gund sheep tid,straight_dog_2,straight_sheep_1,straight_sheep_2,straight_dog_1,straight_plane_1,straight_ambulance_2,straight_ambulance_1,straight_plane_2,straight_sheep_2,1
+S102,1,1021,129.215.204.42,interactD,0,33,straight_plane_1,NA,gund plane ,gund plane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,0,33,straight_plane_1,NA,NA,gund plane,straight_dog_2,straight_sheep_2,straight_dog_1,straight_plane_2,straight_tractor_2,straight_tractor_1,straight_sheep_1,straight_plane_1,straight_plane_1,1
+S102,1,dummyP,127.0.0.1,interactD,0,33,straight_rocket_1,NA,gund rocket,gund rocket,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,0,33,straight_rocket_1,NA,NA,gund rocket,straight_tractor_1,straight_rocket_1,straight_bus_2,straight_bike_1,straight_bus_1,straight_tractor_2,straight_bike_2,straight_rocket_2,straight_rocket_1,1
+S102,1,1021,129.215.204.42,interactD,0,34,straight_plane_2,NA,gund plane yav,gund plane yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,0,34,straight_plane_2,NA,NA,gund plane yav,straight_plane_1,straight_helicopter_2,straight_helicopter_1,straight_rocket_2,straight_plane_2,straight_rocket_1,straight_giraffe_2,straight_giraffe_1,straight_plane_2,1
+S102,1,dummyP,127.0.0.1,interactD,0,34,straight_ambulance_2,NA,gund ambulance tid,gund ambulance tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,0,34,straight_ambulance_2,NA,NA,gund ambulance tid,straight_ambulance_2,straight_fox_1,straight_hamster_1,straight_hamster_2,straight_ambulance_1,straight_helicopter_2,straight_fox_2,straight_helicopter_1,straight_ambulance_2,1
+S102,1,1021,129.215.204.42,interactD,0,35,straight_rocket_2,NA,gund rocket yav,gund rocket yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,0,35,straight_rocket_2,NA,NA,gund rocket yav,straight_plane_1,straight_ambulance_2,straight_ambulance_1,straight_rocket_1,straight_sheep_2,straight_plane_2,straight_sheep_1,straight_rocket_2,straight_rocket_2,1
+S102,1,dummyP,127.0.0.1,interactD,0,35,straight_squirrel_2,NA,gund squirrel tid,gund squirrel tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,0,35,straight_squirrel_2,NA,NA,gund squirrel tid,straight_squirrel_1,straight_tractor_2,straight_squirrel_2,straight_panda_2,straight_ambulance_2,straight_panda_1,straight_tractor_1,straight_ambulance_1,straight_squirrel_2,1
+S102,1,1021,129.215.204.42,interactD,1,0,straight_plane_2,NA,gund plane yav,gund plane yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,1,0,straight_plane_2,NA,NA,gund plane yav,straight_fox_2,straight_plane_1,straight_fox_1,straight_bike_2,straight_bike_1,straight_helicopter_2,straight_plane_2,straight_helicopter_1,straight_plane_2,1
+S102,1,dummyP,127.0.0.1,interactD,1,0,straight_plane_2,NA,gund plane tid,gund plane tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,1,0,straight_plane_2,NA,NA,gund plane tid,straight_dog_1,straight_rocket_2,straight_dog_2,straight_rocket_1,straight_plane_2,straight_giraffe_2,straight_plane_1,straight_giraffe_1,straight_plane_2,1
+S102,1,1021,129.215.204.42,interactD,1,1,straight_dog_2,NA,gund dog yav,gund dog yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,1,1,straight_dog_2,NA,NA,gund dog yav,straight_dog_1,straight_sheep_2,straight_panda_1,straight_rocket_1,straight_sheep_1,straight_panda_2,straight_dog_2,straight_rocket_2,straight_dog_2,1
+S102,1,dummyP,127.0.0.1,interactD,1,1,straight_hamster_2,NA,gund hamster yav,gund hamster yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,1,1,straight_hamster_2,NA,NA,gund hamster yav,straight_ambulance_2,straight_squirrel_1,straight_hamster_1,straight_ambulance_1,straight_squirrel_2,straight_hamster_2,straight_bus_1,straight_bus_2,straight_hamster_2,1
+S102,1,1021,129.215.204.42,interactD,1,2,straight_plane_2,NA,gund plane yav,gund plane yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,1,2,straight_plane_2,NA,NA,gund plane yav,straight_plane_2,straight_panda_2,straight_bike_2,straight_panda_1,straight_rocket_2,straight_rocket_1,straight_plane_1,straight_bike_1,straight_plane_2,1
+S102,1,dummyP,127.0.0.1,interactD,1,2,straight_hamster_1,NA,gund hamster,gund hamster,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,1,2,straight_hamster_1,NA,NA,gund hamster,straight_plane_1,straight_sheep_2,straight_plane_2,straight_sheep_1,straight_hamster_1,straight_hamster_2,straight_squirrel_2,straight_squirrel_1,straight_hamster_1,1
+S102,1,1021,129.215.204.42,interactD,1,3,straight_bus_1,NA,gund bus,gund bus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,1,3,straight_bus_1,NA,NA,gund bus,straight_bus_1,straight_dog_1,straight_tank_2,straight_bus_2,straight_tank_1,straight_panda_1,straight_dog_2,straight_panda_2,straight_bus_1,1
+S102,1,dummyP,127.0.0.1,interactD,1,3,straight_sheep_2,NA,gund sheep tid,gund sheep tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,1,3,straight_sheep_2,NA,NA,gund sheep tid,straight_tank_2,straight_fox_1,straight_fox_2,straight_sheep_2,straight_plane_1,straight_plane_2,straight_sheep_1,straight_tank_1,straight_sheep_2,1
+S102,1,1021,129.215.204.42,interactD,1,4,straight_giraffe_1,NA,gund giraffe,gund giraffe,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,1,4,straight_giraffe_1,NA,NA,gund giraffe,straight_hamster_2,straight_hamster_1,straight_giraffe_2,straight_tractor_1,straight_panda_2,straight_tractor_2,straight_panda_1,straight_giraffe_1,straight_giraffe_1,1
+S102,1,dummyP,127.0.0.1,interactD,1,4,straight_sheep_1,NA,gund sheep,gund sheep,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,1,4,straight_sheep_1,NA,NA,gund sheep,straight_giraffe_2,straight_squirrel_1,straight_dog_1,straight_sheep_2,straight_squirrel_2,straight_giraffe_1,straight_sheep_1,straight_dog_2,straight_sheep_1,1
+S102,1,1021,129.215.204.42,interactD,1,5,straight_dog_1,NA,gund dog,gund dog,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,1,5,straight_dog_1,NA,NA,gund dog,straight_helicopter_2,straight_dog_2,straight_ambulance_2,straight_bus_2,straight_ambulance_1,straight_dog_1,straight_bus_1,straight_helicopter_1,straight_dog_1,1
+S102,1,dummyP,127.0.0.1,interactD,1,5,straight_tank_1,NA,gund tank,gund tank,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,1,5,straight_tank_1,NA,NA,gund tank,straight_panda_2,straight_panda_1,straight_bike_2,straight_tractor_2,straight_tractor_1,straight_tank_1,straight_bike_1,straight_tank_2,straight_tank_1,1
+S102,1,1021,129.215.204.42,interactD,1,6,straight_bike_2,NA,gund bike tid,gund bike tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,1,6,straight_bike_2,NA,NA,gund bike tid,straight_hamster_2,straight_plane_2,straight_hamster_1,straight_plane_1,straight_bus_2,straight_bike_2,straight_bus_1,straight_bike_1,straight_bike_2,1
+S102,1,dummyP,127.0.0.1,interactD,1,6,straight_giraffe_2,NA,gund giraffe tid,gund giraffe tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,1,6,straight_giraffe_2,NA,NA,gund giraffe tid,straight_tractor_1,straight_panda_1,straight_panda_2,straight_rocket_1,straight_rocket_2,straight_giraffe_2,straight_giraffe_1,straight_tractor_2,straight_giraffe_2,1
+S102,1,1021,129.215.204.42,interactD,1,7,straight_panda_2,NA,gund panda yav,gund panda yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,1,7,straight_panda_2,NA,NA,gund panda yav,straight_rocket_1,straight_giraffe_2,straight_giraffe_1,straight_panda_2,straight_ambulance_1,straight_ambulance_2,straight_rocket_2,straight_panda_1,straight_panda_2,1
+S102,1,dummyP,127.0.0.1,interactD,1,7,straight_rabbit_2,NA,gund rabbit tid,gund rabbit tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,1,7,straight_rabbit_2,NA,NA,gund rabbit tid,straight_panda_2,straight_panda_1,straight_helicopter_2,straight_helicopter_1,straight_dog_2,straight_rabbit_1,straight_dog_1,straight_rabbit_2,straight_rabbit_2,1
+S102,1,1021,129.215.204.42,interactD,1,8,straight_giraffe_2,NA,gund giraffe tid,gund giraffe tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,1,8,straight_giraffe_2,NA,NA,gund giraffe tid,straight_giraffe_1,straight_squirrel_1,straight_squirrel_2,straight_plane_1,straight_panda_1,straight_plane_2,straight_panda_2,straight_giraffe_2,straight_giraffe_2,1
+S102,1,dummyP,127.0.0.1,interactD,1,8,straight_squirrel_1,NA,gund squirrel,gund squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,1,8,straight_squirrel_1,NA,NA,gund squirrel,straight_dog_1,straight_tractor_2,straight_dog_2,straight_squirrel_2,straight_bike_1,straight_tractor_1,straight_bike_2,straight_squirrel_1,straight_squirrel_1,1
+S102,1,1021,129.215.204.42,interactD,1,9,straight_rocket_2,NA,gund rocket yav,gund rocket yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,1,9,straight_rocket_2,NA,NA,gund rocket yav,straight_rocket_2,straight_giraffe_2,straight_plane_1,straight_giraffe_1,straight_plane_2,straight_rocket_1,straight_sheep_1,straight_sheep_2,straight_rocket_2,1
+S102,1,dummyP,127.0.0.1,interactD,1,9,straight_bike_2,NA,gund bike yav,gund bike yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,1,9,straight_bike_2,NA,NA,gund bike yav,straight_bike_1,straight_bus_2,straight_bike_2,straight_hamster_1,straight_dog_1,straight_hamster_2,straight_dog_2,straight_bus_1,straight_bike_2,1
+S102,1,1021,129.215.204.42,interactD,1,10,straight_tractor_2,NA,gund tractor yav,gund tractor yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,1,10,straight_tractor_2,NA,NA,gund tractor yav,straight_panda_2,straight_bus_2,straight_fox_1,straight_tractor_1,straight_bus_1,straight_tractor_2,straight_panda_1,straight_fox_2,straight_tractor_2,1
+S102,1,dummyP,127.0.0.1,interactD,1,10,straight_ambulance_2,NA,gund ambulance yav,gund ambulance yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,1,10,straight_ambulance_2,NA,NA,gund ambulance yav,straight_tank_2,straight_fox_2,straight_ambulance_1,straight_squirrel_2,straight_tank_1,straight_ambulance_2,straight_squirrel_1,straight_fox_1,straight_ambulance_2,1
+S102,1,1021,129.215.204.42,interactD,1,11,straight_panda_1,NA,gund panda,gund panda,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,1,11,straight_panda_1,NA,NA,gund panda,straight_hamster_1,straight_panda_1,straight_ambulance_2,straight_ambulance_1,straight_panda_2,straight_hamster_2,straight_giraffe_2,straight_giraffe_1,straight_panda_1,1
+S102,1,dummyP,127.0.0.1,interactD,1,11,straight_rocket_1,NA,gund rocket,gund rocket,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,1,11,straight_rocket_1,NA,NA,gund rocket,straight_sheep_2,straight_giraffe_1,straight_bus_1,straight_rocket_2,straight_giraffe_2,straight_bus_2,straight_rocket_1,straight_sheep_1,straight_rocket_1,1
+S102,1,1021,129.215.204.42,interactD,1,12,straight_rocket_1,NA,gund rocket,gund rocket,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,1,12,straight_rocket_1,NA,NA,gund rocket,straight_plane_1,straight_panda_2,straight_panda_1,straight_plane_2,straight_rocket_2,straight_rocket_1,straight_ambulance_1,straight_ambulance_2,straight_rocket_1,1
+S102,1,dummyP,127.0.0.1,interactD,1,12,straight_squirrel_2,NA,gund squirrel tid,gund squirrel tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,1,12,straight_squirrel_2,NA,NA,gund squirrel tid,straight_plane_1,straight_bus_1,straight_squirrel_1,straight_squirrel_2,straight_sheep_1,straight_sheep_2,straight_plane_2,straight_bus_2,straight_squirrel_2,1
+S102,1,1021,129.215.204.42,interactD,1,13,straight_hamster_2,NA,gund hamster yav,gund hamster yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,1,13,straight_hamster_2,NA,NA,gund hamster yav,straight_sheep_2,straight_hamster_2,straight_dog_2,straight_sheep_1,straight_dog_1,straight_squirrel_1,straight_squirrel_2,straight_hamster_1,straight_hamster_2,1
+S102,1,dummyP,127.0.0.1,interactD,1,13,straight_rabbit_2,NA,gund rabbit yav,gund rabbit yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,1,13,straight_rabbit_2,NA,NA,gund rabbit yav,straight_tractor_2,straight_rocket_1,straight_sheep_1,straight_rabbit_2,straight_tractor_1,straight_rocket_2,straight_rabbit_1,straight_sheep_2,straight_rabbit_2,1
+S102,1,1021,129.215.204.42,interactD,1,14,straight_ambulance_2,NA,gund ambulance yav,gund ambulance yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,1,14,straight_ambulance_2,NA,NA,gund ambulance yav,straight_sheep_1,straight_ambulance_1,straight_plane_1,straight_fox_1,straight_plane_2,straight_ambulance_2,straight_sheep_2,straight_fox_2,straight_ambulance_2,1
+S102,1,dummyP,127.0.0.1,interactD,1,14,straight_panda_2,NA,gund panda yav,gund panda yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,1,14,straight_panda_2,NA,NA,gund panda yav,straight_hamster_1,straight_bike_1,straight_fox_1,straight_fox_2,straight_bike_2,straight_panda_2,straight_hamster_2,straight_panda_1,straight_panda_2,1
+S102,1,1021,129.215.204.42,interactD,1,15,straight_bike_2,NA,gund bike tid,gund bike tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,1,15,straight_bike_2,NA,NA,gund bike tid,straight_bike_2,straight_squirrel_2,straight_dog_1,straight_squirrel_1,straight_bike_1,straight_dog_2,straight_bus_1,straight_bus_2,straight_bike_2,1
+S102,1,dummyP,127.0.0.1,interactD,1,15,straight_plane_1,NA,gund plane,gund plane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,1,15,straight_plane_1,NA,NA,gund plane,straight_sheep_1,straight_dog_2,straight_plane_1,straight_dog_1,straight_tractor_1,straight_tractor_2,straight_sheep_2,straight_plane_2,straight_plane_1,1
+S102,1,1021,129.215.204.42,interactD,1,16,straight_giraffe_2,NA,gund giraffe tid,gund giraffe tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,1,16,straight_giraffe_2,NA,NA,gund giraffe tid,straight_giraffe_2,straight_hamster_1,straight_tractor_1,straight_ambulance_2,straight_tractor_2,straight_ambulance_1,straight_giraffe_1,straight_hamster_2,straight_giraffe_2,1
+S102,1,dummyP,127.0.0.1,interactD,1,16,straight_helicopter_2,NA,gund helicopter yav,gund helicopter yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,1,16,straight_helicopter_2,NA,NA,gund helicopter yav,straight_squirrel_1,straight_squirrel_2,straight_fox_1,straight_tank_1,straight_helicopter_2,straight_tank_2,straight_helicopter_1,straight_fox_2,straight_helicopter_2,1
+S102,1,1021,129.215.204.42,interactD,1,17,straight_hamster_1,NA,gund hamster,gund hamster,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,1,17,straight_hamster_1,NA,NA,gund hamster,straight_fox_1,straight_helicopter_2,straight_helicopter_1,straight_bus_2,straight_hamster_1,straight_bus_1,straight_hamster_2,straight_fox_2,straight_hamster_1,1
+S102,1,dummyP,127.0.0.1,interactD,1,17,straight_squirrel_2,NA,gund squirrel yav,gund squirrel yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,1,17,straight_squirrel_2,NA,NA,gund squirrel yav,straight_plane_2,straight_squirrel_2,straight_squirrel_1,straight_bus_2,straight_rocket_2,straight_plane_1,straight_bus_1,straight_rocket_1,straight_squirrel_2,1
+S102,1,1021,129.215.204.42,interactD,1,18,straight_bus_2,NA,gund bus tid,gund bus tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,1,18,straight_bus_2,NA,NA,gund bus tid,straight_giraffe_1,straight_bus_1,straight_bus_2,straight_fox_2,straight_fox_1,straight_tank_2,straight_tank_1,straight_giraffe_2,straight_bus_2,1
+S102,1,dummyP,127.0.0.1,interactD,1,18,straight_helicopter_2,NA,gund helicopter tid,gund helicopter tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,1,18,straight_helicopter_2,NA,NA,gund helicopter tid,straight_helicopter_2,straight_helicopter_1,straight_hamster_2,straight_plane_2,straight_tank_1,straight_plane_1,straight_tank_2,straight_hamster_1,straight_helicopter_2,1
+S102,1,1021,129.215.204.42,interactD,1,19,straight_ambulance_2,NA,gund ambulance yav,gund ambulance yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,1,19,straight_ambulance_2,NA,NA,gund ambulance yav,straight_bus_2,straight_rocket_1,straight_plane_1,straight_bus_1,straight_rocket_2,straight_ambulance_1,straight_ambulance_2,straight_plane_2,straight_ambulance_2,1
+S102,1,dummyP,127.0.0.1,interactD,1,19,straight_helicopter_1,NA,gund helicopter,gund helicopter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,1,19,straight_helicopter_1,NA,NA,gund helicopter,straight_fox_1,straight_fox_2,straight_rocket_2,straight_bus_1,straight_bus_2,straight_rocket_1,straight_helicopter_1,straight_helicopter_2,straight_helicopter_1,1
+S102,1,1021,129.215.204.42,interactD,1,20,straight_plane_1,NA,gund plane,gund plane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,1,20,straight_plane_1,NA,NA,gund plane,straight_plane_1,straight_rabbit_2,straight_tractor_2,straight_ambulance_2,straight_tractor_1,straight_ambulance_1,straight_plane_2,straight_rabbit_1,straight_plane_1,1
+S102,1,dummyP,127.0.0.1,interactD,1,20,straight_sheep_2,NA,gund sheep yav,gund sheep yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,1,20,straight_sheep_2,NA,NA,gund sheep yav,straight_hamster_2,straight_sheep_2,straight_giraffe_2,straight_plane_1,straight_plane_2,straight_sheep_1,straight_giraffe_1,straight_hamster_1,straight_sheep_2,1
+S102,1,1021,129.215.204.42,interactD,1,21,straight_bike_1,NA,gund bike,gund bike,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,1,21,straight_bike_1,NA,NA,gund bike,straight_tractor_2,straight_squirrel_1,straight_bike_2,straight_bike_1,straight_squirrel_2,straight_hamster_1,straight_tractor_1,straight_hamster_2,straight_bike_1,1
+S102,1,dummyP,127.0.0.1,interactD,1,21,straight_plane_2,NA,gund plane yav,gund plane yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,1,21,straight_plane_2,NA,NA,gund plane yav,straight_panda_1,straight_panda_2,straight_plane_1,straight_hamster_1,straight_ambulance_1,straight_ambulance_2,straight_hamster_2,straight_plane_2,straight_plane_2,1
+S102,1,1021,129.215.204.42,interactD,1,22,straight_tractor_2,NA,gund tractor yav,gund tractor yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,1,22,straight_tractor_2,NA,NA,gund tractor yav,straight_hamster_1,straight_rocket_1,straight_rocket_2,straight_tractor_1,straight_panda_1,straight_tractor_2,straight_panda_2,straight_hamster_2,straight_tractor_2,1
+S102,1,dummyP,127.0.0.1,interactD,1,22,straight_hamster_2,NA,gund hamster tid,gund hamster tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,1,22,straight_hamster_2,NA,NA,gund hamster tid,straight_hamster_2,straight_dog_2,straight_tank_2,straight_tank_1,straight_dog_1,straight_tractor_1,straight_hamster_1,straight_tractor_2,straight_hamster_2,1
+S102,1,1021,129.215.204.42,interactD,1,23,straight_fox_2,NA,gund fox tid,gund fox tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,1,23,straight_fox_2,NA,NA,gund fox tid,straight_tractor_1,straight_sheep_2,straight_fox_2,straight_tractor_2,straight_hamster_1,straight_sheep_1,straight_hamster_2,straight_fox_1,straight_fox_2,1
+S102,1,dummyP,127.0.0.1,interactD,1,23,straight_tank_2,NA,gund tank tid,gund tank tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,1,23,straight_tank_2,NA,NA,gund tank tid,straight_ambulance_1,straight_tank_2,straight_tank_1,straight_rocket_2,straight_ambulance_2,straight_rabbit_1,straight_rabbit_2,straight_rocket_1,straight_tank_2,1
+S102,1,1021,129.215.204.42,interactD,1,24,straight_tractor_1,NA,gund tractor,gund tractor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,1,24,straight_tractor_1,NA,NA,gund tractor,straight_bus_1,straight_bus_2,straight_dog_1,straight_tractor_2,straight_tractor_1,straight_ambulance_1,straight_dog_2,straight_ambulance_2,straight_tractor_1,1
+S102,1,dummyP,127.0.0.1,interactD,1,24,straight_ambulance_1,NA,gund ambulance,gund ambulance,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,1,24,straight_ambulance_1,NA,NA,gund ambulance,straight_rabbit_2,straight_helicopter_1,straight_ambulance_2,straight_helicopter_2,straight_hamster_1,straight_rabbit_1,straight_ambulance_1,straight_hamster_2,straight_ambulance_1,1
+S102,1,1021,129.215.204.42,interactD,1,25,straight_squirrel_1,NA,gund squirrel,gund squirrel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,1,25,straight_squirrel_1,NA,NA,gund squirrel,straight_rocket_1,straight_rabbit_2,straight_helicopter_1,straight_rocket_2,straight_rabbit_1,straight_squirrel_2,straight_squirrel_1,straight_helicopter_2,straight_squirrel_1,1
+S102,1,dummyP,127.0.0.1,interactD,1,25,straight_rocket_2,NA,gund rocket yav,gund rocket yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,1,25,straight_rocket_2,NA,NA,gund rocket yav,straight_rabbit_2,straight_rocket_2,straight_rocket_1,straight_panda_2,straight_plane_1,straight_rabbit_1,straight_panda_1,straight_plane_2,straight_rocket_2,1
+S102,1,1021,129.215.204.42,interactD,1,26,straight_fox_2,NA,gund fox tid,gund fox tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,1,26,straight_fox_2,NA,NA,gund fox tid,straight_rabbit_1,straight_fox_2,straight_rabbit_2,straight_sheep_1,straight_tank_1,straight_tank_2,straight_sheep_2,straight_fox_1,straight_fox_2,1
+S102,1,dummyP,127.0.0.1,interactD,1,26,straight_rabbit_1,NA,gund rabbit,gund rabbit,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,1,26,straight_rabbit_1,NA,NA,gund rabbit,straight_helicopter_2,straight_rabbit_1,straight_rabbit_2,straight_helicopter_1,straight_fox_2,straight_fox_1,straight_dog_1,straight_dog_2,straight_rabbit_1,1
+S102,1,1021,129.215.204.42,interactD,1,27,straight_panda_2,NA,gund panda yav,gund panda yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,1,27,straight_panda_2,NA,NA,gund panda yav,straight_panda_2,straight_panda_1,straight_rocket_1,straight_rocket_2,straight_giraffe_1,straight_giraffe_2,straight_tank_2,straight_tank_1,straight_panda_2,1
+S102,1,dummyP,127.0.0.1,interactD,1,27,straight_giraffe_2,NA,gund giraffe yav,gund giraffe yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,1,27,straight_giraffe_2,NA,NA,gund giraffe yav,straight_rabbit_2,straight_bike_2,straight_bike_1,straight_giraffe_2,straight_hamster_1,straight_hamster_2,straight_giraffe_1,straight_rabbit_1,straight_giraffe_2,1
+S102,1,1021,129.215.204.42,interactD,1,28,straight_squirrel_2,NA,gund squirrel yav,gund squirrel yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,1,28,straight_squirrel_2,NA,NA,gund squirrel yav,straight_ambulance_2,straight_squirrel_1,straight_squirrel_2,straight_fox_1,straight_rabbit_1,straight_rabbit_2,straight_ambulance_1,straight_fox_2,straight_squirrel_2,1
+S102,1,dummyP,127.0.0.1,interactD,1,28,straight_ambulance_2,NA,gund ambulance tid,gund ambulance tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,1,28,straight_ambulance_2,NA,NA,gund ambulance tid,straight_squirrel_1,straight_squirrel_2,straight_giraffe_1,straight_ambulance_2,straight_helicopter_2,straight_giraffe_2,straight_ambulance_1,straight_helicopter_1,straight_ambulance_2,1
+S102,1,1021,129.215.204.42,interactD,1,29,straight_hamster_2,NA,gund hamster yav,gund hamster yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,1,29,straight_hamster_2,NA,NA,gund hamster yav,straight_dog_2,straight_hamster_2,straight_fox_1,straight_dog_1,straight_sheep_1,straight_hamster_1,straight_fox_2,straight_sheep_2,straight_hamster_2,1
+S102,1,dummyP,127.0.0.1,interactD,1,29,straight_giraffe_1,NA,gund giraffe,gund giraffe,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,1,29,straight_giraffe_1,NA,NA,gund giraffe,straight_plane_2,straight_giraffe_1,straight_sheep_2,straight_ambulance_1,straight_plane_1,straight_giraffe_2,straight_ambulance_2,straight_sheep_1,straight_giraffe_1,1
+S102,1,1021,129.215.204.42,interactD,1,30,straight_fox_1,NA,gund fox,gund fox,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,1,30,straight_fox_1,NA,NA,gund fox,straight_dog_1,straight_fox_2,straight_dog_2,straight_squirrel_2,straight_rocket_1,straight_rocket_2,straight_squirrel_1,straight_fox_1,straight_fox_1,1
+S102,1,dummyP,127.0.0.1,interactD,1,30,straight_rocket_2,NA,gund rocket tid,gund rocket tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,1,30,straight_rocket_2,NA,NA,gund rocket tid,straight_rabbit_2,straight_bus_2,straight_rocket_2,straight_panda_2,straight_panda_1,straight_rabbit_1,straight_bus_1,straight_rocket_1,straight_rocket_2,1
+S102,1,1021,129.215.204.42,interactD,1,31,straight_squirrel_2,NA,gund squirrel yav,gund squirrel yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,1,31,straight_squirrel_2,NA,NA,gund squirrel yav,straight_bus_2,straight_squirrel_2,straight_tank_1,straight_plane_2,straight_tank_2,straight_bus_1,straight_plane_1,straight_squirrel_1,straight_squirrel_2,1
+S102,1,dummyP,127.0.0.1,interactD,1,31,straight_bike_2,NA,gund bike tid,gund bike tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,1,31,straight_bike_2,NA,NA,gund bike tid,straight_bike_2,straight_tractor_1,straight_squirrel_2,straight_bus_2,straight_tractor_2,straight_bike_1,straight_squirrel_1,straight_bus_1,straight_bike_2,1
+S102,1,1021,129.215.204.42,interactD,1,32,straight_dog_2,NA,gund dog tid,gund dog tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,1,32,straight_dog_2,NA,NA,gund dog tid,straight_helicopter_1,straight_plane_2,straight_fox_1,straight_dog_1,straight_plane_1,straight_dog_2,straight_helicopter_2,straight_fox_2,straight_dog_2,1
+S102,1,dummyP,127.0.0.1,interactD,1,32,straight_panda_1,NA,gund panda,gund panda,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,1,32,straight_panda_1,NA,NA,gund panda,straight_panda_1,straight_fox_1,straight_bike_2,straight_squirrel_1,straight_bike_1,straight_panda_2,straight_fox_2,straight_squirrel_2,straight_panda_1,1
+S102,1,1021,129.215.204.42,interactD,1,33,straight_bus_2,NA,gund bus tid,gund bus tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,1,33,straight_bus_2,NA,NA,gund bus tid,straight_squirrel_2,straight_bus_2,straight_ambulance_2,straight_squirrel_1,straight_ambulance_1,straight_rocket_2,straight_rocket_1,straight_bus_1,straight_bus_2,1
+S102,1,dummyP,127.0.0.1,interactD,1,33,straight_bike_1,NA,gund bike,gund bike,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,1,33,straight_bike_1,NA,NA,gund bike,straight_bus_2,straight_squirrel_2,straight_bike_2,straight_bike_1,straight_bus_1,straight_rocket_1,straight_rocket_2,straight_squirrel_1,straight_bike_1,1
+S102,1,1021,129.215.204.42,interactD,1,34,straight_ambulance_1,NA,gund ambulance,gund ambulance,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,1,34,straight_ambulance_1,NA,NA,gund ambulance,straight_rocket_2,straight_bike_2,straight_tractor_2,straight_ambulance_2,straight_rocket_1,straight_bike_1,straight_tractor_1,straight_ambulance_1,straight_ambulance_1,1
+S102,1,dummyP,127.0.0.1,interactD,1,34,straight_tank_2,NA,gund tank yav,gund tank yav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,1,34,straight_tank_2,NA,NA,gund tank yav,straight_bus_2,straight_dog_1,straight_tank_1,straight_fox_1,straight_bus_1,straight_fox_2,straight_tank_2,straight_dog_2,straight_tank_2,1
+S102,1,1021,129.215.204.42,interactD,1,35,straight_rocket_2,NA,gund rocket tid,gund rocket tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,dummyP,127.0.0.1,interactM,1,35,straight_rocket_2,NA,NA,gund rocket tid,straight_hamster_1,straight_panda_1,straight_fox_1,straight_rocket_2,straight_fox_2,straight_panda_2,straight_hamster_2,straight_rocket_1,straight_rocket_2,1
+S102,1,dummyP,127.0.0.1,interactD,1,35,straight_panda_2,NA,gund panda tid,gund panda tid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S102,1,1021,129.215.204.42,interactM,1,35,straight_panda_2,NA,NA,gund panda tid,straight_helicopter_2,straight_bus_1,straight_helicopter_1,straight_fox_1,straight_panda_1,straight_fox_2,straight_bus_2,straight_panda_2,straight_panda_2,1
