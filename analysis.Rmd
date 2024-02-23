@@ -1,7 +1,7 @@
 ---
-title: "ProcRoySocB initial submission analysis"
+title: "Analysis for Feher et al interaction experiment"
 author: "Kenny Smith & Olga Feher"
-date: "07/07/2022"
+date: "23/02/2024"
 output: html_document
 ---
 
@@ -16,15 +16,13 @@ my.colours <- c("#006DE9","#808080","#EA7D00")
 set.seed(7874)
 
 #this is for generating p-values on entropy/mutual information measures
-#100 is low, but we are not actually using these (much)beyond a quick look) and it speeds up the code
 mc.trials=1000
 ```
-
-
 
 # Loading data
 
 This function is used to load all files in subdirectories of directory.name with a certain prefix (D for dyads, P for pseudo-dyads, S for singles) into a single data file.
+
 ```{r}
 load.data.by.prefix <- function(prefix, directory.name) {
   # get list of data folders, each folder will have a single csv file in it
@@ -53,17 +51,18 @@ load.data.by.prefix <- function(prefix, directory.name) {
 ```
 
 ```{r}
-dyad.data <- load.data.by.prefix("D", "Data/NoBottleneckData/Dyads")
+dyad.data <- load.data.by.prefix("D", "Data/Dyads")
 ```
 ```{r}
-pseudodyad.data <- load.data.by.prefix("P",  "Data/NoBottleneckData/PseudoDyads")
+pseudodyad.data <- load.data.by.prefix("P",  "Data/PseudoDyads")
 ```
 
 ```{r}
-single.data <- load.data.by.prefix("S",  "Data/NoBottleneckData/Singles")
+single.data <- load.data.by.prefix("S",  "Data/Singles")
 ```
 
 Combine into a single data frame.
+
 ```{r}
 dyad.data$Condition <- "Dyad"
 pseudodyad.data$Condition <- "PseudoDyad"
@@ -84,7 +83,6 @@ trim <- function (x) gsub("^\\s+|\\s+$", "", x)
 all.data$CheckedLabel <- trim(all.data$CheckedLabel)
 
 ```
-
 
 Identify grammaticality and particle used, and classify nouns.
 
@@ -115,6 +113,7 @@ identify.particle <- function(checkedLabel) {
 ```
    
 This function identifies the noun category using the Meaning - this is e.g. "straight_cow_1", "straight_tiger_2".
+
 ```{r}
 identify.category <- function(meaning) {
   category <- "None"
@@ -134,6 +133,7 @@ identify.category <- function(meaning) {
 ```
 
 This function identifies the noun - this will be the only element in a 1-element meaning (which occurs during noun training), otherwise the second element of meaning.
+
 ```{r}
 identify.noun <- function(meaning) {
   noun <- "None"
@@ -151,6 +151,7 @@ identify.noun <- function(meaning) {
 ```
 
 This function identifies the number.
+
 ```{r}
 identify.number <- function(meaning) {
   number <- "None"
@@ -168,6 +169,7 @@ identify.number <- function(meaning) {
 ```
 
 Classifies descriptions as grammatical or not - a grammatical description consists of a verb, a noun and then a particle for plurals. 
+
 ```{r}
 legal.description <- function(stage,number,checkedLabel) {
   if (!(stage %in% c("interactD","interactM","recall1"))) { #ignore anything other than production trials or matcher trials (where label is from partner)
@@ -186,6 +188,7 @@ legal.description <- function(stage,number,checkedLabel) {
 
 
 Identify particle in training trials and in labels produced during testing. Since these are in different columns we need to run twice and then update the Particle column for training trials with the particle in TrainingParticle.
+
 ```{r}
 all.data$TrainingParticle <- factor(sapply(all.data$TrainingLabel,identify.particle))
 all.data$Particle <- factor(sapply(all.data$CheckedLabel,identify.particle))
@@ -193,12 +196,14 @@ all.data <- within(all.data, Particle[Stage=="training"] <- TrainingParticle[Sta
 ```
 
 Identify noun category for training items and test items. Slightly redundant to calculate both TrainingCategory and Category, but since participants could mislabel a noun on test, TrainingCategory is useful for identifying experimental conditions (see below).
+
 ```{r}
 all.data$TrainingCategory <- factor(sapply(all.data$Meaning,identify.category))
 all.data$Category <- factor(sapply(all.data$Meaning,identify.category))
 ```
 
 Identify nouns and number.
+
 ```{r}
 all.data$Noun <- factor(sapply(all.data$Meaning,identify.noun))
 all.data$Number <- factor(sapply(all.data$Meaning,identify.number))
@@ -207,6 +212,7 @@ all.data$Number <- factor(sapply(all.data$Meaning,identify.number))
 Classify 1-category vs 2-category conditions
 
 `add.condition` identifies the condition based on whether there are one or two categories in training.
+
 ```{r}
 add.condition <- function(data) {
   data.cond <- data.frame()
@@ -238,6 +244,7 @@ Illegal descriptions make up about 1% of the data, and are roughly proportionate
 plyr::ddply(all.data,~Grammatical,plyr::summarise,Current_N=length(ParticipantID))
 plyr::ddply(all.data,~Grammatical+Number,plyr::summarise,Current_N=length(ParticipantID))
 ```
+
 Want to leave Grammatical=NA trials in (since those are training trials etc).
 
 ```{r}
@@ -253,6 +260,7 @@ plyr::ddply(all.data,~Grammatical,plyr::summarise,Current_N=length(ParticipantID
 # Calculate the majority particle used by each participant
 
 Remove rows containing dummy data or pseudo-partner.
+
 ```{r}
 all.data.for.proportion.analysis <- subset(all.data,ParticipantID!="dummyP")
 all.data.for.proportion.analysis <- subset(all.data.for.proportion.analysis,IP!="127.0.0.1")
@@ -291,18 +299,21 @@ for (p in unique(all.data.for.proportion.analysis$ParticipantID)) {
 ```
 
 Once the majority particle is identified, we can categorise each response as using that majority particle or not.
+
 ```{r}
 output.data$MajorityParticleUse[output.data$Particle == output.data$MajorityParticle] <- 1
 output.data$MajorityParticleUse[output.data$Particle != output.data$MajorityParticle] <- 0
 ```
 
 Now identify the subsets of output.data we want - only training, recall, or director trials in interaction; only plural trials; only trials where the MajorityParticle is not NA.
+
 ```{r}
 output.data <- subset(output.data, (Stage == "training" | Stage == "recall1" | Stage == "interactD") & Number == 2)
 output.data <- output.data[!is.na(output.data$MajorityParticleUse),]
 ```
 
 Reorder factor levels to reflect order in experiment. 
+
 ```{r}
 output.data$Stage <- factor(output.data$Stage, levels=c("training","recall1", "interactD"))
 output.data$Stage <- plyr::revalue(output.data$Stage,
@@ -318,6 +329,7 @@ output.data$NCategories <- plyr::revalue(factor(output.data$NCategories),
 ```
 
 # Plot of use of majority marker
+
 Summarize the data for plotting - by-participant proportions.
 
 ```{r}
@@ -325,19 +337,20 @@ proportion.data <- aggregate(MajorityParticleUse~Chain+ParticipantID+Condition+N
 ```
 
 Alternative style - bigger points for mean, no grid lines.
+
 ```{r}
 ggplot(data=proportion.data) +
   facet_grid(NCategories~Condition) +
-  stat_summary(aes(x=Stage, y=MajorityParticleUse),geom='point', fun.y='mean', colour='black',fill='black',size=3, shape=23) +
-  stat_summary(aes(x=Stage, y=MajorityParticleUse),geom='errorbar', fun.data='mean_cl_boot',fun.ymin="min", fun.ymax="max",width=0.2) +
+  stat_summary(aes(x=Stage, y=MajorityParticleUse),geom='point', fun='mean', colour='black',fill='black',size=3, shape=23) +
+  stat_summary(aes(x=Stage, y=MajorityParticleUse),geom='errorbar', fun.data='mean_cl_boot',fun.min="min", fun.max="max",width=0.2) +
   geom_dotplot(aes(x=Stage, y=MajorityParticleUse, fill=Condition),binaxis='y',stackdir="center", binwidth = .025, binpositions='all', dotsize=0.5, alpha=0.5) +
   theme_bw() +
   scale_fill_manual(values=my.colours) +
   theme(legend.position = "none") +
   theme(axis.title.x = element_blank()) +
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
-  ylab("Proportion of plurals marked with majority marker") + 
-  ggsave("Figures/proportions.pdf",width=8,height=6)
+  ylab("Proportion of plurals marked with majority marker")  
+ggsave("Figures/proportions.pdf",width=8,height=6)
 
 ```
 
@@ -364,11 +377,17 @@ proportion.model <- glmer(MajorityParticleUse ~ Condition * Stage * NCategories 
 ```
 
 Model shows effects of:
+
 - condition2 (Dyads use majority particle more than the other two conditions)
+
 - stage (more use of the majority particle in interaction)
+
 - condition2 x stage (effect of stage is bigger in dyads)
+
 - [marginal] condition2 x n categories (the effect of being a dyad is smaller in the 2-category condition)
+
 - condition2 x stage x n categories (the effect of being a dyad in interaction  is smaller in the 2-category condition)
+
 ```{r}
 summary(proportion.model)
 ```
@@ -387,6 +406,7 @@ contrasts(output.data.for.analysis$ConditionDyadsRef) <- NULL
 ```
 
 Singles - no effect of Stage.
+
 ```{r}
 proportion.model.s <- glmer(MajorityParticleUse ~ ConditionSinglesRef * Stage * NCategories + (1 + Stage | ParticipantID:Chain),
                               data=output.data.for.analysis, family=binomial, control=glmerControl(optimizer="bobyqa"))
@@ -394,6 +414,7 @@ summary(proportion.model.s)
 ```
 
 Pseudodyads - no effect of Stage.
+
 ```{r}
 proportion.model.p <- glmer(MajorityParticleUse ~ ConditionPseudosRef * Stage * NCategories + (1 + Stage | ParticipantID:Chain),
                               data=output.data.for.analysis, family=binomial, control=glmerControl(optimizer="bobyqa"))
@@ -401,6 +422,7 @@ summary(proportion.model.p)
 ```
 
 Dyads - clear effect of Stage.
+
 ```{r}
 proportion.model.d <- glmer(MajorityParticleUse ~ ConditionDyadsRef * Stage * NCategories + (1 + Stage | ParticipantID:Chain),
                               data=output.data.for.analysis, family=binomial, control=glmerControl(optimizer="bobyqa"))
@@ -474,8 +496,8 @@ Plot this - anyone using a different majority marker from their partner will sho
 ```{r}
 ggplot(data=pair.maj.proportion.data) +
   facet_grid(NCategories~Condition) +
-  stat_summary(aes(x=Stage, y=MajorityParticleUse),geom='point', fun.y='mean', colour='black',fill='black',size=3, shape=23) +
-  stat_summary(aes(x=Stage, y=MajorityParticleUse),geom='errorbar', fun.data='mean_cl_boot',fun.ymin="min", fun.ymax="max",width=0.2) +
+  stat_summary(aes(x=Stage, y=MajorityParticleUse),geom='point', fun='mean', colour='black',fill='black',size=3, shape=23) +
+  stat_summary(aes(x=Stage, y=MajorityParticleUse),geom='errorbar', fun.data='mean_cl_boot',fun.min="min", fun.max="max",width=0.2) +
   geom_dotplot(aes(x=Stage, y=MajorityParticleUse, fill=Condition),binaxis='y',stackdir="center", binwidth = .025, binpositions='all', dotsize=0.5, alpha=0.5) +
   theme_bw() +
   scale_fill_manual(values=my.colours[3]) +
@@ -485,6 +507,7 @@ ggplot(data=pair.maj.proportion.data) +
   ylab("Proportion of plurals marked with pair majority marker")
 
 ```
+
 Now calculate within-pair difference and plot.
 
 ```{r}
@@ -494,8 +517,8 @@ pair.maj.difference.data <- aggregate(MajorityParticleUse~Chain+Condition+NCateg
 ```{r}
 ggplot(data=pair.maj.difference.data) +
   facet_grid(NCategories~Condition) +
-  stat_summary(aes(x=Stage, y=MajorityParticleUse),geom='point', fun.y='mean', colour='black',fill='black',size=3, shape=23) +
-  stat_summary(aes(x=Stage, y=MajorityParticleUse),geom='errorbar', fun.data='mean_cl_boot',fun.ymin="min", fun.ymax="max",width=0.2) +
+  stat_summary(aes(x=Stage, y=MajorityParticleUse),geom='point', fun='mean', colour='black',fill='black',size=3, shape=23) +
+  stat_summary(aes(x=Stage, y=MajorityParticleUse),geom='errorbar', fun.data='mean_cl_boot',fun.min="min", fun.max="max",width=0.2) +
   geom_dotplot(aes(x=Stage, y=MajorityParticleUse, fill=Condition),binaxis='y',stackdir="center", binwidth = .025, binpositions='all', dotsize=0.5, alpha=0.5) +
   theme_bw() +
   scale_fill_manual(values=my.colours[3]) +
@@ -545,9 +568,9 @@ binom.entropy <- function(x, n) {
 }
 ```
 
-reassign.labels randomises marker assignments with respect to either class or lexical conditioning/Mutual Information, while leaving the other level of conditioning unaltered - this allows us to generate randomisations that have e.g. the same level of lexical conditioning but which differ in class conditioning, allowing us to use those randomisations to assess whether the observed level of class conditioning is surprising *given* the amount of lexical conditioning.
+`reassign.labels` randomises marker assignments with respect to either class or lexical conditioning/Mutual Information, while leaving the other level of conditioning unaltered - this allows us to generate randomisations that have e.g. the same level of lexical conditioning but which differ in class conditioning, allowing us to use those randomisations to assess whether the observed level of class conditioning is surprising *given* the amount of lexical conditioning.
 
-Scrambing lexical conditioning while preserving class conditioning is easy - to generate a randomisation we simply randomise the particule assignment to nouns within each class, which leaves the distribution within each class (and therefore the class-based conditioning) unaltered.
+Scrambling lexical conditioning while preserving class conditioning is easy - to generate a randomisation we simply randomise the particle assignment to nouns within each class, which leaves the distribution within each class (and therefore the class-based conditioning) unaltered.
 
 Scrambling class conditioning while preserving lexical conditioning unaltered is slightly more complex, and involves shuffling the assignment of nouns to classes - e.g. we might reassign "dog" to the vehicle class and "car" to the animal class. This potentially changes the distribution of markers within each class, but leaves the distribution of markers per noun unaltered.
 
@@ -600,7 +623,7 @@ calculate.entropy <- function(this.data,type) {
 }
 ```
 
-Monte Carlo tests.`monte` returns three values:
+Monte Carlo tests. `monte` returns three values:
   - veridical, which is the actual entropy of the sample
   - mean, which is the mean of the mc distribution - gives an estimate of chance level of expected conditional entropy
 - p_lower, which is the probability of observing mc values <= the veridical entropy
@@ -730,16 +753,16 @@ suppressWarnings(for (this.condition in c("Dyad","PseudoDyad","Single")) {
 })
 
 entropy.data$Condition <- factor(entropy.data$Condition, levels=c("Single","PseudoDyad","Dyad"))
+entropy.data$Stage <- factor(entropy.data$Stage, levels=c("Recall","Interaction"))
 ```
-
 
 Plot total entropy - no point running a stat on this since it's the same as the proportion data.
 
 ```{r}
 ggplot(data=subset(entropy.data,Measure=="IndividualTotalEntropy")) +
   facet_grid(NCategories~Condition) +
-  stat_summary(aes(x=Stage, y=Entropy),geom='point', fun.y='mean', colour='black',fill='black',size=3, shape=23) +
-  stat_summary(aes(x=Stage, y=Entropy),geom='errorbar', fun.data='mean_cl_boot',fun.ymin="min", fun.ymax="max",width=0.2) +
+  stat_summary(aes(x=Stage, y=Entropy),geom='point', fun='mean', colour='black',fill='black',size=3, shape=23) +
+  stat_summary(aes(x=Stage, y=Entropy),geom='errorbar', fun.data='mean_cl_boot',fun.min="min", fun.max="max",width=0.2) +
   geom_dotplot(aes(x=Stage, y=Entropy, fill=Condition),binaxis='y',stackdir="center", binwidth = .025, binpositions='all', dotsize=0.5, alpha=0.5) +
   theme_bw() +
   scale_fill_manual(values=my.colours) +
@@ -757,8 +780,8 @@ Plot class MI (for two-category conditions only), to look for class-based condit
 ```{r}
 ggplot(data=subset(entropy.data,Measure=="IndividualMutualInformationClass" & NCategories=="Two Categories")) +
   facet_grid(NCategories~Condition) +
-  stat_summary(aes(x=Stage, y=Entropy),geom='point', fun.y='mean', colour='black',fill='black',size=3, shape=23) +
-  stat_summary(aes(x=Stage, y=Entropy),geom='errorbar', fun.data='mean_cl_boot',fun.ymin="min", fun.ymax="max",width=0.2) +
+  stat_summary(aes(x=Stage, y=Entropy),geom='point', fun='mean', colour='black',fill='black',size=3, shape=23) +
+  stat_summary(aes(x=Stage, y=Entropy),geom='errorbar', fun.data='mean_cl_boot',fun.min="min", fun.max="max",width=0.2) +
   geom_dotplot(aes(x=Stage, y=Entropy, fill=Condition),binaxis='y',stackdir="center", binwidth = .025, binpositions='all', dotsize=1, alpha=0.5) +
   theme_bw() +
   scale_fill_manual(values=my.colours) +
@@ -787,17 +810,17 @@ Then use Significant to set dotplot line colour.
 ```{r}
 ggplot(data=entropy.data.class.mi.combined) +
   facet_grid(NCategories~Condition) +
-  stat_summary(aes(x=Stage, y=ClassMI),geom='point', fun.y='mean', colour='black',fill='black',size=3, shape=23) +
-  stat_summary(aes(x=Stage, y=ClassMI),geom='errorbar', fun.data='mean_cl_boot',fun.ymin="min", fun.ymax="max",width=0.2) +
+  stat_summary(aes(x=Stage, y=ClassMI),geom='point', fun='mean', colour='black',fill='black',size=3, shape=23) +
+  stat_summary(aes(x=Stage, y=ClassMI),geom='errorbar', fun.data='mean_cl_boot',fun.min="min", fun.max="max",width=0.2) +
   geom_dotplot(aes(x=Stage, y=ClassMI, fill=Condition, colour=Significant),binaxis='y',stackdir="center", binwidth = .025, binpositions='all', dotsize=1, alpha=0.5) +
   theme_bw() +
-  scale_colour_manual(values=c(NA,"black")) +
+  scale_colour_manual(values=c("NA","black")) +
   scale_fill_manual(values=my.colours) +
   theme(legend.position = "none") +
   theme(axis.title.x = element_blank()) +
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
-  ylab("Mutual information, category") +
-  ggsave("Figures/class_mi.pdf",width=8,height=3)
+  ylab("Mutual information, category")
+ggsave("Figures/class_mi.pdf",width=8,height=3)
 
 ```
 
@@ -805,7 +828,7 @@ Stat on class-based conditioning.
 
 ```{r}
 entropy.data.for.analysis <- subset(entropy.data,Stage %in% c('Recall','Interaction'))
-entropy.data.for.analysis$Stage <- droplevels(entropy.data.for.analysis$Stage)
+entropy.data.for.analysis$Stage <- droplevels(factor(entropy.data.for.analysis$Stage))
 contrasts(entropy.data.for.analysis$Condition) <- contr.helmert(3)
 contrasts(entropy.data.for.analysis$NCategories) <- -contr.sum(2) #NB - so that Two Categories coded as 1
 contrasts(entropy.data.for.analysis$Stage) <- -contr.sum(2) #NB - so that Interaction coded as 1
@@ -837,8 +860,8 @@ Is there lexical conditioning though? Plot lexical MI to see.
 ```{r}
 ggplot(data=subset(entropy.data,Measure=="IndividualMutualInformationLexical")) +
   facet_grid(NCategories~Condition) +
-  stat_summary(aes(x=Stage, y=Entropy),geom='point', fun.y='mean', colour='black',fill='black',size=3, shape=23) +
-  stat_summary(aes(x=Stage, y=Entropy),geom='errorbar', fun.data='mean_cl_boot',fun.ymin="min", fun.ymax="max",width=0.2) +
+  stat_summary(aes(x=Stage, y=Entropy),geom='point', fun='mean', colour='black',fill='black',size=3, shape=23) +
+  stat_summary(aes(x=Stage, y=Entropy),geom='errorbar', fun.data='mean_cl_boot',fun.min="min", fun.max="max",width=0.2) +
   geom_dotplot(aes(x=Stage, y=Entropy, fill=Condition),binaxis='y',stackdir="center", binwidth = .025, binpositions='all', dotsize=1, alpha=0.5) +
   theme_bw() +
   scale_fill_manual(values=my.colours) +
@@ -865,17 +888,17 @@ entropy.data.lexical.mi.combined$Significant <- mapply(function(p) p<.05,
 ```{r}
 ggplot(data=entropy.data.lexical.mi.combined) +
   facet_grid(NCategories~Condition) +
-  stat_summary(aes(x=Stage, y=LexicalMI),geom='point', fun.y='mean', colour='black',fill='black',size=3, shape=23) +
-  stat_summary(aes(x=Stage, y=LexicalMI),geom='errorbar', fun.data='mean_cl_boot',fun.ymin="min", fun.ymax="max",width=0.2) +
+  stat_summary(aes(x=Stage, y=LexicalMI),geom='point', fun='mean', colour='black',fill='black',size=3, shape=23) +
+  stat_summary(aes(x=Stage, y=LexicalMI),geom='errorbar', fun.data='mean_cl_boot',fun.min="min", fun.max="max",width=0.2) +
   geom_dotplot(aes(x=Stage, y=LexicalMI, fill=Condition, colour=Significant),binaxis='y',stackdir="center", binwidth = .025, binpositions='all', dotsize=1, alpha=0.5) +
   theme_bw() +
-  scale_colour_manual(values=c(NA,"black")) +
+  scale_colour_manual(values=c("NA","black")) +
   scale_fill_manual(values=my.colours) +
   theme(legend.position = "none") +
   theme(axis.title.x = element_blank()) +
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
-  ylab("Mutual information, lexical") +
-  ggsave("Figures/lexical_mi.pdf",width=8,height=6)
+  ylab("Mutual information, lexical")
+ggsave("Figures/lexical_mi.pdf",width=8,height=6)
   
 
 ```
@@ -916,8 +939,8 @@ Plot and stat without full regularisers.
 ```{r}
 ggplot(data=subset(entropy.data,Measure=="IndividualMutualInformationLexical" & !(Participant %in% fully.regular.individuals))) +
   facet_grid(NCategories~Condition) +
-  stat_summary(aes(x=Stage, y=Entropy),geom='point', fun.y='mean', colour='black',fill='black',size=3, shape=23) +
-  stat_summary(aes(x=Stage, y=Entropy),geom='errorbar', fun.data='mean_cl_boot',fun.ymin="min", fun.ymax="max",width=0.2) +
+  stat_summary(aes(x=Stage, y=Entropy),geom='point', fun='mean', colour='black',fill='black',size=3, shape=23) +
+  stat_summary(aes(x=Stage, y=Entropy),geom='errorbar', fun.data='mean_cl_boot',fun.min="min", fun.max="max",width=0.2) +
   geom_dotplot(aes(x=Stage, y=Entropy, fill=Condition),binaxis='y',stackdir="center", binwidth = .025, binpositions='all', dotsize=1, alpha=0.5) +
   theme_bw() +
   scale_fill_manual(values=my.colours) +
@@ -941,8 +964,8 @@ Plot and stat without highly regulars.
 ```{r}
 ggplot(data=subset(entropy.data,Measure=="IndividualMutualInformationLexical" & !(Participant %in% highly.regular.individuals))) +
   facet_grid(NCategories~Condition) +
-  stat_summary(aes(x=Stage, y=Entropy),geom='point', fun.y='mean', colour='black',fill='black',size=3, shape=23) +
-  stat_summary(aes(x=Stage, y=Entropy),geom='errorbar', fun.data='mean_cl_boot',fun.ymin="min", fun.ymax="max",width=0.2) +
+  stat_summary(aes(x=Stage, y=Entropy),geom='point', fun='mean', colour='black',fill='black',size=3, shape=23) +
+  stat_summary(aes(x=Stage, y=Entropy),geom='errorbar', fun.data='mean_cl_boot',fun.min="min", fun.max="max",width=0.2) +
   geom_dotplot(aes(x=Stage, y=Entropy, fill=Condition),binaxis='y',stackdir="center", binwidth = .025, binpositions='all', dotsize=1, alpha=0.5) +
   theme_bw() +
   scale_fill_manual(values=my.colours) +
@@ -1000,8 +1023,8 @@ entropy.data.pairbased <- aggregate(Entropy~Chain+Condition+Stage+NCategories+Me
 
 ggplot(data=subset(entropy.data.pairbased,Condition=='Dyad' & Measure=="PairMutualInformationClass" & NCategories=="Two Categories")) +
   facet_grid(NCategories~Condition) +
-  stat_summary(aes(x=Stage, y=Entropy),geom='point', fun.y='mean', colour='black',fill='black',size=3, shape=23) +
-  stat_summary(aes(x=Stage, y=Entropy),geom='errorbar', fun.data='mean_cl_boot',fun.ymin="min", fun.ymax="max",width=0.2) +
+  stat_summary(aes(x=Stage, y=Entropy),geom='point', fun='mean', colour='black',fill='black',size=3, shape=23) +
+  stat_summary(aes(x=Stage, y=Entropy),geom='errorbar', fun.data='mean_cl_boot',fun.min="min", fun.max="max",width=0.2) +
   geom_dotplot(aes(x=Stage, y=Entropy, fill=Condition),binaxis='y',stackdir="center", binwidth = .025, binpositions='all', dotsize=0.5, alpha=0.5) +
   theme_bw() +
   scale_fill_manual(values=my.colours[3]) +
@@ -1025,8 +1048,8 @@ Now pair-based lexical MI.
 ```{r}
 ggplot(data=subset(entropy.data.pairbased,Condition=='Dyad' & Measure=="PairMutualInformationLexical")) +
   facet_grid(NCategories~Condition) +
-  stat_summary(aes(x=Stage, y=Entropy),geom='point', fun.y='mean', colour='black',fill='black',size=3, shape=23) +
-  stat_summary(aes(x=Stage, y=Entropy),geom='errorbar', fun.data='mean_cl_boot',fun.ymin="min", fun.ymax="max",width=0.2) +
+  stat_summary(aes(x=Stage, y=Entropy),geom='point', fun='mean', colour='black',fill='black',size=3, shape=23) +
+  stat_summary(aes(x=Stage, y=Entropy),geom='errorbar', fun.data='mean_cl_boot',fun.min="min", fun.max="max",width=0.2) +
   geom_dotplot(aes(x=Stage, y=Entropy, fill=Condition),binaxis='y',stackdir="center", binwidth = .025, binpositions='all', alpha=0.5) +
   theme_bw() +
   scale_fill_manual(values=my.colours[3]) +
@@ -1037,7 +1060,7 @@ ggplot(data=subset(entropy.data.pairbased,Condition=='Dyad' & Measure=="PairMutu
 
 ```
 
-This model (where everything is treatmemt coded) shows no effect of Stage or NCategories but a Stage*NCategories interaction that shows that lexical (!) MI increased in interaction in Two-Category dyads but not one-category dyads.
+This model (where everything is treatment coded) shows no effect of Stage or NCategories but a Stage*NCategories interaction that shows that lexical (!) MI increased in interaction in Two-Category dyads but not one-category dyads.
 
 ```{r}
 lexical.mi.model.pair <- lmerTest::lmer(Entropy ~ Stage * NCategories + (1 | Chain),
@@ -1062,8 +1085,8 @@ Plot and stat excluding fully regular pairs - the interaction is now highly marg
 ```{r}
 ggplot(data=subset(entropy.data.pairbased,Condition=='Dyad' & Measure=="PairMutualInformationLexical" & !(Chain%in%fully.regular.pairs))) +
   facet_grid(NCategories~.) +
-  stat_summary(aes(x=Stage, y=Entropy),geom='point', fun.y='mean', colour='black',fill='black',size=3, shape=23) +
-  stat_summary(aes(x=Stage, y=Entropy),geom='errorbar', fun.data='mean_cl_boot',fun.ymin="min", fun.ymax="max",width=0.2) +
+  stat_summary(aes(x=Stage, y=Entropy),geom='point', fun='mean', colour='black',fill='black',size=3, shape=23) +
+  stat_summary(aes(x=Stage, y=Entropy),geom='errorbar', fun.data='mean_cl_boot',fun.min="min", fun.max="max",width=0.2) +
   geom_dotplot(aes(x=Stage, y=Entropy, fill=Condition),binaxis='y',stackdir="center", binwidth = .025, binpositions='all', alpha=0.5) +
   theme_bw() +
   scale_fill_manual(values=my.colours[3]) +
@@ -1086,8 +1109,8 @@ Plot and stat excluding highly regular pairs (not just fully regular pairs) - th
 ```{r}
 ggplot(data=subset(entropy.data.pairbased,Condition=='Dyad' & Measure=="PairMutualInformationLexical" & !(Chain%in%highly.regular.pairs))) +
   facet_grid(NCategories~Condition) +
-  stat_summary(aes(x=Stage, y=Entropy),geom='point', fun.y='mean', colour='black',fill='black',size=3, shape=23) +
-  stat_summary(aes(x=Stage, y=Entropy),geom='errorbar', fun.data='mean_cl_boot',fun.ymin="min", fun.ymax="max",width=0.2) +
+  stat_summary(aes(x=Stage, y=Entropy),geom='point', fun='mean', colour='black',fill='black',size=3, shape=23) +
+  stat_summary(aes(x=Stage, y=Entropy),geom='errorbar', fun.data='mean_cl_boot',fun.min="min", fun.max="max",width=0.2) +
   geom_dotplot(aes(x=Stage, y=Entropy, fill=Condition),binaxis='y',stackdir="center", binwidth = .025, binpositions='all',  alpha=0.5) +
   theme_bw() +
   scale_fill_manual(values=my.colours[3]) +
@@ -1131,6 +1154,7 @@ for (p in levels(all.data.for.priming.analysis$Chain)) {
 ```
   
 `calc.partner.previous.particle` calculates the last particle produced by the partner - NB we can't just work this out by offsetting the ParticleRecoded column by one, because we want to skip NoParticle trials.
+
 ```{r}
 #calculates whether particle used on this.trial.number is same or different as last particle produced by partner for a plural (NA if partner has not yet produced a plural)
 calc.partner.previous.particle <- function(data,
@@ -1250,7 +1274,7 @@ all.data.for.priming.analysis.recoded$PrimeOfSameNounPretty <- plyr::revalue(fac
                                            "TRUE"="Same Noun Prime"))
 ```         
 
-Exclude trials where participant *or partner's prime* was an illegal description. Counts suggest there are no such cases? **need to check**
+Exclude trials where participant *or partner's prime* was an illegal description. Counts suggest there are no such cases.
 
 ```{r}
 plyr::ddply(all.data.for.priming.analysis.recoded,~Grammatical+PartnerLastGrammaticality,plyr::summarise,Current_N=length(ParticipantID))
@@ -1274,16 +1298,16 @@ Plot.
 ```{r}
 ggplot(data=aggregated.priming.data) +
   facet_grid(NCategories~Condition) +
-  stat_summary(aes(x=PartnerLastParticle, y=ParticleRecodedBinary),geom='point', fun.y='mean', colour='black',fill='black',size=3, shape=23) +
-  stat_summary(aes(x=PartnerLastParticle, y=ParticleRecodedBinary),geom='errorbar', fun.data='mean_cl_boot',fun.ymin="min", fun.ymax="max",width=0.2) +
+  stat_summary(aes(x=PartnerLastParticle, y=ParticleRecodedBinary),geom='point', fun='mean', colour='black',fill='black',size=3, shape=23) +
+  stat_summary(aes(x=PartnerLastParticle, y=ParticleRecodedBinary),geom='errorbar', fun.data='mean_cl_boot',fun.min="min", fun.max="max",width=0.2) +
   geom_dotplot(aes(x=PartnerLastParticle, y=ParticleRecodedBinary, fill=Condition),binaxis='y',stackdir="center", binwidth = .025, binpositions='all', alpha=0.5) +
   theme_bw() +
   scale_fill_manual(values=my.colours) +
   theme(legend.position = "none") +
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
   xlab("Partner's last production") +
-  ylab("Plural marked using Marker 2") +
-  ggsave("Figures/priming.pdf",width=8,height=6)
+  ylab("Plural marked using Marker 2")
+ggsave("Figures/priming.pdf",width=8,height=6)
 
 ```
 
@@ -1308,8 +1332,11 @@ priming.model <- glmer(ParticleRecodedBinary ~ Condition * NCategories * Partner
 ```
 
 Model shows effects of:
+
 - PartnerLastParticle (there is priming - if partner produced particle 2 you are more likely to do so)
+
 - condition x partner last particle: a larger priming effect in dyads
+
 - condition2 x n categories (less use of particle2 overall in the 2-categories dyads? That's a bit weird, as far as I can work out it's arbitrary (you still get it e.g. if you assign a random particle as particle 2)
 
 ```{r}
@@ -1331,8 +1358,8 @@ Plot (not in paper). NB flipping the layout of the grid to make it easier to com
 ```{r}
 ggplot(data=aggregated.priming.data.2category) +
   facet_grid(Condition~PrimeOfSameCategoryPretty) +
-  stat_summary(aes(x=PartnerLastParticle, y=ParticleRecodedBinary),geom='point', fun.y='mean', colour='black',fill='black',size=3, shape=23) +
-  stat_summary(aes(x=PartnerLastParticle, y=ParticleRecodedBinary),geom='errorbar', fun.data='mean_cl_boot',fun.ymin="min", fun.ymax="max",width=0.2) +
+  stat_summary(aes(x=PartnerLastParticle, y=ParticleRecodedBinary),geom='point', fun='mean', colour='black',fill='black',size=3, shape=23) +
+  stat_summary(aes(x=PartnerLastParticle, y=ParticleRecodedBinary),geom='errorbar', fun.data='mean_cl_boot',fun.min="min", fun.max="max",width=0.2) +
   geom_dotplot(aes(x=PartnerLastParticle, y=ParticleRecodedBinary, fill=Condition),binaxis='y',stackdir="center", binwidth = .025, binpositions='all', alpha=0.5) +
   theme_bw() +
   scale_fill_manual(values=my.colours) +
@@ -1380,8 +1407,8 @@ Looks like there's clearly a huge effect of same-noun primes (the effect of the 
 ```{r}
 ggplot(data=aggregated.priming.data.noun) +
   facet_grid(Condition~PrimeOfSameNounPretty) +
-  stat_summary(aes(x=PartnerLastParticle, y=ParticleRecodedBinary),geom='point', fun.y='mean', colour='black',fill='black',size=3, shape=23) +
-  stat_summary(aes(x=PartnerLastParticle, y=ParticleRecodedBinary),geom='errorbar', fun.data='mean_cl_boot',fun.ymin="min", fun.ymax="max",width=0.2) +
+  stat_summary(aes(x=PartnerLastParticle, y=ParticleRecodedBinary),geom='point', fun='mean', colour='black',fill='black',size=3, shape=23) +
+  stat_summary(aes(x=PartnerLastParticle, y=ParticleRecodedBinary),geom='errorbar', fun.data='mean_cl_boot',fun.min="min", fun.max="max",width=0.2) +
   geom_dotplot(aes(x=PartnerLastParticle, y=ParticleRecodedBinary, fill=Condition),binaxis='y',stackdir="center", binwidth = .025, binpositions='all', alpha=0.5) +
   theme_bw() +
   scale_fill_manual(values=my.colours) +
@@ -1391,8 +1418,6 @@ ggplot(data=aggregated.priming.data.noun) +
   ylab("Plural marked using Marker 2") 
 
 ```
-
-
 
 Stat.
 
