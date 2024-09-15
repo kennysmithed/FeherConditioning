@@ -1,9 +1,12 @@
 ---
 title: "Analysis for Feher et al interaction experiment"
 author: "Kenny Smith & Olga Feher"
-date: "23/02/2024"
+date: "13/09/2024"
 output: html_document
 ---
+
+Kenny edit 29/2/2024 - looking into priming more, trying to add semantic similarity.
+Kenny edit 13/9/2024 - fixing error in random effects
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -372,7 +375,7 @@ contrasts(output.data.for.analysis$Stage) <- -contr.sum(2) #NB - so that Interac
 
 
 ```{r}
-proportion.model <- glmer(MajorityParticleUse ~ Condition * Stage * NCategories + (1 + Stage | ParticipantID:Chain),
+proportion.model <- glmer(MajorityParticleUse ~ Condition * Stage * NCategories + (1 + Stage | Chain/ParticipantID),
                               data=output.data.for.analysis, family=binomial, control=glmerControl(optimizer="bobyqa"))
 ```
 
@@ -408,7 +411,7 @@ contrasts(output.data.for.analysis$ConditionDyadsRef) <- NULL
 Singles - no effect of Stage.
 
 ```{r}
-proportion.model.s <- glmer(MajorityParticleUse ~ ConditionSinglesRef * Stage * NCategories + (1 + Stage | ParticipantID:Chain),
+proportion.model.s <- glmer(MajorityParticleUse ~ ConditionSinglesRef * Stage * NCategories + (1 + Stage | Chain/ParticipantID),
                               data=output.data.for.analysis, family=binomial, control=glmerControl(optimizer="bobyqa"))
 summary(proportion.model.s)
 ```
@@ -416,7 +419,7 @@ summary(proportion.model.s)
 Pseudodyads - no effect of Stage.
 
 ```{r}
-proportion.model.p <- glmer(MajorityParticleUse ~ ConditionPseudosRef * Stage * NCategories + (1 + Stage | ParticipantID:Chain),
+proportion.model.p <- glmer(MajorityParticleUse ~ ConditionPseudosRef * Stage * NCategories + (1 + Stage | Chain/ParticipantID),
                               data=output.data.for.analysis, family=binomial, control=glmerControl(optimizer="bobyqa"))
 summary(proportion.model.p)
 ```
@@ -424,18 +427,18 @@ summary(proportion.model.p)
 Dyads - clear effect of Stage.
 
 ```{r}
-proportion.model.d <- glmer(MajorityParticleUse ~ ConditionDyadsRef * Stage * NCategories + (1 + Stage | ParticipantID:Chain),
+proportion.model.d <- glmer(MajorityParticleUse ~ ConditionDyadsRef * Stage * NCategories + (1 + Stage | Chain/ParticipantID),
                               data=output.data.for.analysis, family=binomial, control=glmerControl(optimizer="bobyqa"))
 summary(proportion.model.d)
 ```
 
-For the dyads, is the effect of stage significant even if you just look at the 2-category guys? The models above suggest the effect is about half as big as in the 1-category condition. We can check by using treatment coding on NCategories too, with Two Categories set as the reference level. This model still shows a significant effect of Stage, i.e. the 2-category dyads *are* more regular at interaction.
+For the dyads, is the effect of stage significant even if you just look at the 2-category guys? The models above suggest the effect is about half as big as in the 1-category condition. We can check by using treatment coding on NCategories too, with Two Categories set as the reference level. This model shows a marginal effect (p=.057) of Stage, i.e. the 2-category dyads are *probably* more regular at interaction.
 
 ```{r}
 output.data.for.analysis$NCategories2Ref <- relevel(output.data.for.analysis$NCategories,ref="Two Categories")
 contrasts(output.data.for.analysis$NCategories2Ref) <- NULL
 
-proportion.model.d.2 <- glmer(MajorityParticleUse ~ ConditionDyadsRef * Stage * NCategories2Ref + (1 + Stage | ParticipantID:Chain),
+proportion.model.d.2 <- glmer(MajorityParticleUse ~ ConditionDyadsRef * Stage * NCategories2Ref + (1 + Stage | Chain/ParticipantID),
                               data=output.data.for.analysis, family=binomial, control=glmerControl(optimizer="bobyqa"))
 summary(proportion.model.d.2)
 ```
@@ -756,7 +759,7 @@ entropy.data$Condition <- factor(entropy.data$Condition, levels=c("Single","Pseu
 entropy.data$Stage <- factor(entropy.data$Stage, levels=c("Recall","Interaction"))
 ```
 
-Plot total entropy - no point running a stat on this since it's the same as the proportion data.
+Plot total entropy - no point running a stat on this since it's the same as the proportion data, just transformed.
 
 ```{r}
 ggplot(data=subset(entropy.data,Measure=="IndividualTotalEntropy")) +
@@ -835,14 +838,16 @@ contrasts(entropy.data.for.analysis$Stage) <- -contr.sum(2) #NB - so that Intera
 ```
 
 ```{r}
-class.mi.model <- lmerTest::lmer(Entropy ~ Condition * Stage + (1 | Participant:Chain),
-                              data=subset(entropy.data.for.analysis,Measure=='IndividualMutualInformationClass' & NCategories=="Two Categories"))
+#not appropriate as reduces to 1 number per Participant per Stage, i.e. linear model required
+#class.mi.model <- lmerTest::lmer(Entropy ~ Condition * Stage + (1 + Stage | Chain/Participant),data=subset(entropy.data.for.analysis,Measure=='IndividualMutualInformationClass' & NCategories=="Two Categories"))
 
-# I had problems installing the necessary libraries to have this run
-#class.mi.model.br <- glmmTMB(Entropy ~ Condition * Stage + (1 | Participant:Chain),
-#data=subset(subset(entropy.data.for.analysis,Measure=='IndividualMutualInformationClass' & NCategories=="Two Categories"),Entropy<1),
-#ziformula=~ Condition * Stage + (1 | Participant:Chain),
-#family=beta_family())
+# singular
+#class.mi.model <- lmerTest::lmer(Entropy ~ Condition * Stage + (1 + Stage | Chain),data=subset(entropy.data.for.analysis,Measure=='IndividualMutualInformationClass' & NCategories=="Two Categories"))
+
+#also singular
+#class.mi.model <- lmerTest::lmer(Entropy ~ Condition * Stage + (1  | Chain/Participant),data=subset(entropy.data.for.analysis,Measure=='IndividualMutualInformationClass' & NCategories=="Two Categories"))
+class.mi.model <- lmerTest::lmer(Entropy ~ Condition * Stage + (1  | Chain),data=subset(entropy.data.for.analysis,Measure=='IndividualMutualInformationClass' & NCategories=="Two Categories"))
+
 ```
 
 No effects of anything! MI is non-zero overall, but barely.
@@ -906,8 +911,8 @@ ggsave("Figures/lexical_mi.pdf",width=8,height=6)
 Lexical MI model.
 
 ```{r}
-lexical.mi.model <- lmerTest::lmer(Entropy ~ Condition * Stage * NCategories + (1 | Participant:Chain),
-                              data=subset(entropy.data.for.analysis,Measure=='IndividualMutualInformationLexical'))
+#same logic as above - 1 + Stage in random effects will not work
+lexical.mi.model <- lmerTest::lmer(Entropy ~ Condition * Stage * NCategories + (1  | Chain/Participant), data=subset(entropy.data.for.analysis,Measure=='IndividualMutualInformationLexical'))
 ```
 
 Model shows:
@@ -954,7 +959,7 @@ ggplot(data=subset(entropy.data,Measure=="IndividualMutualInformationLexical" & 
 The model without the full regularisers still shows the 3-way interaction.
 
 ```{r}
-lexical.mi.model.notfull <- lmerTest::lmer(Entropy ~ Condition * Stage * NCategories + (1 | Participant:Chain),
+lexical.mi.model.notfull <- lmerTest::lmer(Entropy ~ Condition * Stage * NCategories + (1 | Chain/Participant),
                               data=subset(entropy.data.for.analysis,Measure=='IndividualMutualInformationLexical' & !(Participant %in% fully.regular.individuals)))
 summary(lexical.mi.model.notfull)
 ```
@@ -979,7 +984,7 @@ ggplot(data=subset(entropy.data,Measure=="IndividualMutualInformationLexical" & 
 The model without the highly regulariser pairs still shows the 3-way interaction.
 
 ```{r}
-lexical.mi.model.nothigh <- lmerTest::lmer(Entropy ~ Condition * Stage * NCategories + (1 | Participant:Chain),
+lexical.mi.model.nothigh <- lmerTest::lmer(Entropy ~ Condition * Stage * NCategories + (1 | Chain/Participant),
                               data=subset(entropy.data.for.analysis,Measure=='IndividualMutualInformationLexical' & !(Participant %in% highly.regular.individuals)))
 summary(lexical.mi.model.nothigh)
 ```
@@ -1129,6 +1134,7 @@ summary(lexical.mi.model.pair.nothigh)
 ```
 
 
+
 # Priming
 
 Do we see priming of particle choice? And does across- vs within-category priming differ in the 2-category conditions?
@@ -1147,7 +1153,8 @@ all.data.for.priming.analysis.recoded <- data.frame()
 for (p in levels(all.data.for.priming.analysis$Chain)) {
   this.pair.data <- subset(all.data.for.priming.analysis, Chain == p)
   this.pair.training.particles <- as.character(unique(subset(all.data, Chain == p & Stage == "training" & Number==2)$TrainingParticle))
-  this.pair.data$ParticleRecoded <- mapply(function (n,particle) ifelse(particle == 0,"NoParticle",ifelse(particle==this.pair.training.particles[1],"Particle1",ifelse(particle == this.pair.training.particles[2],"Particle2",NA))),
+  this.pair.training.particles.shuffled <- sample(this.pair.training.particles)
+  this.pair.data$ParticleRecoded <- mapply(function (n,particle) ifelse(particle == 0,"NoParticle",ifelse(particle==this.pair.training.particles.shuffled[1],"Particle1",ifelse(particle == this.pair.training.particles.shuffled[2],"Particle2",NA))),
                                   this.pair.data$Number,this.pair.data$Particle)
   all.data.for.priming.analysis.recoded<-rbind(all.data.for.priming.analysis.recoded,this.pair.data)
 }
@@ -1327,17 +1334,18 @@ contrasts(priming.data.for.analysis$PrimeOfSameNoun) <- -contr.sum(2) #NB - so t
 
 
 ```{r}
-priming.model <- glmer(ParticleRecodedBinary ~ Condition * NCategories * PartnerLastParticle + (1 + PartnerLastParticle | ParticipantID:Chain),
-                              data=priming.data.for.analysis, family=binomial, control=glmerControl(optimizer="bobyqa"))
+#singular fit
+#priming.model <- glmer(ParticleRecodedBinary ~ Condition * NCategories * PartnerLastParticle + (1 + PartnerLastParticle | Chain/ParticipantID), data=priming.data.for.analysis, family=binomial, control=glmerControl(optimizer="bobyqa"))
+
+#simplifying random effect structure for Participant while keeping nesting
+priming.model <- glmer(ParticleRecodedBinary ~ Condition * NCategories * PartnerLastParticle + (1 + PartnerLastParticle | Chain) + (1  | ParticipantID:Chain), data=priming.data.for.analysis, family=binomial, control=glmerControl(optimizer="bobyqa"))
 ```
 
 Model shows effects of:
 
 - PartnerLastParticle (there is priming - if partner produced particle 2 you are more likely to do so)
 
-- condition x partner last particle: a larger priming effect in dyads
-
-- condition2 x n categories (less use of particle2 overall in the 2-categories dyads? That's a bit weird, as far as I can work out it's arbitrary (you still get it e.g. if you assign a random particle as particle 2)
+- condition x partner last particle (marginal): a larger priming effect in dyads
 
 ```{r}
 summary(priming.model)
@@ -1353,7 +1361,7 @@ aggregated.priming.data.2category$PartnerLastParticle <- plyr::revalue(aggregate
 
 ```
 
-Plot (not in paper). NB flipping the layout of the grid to make it easier to compare within conditions.
+Plot. NB flipping the layout of the grid to make it easier to compare within conditions.
 
 ```{r}
 ggplot(data=aggregated.priming.data.2category) +
@@ -1366,27 +1374,18 @@ ggplot(data=aggregated.priming.data.2category) +
   theme(legend.position = "none") +
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
   xlab("Partner's last production") +
-  ylab("Plural marked using Marker 2") 
+  ylab("Plural marked using Marker 2")
+ggsave("Figures/priming_categoryboost.pdf",width=8,height=6)
 
 ```
 
 Stat for 2-category conditions only, is there a difference for within- vs between-category priming?
 
 ```{r}
-#singular fit
-#priming.model.2category <- glmer(ParticleRecodedBinary ~ Condition * PrimeOfSameCategory * PartnerLastParticle + (1 + PartnerLastParticle * PrimeOfSameCategory | ParticipantID:Chain), data=subset(priming.data.for.analysis,NCategories=="Two Categories"), family=binomial, control=glmerControl(optimizer="bobyqa"))
-
-#singular fit, simplifying
-#priming.model.2category <- glmer(ParticleRecodedBinary ~ Condition * PrimeOfSameCategory * PartnerLastParticle + (1 | ParticipantID:Chain) + (0 + PartnerLastParticle * PrimeOfSameCategory | ParticipantID:Chain),data=subset(priming.data.for.analysis,NCategories=="Two Categories"), family=binomial, control=glmerControl(optimizer="bobyqa"))
-
-#singular fit, simplifying
-#priming.model.2category <- glmer(ParticleRecodedBinary ~ Condition * PrimeOfSameCategory * PartnerLastParticle + (1 + PartnerLastParticle + PrimeOfSameCategory | ParticipantID:Chain), data=subset(priming.data.for.analysis,NCategories=="Two Categories"), family=binomial, control=glmerControl(optimizer="bobyqa"))
-
-priming.model.2category <- glmer(ParticleRecodedBinary ~ Condition * PrimeOfSameCategory * PartnerLastParticle + (1 + PartnerLastParticle  | ParticipantID:Chain), data=subset(priming.data.for.analysis,NCategories=="Two Categories"), family=binomial, control=glmerControl(optimizer="bobyqa"))
-
+priming.model.2category <- glmer(ParticleRecodedBinary ~ Condition * PrimeOfSameCategory * PartnerLastParticle + (1 + PartnerLastParticle  | Chain/ParticipantID), data=subset(priming.data.for.analysis,NCategories=="Two Categories"), family=binomial, control=glmerControl(optimizer="bobyqa"))
 ```
 
-This model shows a Condition2:PrimeOfSameCategory1 interaction - not sure that is interpretable though, it just means they use particle 2 less on trials where the primes are of the same category (i.e. regardless of the prime particle). Crucially there is no PrimeOfSameCategory1:PartnerLastParticle1 interaction (which would suggest stronger priming within- than across-category).
+There is no PrimeOfSameCategory1:PartnerLastParticle1 interaction (which would suggest stronger priming within- than across-category).
 
 ```{r}
 summary(priming.model.2category)
@@ -1402,11 +1401,29 @@ aggregated.priming.data.noun$PartnerLastParticle <- plyr::revalue(aggregated.pri
 
 Plot (not in paper). NB flipping the layout of the grid to make it easier to compare within conditions. Plotting collapsing over 1 vs 2 category first...
 
-Looks like there's clearly a huge effect of same-noun primes (the effect of the partner particle choice is much bigger on same noun trials), and this effect seems bigger in dyads. NB the number of trials in SameNounPrime is very small.
+Looks like there's clearly a huge effect of same-noun primes (the effect of the partner particle choice is much bigger on same noun trials). This effect looks bigger in dyads, but the stats below do not support this. NB the number of trials in SameNounPrime is very small.
 
 ```{r}
 ggplot(data=aggregated.priming.data.noun) +
   facet_grid(Condition~PrimeOfSameNounPretty) +
+  stat_summary(aes(x=PartnerLastParticle, y=ParticleRecodedBinary),geom='point', fun='mean', colour='black',fill='black',size=3, shape=23) +
+  stat_summary(aes(x=PartnerLastParticle, y=ParticleRecodedBinary),geom='errorbar', fun.data='mean_cl_boot',fun.min="min", fun.max="max",width=0.2) +
+  geom_dotplot(aes(x=PartnerLastParticle, y=ParticleRecodedBinary, fill=Condition),binaxis='y',stackdir="center", binwidth = .025, binpositions='all', alpha=0.5) +
+  theme_bw() +
+  scale_fill_manual(values=my.colours) +
+  theme(legend.position = "none") +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
+  xlab("Partner's last production") +
+  ylab("Plural marked using Marker 2") 
+ggsave("Figures/priming_lexicalboost.pdf",width=8,height=6)
+
+```
+
+Same plot for Dyads only, split by One vs Two Category (not included in paper).
+
+```{r}
+ggplot(data=subset(aggregated.priming.data.noun,Condition=="Dyad")) +
+  facet_grid(NCategories~PrimeOfSameNounPretty) +
   stat_summary(aes(x=PartnerLastParticle, y=ParticleRecodedBinary),geom='point', fun='mean', colour='black',fill='black',size=3, shape=23) +
   stat_summary(aes(x=PartnerLastParticle, y=ParticleRecodedBinary),geom='errorbar', fun.data='mean_cl_boot',fun.min="min", fun.max="max",width=0.2) +
   geom_dotplot(aes(x=PartnerLastParticle, y=ParticleRecodedBinary, fill=Condition),binaxis='y',stackdir="center", binwidth = .025, binpositions='all', alpha=0.5) +
@@ -1423,12 +1440,248 @@ Stat.
 
 ```{r}
 #singular fit
-priming.model.noun <- glmer(ParticleRecodedBinary ~ Condition * NCategories * PrimeOfSameNoun * PartnerLastParticle + (1 + PartnerLastParticle * PrimeOfSameNoun | ParticipantID:Chain), data=priming.data.for.analysis, family=binomial, control=glmerControl(optimizer="bobyqa"))
+#priming.model.noun <- glmer(ParticleRecodedBinary ~ Condition * NCategories * PrimeOfSameNoun * PartnerLastParticle + (1 + PartnerLastParticle * PrimeOfSameNoun | Chain/ParticipantID), data=priming.data.for.analysis, family=binomial, control=glmerControl(optimizer="bobyqa"))
+
+#no perfect correlations between random effects but variance on PartnerLastParticle1:PrimeOfSameNoun1 is smallest so taking that out
+#still singular
+#priming.model.noun <- glmer(ParticleRecodedBinary ~ Condition * NCategories * PrimeOfSameNoun * PartnerLastParticle + (1 + PartnerLastParticle * PrimeOfSameNoun | Chain) + (1 + PartnerLastParticle + PrimeOfSameNoun |ParticipantID:Chain), data=priming.data.for.analysis, family=binomial, control=glmerControl(optimizer="bobyqa"))
+
+#try removing interaction by chain too
+#still singular
+#priming.model.noun <- glmer(ParticleRecodedBinary ~ Condition * NCategories * PrimeOfSameNoun * PartnerLastParticle + (1 + PartnerLastParticle + PrimeOfSameNoun | Chain) + (1 + PartnerLastParticle + PrimeOfSameNoun | ParticipantID:Chain), data=priming.data.for.analysis, family=binomial, control=glmerControl(optimizer="bobyqa"))
+
+#simplify Chain random effect further
+#still singular
+#priming.model.noun <- glmer(ParticleRecodedBinary ~ Condition * NCategories * PrimeOfSameNoun * PartnerLastParticle + (1 + PartnerLastParticle | Chain) + (1 + PartnerLastParticle + PrimeOfSameNoun | ParticipantID:Chain), data=priming.data.for.analysis, family=binomial, control=glmerControl(optimizer="bobyqa"))
+
+#reduce Chain to intercept-only
+#still singular
+#priming.model.noun <- glmer(ParticleRecodedBinary ~ Condition * NCategories * PrimeOfSameNoun * PartnerLastParticle + (1 | Chain) + (1 + PartnerLastParticle + PrimeOfSameNoun | ParticipantID:Chain), data=priming.data.for.analysis, family=binomial, control=glmerControl(optimizer="bobyqa"))
+
+#simplify by-participant random effect further
+priming.model.noun <- glmer(ParticleRecodedBinary ~ Condition * NCategories * PrimeOfSameNoun * PartnerLastParticle + (1 | Chain) + (1 + PartnerLastParticle | ParticipantID:Chain), data=priming.data.for.analysis, family=binomial, control=glmerControl(optimizer="bobyqa"))
 
 ```
 
-There is a clear lexical boost (as indicated by a significant PrimeOfSameNoun:PartnerLastParticle interaction). There are several marginal interactions involving condition2 - looks like the lexical boost is marginally bigger in dyads than in singles/pseudos (Condition2:PrimeOfSameNoun:PartnerLastParticle).
+This model should be treated with caution since the random effects are extremely simplified - but the lexical boost is extremely clear. 
+
+There is a clear lexical boost (as indicated by a significant PrimeOfSameNoun:PartnerLastParticle interaction). 
+
+These two extremely marginal effects might also be potentially interesting. 
+Condition2:NCategories1:PartnerLastParticle1                  -0.12371, p=.072
+Condition2:NCategories1:PrimeOfSameNoun1:PartnerLastParticle1 -0.11818 p=.072
+
+The first would suggest less priming in the Two Category Dyads, the second would suggest a weaker lexical boost in the Two Category Dyads, both consistent with the reduced tendency of participants in this condition to converge on a fully regular system. 
+
+There are a couple of other effects that show up as significant but are not interpretable. 
+This model also suggests stronger priming in the Dyad condition (as indicated by Condition2:PartnerLastParticle1), but note that here the coding is -1,1 for noun similarity, so weighs rare same noun trials quite heavily (i.e. this predictor is sum-coded, not centred). There are a couple of significant 3-way interactions not involving PartnerLastParticle, which just mean that the particle coded as Particle2 happens to be more frequent in those combinations of conditions - this cannot be other than by chance since the coding is random. 
 
 ```{r}
 summary(priming.model.noun)
 ```
+
+## Effect of similarity on priming 
+
+We also want to test the hypothesis that you should get more priming across similar nouns (which means more priming in general in the one-category conditions, since the nouns are all more similar?).
+
+First, load embeddings - these are from http://vectors.nlpl.eu/repository/, I am using the BNC ones - and tidy up a bit.
+
+```{r}
+all_embeddings <- read.csv("embeddings/0/model.txt",sep=' ',header=FALSE)
+all_embeddings <- all_embeddings[2:nrow(all_embeddings),] #remove first row, which is just info on df size
+colnames(all_embeddings)[1] <- "word" #rename first column to something more descriptive
+#pull out embeddings for words in this experiment
+embeddings <- subset(all_embeddings,word %in% c("cow_NOUN", "dog_NOUN", "elephant_NOUN", "fox_NOUN", "giraffe_NOUN", "hamster_NOUN", "hedgehog_NOUN", "hippo_NOUN", "kangaroo_NOUN", "panda_NOUN", "pig_NOUN", "rabbit_NOUN", "sheep_NOUN", "squirrel_NOUN", "tiger_NOUN", "zebra_NOUN", "ambulance_NOUN", "bike_NOUN", "boat_NOUN", "bus_NOUN", "car_NOUN", "digger_NOUN", "submarine_NOUN", "helicopter_NOUN", "plane_NOUN", "rocket_NOUN", "scooter_NOUN", "tank_NOUN", "tractor_NOUN", "train_NOUN", "truck_NOUN", "van_NOUN"))
+
+#strip out pos tag
+embeddings$word <- stringr::str_replace(embeddings$word,"_NOUN",replacement = "")
+
+```
+
+Next, calculate all-pairs similarities. Add category info so we can verify that across-category pairings and within-category pairings are different.
+
+```{r}
+all_pairs <- expand.grid(embeddings$word,embeddings$word)
+colnames(all_pairs) <- c("w1","w2")
+
+
+all_pairs$similarity <- mapply(function(w1,w2) lsa::cosine(as.numeric(embeddings[embeddings$word==w1,2:301]),as.numeric(embeddings[embeddings$word==w2,2:301])),
+       all_pairs$w1,all_pairs$w2)
+
+all_pairs$pair_type <- mapply(function(w1,w2) ifelse(((w1 %in% animals) & (w2 %in% animals)) | ((w1 %in% vehicles) & (w2 %in% vehicles)),"SameCategory","DifferentCategory"),
+                            all_pairs$w1,all_pairs$w2)  
+```
+
+Check that same-category similarities are higher! NB removing similarity=1 items, which are just items compared to themselves.
+
+```{r}
+ggplot(data=subset(all_pairs, similarity<1),aes(x=pair_type, y=similarity, fill=pair_type,colour=pair_type)) +
+  geom_dotplot(binaxis='y',stackdir="center", binwidth = .025, binpositions='all', alpha=0.5) +
+  stat_summary(geom='point', fun='mean', colour='black',fill='black',size=3, shape=23) +
+  stat_summary(geom='errorbar', fun.data='mean_cl_boot',fun.min="min", fun.max="max",width=0.2) +
+  theme_bw() 
+```
+
+
+Now add this similarity info to priming.data.for.analysis.
+
+```{r}
+priming.data.for.analysis$embedding_similarity <- mapply(function(w1,w2) all_pairs[all_pairs$w1==w1 & all_pairs$w2==w2,"similarity"],
+                                                       priming.data.for.analysis$Noun, priming.data.for.analysis$PartnerLastParticleNoun)
+```
+
+Verify that average prime-to-probe noun similarity is higher in One Category than Two Category conditions.
+
+Means.
+```{r}
+mean(subset(priming.data.for.analysis,NCategories=="One Category")$embedding_similarity)
+sd(subset(priming.data.for.analysis,NCategories=="One Category")$embedding_similarity)
+mean(subset(priming.data.for.analysis,NCategories=="Two Categories")$embedding_similarity)
+sd(subset(priming.data.for.analysis,NCategories=="Two Categories")$embedding_similarity)
+```
+
+Plot.
+
+```{r}
+ggplot(data=priming.data.for.analysis,aes(x=NCategories, y=embedding_similarity, fill=NCategories,colour=NCategories)) +
+  geom_jitter(alpha=0.5,height=0) +
+  stat_summary(geom='point', fun='mean', colour='black',fill='black',size=3, shape=23) +
+  theme_bw() +
+  scale_fill_manual(values=my.colours) +
+  scale_colour_manual(values=my.colours) +
+  theme(legend.position = "none") +
+  theme(panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank(),
+        axis.title.x = element_blank()) +
+  ylab("Embedding similarity") 
+
+```
+
+Possibly a more informative measure - what is the average item-to-item similarity in One vs Two Category?
+
+```{r}
+noun.set.data <- data.frame()
+
+for (p in unique(all.data.for.proportion.analysis$ParticipantID)) {
+  this.participant <- subset(all.data.for.proportion.analysis, ParticipantID == p)
+  this.participant.condition <- unique(this.participant$NCategories)
+  training.data.p <- subset(this.participant, Stage=='training')
+  nouns <- unique(training.data.p$Noun)
+  sum_similarity <- 0
+  count <- 0
+  for (n1 in nouns) {
+    for (n2 in nouns) {
+      if (!(n1==n2)) {
+        count<- count+1
+        sim <- all_pairs[all_pairs$w1==n1 & all_pairs$w2==n2,"similarity"]
+        sum_similarity <- sum_similarity + sim
+      }
+    }
+  }
+  
+  noun.set.data <- rbind(noun.set.data,
+                         data.frame(
+                           ParticipantID=p,
+                           NCategories=this.participant.condition,
+                          AverageSimilarity=sum_similarity/count))
+  }
+    
+```
+
+Means.
+```{r}
+mean(subset(noun.set.data,NCategories==1)$AverageSimilarity)
+sd(subset(noun.set.data,NCategories==1)$AverageSimilarity)
+mean(subset(noun.set.data,NCategories==2)$AverageSimilarity)
+sd(subset(noun.set.data,NCategories==2)$AverageSimilarity)
+```
+
+Plot. NB there are only 2 possible values for the One Category condition because we use all the nouns from a given category - all the animals, or all the vehicles. 
+
+```{r}
+noun.set.data$NCategories <- factor(noun.set.data$NCategories)
+ggplot(data=noun.set.data,aes(x=NCategories, y=AverageSimilarity, fill=NCategories,colour=NCategories)) +
+  geom_jitter(alpha=0.5,height=0) +
+  stat_summary(geom='point', fun='mean', colour='black',fill='black',size=3, shape=23) +
+  theme_bw() +
+  scale_fill_manual(values=my.colours) +
+  scale_colour_manual(values=my.colours) +
+  theme(legend.position = "none") +
+  theme(panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank(),
+        axis.title.x = element_blank()) +
+  ylab("Average embedding similarity") 
+
+```
+
+Plot average embedding_similarity based on whether they used the same particle (embedding similarity should be higher if they did?). This visualisation is doing my head in so I am recording as Same or Different particle as partner.
+
+```{r}
+priming.data.for.analysis$SameParticle <- ifelse(priming.data.for.analysis$ParticleRecoded==priming.data.for.analysis$PartnerLastParticle,"SameParticle","DifferentParticle")
+
+```
+
+Looks like SameParticle (i.e. primed) trials have higher similarity, which makes sense.
+
+```{r}
+ggplot(data=subset(priming.data.for.analysis,!is.na(ParticleRecodedBinary)),aes(y=embedding_similarity, x=SameParticle)) +
+  facet_grid(Condition~NCategories) +
+  stat_summary(geom='point', fun='mean', colour='black',fill='black',size=3, shape=23) +
+  stat_summary(geom='errorbar', fun.data='mean_cl_boot',fun.min="min", fun.max="max",width=0.2) +
+  #geom_dotplot(aes(x=PartnerLastParticle, y=ParticleRecodedBinary, fill=Condition),binaxis='y',stackdir="center", binwidth = .025, binpositions='all', alpha=0.5) +
+  theme_bw() #+
+  # scale_fill_manual(values=my.colours) +
+  # theme(legend.position = "none") +
+  # theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
+  # xlab("Partner's last production") +
+  # ylab("Plural marked using Marker 2") 
+
+```
+
+Same plot excluding embedding_similarity=1 trials. Looks like it's mostly driven by the similarity=1 items in fact!
+
+```{r}
+ggplot(data=subset(priming.data.for.analysis,!is.na(ParticleRecodedBinary) & embedding_similarity<1),aes(y=embedding_similarity, x=SameParticle)) +
+  facet_grid(Condition~NCategories) +
+  stat_summary(geom='point', fun='mean', colour='black',fill='black',size=3, shape=23) +
+  stat_summary(geom='errorbar', fun.data='mean_cl_boot',fun.min="min", fun.max="max",width=0.2) +
+  theme_bw()
+```
+
+Stat. Just include embedding similarity instead of same vs different noun prime. Both the next two models are singular but since this is 
+
+```{r}
+#singular
+#priming.model.embedding <- glmer(ParticleRecodedBinary ~ Condition * NCategories * PartnerLastParticle * scale(embedding_similarity)+ (1  + PartnerLastParticle * scale(embedding_similarity) | Chain/ParticipantID), data=priming.data.for.analysis, family=binomial, control=glmerControl(optimizer="bobyqa"))
+
+#singular
+#priming.model.embedding <- glmer(ParticleRecodedBinary ~ Condition * NCategories * PartnerLastParticle * scale(embedding_similarity)+ (1  + PartnerLastParticle * scale(embedding_similarity) | Chain) + (1  + PartnerLastParticle + scale(embedding_similarity) | ParticipantID:Chain), data=priming.data.for.analysis, family=binomial, control=glmerControl(optimizer="bobyqa"))
+
+#singular
+#priming.model.embedding <- glmer(ParticleRecodedBinary ~ Condition * NCategories * PartnerLastParticle * scale(embedding_similarity)+ (1  + PartnerLastParticle * scale(embedding_similarity) | Chain) + (1  + PartnerLastParticle  | ParticipantID:Chain), data=priming.data.for.analysis, family=binomial, control=glmerControl(optimizer="bobyqa"))
+
+#boiling right down to the model that converged above
+priming.model.embedding <- glmer(ParticleRecodedBinary ~ Condition * NCategories * PartnerLastParticle * scale(embedding_similarity) + (1 | Chain) + (1 + PartnerLastParticle | ParticipantID:Chain), data=priming.data.for.analysis, family=binomial, control=glmerControl(optimizer="bobyqa"))
+
+```
+
+There is a clear similarity boost: PartnerLastParticle1:scale(embedding_similarity) is significant and positive, i.e. bigger similarity lead to more priming. 
+
+```{r}
+summary(priming.model.embedding)
+```
+
+Try the same analysis excluding similarity=1 items.
+
+```{r}
+priming.model.embedding2 <- glmer(ParticleRecodedBinary ~ Condition * NCategories * PartnerLastParticle * scale(embedding_similarity)+ (1 | Chain) + (1 + PartnerLastParticle | ParticipantID:Chain), data=subset(priming.data.for.analysis,embedding_similarity<1), family=binomial, control=glmerControl(optimizer="bobyqa"))
+
+```
+
+Now the PartnerLastParticle1:scale(embedding_similarity) similarity effect goes away. 
+
+
+```{r}
+summary(priming.model.embedding2)
+```
+
